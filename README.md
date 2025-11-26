@@ -1,4 +1,4 @@
-﻿# Projekt Systemy Operacyjne 2025/2026 - Temat 16: Dyskont
+# Projekt Systemy Operacyjne 2025/2026 - Temat 16: Dyskont
 
 **Autor:** Kamil Klimas
 **Numer albumu:** 155188
@@ -44,7 +44,7 @@ Symulacja zostanie zrealizowana w języku C/C++ w środowisku Linux.
 * **Procesy/Wątki Kas:** Obsługują logikę kasowania produktów i kolejkowania.
 
 ### Mechanizmy IPC (Komunikacja międzyprocesowa)
-W projekcie wykorzystane zostaną następujące mechanizmy (wymagane min. 2 różne):
+W projekcie wykorzystane zostaną następujące mechanizmy:
 1.  **Pamięć dzielona (Shared Memory):** Przechowywanie stanu kolejek, liczby aktywnych kas oraz flag stanu sklepu.
 2.  **Semafory (Semaphores):** Synchronizacja dostępu do pamięci dzielonej (sekcje krytyczne) oraz blokowanie klientów w kolejkach.
 3.  **Kolejki komunikatów (Message Queues):** Komunikacja między kasami samoobsługowymi a pracownikiem obsługi (np. wezwanie do alkoholu lub błędu wagi).
@@ -52,26 +52,5 @@ W projekcie wykorzystane zostaną następujące mechanizmy (wymagane min. 2 ró�
 ---
 ## 3. Plan testów
 
-### Test 1: Podstawowa obsługa i skalowanie kas samoobsługowych
-* **Scenariusz:** Uruchomienie symulacji z małą liczbą klientów, następnie gwałtowne zwiększenie liczby klientów.
-* **Oczekiwany rezultat:** Początkowo działają 3 kasy samoobsługowe. Po przekroczeniu progu klientów, system automatycznie otwiera kolejne kasy (do 6). Po obsłużeniu "fali", kasy są zamykane do poziomu 3.
-* **Weryfikacja:** Logi systemowe wskazujące moment otwarcia/zamknięcia kas.
+**Do uzupełniania**
 
-### Test 2: Obsługa kas stacjonarnych i limitów czasu
-* **Scenariusz:** Generowanie klientów preferujących kasy stacjonarne. Kolejka przekracza 3 osoby. Następnie brak nowych klientów przez >30s.
-* **Oczekiwany rezultat:** Kasa 1 otwiera się automatycznie po przekroczeniu limitu kolejki. Po 30 sekundach bezczynności proces Kasy 1 kończy pracę (zamyka się).
-* **Weryfikacja:** Obserwacja komunikatów wyjścia (stdout/plik raportu).
-
-### Test 3: Obsługa wyjątków (Alkohol i Błąd wagi)
-* **Scenariusz:** Klient "kupuje" alkohol przy kasie samoobsługowej oraz losowe wystąpienie błędu wagi.
-* **Oczekiwany rezultat:** Proces klienta zostaje zablokowany (wstrzymany) do momentu interwencji Pracownika Obsługi. Po "zatwierdzeniu", klient kończy transakcję.
-* **Weryfikacja:** Brak zakleszczenia (deadlock) przy zablokowanej kasie; inne kasy działają płynnie.
-
-### Test 4: Interwencja Kierownika i Ewakuacja (Sygnały)
-* **Scenariusz:**
-    1. Wysłanie `Sygnału 1`: Wymuszenie otwarcia Kasy 2.
-    2. Wysłanie `Sygnału 3`: Ogłoszenie ewakuacji.
-* **Oczekiwany rezultat:**
-    1. Kasa 2 otwiera się niezależnie od długości kolejki.
-    2. Po sygnale ewakuacji wszyscy klienci natychmiast kończą procesy (bez finalizacji zakupów), a pracownicy kończą pracę i zwalniają zasoby IPC.
-* **Weryfikacja:** Czyste zakończenie wszystkich procesów, brak "sierot", usunięcie zasobów IPC (ipcs).
