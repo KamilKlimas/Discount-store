@@ -1,0 +1,136 @@
+//
+// Created by kamil-klimas on 11.12.2025.
+//
+
+#include "ipc.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/shm.h>
+#include <unistd.h>
+
+
+key_t utworz_klucz(char id)
+{
+    key_t klucz = ftok(FTOK_PATH, id);
+    if (klucz == -1)
+    {
+        perror("ftok");
+        exit(EXIT_FAILURE);
+    }
+    return klucz;
+}
+
+
+//FUNKCJE PAMIECI DZIELONEJ
+int utworz_pamiec_dzielona(size_t rozmiar)
+{
+    key_t klucz = utworz_klucz('S');
+    int shmid = shmget(klucz, rozmiar, IPC_CREAT | 0666); // zmien potem uprawnienia na 0600 (własciciel R+W)
+    if (shmid == -1)
+    {
+        perror("shmget");
+        exit(EXIT_FAILURE);
+    }
+    return shmid;
+}
+
+key_t podlacz_pamiec_dzielona()
+{
+    key_t klucz = utworz_klucz('S');
+    int shmid = shmget(klucz, 0,0);
+    if (shmid == -1)
+    {
+        perror("shmget");
+        exit(EXIT_FAILURE);
+    }
+    return shmid;
+}
+
+PamiecDzielona* mapuj_pamiec_dzielona(int shmid)
+{
+    void *ptr = shmat(shmid, NULL, 0);
+    if (ptr == (void *)-1)
+    {
+        perror("shmat");
+        exit(EXIT_FAILURE);
+    }
+    return (PamiecDzielona*)ptr;
+}
+
+void odlacz_pamiec_dzielona(PamiecDzielona*shm)
+{
+    if (shmdt(shm) == -1)
+    {
+        perror("shmdt");
+    }
+}
+
+void usun_pamiec_dzielona(int shmid)
+{
+    if (shmctl(shmid, IPC_RMID, 0) == -1) {perror("shmctl");}
+}
+
+//SEMAFORY
+int alokujSemafor(key_t klucz, int number, int flagi)
+{
+    int semID;
+    if ((semID = semget(klucz,number,flagi)) == -1)
+    {
+        perror("Blad semget(alokujSemfor): ");
+        exit(1);
+    }
+
+    return semID;
+}
+
+void inicjalizujSemafor(int semID, int number, int val)
+{
+    //union semun arg;
+    //arg.val = val;
+    if (semctl(semID, number, SETVAL, val) ==-1)
+    {
+        perror("Blad semctl(inicjalizujSemafor): ");
+        exit(1);
+    }
+}
+
+int zwolnijSemafor(int semID, int number)
+{
+    return semctl(semID, number, IPC_RMID);
+}
+
+int waitSemafor(int semID, int number, int flagi)
+{
+    struct sembuf operacje[1];
+    operacje[0].sem_num = number;
+    operacje[0].sem_op = -1;
+    operacje[0].sem_flg = flagi; //sem_undo
+
+    if (semop(semID, operacje, 1) == -1)
+    {
+        perror("semop(waitSemafor): ");
+        return -1;
+    }
+    printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n", getpid(), number);
+    return 1;
+}
+//operacja V (oddaj/podnies)
+void signalSemafor(int semID, int number)
+{
+    struct sembuf operacje[1]; //kelner a bardziej formularz do niego
+    operacje[0].sem_num = number; //numer stolika - czyli ktory semafor
+    operacje[0].sem_op = 1; //co podac? -1 = zabloku klucz +1 = oddaj klucz
+    operacje[0].sem_flg = SEM_UNDO; //JAK UMRE PRZY JEDZIENIU TO PO MNIE POSPRZATAJCIE XD
+    if (semop(semID, operacje, 1) == -1)
+    {
+        perror("semop(postSemafor): ");
+    }
+    printf(" <- [PID %d] ZWALNIAM semafor nr %d\n", getpid(), number);
+}
+
+int valueSemafor(int semID, int number)
+{
+    return semctl(semID, number, GETVAL, NULL);
+}
+

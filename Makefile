@@ -1,14 +1,17 @@
 CC = gcc
 
-CFLAGS = -Wall -g //wall daje ostrzezenia
+CFLAGS = -Wall -g -IInclude
 
-all: kierownik
+SRC_DIR = Src
+INC_DIR = Include
 
-kierownik: kierownik.c ipc.o
-	$(CC) $CFLAGS kierownik.c ipc.o -o kierownik
+all:kierownik
 
-ipc.o: ip.c ipc.h
-	$(CC) $(CFLAGS) -c ipc.c
+ipc.o: $(SRC_DIR)/ipc.c $(INC_DIR)/ipc.h
+	$(CC) $(CFLAGS) -c $(SRC_DIR)/ipc.c -o ipc.o
+
+kierownik: $(SRC_DIR)/kierownik.c ipc.o
+	$(CC) $(CFLAGS) $(SRC_DIR)/kierownik.c ipc.o -o kierownik
 
 clean:
 	rm -f *.o kierownik

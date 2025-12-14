@@ -12,7 +12,7 @@
 #include <sys/types.h>
 #include <time.h>
 
-#define FTOK_PATH "/CLionProjects/Discount-store"
+#define FTOK_PATH "/tmp/dyskont_projekt"
 
 //Global constants - stałe systemu
 #define MAX_KLIENTOW 100
@@ -38,6 +38,10 @@
 //Kolejka do kas
 #define MAX_DLUGOSC_KOLEJKI 200
 #define MAX_CZAS_OCZEKIWANIA 60
+
+//semafory
+#define SEM_KASY 0
+#define SEM_UTARG 1
 
 #define KATEGORIE 8
 static const char* nazwy_kategorii[KATEGORIE] = {
@@ -95,7 +99,7 @@ typedef struct {
 	int otwarta;
 	int zajeta;
 	pid_t kasjer_pid;
-	pid_t obslugiwany_klientl
+	pid_t obslugiwany_klientl;
 	int liczba_obsluzonych;
 	float suma_sprzedazy;
 } KasaStacjonarna;
@@ -114,10 +118,10 @@ typedef struct {
 typedef struct {
 	StatystykiGlobalne statystyki;
 	KasaSamoobslugowa kasy_samo[KASY_SAMOOBSLUGOWE];
-	KasaStacjonarna kasa_stato[KASY_STACJONERNE];
+	KasaStacjonarna kasa_stato[KASY_STACJONARNE ];
 
 	KolejkaKlientow kolejka_samoobsluga;
-	KolejkaKlientow kolejka_stato[KASY_STACJONERNE];
+	KolejkaKlientow kolejka_stato[KASY_STACJONARNE ];
 
 	Produkt produkty[MAX_PRODUKTOW];
 	int liczba_produktow;
@@ -126,6 +130,18 @@ typedef struct {
 	pid_t pracownik_pid;
 } PamiecDzielona;
 
+/*
+This function has three or four arguments, depending on op.  When
+there are four, the fourth has the type union semun.  The calling
+program must define this union as follows:
+*/
+//union semun {
+//	int val;    /* Value for SETVAL */
+//	struct semid_ds *buf;    /* Buffer for IPC_STAT, IPC_SET */
+//	unsigned short  *array;  /* Array for GETALL, SETALL */
+//	struct seminfo  *__buf;  /* Buffer for IPC_INFO, (Linux-specific) */
+//};
+
 //FUNKCJE IPC
 key_t utworz_klucz(char id);
 int utworz_pamiec_dzielona(size_t rozmiar);
@@ -133,3 +149,12 @@ int podlacz_pamiec_dzielona();
 PamiecDzielona *mapuj_pamiec_dzielona(int shmid);
 void odlacz_pamiec_dzielona(PamiecDzielona *shm);
 void usun_pamiec_dzielona(int shmid);
+
+//funkcje semafory
+int alokujSemafor(key_t klucz, int number, int flagi);
+int zwolnijSemafor(int semID, int number);
+void inicjalizujSemafor(int semID, int number, int val);
+int waitSemafor(int semID, int number, int flags);
+void signalSemafor(int semID, int number);
+int valueSemafor(int semID, int number);
+#endif //IPC_H (BLAGAM NIECH PRZEJDZIE)
