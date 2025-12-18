@@ -44,6 +44,7 @@
 #define SEM_UTARG 1
 
 #define KATEGORIE 8
+#define LICZBA_PRODUKTOW 32
 static const char* nazwy_kategorii[KATEGORIE] = {
 	"Owoce",
 	"Warzywa",
@@ -59,6 +60,7 @@ typedef struct {
 	char nazwa[50];
 	char kategoria[20];
 	float cena;
+	int sztuk;
 }Produkt;
 
 //strukt zakupy klienta
@@ -92,6 +94,7 @@ typedef struct{
 	pid_t obslugiwany_klient;
 	int liczba_obsluzonych;
 	float suma_sprzedazy;
+	int platnosc_w_toku;
 } KasaSamoobslugowa;
 
 //strukt kasa stacjonarna
@@ -111,6 +114,7 @@ typedef struct {
 	float suma_sprzedazy;
 	time_t czas_startu;
 	int ewakuacja;
+	float utarg;
 	//rodzicdziecko, zasniecia ??
 } StatystykiGlobalne;
 

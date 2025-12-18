@@ -106,13 +106,13 @@ int waitSemafor(int semID, int number, int flagi)
     operacje[0].sem_num = number;
     operacje[0].sem_op = -1;
     operacje[0].sem_flg = flagi; //sem_undo
-
+    printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n z id %d", getpid(), number, semID);
     if (semop(semID, operacje, 1) == -1)
     {
         perror("semop(waitSemafor): ");
         return -1;
     }
-    printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n", getpid(), number);
+
     return 1;
 }
 //operacja V (oddaj/podnies)
@@ -126,7 +126,7 @@ void signalSemafor(int semID, int number)
     {
         perror("semop(postSemafor): ");
     }
-    printf(" <- [PID %d] ZWALNIAM semafor nr %d\n", getpid(), number);
+    //printf(" <- [PID %d] ZWALNIAM semafor nr %d\n", getpid(), number);
 }
 
 int valueSemafor(int semID, int number)
