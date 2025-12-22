@@ -9,6 +9,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <signal.h>
+#include <sys/wait.h>
 int czyDziala = 1;
 int moje_id;
 
@@ -16,10 +17,11 @@ int id_pamieci;
 PamiecDzielona *sklep;
 
 int id_semafora;
+int id_kolejki;
 
 void cleanUpKasy()
 {
-    sklep ->kasy_samo[moje_id].otwarta = 0;
+    sklep ->kasa_stato[moje_id].otwarta = 0;
     if (sklep != NULL)
     {
         odlacz_pamiec_dzielona(sklep);
@@ -42,7 +44,6 @@ int main (int argc, char *argv[])
         printf("\nbrak argumentu od kierownika\n");
         exit(1);
     }
-    moje_id = atoi(argv[1]);
 
     moje_id = atoi(argv[1]); //atoi zmieni stringa na liczbe
 
@@ -64,13 +65,18 @@ int main (int argc, char *argv[])
     sklep = mapuj_pamiec_dzielona(id_pamieci); //shmat, trzeba było stworzyc wskaznik na sklep!!!(PamiecDzielona* sklep)
 
     id_semafora = alokujSemafor(klucz, 2, 0);
+    id_kolejki = stworzKolejke();
+    struct messg_buffer msg;
 
     signal(SIGINT, ObslugaSygnalu);
 
-    printf("\nkasjer [%d] zaczyna prace\n", moje_id);
+    long moj_typ_nasluchu = moje_id + 1 + KASY_SAMOOBSLUGOWE;
+
+    printf("\nkasjer [%d] zaczyna prace (typ nasluchu: %ld)\n",moje_id, moj_typ_nasluchu);
     waitSemafor(id_semafora, SEM_KASY, 0);
-    sklep ->kasy_samo[moje_id].otwarta = 1;
-    sklep ->kasy_samo[moje_id].zajeta = 0;
+    sklep ->kasa_stato[moje_id].otwarta = 1;
+    //sklep ->kasy_samo[moje_id].zajeta = 0;
+    sklep ->kasa_stato[moje_id].zajeta = 0;
     signalSemafor(id_semafora, SEM_KASY);
 
     srand(time(NULL)+moje_id);
@@ -78,24 +84,32 @@ int main (int argc, char *argv[])
     while (czyDziala == 1)
     {
         waitSemafor(id_semafora, SEM_KASY, 0);
-        int czy_jest_klient = sklep->kasy_samo[moje_id].zajeta;
+        int czy_jest_klient = sklep->kasa_stato[moje_id].zajeta;
         signalSemafor(id_semafora, SEM_KASY);
 
         if (czy_jest_klient == 1)
         {
             printf("\nObsluguje klienta\n");
-            //
-            sleep(2);
-            float r = rand()%100;
-            waitSemafor(id_semafora, SEM_UTARG, 0);
-            printf("\nDokladam [%.2f] zl do utargu\n", r);
-            sklep ->statystyki.utarg += r;
+
+
+            OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
+            printf("\n[Kasjer %d] Odebrałem paragon od Klienta %d na kwotę: %.2f zł\n",
+            moje_id, msg.ID_klienta, msg.kwota);
+
+            waitSemafor(id_semafora,SEM_UTARG, 0);
+            sklep->statystyki.utarg += msg.kwota;
+            sklep->statystyki.liczba_obsluzonych_klientow += 1;
+            printf("\nDokladam [%.2f] zl do utargu\n", msg.kwota );
             signalSemafor(id_semafora, SEM_UTARG);
+
+            msg.mesg_type = (long)msg.ID_klienta;
+            WyslijDoKolejki(id_kolejki, &msg);
+
             while (1)
             {
-                sleep(1);
+                usleep(200000);
                 waitSemafor(id_semafora, SEM_KASY,0);
-                int nadal_zajeta = sklep->kasy_samo[moje_id].zajeta;
+                int nadal_zajeta = sklep->kasa_stato[moje_id].zajeta;
                 signalSemafor(id_semafora, SEM_KASY);
 
                 if (nadal_zajeta == 0)
@@ -106,20 +120,12 @@ int main (int argc, char *argv[])
             }
         }else
         {
-            printf("\nnikogo nie ma\n");
-            waitSemafor(id_semafora, SEM_UTARG, 0);
-            float aktualny_utarg = sklep->statystyki.utarg;
-            signalSemafor(id_semafora, SEM_UTARG);
+            //printf("\nnikogo nie ma\n");
 
-            printf("\nutarg to: [%f]\n", sklep->statystyki.utarg);
-            sleep(2);
+            //printf("\nutarg to: [%f]\n", sklep->statystyki.utarg);
+            usleep(200000);
         }
 
-
-
-
-
-        sleep(1);
     }
     cleanUpKasy();
 

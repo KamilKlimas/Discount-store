@@ -10,12 +10,11 @@
 #include <sys/sem.h>
 #include <sys/msg.h>
 #include <sys/types.h>
-#include <time.h>
 
 #define FTOK_PATH "/tmp/dyskont_projekt"
 
 //Global constants - stałe systemu
-#define MAX_KLIENTOW 100
+#define KLIENCI 15
 #define MAX_PRODUKTOW 50
 #define KASY_SAMOOBSLUGOWE 6
 #define KASY_STACJONARNE 2
@@ -55,6 +54,7 @@ static const char* nazwy_kategorii[KATEGORIE] = {
 	"Mrozonki",
 	"Chemia"
 };
+
 //strukt na typ produktu
 typedef struct {
 	char nazwa[50];
@@ -105,6 +105,7 @@ typedef struct {
 	pid_t obslugiwany_klientl;
 	int liczba_obsluzonych;
 	float suma_sprzedazy;
+	int platnosc_w_toku;
 } KasaStacjonarna;
 
 //statystyki
@@ -114,6 +115,7 @@ typedef struct {
 	float suma_sprzedazy;
 	time_t czas_startu;
 	int ewakuacja;
+	float paragon_klienta;
 	float utarg;
 	//rodzicdziecko, zasniecia ??
 } StatystykiGlobalne;
@@ -127,12 +129,21 @@ typedef struct {
 	KolejkaKlientow kolejka_samoobsluga;
 	KolejkaKlientow kolejka_stato[KASY_STACJONARNE ];
 
+	int czy_otwarte;
+
 	Produkt produkty[MAX_PRODUKTOW];
 	int liczba_produktow;
 
 	pid_t kierownik_pid;
 	pid_t pracownik_pid;
 } PamiecDzielona;
+
+struct messg_buffer
+{
+	long mesg_type;
+	double kwota;
+	int ID_klienta;
+};
 
 /*
 This function has three or four arguments, depending on op.  When
@@ -161,4 +172,10 @@ void inicjalizujSemafor(int semID, int number, int val);
 int waitSemafor(int semID, int number, int flags);
 void signalSemafor(int semID, int number);
 int valueSemafor(int semID, int number);
-#endif //IPC_H (BLAGAM NIECH PRZEJDZIE)
+
+//funckje kolejka komunikatow
+int stworzKolejke();
+int WyslijDoKolejki(int msgid, struct messg_buffer *msg);
+int OdbierzZKolejki(int msgid, struct messg_buffer *msg,long typ_adresata);
+void usun_kolejke(int msgid);
+#endif

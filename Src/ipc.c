@@ -9,6 +9,12 @@
 #include <sys/shm.h>
 #include <unistd.h>
 
+/*
+ *msgflg – flagi specyfikujące zachowanie się funkcji w warunkach nietypowych Wartość ta
+ *może być ustawiona na 0 lub IPC_NOWAIT (jeśli kolejka komunikatów jest pełna wtedy wiadomość nie jest
+ *zapisywana do kolejki, a sterowanie wraca do procesu. Gdyby flaga nie była ustawiona, proces jest wstrzymywany tak
+ *długo, aż zapis wiadomości nie będzie możliwy)
+ */
 
 key_t utworz_klucz(char id)
 {
@@ -106,7 +112,7 @@ int waitSemafor(int semID, int number, int flagi)
     operacje[0].sem_num = number;
     operacje[0].sem_op = -1;
     operacje[0].sem_flg = flagi; //sem_undo
-    printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n z id %d", getpid(), number, semID);
+    //printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n z id %d", getpid(), number, semID);
     if (semop(semID, operacje, 1) == -1)
     {
         perror("semop(waitSemafor): ");
@@ -121,7 +127,7 @@ void signalSemafor(int semID, int number)
     struct sembuf operacje[1]; //kelner a bardziej formularz do niego
     operacje[0].sem_num = number; //numer stolika - czyli ktory semafor
     operacje[0].sem_op = 1; //co podac? -1 = zabloku klucz +1 = oddaj klucz
-    operacje[0].sem_flg = SEM_UNDO; //JAK UMRE PRZY JEDZIENIU TO PO MNIE POSPRZATAJCIE XD
+    operacje[0].sem_flg = 0; //wczesniej SEM_UNDO wykrzaczało klienta bo usuwalo ostatni signal (inreverse)
     if (semop(semID, operacje, 1) == -1)
     {
         perror("semop(postSemafor): ");
@@ -134,3 +140,48 @@ int valueSemafor(int semID, int number)
     return semctl(semID, number, GETVAL, NULL);
 }
 
+//KOLEJKI KOMUNIKATOW
+int stworzKolejke()
+{
+    key_t klucz = utworz_klucz('S');
+    int msgid = msgget(klucz, IPC_CREAT | 0666); // zmien potem na minimalne uprawnienia
+    if (msgid == -1)
+    {
+        perror("msgget");
+        exit(EXIT_FAILURE);
+    }
+    return msgid;
+}
+
+int WyslijDoKolejki(int msgid, struct messg_buffer *msg)
+{
+    size_t rozmiar = sizeof(struct messg_buffer) - sizeof(long);
+    int wiadomosc = msgsnd(msgid, msg, rozmiar, 0);
+    if (wiadomosc == -1)
+    {
+        perror("msgsnd");
+        exit(EXIT_FAILURE);
+    }
+    return wiadomosc;
+}
+
+int OdbierzZKolejki(int msgid, struct messg_buffer *msg,  long typ_adresata)
+{
+    size_t rozmiar = sizeof(struct messg_buffer) - sizeof(long);
+    int odebrana = msgrcv(msgid, msg, rozmiar, typ_adresata,0);
+    if (odebrana == -1)
+    {
+        perror("msgrcv");
+        exit(EXIT_FAILURE);
+    }
+    return odebrana;
+}
+
+void usun_kolejke(int msgid)
+{
+    if (msgctl(msgid, IPC_RMID, NULL) == -1)
+    {
+        perror("Błąd podczas usuwania kolejki komunikatów (msgctl)");
+        // 0 - sukces, -1 - blad
+    }
+}
