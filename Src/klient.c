@@ -138,7 +138,7 @@ int main()
         if (wybor == 1) sklep->kasy_samo[znaleziono_kase].platnosc_w_toku =1;
         if (wybor == 2) sklep->kasa_stato[znaleziono_kase].platnosc_w_toku =1;
         signalSemafor(id_semafora, SEM_KASY);
-
+        struct messg_buffer msg;
         if (wybor == 1)
         {
             printf("\nKlient %d: Place w kasie samoobslugowej\n",pid);
@@ -152,7 +152,6 @@ int main()
             printf("\nKlient %d: Zaplacilem samodzielnie, wychodze.\n",pid);
         }else if (wybor ==2)
         {
-            struct messg_buffer msg;
             long typ_adresata = znaleziono_kase + 1 + KASY_SAMOOBSLUGOWE;
             msg.mesg_type = typ_adresata; // zeby typ byl zawsze >0 (pierwsza kasa to 0)
             msg.kwota = moj_rachunek;
@@ -172,11 +171,11 @@ int main()
         {
             sklep->kasy_samo[znaleziono_kase].platnosc_w_toku =0;
             sklep->kasy_samo[znaleziono_kase].zajeta = 0;
-        }
-        if (wybor ==2)
+        } else if (wybor ==2)
         {
-            sklep->kasa_stato[znaleziono_kase].platnosc_w_toku =0;
-            sklep->kasa_stato[znaleziono_kase].zajeta = 0;
+            msg.mesg_type = znaleziono_kase + 1 + KASY_SAMOOBSLUGOWE + CONFIRM_RANGE_SHIFT; // zeby typ byl zawsze >0 (pierwsza kasa to 0)
+            msg.ID_klienta = pid;
+            WyslijDoKolejki(id_kolejki, &msg);
         }
 
         printf("\nKasa wolna\n");

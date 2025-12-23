@@ -175,7 +175,7 @@ int OdbierzZKolejki(int msgid, struct messg_buffer *msg,  long typ_adresata)
         exit(EXIT_FAILURE);
     }
     return odebrana;
-}
+}//
 
 void usun_kolejke(int msgid)
 {

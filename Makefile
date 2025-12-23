@@ -1,17 +1,29 @@
 CC = gcc
 
 CFLAGS = -Wall -g -IInclude
+VPATH = Src
 
-SRC_DIR = Src
-INC_DIR = Include
+all: kierownik klient kasjer generator
+.PHONY: clean
 
-all:kierownik
+ipc.o: ipc.c Include/ipc.h
 
-ipc.o: $(SRC_DIR)/ipc.c $(INC_DIR)/ipc.h
-	$(CC) $(CFLAGS) -c $(SRC_DIR)/ipc.c -o ipc.o
+kierownik.o: kierownik.c Include/ipc.h
 
-kierownik: $(SRC_DIR)/kierownik.c ipc.o
-	$(CC) $(CFLAGS) $(SRC_DIR)/kierownik.c ipc.o -o kierownik
+kasjer.o: kasjer.c Include/ipc.h
+
+klient.o: klient.c Include/ipc.h
+
+kierownik: kierownik.o ipc.o
+
+klient: klient.o ipc.o
+
+kasjer: kasjer.o ipc.o
+
+generator: generator.o ipc.o
+
+generator.o: generator.c
+
 
 clean:
-	rm -f *.o kierownik
+	rm -f *.o kierownik klient kasjer

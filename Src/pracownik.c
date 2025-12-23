@@ -68,4 +68,4 @@ int main()
     }
     odlacz_pamiec_dzielona();
     return 0;
-}
+}//

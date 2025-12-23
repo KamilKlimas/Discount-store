@@ -104,20 +104,10 @@ int main (int argc, char *argv[])
 
             msg.mesg_type = (long)msg.ID_klienta;
             WyslijDoKolejki(id_kolejki, &msg);
-
-            while (1)
-            {
-                usleep(200000);
-                waitSemafor(id_semafora, SEM_KASY,0);
-                int nadal_zajeta = sklep->kasa_stato[moje_id].zajeta;
-                signalSemafor(id_semafora, SEM_KASY);
-
-                if (nadal_zajeta == 0)
-                {
-                    printf("\nKlient poszedl. Kasa wolna\n");
-                    break;
-                }
-            }
+            OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu + CONFIRM_RANGE_SHIFT);
+            sklep->kasa_stato[moje_id].zajeta = 0;
+            sklep->kasa_stato[moje_id].platnosc_w_toku = 0;
+            printf("\nKlient poszedl. Kasa wolna\n");
         }else
         {
             //printf("\nnikogo nie ma\n");

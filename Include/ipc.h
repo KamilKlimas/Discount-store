@@ -14,12 +14,14 @@
 #define FTOK_PATH "/tmp/dyskont_projekt"
 
 //Global constants - stałe systemu
-#define KLIENCI 15
+#define KLIENCI 20
 #define MAX_PRODUKTOW 50
-#define KASY_SAMOOBSLUGOWE 6
+#define KASY_SAMOOBSLUGOWE 1
 #define KASY_STACJONARNE 2
 #define MIN_PRODUKTOW_KOSZYK 3
 #define SZANSA_SAMOOBSLUGA 95
+
+#define CONFIRM_RANGE_SHIFT (1 + KASY_SAMOOBSLUGOWE + KASY_STACJONARNE)
 
 //szanse na zasniecie w kolejce
 
