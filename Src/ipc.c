@@ -8,6 +8,7 @@
 #include <string.h>
 #include <sys/shm.h>
 #include <unistd.h>
+#include <time.h>
 
 /*
  *msgflg – flagi specyfikujące zachowanie się funkcji w warunkach nietypowych Wartość ta
@@ -185,3 +186,68 @@ void usun_kolejke(int msgid)
         // 0 - sukces, -1 - blad
     }
 }
+
+void inicjalizujKolejkeFIFO(KolejkaKlientow *k)
+{
+    k->poczatek = 0;
+    k->koniec = 0;
+    k->rozmiar = 0;
+}
+
+int dodajDoKolejkiFIFO(KolejkaKlientow *k, pid_t pid)
+{
+    if (k->rozmiar >= MAX_DLUGOSC_KOLEJKI)
+    {
+        return -1;
+    }
+
+    k->klienci[k->koniec].pid = pid;
+    k->klienci[k->koniec].czas_wejscia = time(NULL);
+    k->koniec = (k->koniec + 1) % MAX_DLUGOSC_KOLEJKI;
+    k->rozmiar +=1;
+
+    return 0;
+}
+
+pid_t zdejmijZKolejkiFIFO(KolejkaKlientow *k)
+{
+    if (k->rozmiar == 0) return 0;
+    pid_t pid = k->klienci[k->poczatek].pid;
+    k->poczatek = (k->poczatek +1) % MAX_DLUGOSC_KOLEJKI;
+    k->rozmiar -=1;
+    return pid;
+}
+
+pid_t podejrzyjPierwszegoFIFO(KolejkaKlientow *k)
+{
+    if (k->rozmiar == 0) return 0;
+    return k->klienci[k->poczatek].pid;
+}
+
+int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k, pid_t pid)
+{
+  if (k->rozmiar == 0) return 0;
+    int idx = -1;
+    int aktualny = k->poczatek;
+    for (int i = 0; i < k->rozmiar; i++)
+    {
+        if (k->klienci[aktualny].pid == pid)
+        {
+            idx = aktualny;
+            break;
+        }
+        aktualny = (aktualny + 1) % MAX_DLUGOSC_KOLEJKI;
+    }
+    if (idx == -1) return 0;
+
+    if (idx == k->poczatek)
+    {
+        zdejmijZKolejkiFIFO(k);
+        return 1;
+    }
+
+    k->klienci[idx].pid = 0;
+
+    return 1;
+}
+//

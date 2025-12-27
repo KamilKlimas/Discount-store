@@ -14,35 +14,33 @@
 #define FTOK_PATH "/tmp/dyskont_projekt"
 
 //Global constants - stałe systemu
-#define KLIENCI 20
+#define KLIENCI 50
 #define MAX_PRODUKTOW 50
-#define KASY_SAMOOBSLUGOWE 1
+#define KASY_SAMOOBSLUGOWE 6
 #define KASY_STACJONARNE 2
 #define MIN_PRODUKTOW_KOSZYK 3
 #define SZANSA_SAMOOBSLUGA 95
 
-#define CONFIRM_RANGE_SHIFT (1 + KASY_SAMOOBSLUGOWE + KASY_STACJONARNE)
-
-//szanse na zasniecie w kolejce
-
-//rodzicdziecko
+#define KANAL_KASJERA_OFFSET 100
 
 
 //Dynamic checkout opening menagment - dynamiczne otwieranie kas
-#define K_KLIENTOW_NA_KASE 10 //For K customers 1 checkout - co K klientów 1 kasa
+#define K_KLIENTOW_NA_KASE 5 //For K customers 1 checkout - co K klientów 1 kasa
 #define MIN_CZYNNYCH_KAS_SAMO 3
 
 //Staffed checkout - kasa stacjonarna
 #define OTWORZ_KASE_1_PRZY 3 // >=3 customers in queue - >=3 klientow w kolejce
-#define ZAMKNIJ_KASE_PO 30 // 30 sec waittime without customers - 30 sekund oczekiwania brak klientow
+#define ZAMKNIJ_KASE_PO 30// 30 sec waittime without customers - 30 sekund oczekiwania brak klientow
+#define MAX_CZAS_OCZEKIWANIA 10 // T
 
 //Kolejka do kas
 #define MAX_DLUGOSC_KOLEJKI 200
-#define MAX_CZAS_OCZEKIWANIA 60
+
 
 //semafory
 #define SEM_KASY 0
 #define SEM_UTARG 1
+#define SEM_KOLEJKI 2
 
 #define KATEGORIE 8
 #define LICZBA_PRODUKTOW 32
@@ -94,9 +92,8 @@ typedef struct{
 	int zajeta;
 	int zablokowana;
 	pid_t obslugiwany_klient;
-	int liczba_obsluzonych;
-	float suma_sprzedazy;
 	int platnosc_w_toku;
+	int alkohol;
 } KasaSamoobslugowa;
 
 //strukt kasa stacjonarna
@@ -108,6 +105,8 @@ typedef struct {
 	int liczba_obsluzonych;
 	float suma_sprzedazy;
 	int platnosc_w_toku;
+	time_t czas_ostatniej_obslugi;
+	int zamykanie_w_toku;
 } KasaStacjonarna;
 
 //statystyki
@@ -118,7 +117,8 @@ typedef struct {
 	time_t czas_startu;
 	int ewakuacja;
 	float paragon_klienta;
-	float utarg;
+	double utarg;
+	int klienci_w_kolejce_do_stacjonarnej;
 	//rodzicdziecko, zasniecia ??
 } StatystykiGlobalne;
 
@@ -180,4 +180,12 @@ int stworzKolejke();
 int WyslijDoKolejki(int msgid, struct messg_buffer *msg);
 int OdbierzZKolejki(int msgid, struct messg_buffer *msg,long typ_adresata);
 void usun_kolejke(int msgid);
+
+//FIFO
+void inicjalizujKolejkeFIFO(KolejkaKlientow *k);
+int dodajDoKolejkiFIFO(KolejkaKlientow *k,pid_t pid);
+pid_t zdejmijZKolejkiFIFO(KolejkaKlientow *k);
+pid_t podejrzyjPierwszegoFIFO(KolejkaKlientow *k);
+int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k,pid_t pid);
 #endif
+

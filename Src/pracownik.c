@@ -28,6 +28,16 @@ void ObslugaSygnalu(int signal){
     dzialaj = 0;
 }
 
+void ewakuacja(int signalNum)
+{
+    if (signalNum == SIGQUIT)
+    {
+        printf("\nEWAKUACJA\n");
+        exit(1);
+    }
+}
+
+
 int main()
 {
     setbuf(stdout, NULL);
@@ -48,24 +58,41 @@ int main()
 
     sklep = mapuj_pamiec_dzielona(id_pamieci);
 
-    id_semafora = alokujSemafor(klucz, 2, 0);
+    id_semafora = alokujSemafor(klucz, 3, 0);
     signal(SIGINT, ObslugaSygnalu);
+    signal(SIGQUIT, ewakuacja);
+
 
     while (dzialaj ==1)
     {
         for (int i=0; i < sklep->liczba_produktow; i++)
         {
-            if (sklep->produkty[i].sztuk < 10)
+            waitSemafor(id_semafora, SEM_KASY, 0);
+            if (sklep->produkty[i].sztuk < 35)
             {
-                waitSemafor(id_semafora, SEM_KASY, 0);
                 sklep->produkty[i].sztuk = 50;
-                signalSemafor(id_semafora, SEM_KASY);
-                printf("\nUzupelnilem %s do 50 sztuk\n", sklep->produkty[i].nazwa);
+                printf("\nPracownik %d: Uzupelnilem %s do 50 sztuk\n", getpid(), sklep->produkty[i].nazwa);
             }
+            signalSemafor(id_semafora, SEM_KASY);
         }
-        printf("Ide na kawe");
-        sleep(5);
+        for (int j=0; j < KASY_SAMOOBSLUGOWE; j++)
+        {
+            waitSemafor(id_semafora, SEM_KASY, 0);
+            int czy_zablokowana= sklep->kasy_samo[j].zablokowana;
+            signalSemafor(id_semafora, SEM_KASY);
+
+            if (czy_zablokowana == 1)
+            {
+                sleep(2);
+                printf("\nPracownik %d: Dotarlem na miejsce i odblokowywuje kase %d\n",getpid(),j);
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                sklep->kasy_samo[j].zablokowana = 0;
+                signalSemafor(id_semafora, SEM_KASY);
+            }
+
+        }
+        usleep(200000);
     }
-    odlacz_pamiec_dzielona();
+    odlacz_pamiec_dzielona(sklep);
     return 0;
-}//
+}///
