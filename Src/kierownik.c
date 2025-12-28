@@ -24,9 +24,9 @@ pid_t kasjer2_pid = 0;
 
 //CNTRL C
 void ObslugaSygnalu(int signal){
-	if (signal == SIGINT)
-	{
-		printf("\nKierownik: SIGINT koncze prace\n ");
+	if (signal == SIGINT) {
+		printf("\nKierownik Otrzymano SIGINT. Zamykam sklep dla nowych klientow.\n");
+		if(sklep != NULL) sklep->czy_otwarte = 0;
 		CzyDziala = 0;
 	}
 }
@@ -65,13 +65,14 @@ void ZamknijKase(int sig)
 	}
 }
 
-void Ewakuacja(int sig)
-{
-	printf("\n EWAKUACJA\n");
-	if (sklep != NULL)
-	{
+void Ewakuacja(int sig) {
+	printf("\nKierownik ALARM! EWAKUACJA!\n");
+	signal(SIGQUIT, SIG_IGN);
+
+	if (sklep != NULL) {
 		sklep->statystyki.ewakuacja = 1;
-		kill(0, SIGQUIT);
+		sklep->czy_otwarte = 0;
+		kill(0, SIGKILL);
 	}
 	CzyDziala = 0;
 }

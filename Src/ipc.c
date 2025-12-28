@@ -250,4 +250,4 @@ int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k, pid_t pid)
 
     return 1;
 }
-//
+///

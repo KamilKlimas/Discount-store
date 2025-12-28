@@ -37,6 +37,12 @@ int main()
 
     for (int i= 0; i < KLIENCI; i++)
     {
+        if (sklep->czy_otwarte == 0 || sklep->statystyki.ewakuacja == 1)
+        {
+            printf("\nSklep zamkniety. Koncze wpuszczanie klientow.\n");
+            break;
+        }
+
         wejscie_do_sklepu = rand()%3000000 + 500000; //usleep dziala a mikrosekundach :)
         usleep(wejscie_do_sklepu);
 

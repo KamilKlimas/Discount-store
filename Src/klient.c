@@ -44,9 +44,22 @@ int exists(int arr[], int size, int value)
 }
 
 void uciekaj(int sig) {
-    if(sig == SIGQUIT)
-    {
-        printf("\nKlient %d ALARM! UCIEKAM!\n", getpid()); exit(0);
+    if(sig == SIGQUIT) {
+        if (sklep != NULL) {
+            if (waitSemafor(id_semafora, SEM_KASY, IPC_NOWAIT) != -1) {
+                if (sklep->statystyki.liczba_klientow_w_sklepie > 0) {
+                    sklep->statystyki.liczba_klientow_w_sklepie--;
+                }
+                signalSemafor(id_semafora, SEM_KASY);
+            } else {
+                if (sklep->statystyki.liczba_klientow_w_sklepie > 0) {
+                    sklep->statystyki.liczba_klientow_w_sklepie--;
+                }
+            }
+        }
+
+        printf("Klient %d ALARM! UCIEKAM! (Wypisalem sie)\n", getpid());
+        exit(0);
     }
 }
 

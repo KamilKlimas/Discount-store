@@ -189,3 +189,4 @@ pid_t podejrzyjPierwszegoFIFO(KolejkaKlientow *k);
 int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k,pid_t pid);
 #endif
 
+//

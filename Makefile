@@ -1,29 +1,31 @@
 CC = gcc
+CFLAGS = -Wall -Wextra -g -D_GNU_SOURCE -IInclude
+LIBS = -lm
 
-CFLAGS = -Wall -g -IInclude
-VPATH = Src
+TARGETS = kierownik kasjer klient pracownik generator
 
-all: kierownik klient kasjer generator
-.PHONY: clean
+all: $(TARGETS)
 
-ipc.o: ipc.c Include/ipc.h
+kierownik: Src/kierownik.c Src/ipc.c Include/ipc.h
+	$(CC) $(CFLAGS) Src/kierownik.c Src/ipc.c -o kierownik $(LIBS)
 
-kierownik.o: kierownik.c Include/ipc.h
+kasjer: Src/kasjer.c Src/ipc.c Include/ipc.h
+	$(CC) $(CFLAGS) Src/kasjer.c Src/ipc.c -o kasjer $(LIBS)
 
-kasjer.o: kasjer.c Include/ipc.h
+klient: Src/klient.c Src/ipc.c Include/ipc.h
+	$(CC) $(CFLAGS) Src/klient.c Src/ipc.c -o klient $(LIBS)
 
-klient.o: klient.c Include/ipc.h
+pracownik: Src/pracownik.c Src/ipc.c Include/ipc.h
+	$(CC) $(CFLAGS) Src/pracownik.c Src/ipc.c -o pracownik $(LIBS)
 
-kierownik: kierownik.o ipc.o
-
-klient: klient.o ipc.o
-
-kasjer: kasjer.o ipc.o
-
-generator: generator.o ipc.o
-
-generator.o: generator.c
-
+generator: Src/generator.c Src/ipc.c Include/ipc.h
+	$(CC) $(CFLAGS) Src/generator.c Src/ipc.c -o generator $(LIBS)
 
 clean:
-	rm -f *.o kierownik klient kasjer
+	rm -f $(TARGETS) *.o
+
+clean_ipc:
+	ipcrm --all 2>/dev/null || true
+	rm -f /tmp/dyskont_projekt
+
+rebuild: clean clean_ipc all

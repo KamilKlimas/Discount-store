@@ -95,4 +95,4 @@ int main()
     }
     odlacz_pamiec_dzielona(sklep);
     return 0;
-}///
+}////
