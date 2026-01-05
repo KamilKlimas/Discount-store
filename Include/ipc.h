@@ -14,12 +14,12 @@
 #define FTOK_PATH "/tmp/dyskont_projekt"
 
 //Global constants - stałe systemu
-#define KLIENCI 50
+#define KLIENCI 100
 #define MAX_PRODUKTOW 50
 #define KASY_SAMOOBSLUGOWE 6
 #define KASY_STACJONARNE 2
 #define MIN_PRODUKTOW_KOSZYK 3
-#define SZANSA_SAMOOBSLUGA 95
+#define SZANSA_SAMOOBSLUGA 85
 
 #define KANAL_KASJERA_OFFSET 100
 
@@ -94,6 +94,7 @@ typedef struct{
 	pid_t obslugiwany_klient;
 	int platnosc_w_toku;
 	int alkohol;
+	float aktualna_kwota;
 } KasaSamoobslugowa;
 
 //strukt kasa stacjonarna

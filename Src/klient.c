@@ -43,24 +43,10 @@ int exists(int arr[], int size, int value)
     return 0;
 }
 
-void uciekaj(int sig) {
-    if(sig == SIGQUIT) {
-        if (sklep != NULL) {
-            if (waitSemafor(id_semafora, SEM_KASY, IPC_NOWAIT) != -1) {
-                if (sklep->statystyki.liczba_klientow_w_sklepie > 0) {
-                    sklep->statystyki.liczba_klientow_w_sklepie--;
-                }
-                signalSemafor(id_semafora, SEM_KASY);
-            } else {
-                if (sklep->statystyki.liczba_klientow_w_sklepie > 0) {
-                    sklep->statystyki.liczba_klientow_w_sklepie--;
-                }
-            }
-        }
-
-        printf("Klient %d ALARM! UCIEKAM! (Wypisalem sie)\n", getpid());
-        exit(0);
-    }
+void Uciekaj(int sig) {
+    printf("\nKlient %d Slysze alarm! Rzucam koszyk i uciekam ze sklepu!\n", getpid());
+    free(paragon);
+    exit(0);
 }
 
 int main()
@@ -89,14 +75,19 @@ int main()
 
     id_kolejki = stworzKolejke();
 
-    signal(SIGQUIT, uciekaj);
+    signal(SIGQUIT, Uciekaj);
 
     waitSemafor(id_semafora, SEM_KASY, 0);
     sklep ->statystyki.liczba_klientow_w_sklepie += 1;
     signalSemafor(id_semafora, SEM_KASY);
 
     int ile_prod = (rand() % 8) + 1;
-    char **paragon = malloc(ile_prod * sizeof(char));
+    char **paragon = malloc(ile_prod * sizeof(char*));
+    if (paragon == NULL) {
+        perror("Brak pamieci na paragon");
+        exit(1);
+    }
+
     sleep(1);
 
 
@@ -209,7 +200,26 @@ int main()
             printf("Klient %d Kasa odblokowana.\n", pid);
         }
 
-        sleep(1); // Platnosc
+        printf("Klient %d: Przekazuję kwotę %.2f do terminala nr %d...\n", pid, moj_rachunek, nr_kasy);
+
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        sklep->kasy_samo[nr_kasy].obslugiwany_klient = pid; // Podpisz się
+        sklep->kasy_samo[nr_kasy].aktualna_kwota = moj_rachunek; // Wprowadź kwotę
+        signalSemafor(id_semafora, SEM_KASY);
+
+        while (1) {
+            waitSemafor(id_semafora, SEM_KASY, 0);
+            float czy_juz = sklep->kasy_samo[nr_kasy].aktualna_kwota;
+            signalSemafor(id_semafora, SEM_KASY);
+
+            if (czy_juz == 0.0) {
+                printf("Klient %d: Terminal potwierdził płatność. Zabieram paragon.\n", pid);
+                break;
+            }
+            if (sklep->statystyki.ewakuacja) break;
+
+            usleep(100000);
+        }
         printf("\n[");
         for (int l = 0; l < ile_prod; l++)
         {
@@ -242,7 +252,7 @@ int main()
         }
         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
         signalSemafor(id_semafora, SEM_KOLEJKI);
-
+        printf("\nSTACJONARNA\n");
         printf("Klient %d W kolejce do Stacjonarnej %d\n", pid, wybrana_kasa);
 
 
@@ -278,5 +288,3 @@ int main()
     return 0;
 }
 //
-
-

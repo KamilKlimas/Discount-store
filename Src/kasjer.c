@@ -12,7 +12,7 @@
 #include <sys/wait.h>
 int czyDziala = 1;
 int moje_id;
-volatile int status_pracy = 1; //volatile tells the compiler not to optimize anything that has to do with the volatile variable.
+volatile int status_pracy = 0; //volatile tells the compiler not to optimize anything that has to do with the volatile variable.
 /*There are at least three common reasons to use it, all involving situations where the value of the variable can change without action from the visible code:
 - When you interface with hardware that changes the value itself
 - when there's another thread running that also uses the variable
@@ -35,6 +35,7 @@ void cleanUpKasy()
     }
 
 }
+
 
 void ObslugaSygnalu(int sig) {
     if (sig == SIGUSR1) {
@@ -87,20 +88,17 @@ int main (int argc, char *argv[])
     struct messg_buffer msg;
     long moj_typ_nasluchu = moje_id +KANAL_KASJERA_OFFSET;
 
-    printf("\nkasjer [%d] zaczyna prace (typ nasluchu: %ld)\n",moje_id, moj_typ_nasluchu);
-    /*
-    waitSemafor(id_semafora, SEM_KASY, 0);
-    sklep ->kasa_stato[moje_id].otwarta = status_pracy;
-    sklep ->kasa_stato[moje_id].zajeta = 0;
-    signalSemafor(id_semafora, SEM_KASY);
-    */
-    //srand(time(NULL)+moje_id);
+    waitSemafor(id_semafora, SEM_KASY,0);
+    status_pracy = sklep->kasa_stato[moje_id].otwarta;
+    signalSemafor(id_semafora,SEM_KASY);
 
+    printf("\nkasjer [%d] zaczyna prace (typ nasluchu: %ld)\n",moje_id + 1, moj_typ_nasluchu);
     while (1)
     {
         if (status_pracy == 0)
         {
            pause();
+            printf("\notrzymalem sygnal,  wznawiam prace\n");
             continue;
         }
 
@@ -114,7 +112,7 @@ int main (int argc, char *argv[])
 
         if (klient_pid >0)
         {
-            printf("Kasjer %d Wolam klienta %d do kasy.\n", moje_id, klient_pid);
+            printf("Kasjer %d Wolam klienta %d do kasy.\n", moje_id+1, klient_pid);
 
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasa_stato[moje_id].zajeta = 1;
@@ -129,7 +127,7 @@ int main (int argc, char *argv[])
 
             //oczekiwanie na paragon
             OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
-            printf("\nKasjer %d Zakupy od Klienta %d na: %.2f zl\n", moje_id, msg.ID_klienta, msg.kwota);
+            printf("\nKasjer %d Zakupy od Klienta %d na: %.2f zl\n", moje_id+1, msg.ID_klienta, msg.kwota);
             sleep(2);//symalacja kasowania
 
             waitSemafor(id_semafora, SEM_UTARG, 0);

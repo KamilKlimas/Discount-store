@@ -44,7 +44,20 @@ int main()
         }
 
         wejscie_do_sklepu = rand()%3000000 + 500000; //usleep dziala a mikrosekundach :)
-        usleep(wejscie_do_sklepu);
+        int kawalki = wejscie_do_sklepu / 100000;
+        int przerwanie = 0;
+        for(int k=0; k<kawalki; k++) {
+            usleep(100000);
+            if (sklep->statystyki.ewakuacja == 1) {
+                przerwanie = 1;
+                break;
+            }
+        }
+
+        if (przerwanie) {
+            printf("\nWykryto EWAKUACJE w trakcie czekania! Uciekam.\n");
+            break;
+        }
 
         pid = fork();
         if (pid == 0)
@@ -58,7 +71,7 @@ int main()
                 exit(1);
             }
 
-            }
+        }
         if (pid > 0){
             printf("\nWpuscilem klienta [%d] (PID: [%d])\n", i, pid);
         }

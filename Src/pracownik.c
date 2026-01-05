@@ -33,7 +33,7 @@ void ewakuacja(int signalNum)
     if (signalNum == SIGQUIT)
     {
         printf("\nEWAKUACJA\n");
-        exit(1);
+        exit(0);
     }
 }
 

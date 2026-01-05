@@ -117,7 +117,7 @@ int waitSemafor(int semID, int number, int flagi)
     if (semop(semID, operacje, 1) == -1)
     {
         perror("semop(waitSemafor): ");
-        return -1;
+        exit(0);
     }
 
     return 1;
@@ -132,6 +132,7 @@ void signalSemafor(int semID, int number)
     if (semop(semID, operacje, 1) == -1)
     {
         perror("semop(postSemafor): ");
+        exit(1);
     }
     //printf(" <- [PID %d] ZWALNIAM semafor nr %d\n", getpid(), number);
 }
