@@ -1,31 +1,53 @@
+# Kompilator i flagi
 CC = gcc
-CFLAGS = -Wall -Wextra -g -D_GNU_SOURCE -IInclude
-LIBS = -lm
+CFLAGS = -Wall -g -Wextra
+INCLUDES = -IInclude
+SRCDIR = Src
 
-TARGETS = kierownik kasjer klient pracownik generator
+# Plik wspolny dla wszystkich modulow
+COMMON_SRC = $(SRCDIR)/ipc.c
+COMMON_DEP = $(COMMON_SRC) Include/ipc.h
 
+# Lista plikow wykonywalnych do zbudowania
+# Uwaga: nazwy musza odpowiadac tym uzywanym w execlp() w kodzie!
+TARGETS = kierownik kasjer klient pracownik generator kasy_samo
+
+# Domyslny cel (buduje wszystko)
 all: $(TARGETS)
 
-kierownik: Src/kierownik.c Src/ipc.c Include/ipc.h
-	$(CC) $(CFLAGS) Src/kierownik.c Src/ipc.c -o kierownik $(LIBS)
+# --- Reguly budowania poszczegolnych programow ---
 
-kasjer: Src/kasjer.c Src/ipc.c Include/ipc.h
-	$(CC) $(CFLAGS) Src/kasjer.c Src/ipc.c -o kasjer $(LIBS)
+kierownik: $(SRCDIR)/kierownik.c $(COMMON_DEP)
+	$(CC) $(CFLAGS) $(INCLUDES) -o kierownik $(SRCDIR)/kierownik.c $(COMMON_SRC)
 
-klient: Src/klient.c Src/ipc.c Include/ipc.h
-	$(CC) $(CFLAGS) Src/klient.c Src/ipc.c -o klient $(LIBS)
+kasjer: $(SRCDIR)/kasjer.c $(COMMON_DEP)
+	$(CC) $(CFLAGS) $(INCLUDES) -o kasjer $(SRCDIR)/kasjer.c $(COMMON_SRC)
 
-pracownik: Src/pracownik.c Src/ipc.c Include/ipc.h
-	$(CC) $(CFLAGS) Src/pracownik.c Src/ipc.c -o pracownik $(LIBS)
+klient: $(SRCDIR)/klient.c $(COMMON_DEP)
+	$(CC) $(CFLAGS) $(INCLUDES) -o klient $(SRCDIR)/klient.c $(COMMON_SRC)
 
-generator: Src/generator.c Src/ipc.c Include/ipc.h
-	$(CC) $(CFLAGS) Src/generator.c Src/ipc.c -o generator $(LIBS)
+pracownik: $(SRCDIR)/pracownik.c $(COMMON_DEP)
+	$(CC) $(CFLAGS) $(INCLUDES) -o pracownik $(SRCDIR)/pracownik.c $(COMMON_SRC)
 
+generator: $(SRCDIR)/generator.c $(COMMON_DEP)
+	$(CC) $(CFLAGS) $(INCLUDES) -o generator $(SRCDIR)/generator.c $(COMMON_SRC)
+
+# Specjalna regula dla kasy_samo (bo plik zrodlowy to kasa_samo.c, a exec to kasy_samo)
+kasy_samo: $(SRCDIR)/kasa_samo.c $(COMMON_DEP)
+	$(CC) $(CFLAGS) $(INCLUDES) -o kasy_samo $(SRCDIR)/kasa_samo.c $(COMMON_SRC)
+
+# --- Narzedzia pomocnicze ---
+
+# Czyszczenie plikow wykonywalnych i smieci systemowych (IPC)
 clean:
 	rm -f $(TARGETS) *.o
+	@echo "Wyczyszczono pliki binarne."
 
+# Usuwanie ewentualnych smieci w /tmp (klucz IPC)
 clean_ipc:
-	ipcrm --all 2>/dev/null || true
 	rm -f /tmp/dyskont_projekt
 
-rebuild: clean clean_ipc all
+# Pomocniczy cel do szybkiego startu (najpierw wyczysci, potem zbuduje)
+rebuild: clean all
+
+.PHONY: all clean clean_ipc rebuild

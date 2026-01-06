@@ -31,7 +31,8 @@ void cleanUpKasy()
     {
         sklep ->kasa_stato[moje_id].otwarta = 0;
         odlacz_pamiec_dzielona(sklep);
-        printf("\nKasjer nr [%d] konczy zmiane, do zobaczenia w niedziele handlowa:\n)",moje_id);
+        //printf("\nKasjer nr [%d] konczy zmiane, do zobaczenia w niedziele handlowa:\n)",moje_id);
+        LOG_KASJER(moje_id + 1,"konczy zmiane, do zobaczenia w niedziele handlowa:\n)");
     }
 
 }
@@ -55,7 +56,8 @@ int main (int argc, char *argv[])
 
     if (argc < 2)
     {
-        printf("\nbrak argumentu od kierownika\n");
+        //printf("\nbrak argumentu od kierownika\n");
+        LOG_SYSTEM("brak argumentu od kierownika\n");
         exit(1);
     }
 
@@ -92,13 +94,15 @@ int main (int argc, char *argv[])
     status_pracy = sklep->kasa_stato[moje_id].otwarta;
     signalSemafor(id_semafora,SEM_KASY);
 
-    printf("\nkasjer [%d] zaczyna prace (typ nasluchu: %ld)\n",moje_id + 1, moj_typ_nasluchu);
+    //printf("\nkasjer [%d] zaczyna prace (typ nasluchu: %ld)\n",moje_id + 1, moj_typ_nasluchu);
+    LOG_KASJER(moje_id + 1,"zaczyna prace (typ nasluchu: %ld)\n", moj_typ_nasluchu);
     while (1)
     {
         if (status_pracy == 0)
         {
            pause();
-            printf("\notrzymalem sygnal,  wznawiam prace\n");
+            //printf("\notrzymalem sygnal,  wznawiam prace\n");
+            LOG_KASJER(moje_id+1, "otrzymalem sygnal,  wznawiam prace\n");
             continue;
         }
 
@@ -112,7 +116,8 @@ int main (int argc, char *argv[])
 
         if (klient_pid >0)
         {
-            printf("Kasjer %d Wolam klienta %d do kasy.\n", moje_id+1, klient_pid);
+            //printf("Kasjer %d Wolam klienta %d do kasy.\n", moje_id+1, klient_pid);
+            LOG_KASJER(moje_id+1, "Wolam klienta %d do kasy.\n", klient_pid);
 
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasa_stato[moje_id].zajeta = 1;
@@ -127,7 +132,8 @@ int main (int argc, char *argv[])
 
             //oczekiwanie na paragon
             OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
-            printf("\nKasjer %d Zakupy od Klienta %d na: %.2f zl\n", moje_id+1, msg.ID_klienta, msg.kwota);
+            //printf("\nKasjer %d Zakupy od Klienta %d na: %.2f zl\n", moje_id+1, msg.ID_klienta, msg.kwota);
+            LOG_KASJER(moje_id +1,"Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
             sleep(2);//symalacja kasowania
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
@@ -139,7 +145,8 @@ int main (int argc, char *argv[])
             msg.mesg_type = (long)klient_pid;
             msg.kwota = -1.0;
             WyslijDoKolejki(id_kolejki, &msg);
-            printf("\nObsluzylem klienta %d\n", msg.ID_klienta);
+            //printf("\nObsluzylem klienta %d\n", msg.ID_klienta);
+            LOG_KASJER(moje_id+1, "obsluzylem klienta %d\n",msg.ID_klienta);
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasa_stato[moje_id].zajeta = 0;
             sklep->kasa_stato[moje_id].czas_ostatniej_obslugi = time(NULL);
@@ -151,4 +158,3 @@ int main (int argc, char *argv[])
     }
     return 0;
 }
-///

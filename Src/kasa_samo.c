@@ -28,7 +28,8 @@ void ObslugaSygnalu(int sig) {
 int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
     if (argc < 2) {
-        printf("[BLAD] Brak ID kasy samoobsługowej\n");
+        //printf("[BLAD] Brak ID kasy samoobsługowej\n");
+        LOG_KASA_SAMO(id_kasy,"[BLAD] Brak ID kasy samoobsługowej \n");
         exit(1);
     }
     id_kasy = atoi(argv[1]);
@@ -41,15 +42,16 @@ int main(int argc, char *argv[]) {
     signal(SIGQUIT, ObslugaSygnalu);
     signal(SIGINT, ObslugaSygnalu);
 
-    printf("Kasa samoobsługowa nr %d (PID: %d) gotowa.\n", id_kasy, getpid());
-
+    //printf("Kasa samoobsługowa nr %d (PID: %d) gotowa.\n", id_kasy, getpid());
+    LOG_KASA_SAMO(id_kasy,"(PID: %d) gotowa.\n", id_kasy);
     waitSemafor(id_semafora, SEM_KASY, 0);
     sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
     signalSemafor(id_semafora, SEM_KASY);
 
     while (dzialaj) {
         if (sklep->statystyki.ewakuacja) {
-            printf("[Kasa %d] EWAKUACJA! Zamykam terminal.\n", id_kasy);
+            //printf("[Kasa %d] EWAKUACJA! Zamykam terminal.\n", id_kasy);
+            LOG_KASA_SAMO(id_kasy,"EWAKUACJA! Zamykam terminal.\n");
             break;
         }
 
@@ -67,13 +69,20 @@ int main(int argc, char *argv[]) {
 
 
         if (zablokowana) {
-            printf("[Kasa %d] AWARIA/WERYFIKACJA! Czekam na pomoc...\n", id_kasy);
+            if (sklep->kasy_samo[id_kasy].alkohol)
+            {
+                LOG_KASA_SAMO(id_kasy, "WERYFIKACJA WIEKU!\n");
+            }else
+            {
+                LOG_KASA_SAMO(id_kasy, "AWARIA! Czekam na pomoc...\n");
+            }
             sleep(1);
             continue;
         }
 
         if (wplata > 0.0) {
-            printf("[Kasa %d] Przetwarzam płatność od klienta PID %d: %.2f PLN\n", id_kasy, klient_pid, wplata);
+            //printf("[Kasa %d] Przetwarzam płatność od klienta PID %d: %.2f PLN\n", id_kasy, klient_pid, wplata);
+            LOG_KASA_SAMO(id_kasy, "Przetwarzam płatność od klienta PID %d: %.2f PLN\n",klient_pid, wplata);
             sleep(1);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
@@ -83,7 +92,8 @@ int main(int argc, char *argv[]) {
 
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
-            printf("[Kasa %d] Płatność zaakceptowana. Drukuję paragon.\n", id_kasy);
+            //printf("[Kasa %d] Płatność zaakceptowana. Drukuję paragon.\n", id_kasy);
+            LOG_KASA_SAMO(id_kasy, "Płatność zaakceptowana. Drukuję paragon.\n");
             signalSemafor(id_semafora, SEM_KASY);
         }
 

@@ -44,8 +44,8 @@ int exists(int arr[], int size, int value)
 }
 
 void Uciekaj(int sig) {
-    printf("\nKlient %d Slysze alarm! Rzucam koszyk i uciekam ze sklepu!\n", getpid());
-    free(paragon);
+    //printf("\nKlient %d Slysze alarm! Rzucam koszyk i uciekam ze sklepu!\n", getpid());
+    LOG_KLIENT(pid, "Slysze alarm! Rzucam koszyk i uciekam ze sklepu!\n");
     exit(0);
 }
 
@@ -88,7 +88,7 @@ int main()
         exit(1);
     }
 
-    sleep(1);
+    usleep(rand()%2000000 + 1000000); //1-3 sekundy chodzenia
 
 
     for (int i =0; i <= ile_prod;i++){ //ile produktow chce wziasc klient
@@ -107,10 +107,12 @@ int main()
             paragon[i] = sklep->produkty[indeks].nazwa;
         }else
         {
-            printf("\nBrak towaru: [%s]\n", sklep->produkty[indeks].nazwa);
+            //printf("\nBrak towaru: [%s]\n", sklep->produkty[indeks].nazwa);
+            LOG_KLIENT(pid,"Brak towaru: [%s]\n", sklep->produkty[indeks].nazwa);
         }
 
         signalSemafor(id_semafora, SEM_KASY);
+        usleep(500000);
     }
 
     int tryb = (rand() % 100 < SZANSA_SAMOOBSLUGA) ? 1 : 2;
@@ -163,7 +165,8 @@ int main()
 
                 if (stacjo_otwarta)
                 {
-                    printf("Klient %d, czekam za dlugo (>%ds)! Ide do stacjonarnej.\n", pid, MAX_CZAS_OCZEKIWANIA);
+                    //printf("Klient %d, czekam za dlugo (>%ds)! Ide do stacjonarnej.\n", pid, MAX_CZAS_OCZEKIWANIA);
+                    LOG_KLIENT(pid, "czekam za dlugo (>%ds)! Ide do stacjonarnej.\n",MAX_CZAS_OCZEKIWANIA);
                     waitSemafor(id_semafora, SEM_KOLEJKI, 0);
                     usunZSrodkaKolejkiFIFO(&sklep->kolejka_samoobsluga, pid);
                     signalSemafor(id_semafora, SEM_KOLEJKI);
@@ -176,17 +179,27 @@ int main()
     }
 
     //platnosc samoobsluga
-
-
     if (tryb == 1 && nr_kasy != -1) {
-        printf("Klient %d Przy kasie samo nr %d.\n", pid, nr_kasy);
+        int awaria = rand()%100;
+        //printf("Klient %d Przy kasie samo nr %d.\n", pid, nr_kasy);
+        LOG_KLIENT(pid, "Przy kasie samo nr %d.\n", nr_kasy);
+        if ((awaria > 90) || alkohol){
+            waitSemafor(id_semafora, SEM_KASY,0);
+            if (alkohol == 1)
+            {
 
-        // Symulacja kasowania + awarie
-        if ((rand()%100 > 80) || alkohol) {
-            waitSemafor(id_semafora, SEM_KASY, 0);
-            sklep->kasy_samo[nr_kasy].zablokowana = 1;
-            sklep->kasy_samo[nr_kasy].alkohol = alkohol;
-            printf("Klient %d BLOKADA KASY SAMO %d (Alkohol/Blad)!\n", pid, nr_kasy);
+                sklep->kasy_samo[nr_kasy].zablokowana = 1;
+                sklep->kasy_samo[nr_kasy].alkohol = alkohol;
+                //printf("Weryfikacja wieku dla klienta: %d na kasie %d\n", pid, nr_kasy);
+                LOG_KLIENT(pid, "Weryfikacja wieku na kasie %d\n",nr_kasy);
+
+            }
+            if (awaria > 90)
+            {
+                sklep->kasy_samo[nr_kasy].zablokowana = 1;
+                //printf("Kasa %d zablokowana, czekaj na obsluge",nr_kasy);
+                LOG_KLIENT(pid, "Kasa %d zablokowana, czekaj na obsluge\n",nr_kasy);
+            }
             signalSemafor(id_semafora, SEM_KASY);
 
             // Czekaj na odblokowanie
@@ -197,10 +210,12 @@ int main()
                 signalSemafor(id_semafora, SEM_KASY);
                 if(!blok) break;
             }
-            printf("Klient %d Kasa odblokowana.\n", pid);
+            //printf("Klient %d Kasa odblokowana.\n", pid);
+            LOG_KLIENT(pid,"Kasa odblokowana.\n");
         }
 
-        printf("Klient %d: Przekazuję kwotę %.2f do terminala nr %d...\n", pid, moj_rachunek, nr_kasy);
+        //printf("Klient %d: Przekazuję kwotę %.2f do terminala nr %d...\n", pid, moj_rachunek, nr_kasy);
+        LOG_KLIENT(pid, "Przekazuję kwotę %.2f do terminala nr %d...\n", moj_rachunek, nr_kasy);
 
         waitSemafor(id_semafora, SEM_KASY, 0);
         sklep->kasy_samo[nr_kasy].obslugiwany_klient = pid; // Podpisz się
@@ -213,14 +228,15 @@ int main()
             signalSemafor(id_semafora, SEM_KASY);
 
             if (czy_juz == 0.0) {
-                printf("Klient %d: Terminal potwierdził płatność. Zabieram paragon.\n", pid);
+                //printf("Klient %d: Terminal potwierdził płatność. Zabieram paragon.\n", pid);
+                LOG_KLIENT(pid,"Terminal potwierdził płatność. Zabieram paragon.\n");
                 break;
             }
             if (sklep->statystyki.ewakuacja) break;
 
             usleep(100000);
         }
-        printf("\n[");
+        LOG_KLIENT(pid,"[");
         for (int l = 0; l < ile_prod; l++)
         {
             printf("%s ", paragon[l]);
@@ -230,7 +246,6 @@ int main()
 
         waitSemafor(id_semafora, SEM_UTARG, 0);
         sklep->statystyki.utarg += moj_rachunek;
-        sklep->statystyki.liczba_obsluzonych_klientow++;
         signalSemafor(id_semafora, SEM_UTARG);
 
         // Zwolnij kase
@@ -252,8 +267,9 @@ int main()
         }
         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
         signalSemafor(id_semafora, SEM_KOLEJKI);
-        printf("\nSTACJONARNA\n");
-        printf("Klient %d W kolejce do Stacjonarnej %d\n", pid, wybrana_kasa);
+        //printf("\nSTACJONARNA\n");
+        //printf("Klient %d W kolejce do Stacjonarnej %d\n", pid, wybrana_kasa);
+        LOG_KLIENT(pid,"W kolejce do Stacjonarnej %d\n", wybrana_kasa);
 
 
         struct messg_buffer msg;
@@ -269,7 +285,8 @@ int main()
 
                 // Czekam na potwierdzenie
                 OdbierzZKolejki(id_kolejki, &msg, (long)pid);
-                printf("\n[");
+                //printf("\n[");
+                LOG_KLIENT(pid,"[");
                 for (int l = 0; l < ile_prod; l++)
                 {
                     printf("%s ", paragon[l]);

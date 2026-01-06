@@ -33,7 +33,7 @@ key_t utworz_klucz(char id)
 int utworz_pamiec_dzielona(size_t rozmiar)
 {
     key_t klucz = utworz_klucz('S');
-    int shmid = shmget(klucz, rozmiar, IPC_CREAT | 0666); // zmien potem uprawnienia na 0600 (własciciel R+W)
+    int shmid = shmget(klucz, rozmiar, IPC_CREAT | 0600); // zmien potem uprawnienia na 0600 (własciciel R+W)
     if (shmid == -1)
     {
         perror("shmget");
@@ -146,7 +146,7 @@ int valueSemafor(int semID, int number)
 int stworzKolejke()
 {
     key_t klucz = utworz_klucz('S');
-    int msgid = msgget(klucz, IPC_CREAT | 0666); // zmien potem na minimalne uprawnienia
+    int msgid = msgget(klucz, IPC_CREAT | 0600); // zmien potem na minimalne uprawnienia
     if (msgid == -1)
     {
         perror("msgget");

@@ -27,7 +27,8 @@ pid_t pids_samo[KASY_SAMOOBSLUGOWE];
 //CNTRL C
 void ObslugaSygnalu(int signal){
 	if (signal == SIGINT) {
-		printf("\nKierownik Otrzymano SIGINT. Zamykam sklep dla nowych klientow.\n");
+		//printf("\nKierownik Otrzymano SIGINT. Zamykam sklep dla nowych klientow.\n");
+		LOG_KIEROWNIK("Otrzymano SIGINT -> Zamykam sklep dla nowych klientow\n");
 		if(sklep != NULL) sklep->czy_otwarte = 0;
 		CzyDziala = 0;
 	}
@@ -35,7 +36,8 @@ void ObslugaSygnalu(int signal){
 
 void OtworzKase2(int sig)
 {
-	printf("\n Otwwieram kase numer 2\n");
+	//printf("\n Otwieram kase numer 2\n");
+	LOG_KIEROWNIK("Otwieram kase numer 2\n");
 
 	if (sklep != NULL)
 	{
@@ -51,18 +53,22 @@ void OtworzKase2(int sig)
 
 void ZamknijKase(int sig)
 {
-	printf("\n zamykam kase\n");
+
+	//printf("\n zamykam kase\n");
+	LOG_KIEROWNIK("Zamykam kase\n");
 	if (sklep != NULL)
 	{
 		waitSemafor(id_semafora,SEM_KASY, 0);
 		if (sklep->kasa_stato[1].otwarta)
 		{
 			sklep->kasa_stato[1].zamykanie_w_toku = 1;
-			printf("\n zamykam KASA 2...\n");
+			//printf("\n zamykam KASA 2...\n");
+			LOG_KIEROWNIK("Zamykam KASA 2\n");
 		}else if (sklep->kasa_stato[0].otwarta)
 		{
 			sklep->kasa_stato[0].zamykanie_w_toku = 1;
-			printf("\n zamykam KASA 1...\n");
+			//printf("\n zamykam KASA 1...\n");
+			LOG_KIEROWNIK("Zamykam KASA 1\n");
 		}
 		signalSemafor(id_semafora,SEM_KASY);
 	}
@@ -90,7 +96,8 @@ void cleanUp()
 }
 
 void Ewakuacja(int sig) {
-	printf("\nKierownik ALARM! EWAKUACJA!\n");
+	//printf("\nKierownik ALARM! EWAKUACJA!\n");
+	LOG_KIEROWNIK("ALARM -> EWAKUACJA\n");
 	signal(SIGQUIT, SIG_IGN);
 
 	if (sklep != NULL) {
@@ -99,11 +106,13 @@ void Ewakuacja(int sig) {
 		kill(0, SIGQUIT);
 	}
 
-	printf("Kierownik: Czekam na opuszczenie sklepu przez klientow i personel...\n");
+	//printf("Kierownik: Czekam na opuszczenie sklepu przez klientow i personel...\n");
+	LOG_KIEROWNIK("Czekam na opuszczenie sklepu przez klientow i personel...\n");
 	sleep(2);
 
 	cleanUp();
-	printf("\nUszami rusz i znikaj juz\n");
+	//printf("\nUszami rusz i znikaj juz\n");
+	LOG_KIEROWNIK("Koniec ewakuacji -> sklep zamkniety\n");
 	exit(0);
 }
 
@@ -165,19 +174,15 @@ int main()
 
 	id_kolejki = stworzKolejke();
 
-	//tworzenie zasobow -> wywołane od sizeof bo "nie znamy" wielkosci pamiecidziel..
 	id_pamieci = utworz_pamiec_dzielona(sizeof(PamiecDzielona));
 	sklep = mapuj_pamiec_dzielona(id_pamieci);
 
 	sklep->statystyki.czas_startu = time(NULL);
-	//sklep->statystyki.paragon_klienta = 0.0;
 	sklep ->statystyki.ewakuacja = 0;
 	sklep->statystyki.liczba_klientow_w_sklepie =0;
 	sklep->statystyki.liczba_obsluzonych_klientow =0;
-	//sklep->statystyki.suma_sprzedazy = 0.0;
 	sklep->statystyki.utarg = 0.0;
 	sklep->statystyki.liczba_obsluzonych_klientow = 0;
-	//sklep->statystyki.suma_sprzedazy = 0.0;
 	sklep->statystyki.klienci_w_kolejce_do_stacjonarnej = 0;
 	sklep->czy_otwarte = 1;
 	sklep -> liczba_produktow = 32;
@@ -194,9 +199,10 @@ int main()
 		sklep->kasa_stato[i].czas_ostatniej_obslugi = time(NULL);
 	}
 
-	printf("\nKierownik: Uruchomiono %d terminali kas samoobslugowych.\n", KASY_SAMOOBSLUGOWE);
-
-	printf("\nKierownik: Wykładanie towaru na półki...\n");
+	//printf("\nKierownik: Uruchomiono %d terminali kas samoobslugowych.\n", KASY_SAMOOBSLUGOWE);
+	LOG_KIEROWNIK("Uruchomiono %d terminali kas samoobslugowych.\n", KASY_SAMOOBSLUGOWE);
+	//printf("\nKierownik: Wykładanie towaru na półki...\n");
+	LOG_KIEROWNIK("Wykładanie towaru na półki...\n");
 
 	for (int i =0; i < sklep->liczba_produktow; i++)
 	{
@@ -207,11 +213,12 @@ int main()
 		sklep ->produkty[i].cena = cennik[id_kategoria][id_konkretnego];
 		sklep ->produkty[i].sztuk = 50;
 	}
-	printf("\nKierownik: sklep zatowarowany\n");
-
+	//printf("\nKierownik: sklep zatowarowany\n");
+	LOG_KIEROWNIK("sklep zatowarowany\n");
 	if (fork() == 0)
 	{
-		printf("\n pracownik proszony na stanowisko\n");
+		//printf("\n pracownik proszony na stanowisko\n");
+		LOG_KIEROWNIK("pracownik proszony na stanowisko\n");
 		execlp("./pracownik", "pracownik",NULL);
 		exit(1);
 	}
@@ -220,7 +227,8 @@ int main()
 	kasjer1_pid = fork();
 	if (kasjer1_pid == 0)
 	{
-		printf("\n Kasjer 1 proszony o gotowosc\n");
+		//printf("\n Kasjer 1 proszony o gotowosc\n");
+		LOG_KIEROWNIK("Kasjer 1 proszony o gotowosc\n");
 		execlp("./kasjer", "kasjer","0", NULL);
 		exit(1);
 	}
@@ -229,7 +237,8 @@ int main()
 	kasjer2_pid = fork();
 	if (kasjer2_pid == 0)
 	{
-		printf("\n Kasjer 2 proszony o gotowosc\n");
+		//printf("\n Kasjer 2 proszony o gotowosc\n");
+		LOG_KIEROWNIK("Kasjer 2 proszony o gotowosc\n");
 		execlp("./kasjer", "kasjer","1", NULL);
 		exit(1);
 	}
@@ -247,16 +256,27 @@ int main()
 	}
 	sleep(1);
 
-	printf("\n sklep otwarty. PID %d\n", getpid());
-	printf("\nDostepne polecenia: "
-		"\n - kill -SIGUSR1 %d (Otworz Kase 2) "
-		"\n - kill -SIGUSR2 (Zamknij kase)"
-		"\n - SIGQUIT (ewakuacja)\n", getpid());
-
+	//printf("\n sklep otwarty. PID %d\n", getpid());
+	LOG_KIEROWNIK("Sklep otwarty. PID %d\n", getpid());
+	//printf("\nDostepne polecenia: "
+		//"\n - kill -SIGUSR1 %d (Otworz Kase 2) "
+		//"\n - kill -SIGUSR2 (Zamknij kase)"
+		//"\n - SIGQUIT (ewakuacja)\n", getpid());
+	LOG_KIEROWNIK("Dostepne polecenia:\n"
+		"-> kill -SIGUSR1 %d (Otworz Kase 2)\n"
+		"-> kill -SIGUSR2 %d (Zamknij kase)\n"
+		"-> kill -SIGQUIT %d (ewakuacja)\n", getpid(),getpid(),getpid());
 
 
 	while (CzyDziala == 1)
 	{
+
+		if (sklep->czy_otwarte == 0) {
+			LOG_KIEROWNIK("Generator zamknął sklep. Rozpoczynam procedurę zamykania.");
+			CzyDziala = 0;
+			break;
+		}
+
         waitSemafor(id_semafora, SEM_KASY, 0);
         int klienci_total = sklep->statystyki.liczba_klientow_w_sklepie;
 
@@ -283,7 +303,8 @@ int main()
                     sklep->kasy_samo[i].zablokowana = 0;
                     sklep->kasy_samo[i].aktualna_kwota = 0.0; // Reset
                     aktualne_czynne++;
-                    printf("\nKierownik: Otwieram kase samoobslugowa %d (Klienci: %d)\n", i, klienci_total);
+                    //printf("\nKierownik: Otwieram kase samoobslugowa %d (Klienci: %d)\n", i, klienci_total);
+                	LOG_KIEROWNIK("Otwieram kase samoobslugowa %d (Klienci: %d)\n", i, klienci_total);
                 }
             }
         }
@@ -295,7 +316,8 @@ int main()
                 for (int i = KASY_SAMOOBSLUGOWE - 1; i >= 0; i--) {
                     if (sklep->kasy_samo[i].otwarta && !sklep->kasy_samo[i].zajeta) {
                         sklep->kasy_samo[i].otwarta = 0;
-                        printf("\nKierownik: Zamykam kase samoobslugowa %d (Klienci: %d < Prog: %d)\n", i, klienci_total, prog_zamykania);
+                        //printf("\nKierownik: Zamykam kase samoobslugowa %d (Klienci: %d < Prog: %d)\n", i, klienci_total, prog_zamykania);
+                    	LOG_KIEROWNIK("Zamykam kase samoobslugowa %d (Klienci: %d < Prog: %d)\n", i, klienci_total, prog_zamykania);
                         break;
                     }
                 }
@@ -311,7 +333,8 @@ int main()
 		waitSemafor(id_semafora, SEM_KASY, 0);
 		if (kolejka_do_k1 > 3 && sklep->kasa_stato[0].otwarta == 0)
 		{
-			printf("\nKolejka do kasy nr1: %d. Otwieram kase...\n",kolejka_do_k1);
+			//printf("\nKolejka do kasy nr1: %d. Otwieram kase...\n",kolejka_do_k1);
+			LOG_KIEROWNIK("Kolejka do kasy nr1: %d. Otwieram kase...\n",kolejka_do_k1);
 			sklep->kasa_stato[0].otwarta = 1;
 			sklep->kasa_stato[0].zamykanie_w_toku = 0;
 			kill(kasjer1_pid, SIGUSR1);
@@ -331,7 +354,8 @@ int main()
 					double seconds = difftime(time(NULL), sklep->kasa_stato[j].czas_ostatniej_obslugi);
 					if (seconds > ZAMKNIJ_KASE_PO || sklep->kasa_stato[j].zamykanie_w_toku == 1)
 					{
-						printf("\nZamykam kase stacjonarna %d\n", j);
+						//printf("\nZamykam kase stacjonarna %d\n", j);
+						LOG_KIEROWNIK("Zamykam kase stacjonarna %d\n", j);
 						waitSemafor(id_semafora, SEM_KASY, 0);
 						sklep->kasa_stato[j].otwarta = 0;
 						sklep->kasa_stato[j].zamykanie_w_toku = 0;
@@ -353,23 +377,34 @@ int main()
 		sleep(1);
 	}
 
+	LOG_KIEROWNIK("Sygnal zamkniecia sklepu ->koniec\n");
+
+	waitSemafor(id_semafora, SEM_KASY, 0);
+	sklep->czy_otwarte = 0;
+	signalSemafor(id_semafora, SEM_KASY);
+
 	while (1)
 	{
-		if (sklep->statystyki.liczba_klientow_w_sklepie == 0)
+		waitSemafor(id_semafora, SEM_KASY, 0);
+		int ile = sklep->statystyki.liczba_klientow_w_sklepie;
+		signalSemafor(id_semafora, SEM_KASY);
+
+		if (ile <= 0)
 		{
-			printf("\nWszyscy klienci juz skonczyli zakupy, mozna zamykac\n");
+			LOG_KIEROWNIK("Sklep pusty. Wszyscy wyszli.");
 			break;
 		}
-		printf("\nczekam na ostatnich %d klientow\n", sklep->statystyki.liczba_klientow_w_sklepie);
+
+		printf("\r" ANSI_RED "[KIEROWNIK] Pozostało klientów: %d   " ANSI_RESET, ile);
+		fflush(stdout);
 		sleep(1);
 	}
-	wait(NULL);
-	printf("\nSygnal zamkniecia sklepu ->koniec\n");
-	printf("\nRAPORT KONCOWY:%04d-%02d-%02d\n---Utarg: %.2f---\n---Obsluzeni Klienci: %d---",
+	printf("\n");
+
+	LOG_KIEROWNIK("\nRAPORT KONCOWY:%04d-%02d-%02d\n---Utarg: %.2f---\n---Obsluzeni Klienci: %d---",
 		currentTime->tm_year + 1900, currentTime->tm_mon + 1, currentTime->tm_mday,
 			sklep->statystyki.utarg,
 			sklep->statystyki.liczba_obsluzonych_klientow);
-
 	FILE *f;
 	f = fopen("Raport-dnia", "a");
 	fprintf(f, "\nRAPORT KONCOWY:%04d-%02d-%02d\n---Utarg: %.2f---\n---Obsluzeni Klienci: %d---",
@@ -377,7 +412,8 @@ int main()
 			sklep->statystyki.utarg,
 			sklep->statystyki.liczba_obsluzonych_klientow);
 	fclose(f);
-	printf("\nKoniec pracy\n");
+	//printf("\nKoniec pracy\n");
+	LOG_KIEROWNIK("KONIEC PRACY\n");
 	kill(kasjer1_pid, SIGQUIT);
 	kill(kasjer2_pid, SIGQUIT);
 	for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {

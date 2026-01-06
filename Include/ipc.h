@@ -13,6 +13,31 @@
 
 #define FTOK_PATH "/tmp/dyskont_projekt"
 
+// Definicje kolorów ANSI
+#define ANSI_RESET   "\x1b[0m"
+#define ANSI_BOLD    "\x1b[1m"
+#define ANSI_RED     "\x1b[31m"      // Kierownik / Alarmy
+#define ANSI_GREEN   "\x1b[32m"      // Klient (zakupy)
+#define ANSI_YELLOW  "\x1b[33m"      // Pracownik
+#define ANSI_BLUE    "\x1b[34m"      // Kasjer
+#define ANSI_MAGENTA "\x1b[35m"      // Kasa Samoobsługowa
+#define ANSI_CYAN    "\x1b[36m"      // Generator / System
+#define ANSI_WHITE   "\x1b[37m"
+
+#define LOG_KIEROWNIK(fmt, ...) printf(ANSI_BOLD ANSI_RED     "[KIEROWNIK]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
+// Kasjer: Niebieski (Identyfikujemy go po ID)
+#define LOG_KASJER(id, fmt, ...) printf(ANSI_BLUE              "[KASJER %d]    " ANSI_RESET fmt "\n", id, ##__VA_ARGS__)
+// Klient: Zielony (Widać go wyraźnie)
+#define LOG_KLIENT(pid, fmt, ...) printf(ANSI_GREEN             "[KLIENT %d] " ANSI_RESET fmt, pid, ##__VA_ARGS__)
+// Kasa Samoobsługowa: Magenta (Terminal)
+#define LOG_KASA_SAMO(id, fmt, ...) printf(ANSI_MAGENTA           "[KASA SAMO %d] " ANSI_RESET fmt "\n", id, ##__VA_ARGS__)
+// Pracownik: Żółty (Obsługa techniczna/Towar)
+#define LOG_PRACOWNIK(fmt, ...) printf(ANSI_YELLOW            "[PRACOWNIK]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
+// Generator: Cyjan (Informacje systemowe o wchodzeniu)
+#define LOG_GENERATOR(fmt, ...) printf(ANSI_CYAN              "[GENERATOR]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
+// System: Biały (Raporty, start, stop)
+#define LOG_SYSTEM(fmt, ...)    printf(ANSI_BOLD ANSI_WHITE   "[SYSTEM]      " ANSI_RESET fmt "\n", ##__VA_ARGS__)
+
 //Global constants - stałe systemu
 #define KLIENCI 100
 #define MAX_PRODUKTOW 50
