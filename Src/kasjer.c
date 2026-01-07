@@ -12,12 +12,7 @@
 #include <sys/wait.h>
 int czyDziala = 1;
 int moje_id;
-volatile int status_pracy = 0; //volatile tells the compiler not to optimize anything that has to do with the volatile variable.
-/*There are at least three common reasons to use it, all involving situations where the value of the variable can change without action from the visible code:
-- When you interface with hardware that changes the value itself
-- when there's another thread running that also uses the variable
-- when there's a signal handler that might change the value of the variable.
- */
+volatile int status_pracy = 0;
 int id_pamieci;
 PamiecDzielona *sklep;
 
@@ -31,7 +26,6 @@ void cleanUpKasy()
     {
         sklep ->kasa_stato[moje_id].otwarta = 0;
         odlacz_pamiec_dzielona(sklep);
-        //printf("\nKasjer nr [%d] konczy zmiane, do zobaczenia w niedziele handlowa:\n)",moje_id);
         LOG_KASJER(moje_id + 1,"konczy zmiane, do zobaczenia w niedziele handlowa:\n)");
     }
 
@@ -41,11 +35,9 @@ void cleanUpKasy()
 void ObslugaSygnalu(int sig) {
     if (sig == SIGUSR1) {
         status_pracy = 1;
-        // printf("\nKasjer %d Zaczynam prace.\n", moje_id);
     }
     else if (sig == SIGUSR2) {
         status_pracy = 0;
-        // printf("\nKasjer %d Koncze prace.\n", moje_id);
     }
     else if (sig == SIGQUIT) { exit(0); }
 }
@@ -53,10 +45,13 @@ void ObslugaSygnalu(int sig) {
 int main (int argc, char *argv[])
 {
     setbuf(stdout, NULL);
+    signal(SIGINT, SIG_IGN);
+    signal(SIGUSR1, ObslugaSygnalu);
+    signal(SIGUSR2, ObslugaSygnalu);
+    signal(SIGQUIT, ObslugaSygnalu);
 
     if (argc < 2)
     {
-        //printf("\nbrak argumentu od kierownika\n");
         LOG_SYSTEM("brak argumentu od kierownika\n");
         exit(1);
     }
@@ -72,20 +67,18 @@ int main (int argc, char *argv[])
     }
 
 
-    id_pamieci = podlacz_pamiec_dzielona();  //shmget
+    id_pamieci = podlacz_pamiec_dzielona();
     if (id_pamieci == -1)
     {
         perror("\nblad podlacz_pamiec_dzielona\n");
         exit(1);
     }
-    sklep = mapuj_pamiec_dzielona(id_pamieci); //shmat, trzeba było stworzyc wskaznik na sklep!!!(PamiecDzielona* sklep)
+    sklep = mapuj_pamiec_dzielona(id_pamieci);
 
     id_semafora = alokujSemafor(klucz, 3, 0);
     id_kolejki = stworzKolejke();
 
-    signal(SIGUSR1, ObslugaSygnalu);
-    signal(SIGUSR2, ObslugaSygnalu);
-    signal(SIGQUIT, ObslugaSygnalu);
+
 
     struct messg_buffer msg;
     long moj_typ_nasluchu = moje_id +KANAL_KASJERA_OFFSET;
@@ -94,18 +87,22 @@ int main (int argc, char *argv[])
     status_pracy = sklep->kasa_stato[moje_id].otwarta;
     signalSemafor(id_semafora,SEM_KASY);
 
-    //printf("\nkasjer [%d] zaczyna prace (typ nasluchu: %ld)\n",moje_id + 1, moj_typ_nasluchu);
     LOG_KASJER(moje_id + 1,"zaczyna prace (typ nasluchu: %ld)\n", moj_typ_nasluchu);
     while (1)
     {
-        if (status_pracy == 0)
+        waitSemafor(id_semafora, SEM_KOLEJKI, 0);
+        int liczba_w_kolejce = sklep->kolejka_stato[moje_id].rozmiar;
+        signalSemafor(id_semafora, SEM_KOLEJKI);
+
+        //sprawdzenie czy na pewno kasa moze zostac zamknieta
+        if (status_pracy == 0 && liczba_w_kolejce == 0)
         {
            pause();
-            //printf("\notrzymalem sygnal,  wznawiam prace\n");
             LOG_KASJER(moje_id+1, "otrzymalem sygnal,  wznawiam prace\n");
             continue;
         }
 
+        //obsluga klientow az do ostatniego nawet po sygnale o zamknieciu kasy
         pid_t klient_pid = 0;
         waitSemafor(id_semafora, SEM_KOLEJKI, 0);
         if (sklep->kolejka_stato[moje_id].rozmiar > 0)
@@ -114,9 +111,14 @@ int main (int argc, char *argv[])
         }
         signalSemafor(id_semafora, SEM_KOLEJKI);
 
+        if (klient_pid == 0)
+        {
+            usleep(200000);
+            continue;
+        }
+
         if (klient_pid >0)
         {
-            //printf("Kasjer %d Wolam klienta %d do kasy.\n", moje_id+1, klient_pid);
             LOG_KASJER(moje_id+1, "Wolam klienta %d do kasy.\n", klient_pid);
 
             waitSemafor(id_semafora, SEM_KASY, 0);
@@ -132,7 +134,6 @@ int main (int argc, char *argv[])
 
             //oczekiwanie na paragon
             OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
-            //printf("\nKasjer %d Zakupy od Klienta %d na: %.2f zl\n", moje_id+1, msg.ID_klienta, msg.kwota);
             LOG_KASJER(moje_id +1,"Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
             sleep(2);//symalacja kasowania
 
@@ -145,7 +146,7 @@ int main (int argc, char *argv[])
             msg.mesg_type = (long)klient_pid;
             msg.kwota = -1.0;
             WyslijDoKolejki(id_kolejki, &msg);
-            //printf("\nObsluzylem klienta %d\n", msg.ID_klienta);
+
             LOG_KASJER(moje_id+1, "obsluzylem klienta %d\n",msg.ID_klienta);
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasa_stato[moje_id].zajeta = 0;

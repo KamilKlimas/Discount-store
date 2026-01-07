@@ -97,7 +97,6 @@ int main()
         }
 
         if (przerwanie) {
-            //printf("\nWykryto EWAKUACJE w trakcie czekania! Uciekam.\n");
             LOG_GENERATOR("Wykryto EWAKUACJE w trakcie czekania! Uciekam.\n");
             break;
         }
@@ -108,11 +107,10 @@ int main()
         pid = fork();
         if (pid == 0)
         {
-            //printf("\nStworzono proces potomny\n");
             LOG_GENERATOR("Stworzono proces potomny\n");
             execlp("./klient","klient", NULL);
 
-            if (1) //jesli tutaj dotartł to klient nie istnieje -> moze byc bez ifa ale niech se ten if bedzie
+            if (1)
             {
                 perror("\nNie ma pliku klienta\nnn");
                 exit(1);
@@ -129,23 +127,20 @@ int main()
         }
     }
 
-    //printf("\nWszyscy klienci sobie zyja, czekam az skoncza zakupy\n");
     LOG_GENERATOR("Wszyscy klienci sobie zyja, czekam az skoncza zakupy\n");
     for (int j=0; j <KLIENCI; j++)
     {
         if (sklep->czy_otwarte == 0)
         {
-            //printf("Sklep zamknięty, nie wpuszczam więcej osób.\n");
             LOG_GENERATOR("Sklep zamknięty, nie wpuszczam więcej osób.\n");
             break;
         }
-        while(wait(NULL) > 0);
     }
-    //printf("\nSklep pusty, zamykam generator\n");
+
+    while(wait(NULL) > 0);
     LOG_GENERATOR("Sklep pusty, zamykam generator\n");
     return 0;
 
 
 
 }
-///

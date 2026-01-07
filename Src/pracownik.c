@@ -2,13 +2,6 @@
 // Created by kamil-klimas on 10.12.2025.
 //
 
-//funkcje:
-/*
-    - dokladanie towaru na polki
-    - odblokuj kase
-    - weryfikacja wieku
-*/
-
 #include "ipc.h"
 #include <stdio.h>
 #include <signal.h>
@@ -24,7 +17,7 @@ PamiecDzielona *sklep;
 int id_semafora;
 
 void ObslugaSygnalu(int signal){
-    //printf("\nOtrzymano sygnal zakonczenia pracy\n");
+    (void)signal;
     LOG_PRACOWNIK("Otrzymano sygnal zakonczenia pracy\n" );
     dzialaj = 0;
 }
@@ -33,8 +26,7 @@ void ewakuacja(int signalNum)
 {
     if (signalNum == SIGQUIT)
     {
-        //printf("\nEWAKUACJA\n");
-        LOG_PRACOWNIK("EWAKUACJA\n");
+        LOG_PRACOWNIK("KONIEC PRACY\n");
         exit(0);
     }
 }
@@ -43,6 +35,8 @@ void ewakuacja(int signalNum)
 int main()
 {
     setbuf(stdout, NULL);
+    signal(SIGINT, SIG_IGN);
+    signal(SIGQUIT, ewakuacja);
 
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
     if (klucz == -1)
@@ -61,23 +55,11 @@ int main()
     sklep = mapuj_pamiec_dzielona(id_pamieci);
 
     id_semafora = alokujSemafor(klucz, 3, 0);
-    signal(SIGINT, ObslugaSygnalu);
-    signal(SIGQUIT, ewakuacja);
+
 
 
     while (dzialaj ==1)
     {
-        for (int i=0; i < sklep->liczba_produktow; i++)
-        {
-            waitSemafor(id_semafora, SEM_KASY, 0);
-            if (sklep->produkty[i].sztuk < 35)
-            {
-                sklep->produkty[i].sztuk = 50;
-                //printf("\nPracownik %d: Uzupelnilem %s do 50 sztuk\n", getpid(), sklep->produkty[i].nazwa);
-                LOG_PRACOWNIK("%d: Uzupelnilem %s do 50 sztuk\n", getpid(), sklep->produkty[i].nazwa);
-            }
-            signalSemafor(id_semafora, SEM_KASY);
-        }
         for (int j=0; j < KASY_SAMOOBSLUGOWE; j++)
         {
             waitSemafor(id_semafora, SEM_KASY, 0);
@@ -86,17 +68,35 @@ int main()
 
             if (czy_zablokowana == 1)
             {
-                sleep(2);
-                //printf("\nPracownik %d: Dotarlem na miejsce i odblokowywuje kase %d\n",getpid(),j);
+                sleep(1);
                 LOG_PRACOWNIK("Dotarlem na miejsce i odblokowywuje kase %d\n",j);
                 waitSemafor(id_semafora, SEM_KASY, 0);
                 sklep->kasy_samo[j].zablokowana = 0;
+                sklep->kasy_samo[j].alkohol = 0;
                 signalSemafor(id_semafora, SEM_KASY);
             }
 
         }
-        usleep(200000);
+
+        if (sklep->czy_otwarte == 1)
+        {
+            for (int i=0; i < sklep->liczba_produktow; i++)
+            {
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                if (sklep->produkty[i].sztuk < 35)
+                {
+                    sklep->produkty[i].sztuk = 50;
+                    LOG_PRACOWNIK("%d: Uzupelnilem %s do 50 sztuk\n", getpid(), sklep->produkty[i].nazwa);
+                }
+                signalSemafor(id_semafora, SEM_KASY);
+
+            }
+            usleep(200000);
+        }else
+        {
+            usleep(100000);
+        }
     }
     odlacz_pamiec_dzielona(sklep);
     return 0;
-}////
+}

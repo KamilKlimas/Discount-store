@@ -25,26 +25,20 @@
 #define ANSI_WHITE   "\x1b[37m"
 
 #define LOG_KIEROWNIK(fmt, ...) printf(ANSI_BOLD ANSI_RED     "[KIEROWNIK]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
-// Kasjer: Niebieski (Identyfikujemy go po ID)
 #define LOG_KASJER(id, fmt, ...) printf(ANSI_BLUE              "[KASJER %d]    " ANSI_RESET fmt "\n", id, ##__VA_ARGS__)
-// Klient: Zielony (Widać go wyraźnie)
 #define LOG_KLIENT(pid, fmt, ...) printf(ANSI_GREEN             "[KLIENT %d] " ANSI_RESET fmt, pid, ##__VA_ARGS__)
-// Kasa Samoobsługowa: Magenta (Terminal)
 #define LOG_KASA_SAMO(id, fmt, ...) printf(ANSI_MAGENTA           "[KASA SAMO %d] " ANSI_RESET fmt "\n", id, ##__VA_ARGS__)
-// Pracownik: Żółty (Obsługa techniczna/Towar)
 #define LOG_PRACOWNIK(fmt, ...) printf(ANSI_YELLOW            "[PRACOWNIK]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
-// Generator: Cyjan (Informacje systemowe o wchodzeniu)
 #define LOG_GENERATOR(fmt, ...) printf(ANSI_CYAN              "[GENERATOR]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
-// System: Biały (Raporty, start, stop)
 #define LOG_SYSTEM(fmt, ...)    printf(ANSI_BOLD ANSI_WHITE   "[SYSTEM]      " ANSI_RESET fmt "\n", ##__VA_ARGS__)
 
 //Global constants - stałe systemu
-#define KLIENCI 100
+#define KLIENCI 100 // <- ilosc klientow dla generatora
 #define MAX_PRODUKTOW 50
-#define KASY_SAMOOBSLUGOWE 6
+#define KASY_SAMOOBSLUGOWE 6 // <- wymaganie dla kas
 #define KASY_STACJONARNE 2
 #define MIN_PRODUKTOW_KOSZYK 3
-#define SZANSA_SAMOOBSLUGA 85
+#define SZANSA_SAMOOBSLUGA 95
 
 #define KANAL_KASJERA_OFFSET 100
 
@@ -54,8 +48,8 @@
 #define MIN_CZYNNYCH_KAS_SAMO 3
 
 //Staffed checkout - kasa stacjonarna
-#define OTWORZ_KASE_1_PRZY 3 // >=3 customers in queue - >=3 klientow w kolejce
-#define ZAMKNIJ_KASE_PO 30// 30 sec waittime without customers - 30 sekund oczekiwania brak klientow
+#define OTWORZ_KASE_1_PRZY 3 //>=3 customers in queue - >=3 klientow w kolejce
+#define ZAMKNIJ_KASE_PO 30 //30 sec waittime without customers - 30 sekund oczekiwania brak klientow
 #define MAX_CZAS_OCZEKIWANIA 10 // T
 
 //Kolejka do kas
@@ -69,7 +63,7 @@
 
 #define KATEGORIE 8
 #define LICZBA_PRODUKTOW 32
-static const char* nazwy_kategorii[KATEGORIE] = {
+static const char* nazwy_kategorii[KATEGORIE] __attribute__((unused)) = {
 	"Owoce",
 	"Warzywa",
 	"Pieczywo",
@@ -100,7 +94,6 @@ typedef struct {
 	pid_t pid;
 	int id;
 	time_t czas_wejscia;
-//dopisz potem do usypiania + rodzic dziecko
 } KlientWKolejce;
 
 //FIFO
@@ -145,7 +138,6 @@ typedef struct {
 	float paragon_klienta;
 	double utarg;
 	int klienci_w_kolejce_do_stacjonarnej;
-	//rodzicdziecko, zasniecia ??
 } StatystykiGlobalne;
 
 //struktura IPC (pamiec dielona)
@@ -154,7 +146,7 @@ typedef struct {
 	KasaSamoobslugowa kasy_samo[KASY_SAMOOBSLUGOWE];
 	KasaStacjonarna kasa_stato[KASY_STACJONARNE ];
 
-	KolejkaKlientow kolejka_samoobsluga;
+	KolejkaKlientow kolejka_samoobsluga; //<- wspolna kolejka do kas samoobslugowych
 	KolejkaKlientow kolejka_stato[KASY_STACJONARNE ];
 
 	int czy_otwarte;
@@ -173,17 +165,6 @@ struct messg_buffer
 	int ID_klienta;
 };
 
-/*
-This function has three or four arguments, depending on op.  When
-there are four, the fourth has the type union semun.  The calling
-program must define this union as follows:
-*/
-//union semun {
-//	int val;    /* Value for SETVAL */
-//	struct semid_ds *buf;    /* Buffer for IPC_STAT, IPC_SET */
-//	unsigned short  *array;  /* Array for GETALL, SETALL */
-//	struct seminfo  *__buf;  /* Buffer for IPC_INFO, (Linux-specific) */
-//};
 
 //FUNKCJE IPC
 key_t utworz_klucz(char id);
@@ -214,5 +195,3 @@ pid_t zdejmijZKolejkiFIFO(KolejkaKlientow *k);
 pid_t podejrzyjPierwszegoFIFO(KolejkaKlientow *k);
 int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k,pid_t pid);
 #endif
-
-//

@@ -10,12 +10,7 @@
 #include <unistd.h>
 #include <time.h>
 
-/*
- *msgflg – flagi specyfikujące zachowanie się funkcji w warunkach nietypowych Wartość ta
- *może być ustawiona na 0 lub IPC_NOWAIT (jeśli kolejka komunikatów jest pełna wtedy wiadomość nie jest
- *zapisywana do kolejki, a sterowanie wraca do procesu. Gdyby flaga nie była ustawiona, proces jest wstrzymywany tak
- *długo, aż zapis wiadomości nie będzie możliwy)
- */
+
 
 key_t utworz_klucz(char id)
 {
@@ -93,8 +88,6 @@ int alokujSemafor(key_t klucz, int number, int flagi)
 
 void inicjalizujSemafor(int semID, int number, int val)
 {
-    //union semun arg;
-    //arg.val = val;
     if (semctl(semID, number, SETVAL, val) ==-1)
     {
         perror("Blad semctl(inicjalizujSemafor): ");
@@ -116,12 +109,13 @@ int waitSemafor(int semID, int number, int flagi)
     //printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n z id %d", getpid(), number, semID);
     if (semop(semID, operacje, 1) == -1)
     {
-        perror("semop(waitSemafor): ");
+        //perror("semop(waitSemafor): ");
         exit(0);
     }
 
     return 1;
 }
+
 //operacja V (oddaj/podnies)
 void signalSemafor(int semID, int number)
 {
@@ -131,7 +125,7 @@ void signalSemafor(int semID, int number)
     operacje[0].sem_flg = 0; //wczesniej SEM_UNDO wykrzaczało klienta bo usuwalo ostatni signal (inreverse)
     if (semop(semID, operacje, 1) == -1)
     {
-        perror("semop(postSemafor): ");
+        //perror("semop(postSemafor): ");
         exit(1);
     }
     //printf(" <- [PID %d] ZWALNIAM semafor nr %d\n", getpid(), number);
@@ -173,11 +167,11 @@ int OdbierzZKolejki(int msgid, struct messg_buffer *msg,  long typ_adresata)
     int odebrana = msgrcv(msgid, msg, rozmiar, typ_adresata,0);
     if (odebrana == -1)
     {
-        perror("msgrcv");
+        //perror("msgrcv");
         exit(EXIT_FAILURE);
     }
     return odebrana;
-}//
+}
 
 void usun_kolejke(int msgid)
 {
@@ -251,4 +245,3 @@ int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k, pid_t pid)
 
     return 1;
 }
-///
