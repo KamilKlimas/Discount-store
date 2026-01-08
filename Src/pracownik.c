@@ -64,16 +64,35 @@ int main()
         {
             waitSemafor(id_semafora, SEM_KASY, 0);
             int czy_zablokowana= sklep->kasy_samo[j].zablokowana;
+            int status_alko = sklep->kasy_samo[j].alkohol;
+            int wiek_klienta = sklep->kasy_samo[j].wiek_klienta;
             signalSemafor(id_semafora, SEM_KASY);
 
             if (czy_zablokowana == 1)
             {
                 sleep(1);
-                LOG_PRACOWNIK("Dotarlem na miejsce i odblokowywuje kase %d\n",j);
-                waitSemafor(id_semafora, SEM_KASY, 0);
-                sklep->kasy_samo[j].zablokowana = 0;
-                sklep->kasy_samo[j].alkohol = 0;
-                signalSemafor(id_semafora, SEM_KASY);
+                if (status_alko == 1)
+                {
+                    LOG_PRACOWNIK("Weryfikacja wieku przy kasie %d. Klient ma %d lat.\n", j, wiek_klienta);
+
+                    waitSemafor(id_semafora, SEM_KASY, 0);
+                    if (wiek_klienta < 18) {
+                        LOG_PRACOWNIK("NIELETNI! Zabieram alkohol z kasy %d i odkładam na półkę.\n", j);
+                        sklep->kasy_samo[j].alkohol = -1;
+                    } else {
+                        LOG_PRACOWNIK("Pełnoletni (OK). Zatwierdzam alkohol na kasie %d.\n", j);
+                        sklep->kasy_samo[j].alkohol = 2;
+                    }
+                    sklep->kasy_samo[j].zablokowana = 0;
+                    signalSemafor(id_semafora, SEM_KASY);
+                }
+                else
+                {
+                    LOG_PRACOWNIK("Usuwam awarię techniczną przy kasie %d\n", j);
+                    waitSemafor(id_semafora, SEM_KASY, 0);
+                    sklep->kasy_samo[j].zablokowana = 0;
+                    signalSemafor(id_semafora, SEM_KASY);
+                }
             }
 
         }

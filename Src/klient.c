@@ -49,8 +49,6 @@ int main()
     pid = getpid();
     srand(pid^czas);
 
-    double moj_rachunek = 0.0;
-
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
     if (klucz == -1)
     {
@@ -77,10 +75,13 @@ int main()
 
     int ile_prod = (rand() % 8) + 1;
     char **paragon = malloc(ile_prod * sizeof(char*));
-    if (paragon == NULL) {
-        perror("Brak pamieci na paragon");
+    char *koszyk_id = malloc(ile_prod * sizeof(int));
+    if (paragon == NULL || koszyk_id == NULL) {
+        perror("Brak pamieci");
         exit(1);
     }
+    int wiek = (rand()%57) + 14; //14-70 lat
+    double moj_rachunek = 0.0;
 
     usleep(rand()%2000000 + 1000000); //1-3 sekundy chodzenia
 
@@ -98,13 +99,17 @@ int main()
             moj_rachunek+= sklep->produkty[indeks].cena;
             //LOG_KLIENT(pid,"Zostalo [%d] sztuk [%s]\n", sklep->produkty[indeks].sztuk, sklep->produkty[indeks].nazwa);
             paragon[i] = sklep->produkty[indeks].nazwa;
+            koszyk_id[i] = indeks;
+
         }else
         {
             LOG_KLIENT(pid,"Brak towaru: [%s]\n", sklep->produkty[indeks].nazwa);
+            koszyk_id[i] = -1;
+            paragon[i] = NULL;
         }
 
         signalSemafor(id_semafora, SEM_KASY);
-        usleep(500000);
+        usleep(300000);
     }
 
     int tryb = (rand() % 100 < SZANSA_SAMOOBSLUGA) ? 1 : 2;
@@ -182,8 +187,9 @@ int main()
             {
 
                 sklep->kasy_samo[nr_kasy].zablokowana = 1;
-                sklep->kasy_samo[nr_kasy].alkohol = alkohol;
-                LOG_KLIENT(pid, "Weryfikacja wieku na kasie %d\n",nr_kasy);
+                sklep->kasy_samo[nr_kasy].alkohol = 1;
+                sklep->kasy_samo[nr_kasy].wiek_klienta = wiek;
+                LOG_KLIENT(pid, "Weryfikacja wieku na kasie (Alkohol w koszyku) %d\n",nr_kasy);
 
             }
             if (awaria > 90) //blokada kasy samoobslugowej
@@ -201,8 +207,32 @@ int main()
                 signalSemafor(id_semafora, SEM_KASY);
                 if(!blok) break;
             }
-            LOG_KLIENT(pid,"Kasa odblokowana.\n");
         }
+
+        //<-sprawdzenie czy klient jest zmuszony oddac alkohol
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        int status_alko = sklep->kasy_samo[nr_kasy].alkohol;
+
+        if (alkohol == 1 && status_alko == -1) //<- (-1) oznacza odrzucenie przez pracownika
+        {
+            LOG_KLIENT(pid, "Odmowa! Oddaję alkohol, kupuję resztę.\n");
+
+            for (int k =0; k < ile_prod; k++)
+            {
+                int id_prod = koszyk_id[k];
+                if (id_prod == -1 && exists(alkohol_lista,4,id_prod))
+                {
+                    sklep->produkty[id_prod].sztuk +=1;
+                    moj_rachunek -=sklep->produkty[id_prod].cena;
+                    koszyk_id[k] = -1;
+                }
+            }
+            if (moj_rachunek < 0) moj_rachunek = 0;
+            alkohol = 0;
+        }
+        sklep->kasy_samo[nr_kasy].alkohol = 0;
+        signalSemafor(id_semafora, SEM_KASY);
+        LOG_KLIENT(pid,"Kasa odblokowana, kontynuuję.\n");
 
         LOG_KLIENT(pid, "Przekazuję kwotę %.2f do terminala nr %d...\n", moj_rachunek, nr_kasy);
 
@@ -229,8 +259,9 @@ int main()
         LOG_KLIENT(pid,"[");
         for (int l = 0; l < ile_prod; l++)
         {
-            printf("%s ", paragon[l]);
-            if (l < ile_prod-1) printf(", ");
+            if (koszyk_id[l] != -1 && paragon[l] != NULL) {
+                printf("%s, ", paragon[l]);
+            }
         }
         printf("] - Kwota zakupow to: %.2f\n", moj_rachunek);
 
@@ -242,7 +273,8 @@ int main()
     }
 
     //platnosc stacjonarna
-    if (tryb == 2 && !obsluzony) {
+    if (tryb == 2 && !obsluzony)
+    {
         // Wybierz kolejke (tam gdzie krocej) lub domyslnie K1, jesli K2 otwarta to mozna przejsc
         int wybrana_kasa = 0;
 
@@ -274,18 +306,18 @@ int main()
 
             if (czy_otwarta_sasiad && rozmiar_sasiada == 0 && rozmiar_mojej > 1)
             {
-                 usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
-                 wybrana_kasa = sasiad;
-                 dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
+                usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
+                wybrana_kasa = sasiad;
+                dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
 
-                 LOG_KLIENT(pid, "Zmieniam kolejkę! Przechodzę do kasy %d", wybrana_kasa);
+                LOG_KLIENT(pid, "Zmieniam kolejkę! Przechodzę do kasy %d", wybrana_kasa);
             }
             signalSemafor(id_semafora, SEM_KOLEJKI);
 
             waitSemafor(id_semafora, SEM_KASY, 0);
             if(sklep->statystyki.ewakuacja) {
-                 signalSemafor(id_semafora, SEM_KASY);
-                 exit(0);
+                signalSemafor(id_semafora, SEM_KASY);
+                exit(0);
             }
             signalSemafor(id_semafora, SEM_KASY);
 
@@ -293,26 +325,55 @@ int main()
         }
 
         // Odbieram wiadomosc skierowana do pid klienta
-            if (msg.kwota == 0) { // Zaproszenie
-                int id_kasjera = msg.ID_klienta;
-                // Wysylam paragon
+        if (msg.kwota == 0) { // Zaproszenie
+            int id_kasjera = msg.ID_klienta;
+            // Wysylam paragon
+            msg.mesg_type = id_kasjera + KANAL_KASJERA_OFFSET;
+            msg.ID_klienta = pid;
+            msg.kwota = moj_rachunek;
+            msg.wiek = wiek;
+            msg.ma_alkohol = alkohol;
+            WyslijDoKolejki(id_kolejki, &msg);
+
+            if (msg.kwota == -2.0) {
+                LOG_KLIENT(pid, "Kasjer odmówił sprzedaży alkoholu! Oddaję na półkę.\n");
+
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                for (int k=0; k < ile_prod; k++) {
+                    int id_prod = koszyk_id[k];
+                    if (id_prod != -1 && exists(alkohol_lista, 4, id_prod)) {
+                        sklep->produkty[id_prod].sztuk += 1;
+                        moj_rachunek -= sklep->produkty[id_prod].cena;
+                        koszyk_id[k] = -1;
+                    }
+                }
+                if (moj_rachunek < 0) moj_rachunek = 0;
+                alkohol = 0;
+                signalSemafor(id_semafora, SEM_KASY);
+
+                // Poprawiony rachunek wyslany do kasjera (bez alko)
                 msg.mesg_type = id_kasjera + KANAL_KASJERA_OFFSET;
                 msg.ID_klienta = pid;
                 msg.kwota = moj_rachunek;
+                msg.wiek = wiek;
+                msg.ma_alkohol = 0;
                 WyslijDoKolejki(id_kolejki, &msg);
 
-                // Czekam na potwierdzenie
                 OdbierzZKolejki(id_kolejki, &msg, (long)pid);
-                LOG_KLIENT(pid,"[");
-                for (int l = 0; l < ile_prod; l++)
-                {
-                    printf("%s ", paragon[l]);
-                    if (l < ile_prod-1) printf(", ");
+            }
+
+            LOG_KLIENT(pid,"[");
+            for (int l = 0; l < ile_prod; l++)
+            {
+                if (koszyk_id[l] != -1 && paragon[l] != NULL) {
+                    printf("%s, ", paragon[l]);
                 }
                 printf("] - Kwota zakupow to: %.2f\n", moj_rachunek);
             }
         }
+    }
     free(paragon);
+    free(koszyk_id);
     waitSemafor(id_semafora, SEM_KASY, 0);
     sklep->statystyki.liczba_klientow_w_sklepie--;
     signalSemafor(id_semafora, SEM_KASY);

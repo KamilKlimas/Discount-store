@@ -134,6 +134,22 @@ int main (int argc, char *argv[])
 
             //oczekiwanie na paragon
             OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
+
+            if (msg.ma_alkohol == 1 && msg.wiek < 18) {
+                LOG_KASJER(moje_id + 1, "Klient %d jest nieletni (%d lat)! Odmawiam sprzedaży alkoholu.", msg.ID_klienta, msg.wiek);
+
+                msg.mesg_type = (long)klient_pid;
+                msg.kwota = -2.0; //kod odrzucenia
+                WyslijDoKolejki(id_kolejki, &msg);
+
+                OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
+
+                LOG_KASJER(moje_id + 1, "Klient %d skorygował zakupy. Nowa kwota: %.2f", msg.ID_klienta, msg.kwota);
+            }
+            else if (msg.ma_alkohol == 1) {
+                LOG_KASJER(moje_id + 1, "Weryfikacja wieku pomyślna (%d lat). Sprzedaję alkohol.", msg.wiek);
+            }
+
             LOG_KASJER(moje_id +1,"Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
             sleep(2);//symalacja kasowania
 

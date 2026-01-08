@@ -111,7 +111,8 @@ typedef struct{
 	int zablokowana;
 	pid_t obslugiwany_klient;
 	int platnosc_w_toku;
-	int alkohol;
+	int alkohol; // 0 - brak, 1 - weryfikacja, 2 - zatwierdzony, -1 - odrzucony
+	int wiek_klienta;
 	float aktualna_kwota;
 } KasaSamoobslugowa;
 
@@ -163,6 +164,8 @@ struct messg_buffer
 	long mesg_type;
 	double kwota;
 	int ID_klienta;
+	int wiek;
+	int ma_alkohol;
 };
 
 
