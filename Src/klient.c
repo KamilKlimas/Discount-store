@@ -189,7 +189,7 @@ int main()
                 sklep->kasy_samo[nr_kasy].zablokowana = 1;
                 sklep->kasy_samo[nr_kasy].alkohol = 1;
                 sklep->kasy_samo[nr_kasy].wiek_klienta = wiek;
-                LOG_KLIENT(pid, "Weryfikacja wieku na kasie (Alkohol w koszyku) %d\n",nr_kasy);
+                LOG_KLIENT(pid, "Weryfikacja wieku na kasie %d (Alkohol w koszyku)\n",nr_kasy);
 
             }
             if (awaria > 90) //blokada kasy samoobslugowej
@@ -220,7 +220,7 @@ int main()
             for (int k =0; k < ile_prod; k++)
             {
                 int id_prod = koszyk_id[k];
-                if (id_prod == -1 && exists(alkohol_lista,4,id_prod))
+                if (id_prod != -1 && exists(alkohol_lista,4,id_prod))
                 {
                     sklep->produkty[id_prod].sztuk +=1;
                     moj_rachunek -=sklep->produkty[id_prod].cena;
@@ -255,15 +255,23 @@ int main()
             usleep(100000);
         }
 
-        //juz po skonczonej platnosci drukowanie "paragonu"
+        //juz po skonczonej platnosci drukowanie "paragonu
+        waitSemafor(id_semafora, SEM_KASY, 0);
         LOG_KLIENT(pid,"[");
+        int pierwszy = 1;
         for (int l = 0; l < ile_prod; l++)
         {
             if (koszyk_id[l] != -1 && paragon[l] != NULL) {
-                printf("%s, ", paragon[l]);
+                if (!pierwszy)
+                {
+                    printf(", ");
+                }
+                printf("%s", paragon[l]);
+                pierwszy = 0;
             }
         }
         printf("] - Kwota zakupow to: %.2f\n", moj_rachunek);
+        signalSemafor(id_semafora, SEM_KASY);
 
         // Zwolnij kase
         waitSemafor(id_semafora, SEM_KASY, 0);
@@ -286,7 +294,7 @@ int main()
         }
         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
         signalSemafor(id_semafora, SEM_KOLEJKI);
-        LOG_KLIENT(pid,"W kolejce do Stacjonarnej %d\n", wybrana_kasa);
+        LOG_KLIENT(pid,"W kolejce do Stacjonarnej %d\n", wybrana_kasa + 1);
         struct messg_buffer msg;
         while (1)
         {
@@ -302,15 +310,28 @@ int main()
 
             int rozmiar_mojej = sklep->kolejka_stato[wybrana_kasa].rozmiar;
             int rozmiar_sasiada = sklep->kolejka_stato[sasiad].rozmiar;
+
             int czy_otwarta_sasiad = (sasiad == 0) ? sklep->kasa_stato[0].otwarta : sklep->kasa_stato[1].otwarta;
+            int czy_moja_otwarta = sklep->kasa_stato[wybrana_kasa].otwarta;
 
-            if (czy_otwarta_sasiad && rozmiar_sasiada == 0 && rozmiar_mojej > 1)
+            if (czy_otwarta_sasiad && rozmiar_sasiada == 0)
             {
-                usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
-                wybrana_kasa = sasiad;
-                dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
+                int uciekam = 0;
 
-                LOG_KLIENT(pid, "Zmieniam kolejkę! Przechodzę do kasy %d", wybrana_kasa);
+                if (czy_moja_otwarta && rozmiar_mojej > 1) uciekam = 1;
+                if (!czy_moja_otwarta && rozmiar_mojej > 0) uciekam = 1;
+
+                if (uciekam)
+                {
+                    if (usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid) == 1)
+                    {
+                        wybrana_kasa = sasiad;
+                        dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
+
+                        char* powod = czy_moja_otwarta ? "tłok" : "zamknięta";
+                        LOG_KLIENT(pid, "Zmieniam kolejkę! (Powód: %s) Ide do kasy %d\n", powod, wybrana_kasa + 1);
+                    }
+                }
             }
             signalSemafor(id_semafora, SEM_KOLEJKI);
 
@@ -362,6 +383,7 @@ int main()
                 OdbierzZKolejki(id_kolejki, &msg, (long)pid);
             }
 
+            waitSemafor(id_semafora, SEM_KASY, 0);
             LOG_KLIENT(pid,"[");
             for (int l = 0; l < ile_prod; l++)
             {
@@ -370,6 +392,7 @@ int main()
                 }
                 printf("] - Kwota zakupow to: %.2f\n", moj_rachunek);
             }
+            signalSemafor(id_semafora, SEM_KASY);
         }
     }
     free(paragon);

@@ -241,7 +241,17 @@ int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k, pid_t pid)
         return 1;
     }
 
-    k->klienci[idx].pid = 0;
+    int iterator = idx;
+
+    while (iterator != (k->koniec - 1 + MAX_DLUGOSC_KOLEJKI) % MAX_DLUGOSC_KOLEJKI)
+    {
+        int next = (iterator + 1) % MAX_DLUGOSC_KOLEJKI;
+        k->klienci[iterator] = k->klienci[next];
+        iterator = next;
+    }
+
+    k->koniec = (k->koniec - 1 + MAX_DLUGOSC_KOLEJKI) % MAX_DLUGOSC_KOLEJKI;
+    k->rozmiar -= 1;
 
     return 1;
 }
