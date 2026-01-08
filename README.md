@@ -16,10 +16,18 @@
 ---  
   
     
-## 1. Opis zadania (Temat 16 - Dyskont)
+## 1. Opis zadania, oraz uruchomienie:
   
-    
+ ### 1. Opis zadania:
 Projekt stanowi symulację działania dyskontu spożywczego w systemie Linux, wykorzystującą mechanizmy **IPC Systemu** (*pamięć dzieloną, semafory, kolejki komunikatów*) oraz procesy potomne. Symulacja uwzględnia dynamiczne zarządzanie kasami, zachowanie klientów, weryfikacje wieku w przypadku zakópów zawierających alkohol oraz interwencje obsługi.
+
+### 2. Uruchomienie dyskontu:
+```bash
+make
+chmod +x start_symulacji.sh
+
+./start_symulacji.sh
+```
 
 ---
 ## 2. Zalożenia projektu:
@@ -68,11 +76,17 @@ Slużą do adresowania wiadomości do konkretnych procesów:
 **- Aktywne oczekiwanie i zmiana kolejki:**
 Klient w kasie stacjonarnej nie blokuje się na stałe (`msgrcv` bez flagi), lecz stosuje *aktywne oczekiwanie* dzięki fladze `IPC_NOWAIT`. Pozwala to na monitorowanie otoczenia i zmianę kolejki, jeśli sąsiednia kasa jest  pusta.
  * Logika algorytmu:
- * 1. Sprawdź czy kasjer mnie woła.
- * 2. Jeśli nie -> sprawdź czy sąsiad jest otwarty i pusty.
- * 3. Jeśli tak -> przepisz się .
- * 4. Jeśli nie -> zaśnij na 200ms i powtórz.
-<img src="https://i.imgur.com/GftgEcC.png" height="110%">
+ * 1. Start/Sprawdzenie `msgrcv` (`IPC_NOWAIT`)
+   * Odebrano wiadomość? -> Tak: Przejdź do płatności
+   * Brak wiadomości? -> Zablokuj `SEM_KOLEJKI`
+ * 2. Czy zmieniać kolejke? (`sąsiad == pusty && sąsiad == otwarty`)
+   * Tak jeśli:
+      * W bieżącej kolejce jest za dużo klientów
+      * Bieżaca kasa jest zamknięta (*rozwiązanie problemu pułapki przedwczesnego otworzenia drugiej kasy, gdy 1 nie zdążyła się jeszcze uruchomić*)  
+ * 3. Jeśli nie: -> `usunZSrodkaFIFO()` (obecna) -> `dodajDoFIFO` (sąsiednia) -> Odblokuj `SEM_KOLEJKI` 
+ * 4. Jeśli nie -> Odblokuj `SEM_KOLEJKI`.
+ *  5. Czekaj 200ms -> wróć do punktu 1.
+<img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/schemat1logika.png" width="100%" height="110%">
 
 **-Dynamiczne skalowanie kas:**
 Kierownik w pętli głównej monitoruje liczbę klientów w sklepie i dostosowuje liczbę otwartych kas samoobsługowych zgodnie z ustalonymi założeniami.
@@ -80,7 +94,7 @@ Kierownik w pętli głównej monitoruje liczbę klientów w sklepie i dostosowuj
 * 1. **Otwieranie:** Jeśli ```aktualne_kasy < (klienci / K_KLIENTOW_NA_KASE)```
 * 2. **Zamykanie:** Jeśli `klienci < K_KLIENTOW_NA_KASE * (aktualne_kasy - 3)`
 * 3. **Warunek brzegowy:** Zawsze muszą działać minimum 3 kasy.
-<img src="https://i.imgur.com/GftgEcC.png" width="100%" height="110%">
+<img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/schemat2.png" width="100%" height="110%">
 
 ### 4.3 Protokół weryfikacji wieku:
 W przypadku zakupu alkoholu, proces klienta i pracownika/kasjera muszą sie zsynchronizować aby podjąć decyzję o sprzedaży.
@@ -165,3 +179,99 @@ WyslijPotwierdzenie(DO = PID_Klienta, Kod = -1.0)
 * *Rozwiązanie*: Wykorzystano pole mtype w strukturze komunikatu.
 Zaproszenie: Kasjer wysyła wiadomość o typie równym PID klienta.
 Paragon: Klient wysyła listę zakupów o typie ID_Kasjera + OFFSET. Dzięki temu każdy proces wyciąga z kolejki tylko te komunikaty, które są przeznaczone konkretnie dla niego.
+
+## 6. Elementy wyróżniające:
+
+**- Automatyczne uruchomienie symulacji:** Projekt wykorzystuje *skrypt Bash* aranżując sesję terminala `tmux`. Dzieli on automatycznie okno terminala na 4 niezależne panele uruchamiając w nich: proces `kierownik.c`, monitoring zasobów IPC w czasie rzeczywistym (`watch ipcs`) oraz dwie puste konsole (jedna do uruchomienia `generator.c`/`klient.c`, a druga do wysyłania sygnałów).
+
+**- Wizualna segregacja procesów:** Wykorzystano funkcję `printf` do formatowania wyjścia standardowego (`stdout`) przy użyciu kodów ANSI.
+
+## 7. Testy:
+* **Test 1:**  Protokół odmowy sprzedaży (scenariusz dla osoby niepełnoletniej `wiek < 18`)
+  * Oczekiwany rezultat: `kasjer.c`/`pracownik.c` loguje komunikat: `NIELETNI! Zabieram alkohol z kasy "X" i odkładam na półkę`. Proces sprawdzający nie kończy transakcji, lecz odsyła kod błędu (`-2.0`). Klient wtedy loguje: `Odmowa! Oddaje alkohol, kupuję resztę.`. Następna próba płatności z kwotą odliczoną o koszt alkoholu kończy się sukcesem.
+  * Wynik: Sukces.
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test1klient.png" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test1kierownik.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+* **Test 2:** Dynamiczne skalowanie (scenariusz dla nagłego skoku ilości w sklepie)
+  * Oczekiwany rezultat: `kierownik.c` wykrywa obciążenie i loguje: `Liczba klientow > Prog. Otwieram Kase Samoobsługową nr "X"`. Nowa kasa zmienia status w pamięci dzielonej. Gdy liczba klientów spadnie, `kierownik.c` loguje: `Zamykam Kase Samoobsługową nr "X"`, tym samym oszczędzając zasoby.
+  * Wynik: Sukces.
+  
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test2otwieranieKas.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test2zamykanieKas.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+* **Test 3:** Aktywne oczekiwanie (scenariusz dla dyskontu po użyciu `SIGUSR1`)
+  * Oczekiwany rezultat: Kierownik wysyłając sygnał otwarcia dodatkowej kasy (`kill -SIGUSR1 "PID"`), otwiera drugą kasę. Klienci wtedy stojący w kolejce do kasy X wykrywają zmiane statusu sąsiedniej kasy i jeśli zdecydują, że to słuszne (`kasaY.otwarta == 1 && kasaY.pusta == 1`) logują `Przechodzę do kasy Y`, a KasjerY ma ich poprawnie obsłużyć.
+  * Wynik: Sukces.
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test3SygnalOtwieranieKasy2.png" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test3KierownikOtwieranieKasy2.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test3zmianaKlienta4306.png" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test3KasjerdlaKlienta4306.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+* **Test 4:** Bezpieczne zamknięcie (scenariusz dla sytuacji, gdy kasa dostaje polecenie `SIGUSR2` ale w kolejce czekają jeszcze klienci do obsłużenia)
+  * Oczekiwany rezultat: Po ustawieniu sie kilku klientow w kasie stacjonarnej dostaje ona sygnał o zakończeniu swojego działania. Oczekiwanym od niej rozwiązaniem tej sytuacji jest obsłużenie wszystkich pozostałych klientów i dopiero przejście w stan uśpienia nie zostawiając przy tym procesów zombie.
+  * Wynik: Sukces.
+  <table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test4otworzenieKasy1.png" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test4ZamkniecieKasy1.png" width="100%">
+    </td>
+  </tr>
+  </table>
+
+* **Test 5:** Wyczyszczenie zasobów po ewakuacji (scenariusz dla sytuacji, gdy przy największym obciążeniu zostanie użyty sygnał `SIGQUIT`)
+  * Oczekiwany rezultat: Po otrzymaniu przez kierownika sygnału `SIGQUIT` wszystkie procesy potomne zostają zakończone, lista semaforów (`ipcs -s`) i pamięci dzielonej (`ipcs -m`) zostaje wyczyszczona.
+  * Wynik: Sukces.
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test5_sygnal.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test5_kierownik_generator_reakcja.png" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/img/test5_wynik.png" width="100%">
+    </td>
+  </tr>
+</table>
+	
