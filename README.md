@@ -286,15 +286,15 @@ Paragon: Klient wysyła listę zakupów o typie ID_Kasjera + OFFSET. Dzięki tem
   * `execlp()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/generator.c#L111) – Podmiana procesu na program klienta.
    
 **- Obsługa procesów i sygnały:** 
-   * `wait()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/generator.c#L140) – Czekanie na zakończenie procesów potomnych.
-    * `kill()`: [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/kierownik.c#L105) – Wysyłanie sygnałów (np. `SIGUSR1`, `SIGQUIT`).
-    * `signal()`: [Zobacz w kodzie (`Src/pracownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/pracownik.c#L39C7-L39C32) – Rejestracja obsługi sygnałów.
-    * `getpid()`: [Zobacz w kodzie (`Src/klient.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/klient.c#L49) – Pobranie Pid'u procesu.
+  * `wait()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/generator.c#L140) – Czekanie na zakończenie procesów potomnych.
+  * `kill()`: [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/kierownik.c#L105) – Wysyłanie sygnałów (np. `SIGUSR1`, `SIGQUIT`).
+  * `signal()`: [Zobacz w kodzie (`Src/pracownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/pracownik.c#L39C7-L39C32) – Rejestracja obsługi sygnałów.
+  * `getpid()`: [Zobacz w kodzie (`Src/klient.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/klient.c#L49) – Pobranie Pid'u procesu.
 
 **- Synchronizacja (semafory):**
    * `semget()`: (`alokujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L80) – Tworzenie semaforów.
    * `semctl()`: (`InicjalizujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L91) – Ustawianie wartości początkowej. 
-   * `semop()`: (`waitSemafor`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L110) – Operacja P (zablokuj). 
+   * `semop()`: (`waitSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L110) – Operacja P (zablokuj). 
    * `semop()`: (`signalSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L126) – Operacja V (odblokuj). 
   
 **- Pamięć dzielona:**
