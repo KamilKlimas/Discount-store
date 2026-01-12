@@ -311,7 +311,7 @@ Paragon: Klient wysyła listę zakupów o typie ID_Kasjera + OFFSET. Dzięki tem
   * `msgctl()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L178) – Usunięcie kolejki komunikatów. 
   
  **- Kolejki FIFO:**
-  * dodajDoKolejkiFIFO() : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L192) – Dodanie klienta. 
+  * `dodajDoKolejkiFIFO()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L192) – Dodanie klienta. 
   * `zdejmijZKolejkiFIFO()` :  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L207) – Pobranie klienta. 
 
  **- Obsługa błędów:**
