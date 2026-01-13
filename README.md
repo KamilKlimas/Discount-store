@@ -305,42 +305,42 @@ Paragon: Klient wysyła listę zakupów o typie ID_Kasjera + OFFSET. Dzięki tem
 ## 8. Funkcje systemowe i linki do kodu:
 
 **- Tworzenie i obsługa plików:**
-  * `fopen()` : [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/kierownik.c#L154) – Otwieranie pliku raportu.
-  * `fprint()`:  [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/kierownik.c#L429) – Zapis danych do raportu.
+  * `fopen()` : [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/kierownik.c#L154) – Otwieranie pliku raportu.
+  * `fprint()`:  [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/kierownik.c#L429) – Zapis danych do raportu.
  
  **- Tworzenie procesów:**
-  * `fork()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/generator.c#L118) – Tworzenie procesu klienta.
-  * `execlp()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/generator.c#L121) – Podmiana procesu na program klienta.
+  * `fork()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/generator.c#L118) – Tworzenie procesu klienta.
+  * `execlp()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/generator.c#L121) – Podmiana procesu na program klienta.
    
 **- Obsługa procesów i sygnały:** 
-  * `wait()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/generator.c#L157) – Czekanie na zakończenie procesów potomnych.
-  * `kill()`: [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/kierownik.c#L105) – Wysyłanie sygnałów (np. `SIGUSR1`, `SIGQUIT`).
-  * `signal()`: [Zobacz w kodzie (`Src/pracownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/d3154e4d2bf8e30c2c996d286791e9cb572ccb31/Src/pracownik.c#L39) – Rejestracja obsługi sygnałów.
-  * `getpid()`: [Zobacz w kodzie (`Src/klient.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/klient.c#L70) – Pobranie Pid'u procesu.
+  * `wait()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/generator.c#L157) – Czekanie na zakończenie procesów potomnych.
+  * `kill()`: [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/kierownik.c#L105) – Wysyłanie sygnałów (np. `SIGUSR1`, `SIGQUIT`).
+  * `signal()`: [Zobacz w kodzie (`Src/pracownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/pracownik.c#L39) – Rejestracja obsługi sygnałów.
+  * `getpid()`: [Zobacz w kodzie (`Src/klient.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/klient.c#L70) – Pobranie Pid'u procesu.
 
 **- Synchronizacja (semafory):**
-   * `semget()`: (`alokujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L82) – Tworzenie semaforów.
-   * `semctl()`: (`InicjalizujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L93) – Ustawianie wartości początkowej. 
-   * `semop()`: (`waitSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L112) – Operacja P (zablokuj). 
-   * `semop()`: (`signalSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L139) – Operacja V (odblokuj). 
+   * `semget()`: (`alokujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L82) – Tworzenie semaforów.
+   * `semctl()`: (`InicjalizujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L93) – Ustawianie wartości początkowej. 
+   * `semop()`: (`waitSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L112) – Operacja P (zablokuj). 
+   * `semop()`: (`signalSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L139) – Operacja V (odblokuj). 
   
 **- Pamięć dzielona:**
-  * `ftok()`:  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L19) – Generowanie klucza IPC. 
-  * `shmget()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L33) – Alokacja pamięci dzielonej. 
-  * `shmat()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L56) – Dołączenie pamięci. 
-  * `shmdt()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L67) – Odłączenie pamięci. 
-  * `shmctl()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L75) – Usunięcie segmentu pamięci. 
+  * `ftok()`:  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L19) – Generowanie klucza IPC. 
+  * `shmget()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L33) – Alokacja pamięci dzielonej. 
+  * `shmat()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L56) – Dołączenie pamięci. 
+  * `shmdt()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L67) – Odłączenie pamięci. 
+  * `shmctl()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L75) – Usunięcie segmentu pamięci. 
 
 **- Kolejki komunikatów:**
-  * `msgget()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L165) – Tworzenie kolejki. 
-  * `msgsnd()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L178) – Wysłanie komunikatu. 
-  * `msgrcv()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L191) – Odbiór komunikatu. 
-  * `msgctl()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L205) – Usunięcie kolejki komunikatów. 
+  * `msgget()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L165) – Tworzenie kolejki. 
+  * `msgsnd()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L178) – Wysłanie komunikatu. 
+  * `msgrcv()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L191) – Odbiór komunikatu. 
+  * `msgctl()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L205) – Usunięcie kolejki komunikatów. 
   
  **- Kolejki FIFO:**
-  * `dodajDoKolejkiFIFO()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L249) – Dodanie klienta. 
-  * `zdejmijZKolejkiFIFO()` :  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L264) – Pobranie klienta. 
+  * `dodajDoKolejkiFIFO()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L249) – Dodanie klienta. 
+  * `zdejmijZKolejkiFIFO()` :  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L264) – Pobranie klienta. 
 
  **- Obsługa błędów:**
-  * `perror()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L22) – Wypisywanie błędów systemowych. 
-  * `inputExceptionHandler()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/15be105aad2c796cc197e192a1b637c903e7aa97/Src/ipc.c#L316) – Walidacja danych wejścia standardowego.
+  * `perror()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L22) – Wypisywanie błędów systemowych. 
+  * `inputExceptionHandler()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/df5f8f2ed08d987561f0717f729e94c4aaa1a766/Src/ipc.c#L316) – Walidacja danych wejścia standardowego.
