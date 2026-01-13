@@ -32,8 +32,17 @@
 #define LOG_GENERATOR(fmt, ...) printf(ANSI_CYAN              "[GENERATOR]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
 #define LOG_SYSTEM(fmt, ...)    printf(ANSI_BOLD ANSI_WHITE   "[SYSTEM]      " ANSI_RESET fmt "\n", ##__VA_ARGS__)
 
+//#define TRYB_BEZ_SLEEP 1
+
+#ifdef TRYB_BEZ_SLEEP
+	#define SIM_SLEEP_US(x) do { (void)(x); sched_yield(); } while(0)
+	#define SIM_SLEEP_S(x) do { (void)(x); sched_yield(); } while(0)
+#else
+	#define SIM_SLEEP_US(x) usleep(x)
+	#define SIM_SLEEP_S(x) sleep(x)
+#endif
+
 //Global constants - stałe systemu
-#define KLIENCI 100 // <- ilosc klientow dla generatora
 #define MAX_PRODUKTOW 50
 #define KASY_SAMOOBSLUGOWE 6 // <- wymaganie dla kas
 #define KASY_STACJONARNE 2
@@ -42,6 +51,9 @@
 
 #define KANAL_KASJERA_OFFSET 100
 
+#define MARGINES_KOLEJKI_BAJTY 4096
+#define MAX_KLIENCI_W_SKLEPIE 80
+#define PROG_WZNOWIENIA 50
 
 //Dynamic checkout opening menagment - dynamiczne otwieranie kas
 #define K_KLIENTOW_NA_KASE 5 //For K customers 1 checkout - co K klientów 1 kasa
@@ -53,7 +65,7 @@
 #define MAX_CZAS_OCZEKIWANIA 10 // T
 
 //Kolejka do kas
-#define MAX_DLUGOSC_KOLEJKI 200
+#define MAX_DLUGOSC_KOLEJKI 300
 
 
 //semafory
@@ -188,6 +200,7 @@ int valueSemafor(int semID, int number);
 //funckje kolejka komunikatow
 int stworzKolejke();
 int WyslijDoKolejki(int msgid, struct messg_buffer *msg);
+int BezpieczneWyslanieKlienta(int msgid, struct messg_buffer *msg);
 int OdbierzZKolejki(int msgid, struct messg_buffer *msg,long typ_adresata);
 void usun_kolejke(int msgid);
 
@@ -197,4 +210,8 @@ int dodajDoKolejkiFIFO(KolejkaKlientow *k,pid_t pid);
 pid_t zdejmijZKolejkiFIFO(KolejkaKlientow *k);
 pid_t podejrzyjPierwszegoFIFO(KolejkaKlientow *k);
 int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k,pid_t pid);
+
+//Handler do walidacji danych wejsciowych
+int inputExceptionHandler(const char * komunikat);
+
 #endif

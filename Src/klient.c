@@ -9,6 +9,7 @@
 #include <sys/shm.h>
 #include <time.h>
 #include <unistd.h>
+#include <sched.h>
 
 int id_pamieci;
 int id_semafora;
@@ -36,8 +37,28 @@ int exists(int arr[], int size, int value)
 
 void Uciekaj(int sig) {
     (void)sig;
-    LOG_KLIENT(pid, "Slysze alarm! Rzucam koszyk i uciekam ze sklepu!\n");
+    //LOG_KLIENT(pid, "Slysze alarm! Rzucam koszyk i uciekam ze sklepu!\n");
     exit(0);
+}
+
+void WypiszParagon(char **paragon, int *koszyk_id, int ile_prod, double finalna_kwota) {
+    char bufor[2048];
+    int offset = 0;
+
+    bufor[0] = '\0';
+    offset += snprintf(bufor + offset, sizeof(bufor)-offset, "PARAGON: [ ");
+
+    int first = 1;
+    for (int i = 0; i < ile_prod; i++) {
+        if (koszyk_id[i] != -1 && paragon[i] != NULL) {
+            if (!first) offset += snprintf(bufor + offset, sizeof(bufor)-offset, ", ");
+            offset += snprintf(bufor + offset, sizeof(bufor)-offset, "%s", paragon[i]);
+            first = 0;
+        }
+    }
+    snprintf(bufor + offset, sizeof(bufor)-offset, " ] SUMA: %.2f PLN", finalna_kwota);
+
+    LOG_KLIENT(pid, "%s\n", bufor);
 }
 
 int main()
@@ -47,7 +68,7 @@ int main()
     signal(SIGINT, SIG_IGN);
 
     pid = getpid();
-    srand(pid^czas);
+    srand(pid^time(NULL));
 
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
     if (klucz == -1)
@@ -73,9 +94,10 @@ int main()
     sklep ->statystyki.liczba_klientow_w_sklepie += 1;
     signalSemafor(id_semafora, SEM_KASY);
 
-    int ile_prod = (rand() % 8) + 1;
+    int ile_prod = (rand() % 10) + 1;
     char **paragon = malloc(ile_prod * sizeof(char*));
-    char *koszyk_id = malloc(ile_prod * sizeof(int));
+    int *koszyk_id = malloc(ile_prod * sizeof(int));
+
     if (paragon == NULL || koszyk_id == NULL) {
         perror("Brak pamieci");
         exit(1);
@@ -83,7 +105,7 @@ int main()
     int wiek = (rand()%57) + 14; //14-70 lat
     double moj_rachunek = 0.0;
 
-    usleep(rand()%2000000 + 1000000); //1-3 sekundy chodzenia
+    SIM_SLEEP_US(rand()%2000000 + 1000000);
 
 
     for (int i =0; i < ile_prod;i++){
@@ -103,13 +125,13 @@ int main()
 
         }else
         {
-            LOG_KLIENT(pid,"Brak towaru: [%s]\n", sklep->produkty[indeks].nazwa);
+            //LOG_KLIENT(pid,"Brak towaru: [%s]\n", sklep->produkty[indeks].nazwa);
             koszyk_id[i] = -1;
             paragon[i] = NULL;
         }
 
         signalSemafor(id_semafora, SEM_KASY);
-        usleep(300000);
+        SIM_SLEEP_US(50000);
     }
 
     int tryb = (rand() % 100 < SZANSA_SAMOOBSLUGA) ? 1 : 2;
@@ -163,16 +185,16 @@ int main()
 
                 if (stacjo_otwarta)
                 {
-                    LOG_KLIENT(pid, "czekam za dlugo (>%ds)! Ide do stacjonarnej.\n",MAX_CZAS_OCZEKIWANIA);
+                    //LOG_KLIENT(pid, "czekam za dlugo (>%ds)! Ide do stacjonarnej.\n",MAX_CZAS_OCZEKIWANIA);
                     waitSemafor(id_semafora, SEM_KOLEJKI, 0);
-                    // + tryb = 2 <- jesli czas oczekuwania jest dluzszy niz T to klient idzie do kasy stacjonarnej
+                    //tryb = 2 <- jesli czas oczekuwania jest dluzszy niz T to klient idzie do kasy stacjonarnej
                     usunZSrodkaKolejkiFIFO(&sklep->kolejka_samoobsluga, pid);
                     signalSemafor(id_semafora, SEM_KOLEJKI);
                     tryb = 2;
                     break;
                 }
             }
-            usleep(200000);
+            SIM_SLEEP_US(200000);
         }
     }
 
@@ -201,11 +223,14 @@ int main()
 
             //czekanie na interwencje pracownik.c zeby zmienił flage z .zablokowana = 1 na 0
             while(1) {
-                sleep(1);
+                //sleep(1);
                 waitSemafor(id_semafora, SEM_KASY, 0);
                 int blok = sklep->kasy_samo[nr_kasy].zablokowana;
                 signalSemafor(id_semafora, SEM_KASY);
                 if(!blok) break;
+
+                sched_yield();
+                SIM_SLEEP_US(200000);
             }
         }
 
@@ -234,50 +259,50 @@ int main()
         signalSemafor(id_semafora, SEM_KASY);
         LOG_KLIENT(pid,"Kasa odblokowana, kontynuuję.\n");
 
-        LOG_KLIENT(pid, "Przekazuję kwotę %.2f do terminala nr %d...\n", moj_rachunek, nr_kasy);
-
-        waitSemafor(id_semafora, SEM_KASY, 0);
-        sklep->kasy_samo[nr_kasy].obslugiwany_klient = pid; // Podpisz się
-        sklep->kasy_samo[nr_kasy].aktualna_kwota = moj_rachunek; // Wprowadź kwotę
-        signalSemafor(id_semafora, SEM_KASY);
-
-        while (1) {
+       // LOG_KLIENT(pid, "Przekazuję kwotę %.2f do terminala nr %d...\n", moj_rachunek, nr_kasy);
+        if (moj_rachunek > 0.001)
+        {
             waitSemafor(id_semafora, SEM_KASY, 0);
-            float czy_juz = sklep->kasy_samo[nr_kasy].aktualna_kwota;
+            sklep->kasy_samo[nr_kasy].obslugiwany_klient = pid; // Podpisz się
+            sklep->kasy_samo[nr_kasy].aktualna_kwota = moj_rachunek; // Wprowadź kwotę
             signalSemafor(id_semafora, SEM_KASY);
 
-            if (czy_juz == 0.0) {
-                LOG_KLIENT(pid,"Terminal potwierdził płatność. Zabieram paragon.\n");
-                break;
-            }
-            if (sklep->statystyki.ewakuacja) break;
+            while (1) {
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                float czy_juz = sklep->kasy_samo[nr_kasy].aktualna_kwota;
+                signalSemafor(id_semafora, SEM_KASY);
 
-            usleep(100000);
-        }
-
-        //juz po skonczonej platnosci drukowanie "paragonu
-        waitSemafor(id_semafora, SEM_KASY, 0);
-        LOG_KLIENT(pid,"[");
-        int pierwszy = 1;
-        for (int l = 0; l < ile_prod; l++)
-        {
-            if (koszyk_id[l] != -1 && paragon[l] != NULL) {
-                if (!pierwszy)
-                {
-                    printf(", ");
+                if (czy_juz == 0.0) {
+                    LOG_KLIENT(pid,"Terminal potwierdził płatność. Zabieram paragon.\n");
+                    break;
                 }
-                printf("%s", paragon[l]);
-                pierwszy = 0;
+                if (sklep->statystyki.ewakuacja) break;
+
+                SIM_SLEEP_US(100000);
             }
+        }else
+        {
+            waitSemafor(id_semafora, SEM_UTARG, 0);
+            sklep->statystyki.liczba_obsluzonych_klientow++;
+            signalSemafor(id_semafora, SEM_UTARG);
         }
-        printf("] - Kwota zakupow to: %.2f\n", moj_rachunek);
-        signalSemafor(id_semafora, SEM_KASY);
+
+        if (moj_rachunek > 0.001)
+        {
+            //juz po skonczonej platnosci drukowanie "paragonu
+            waitSemafor(id_semafora, SEM_KASY, 0);
+            WypiszParagon(paragon, koszyk_id, ile_prod, moj_rachunek);
+            signalSemafor(id_semafora, SEM_KASY);
+        }
+
+
 
         // Zwolnij kase
         waitSemafor(id_semafora, SEM_KASY, 0);
         sklep->kasy_samo[nr_kasy].zajeta = 0;
-        signalSemafor(id_semafora, SEM_KASY);
         obsluzony = 1;
+        signalSemafor(id_semafora, SEM_KASY);
+
     }
 
     //platnosc stacjonarna
@@ -294,33 +319,32 @@ int main()
         }
         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
         signalSemafor(id_semafora, SEM_KOLEJKI);
+
         LOG_KLIENT(pid,"W kolejce do Stacjonarnej %d\n", wybrana_kasa + 1);
         struct messg_buffer msg;
+
         while (1)
         {
             int wynik = msgrcv(id_kolejki, &msg, sizeof(msg)-sizeof(long), (long)pid, IPC_NOWAIT);
-
             if (wynik != -1) {
-                break;
+                if (msg.kwota == 0) {
+                    break;
+                }
+                continue;
             }
 
             waitSemafor(id_semafora, SEM_KOLEJKI, 0);
-
             int sasiad = (wybrana_kasa == 0) ? 1 : 0;
-
             int rozmiar_mojej = sklep->kolejka_stato[wybrana_kasa].rozmiar;
             int rozmiar_sasiada = sklep->kolejka_stato[sasiad].rozmiar;
-
             int czy_otwarta_sasiad = (sasiad == 0) ? sklep->kasa_stato[0].otwarta : sklep->kasa_stato[1].otwarta;
             int czy_moja_otwarta = sklep->kasa_stato[wybrana_kasa].otwarta;
 
             if (czy_otwarta_sasiad && rozmiar_sasiada == 0)
             {
                 int uciekam = 0;
-
                 if (czy_moja_otwarta && rozmiar_mojej > 1) uciekam = 1;
                 if (!czy_moja_otwarta && rozmiar_mojej > 0) uciekam = 1;
-
                 if (uciekam)
                 {
                     if (usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid) == 1)
@@ -342,7 +366,7 @@ int main()
             }
             signalSemafor(id_semafora, SEM_KASY);
 
-            usleep(200000);
+            SIM_SLEEP_US(200000);
         }
 
         // Odbieram wiadomosc skierowana do pid klienta
@@ -354,7 +378,9 @@ int main()
             msg.kwota = moj_rachunek;
             msg.wiek = wiek;
             msg.ma_alkohol = alkohol;
-            WyslijDoKolejki(id_kolejki, &msg);
+            BezpieczneWyslanieKlienta(id_kolejki, &msg);
+
+            OdbierzZKolejki(id_kolejki, &msg, (long)pid);
 
             if (msg.kwota == -2.0) {
                 LOG_KLIENT(pid, "Kasjer odmówił sprzedaży alkoholu! Oddaję na półkę.\n");
@@ -378,21 +404,16 @@ int main()
                 msg.kwota = moj_rachunek;
                 msg.wiek = wiek;
                 msg.ma_alkohol = 0;
-                WyslijDoKolejki(id_kolejki, &msg);
+                BezpieczneWyslanieKlienta(id_kolejki, &msg);
 
                 OdbierzZKolejki(id_kolejki, &msg, (long)pid);
             }
-
-            waitSemafor(id_semafora, SEM_KASY, 0);
-            LOG_KLIENT(pid,"[");
-            for (int l = 0; l < ile_prod; l++)
+            if (moj_rachunek > 0.001)
             {
-                if (koszyk_id[l] != -1 && paragon[l] != NULL) {
-                    printf("%s, ", paragon[l]);
-                }
-                printf("] - Kwota zakupow to: %.2f\n", moj_rachunek);
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                WypiszParagon(paragon, koszyk_id, ile_prod, moj_rachunek);
+                signalSemafor(id_semafora, SEM_KASY);
             }
-            signalSemafor(id_semafora, SEM_KASY);
         }
     }
     free(paragon);

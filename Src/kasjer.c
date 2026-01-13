@@ -10,6 +10,8 @@
 #include <unistd.h>
 #include <signal.h>
 #include <sys/wait.h>
+#include <sched.h>
+
 int czyDziala = 1;
 int moje_id;
 volatile int status_pracy = 0;
@@ -24,9 +26,11 @@ void cleanUpKasy()
 
     if (sklep != NULL)
     {
-        sklep ->kasa_stato[moje_id].otwarta = 0;
+        if(moje_id >= 0 && moje_id < KASY_STACJONARNE) {
+            sklep->kasa_stato[moje_id].otwarta = 0;
+        }
         odlacz_pamiec_dzielona(sklep);
-        LOG_KASJER(moje_id + 1,"konczy zmiane, do zobaczenia w niedziele handlowa:\n)");
+        LOG_KASJER(moje_id + 1,"konczy zmiane, do zobaczenia w niedziele handlowa ;)");
     }
 
 }
@@ -49,6 +53,8 @@ int main (int argc, char *argv[])
     signal(SIGUSR1, ObslugaSygnalu);
     signal(SIGUSR2, ObslugaSygnalu);
     signal(SIGQUIT, ObslugaSygnalu);
+
+    atexit(cleanUpKasy);
 
     if (argc < 2)
     {
@@ -97,7 +103,10 @@ int main (int argc, char *argv[])
         //sprawdzenie czy na pewno kasa moze zostac zamknieta
         if (status_pracy == 0 && liczba_w_kolejce == 0)
         {
-           pause();
+            while (status_pracy == 0) {
+                sched_yield();
+                SIM_SLEEP_US(100000);
+            }
             LOG_KASJER(moje_id+1, "otrzymalem sygnal,  wznawiam prace\n");
             continue;
         }
@@ -110,12 +119,6 @@ int main (int argc, char *argv[])
             klient_pid = zdejmijZKolejkiFIFO(&sklep->kolejka_stato[moje_id]);
         }
         signalSemafor(id_semafora, SEM_KOLEJKI);
-
-        if (klient_pid == 0)
-        {
-            usleep(200000);
-            continue;
-        }
 
         if (klient_pid >0)
         {
@@ -151,7 +154,8 @@ int main (int argc, char *argv[])
             }
 
             LOG_KASJER(moje_id +1,"Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
-            sleep(2);//symalacja kasowania
+
+            SIM_SLEEP_US(rand() % 500000 + 500000);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
             sklep->statystyki.utarg += msg.kwota;
@@ -170,7 +174,8 @@ int main (int argc, char *argv[])
             signalSemafor(id_semafora, SEM_KASY);
         }else
         {
-            usleep(200000);
+            sched_yield();
+            SIM_SLEEP_US(100000);
         }
     }
     return 0;

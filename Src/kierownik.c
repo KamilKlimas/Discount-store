@@ -106,7 +106,8 @@ void Ewakuacja(int sig) {
 	}
 
 	LOG_KIEROWNIK("Czekam na opuszczenie sklepu przez klientow i personel...\n");
-	sleep(2);
+	//sleep(2);
+	SIM_SLEEP_S(2);
 
 	cleanUp();
 	LOG_KIEROWNIK("Koniec ewakuacji -> sklep zamkniety\n");
@@ -217,7 +218,8 @@ int main()
 		execlp("./pracownik", "pracownik",NULL);
 		exit(1);
 	}
-	sleep(1);
+	//sleep(1);
+	SIM_SLEEP_S(1);
 
 	kasjer1_pid = fork();
 	if (kasjer1_pid == 0)
@@ -226,7 +228,8 @@ int main()
 		execlp("./kasjer", "kasjer","0", NULL);
 		exit(1);
 	}
-	sleep(1);
+	//sleep(1);
+	SIM_SLEEP_S(1);
 
 	kasjer2_pid = fork();
 	if (kasjer2_pid == 0)
@@ -235,7 +238,8 @@ int main()
 		execlp("./kasjer", "kasjer","1", NULL);
 		exit(1);
 	}
-	sleep(1);
+	//sleep(1);
+	SIM_SLEEP_S(1);
 
 	for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
 		pids_samo[i] = fork();
@@ -247,7 +251,7 @@ int main()
 			exit(1);
 		}
 	}
-	sleep(1);
+	SIM_SLEEP_S(1);
 
 	LOG_KIEROWNIK("Sklep otwarty. PID %d\n", getpid());
 	LOG_KIEROWNIK("Dostepne polecenia:\n"
@@ -360,7 +364,7 @@ int main()
 				}
 			}
 		}
-		sleep(1);
+		//sleep(1);
 	}
 
 	LOG_KIEROWNIK("Sygnal zamkniecia sklepu ->koniec\n");
@@ -412,7 +416,7 @@ int main()
 
 		LOG_KIEROWNIK("Zamykanie... Klienci: %d | K1: %d | K2: %d   " ANSI_RESET, ile, k1_size, k2_size);
 		fflush(stdout);
-		sleep(1);
+		//sleep(1);
 	}
 	printf("\n");
 
@@ -437,8 +441,8 @@ int main()
 	for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
 		kill(pids_samo[i], SIGQUIT);
 	}
+
+	while(wait(NULL) > 0);
 	cleanUp();
-
-
 	return 0;
 }

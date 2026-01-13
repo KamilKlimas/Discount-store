@@ -9,6 +9,8 @@
 #include <sys/shm.h>
 #include <unistd.h>
 #include <time.h>
+#include <errno.h>
+#include <sched.h>
 
 
 
@@ -107,10 +109,19 @@ int waitSemafor(int semID, int number, int flagi)
     operacje[0].sem_op = -1;
     operacje[0].sem_flg = flagi; //sem_undo
     //printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n z id %d", getpid(), number, semID);
-    if (semop(semID, operacje, 1) == -1)
-    {
-        //perror("semop(waitSemafor): ");
-        exit(0);
+    while (semop(semID, operacje, 1) == -1) {
+        if (errno == EINTR) {
+            continue;
+        }
+
+        // EIDRM - semafor został usunięty przez Kierownika
+        // EINVAL - semafor nie istnieje (już usunięty)
+        if (errno == EIDRM || errno == EINVAL) {
+            exit(0);
+        }
+
+        perror("waitSemafor error");
+        exit(1);
     }
 
     return 1;
@@ -125,10 +136,21 @@ void signalSemafor(int semID, int number)
     operacje[0].sem_flg = 0; //wczesniej SEM_UNDO wykrzaczało klienta bo usuwalo ostatni signal (inreverse)
     if (semop(semID, operacje, 1) == -1)
     {
-        //perror("semop(postSemafor): ");
-        exit(1);
+        while (semop(semID, operacje, 1) == -1) {
+            if (errno == EINTR) {
+                continue;
+            }
+
+            // EIDRM - semafor został usunięty przez Kierownika
+            // EINVAL - semafor nie istnieje (już usunięty)
+            if (errno == EIDRM || errno == EINVAL) {
+                exit(0);
+            }
+
+            perror("waitSemafor error");
+            exit(1);
+        }
     }
-    //printf(" <- [PID %d] ZWALNIAM semafor nr %d\n", getpid(), number);
 }
 
 int valueSemafor(int semID, int number)
@@ -152,23 +174,28 @@ int stworzKolejke()
 int WyslijDoKolejki(int msgid, struct messg_buffer *msg)
 {
     size_t rozmiar = sizeof(struct messg_buffer) - sizeof(long);
-    int wiadomosc = msgsnd(msgid, msg, rozmiar, 0);
-    if (wiadomosc == -1)
-    {
+
+    while (msgsnd(msgid, msg, rozmiar, 0) == -1) {
+        if (errno == EINTR) continue;
         perror("msgsnd");
         exit(EXIT_FAILURE);
     }
-    return wiadomosc;
+    return 0;
 }
 
 int OdbierzZKolejki(int msgid, struct messg_buffer *msg,  long typ_adresata)
 {
     size_t rozmiar = sizeof(struct messg_buffer) - sizeof(long);
-    int odebrana = msgrcv(msgid, msg, rozmiar, typ_adresata,0);
-    if (odebrana == -1)
-    {
-        //perror("msgrcv");
-        exit(EXIT_FAILURE);
+    int odebrana;
+
+    while ((odebrana = msgrcv(msgid, msg, rozmiar, typ_adresata, 0)) == -1) {
+        if (errno == EINTR) {
+            continue;
+        }
+        if (errno == EIDRM || errno == EINVAL) return -1;
+
+        perror("msgrcv");
+        return -1;
     }
     return odebrana;
 }
@@ -179,6 +206,36 @@ void usun_kolejke(int msgid)
     {
         perror("Błąd podczas usuwania kolejki komunikatów (msgctl)");
         // 0 - sukces, -1 - blad
+    }
+}
+
+int BezpieczneWyslanieKlienta(int msgid, struct messg_buffer *msg)
+{
+    size_t rozmiar_msg = sizeof(struct messg_buffer) - sizeof(long);
+    struct msqid_ds buf;
+
+    while(1) {
+        if (msgctl(msgid, IPC_STAT, &buf) == -1) {
+            perror("msgctl check");
+            return -1;
+        }
+
+        if (buf.msg_cbytes + rozmiar_msg < buf.msg_qbytes - MARGINES_KOLEJKI_BAJTY) {
+            if (msgsnd(msgid, msg, rozmiar_msg, IPC_NOWAIT) == -1) {
+                if (errno == EAGAIN) {
+                    sched_yield();
+                    //usleep(1000);
+                    continue;
+                }
+                if (errno == EINTR) continue;
+                perror("Bezpieczne msgsnd");
+                return -1;
+            }
+            return 0;
+        } else {
+            //usleep(50000);
+            sched_yield();
+        }
     }
 }
 
@@ -254,4 +311,25 @@ int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k, pid_t pid)
     k->rozmiar -= 1;
 
     return 1;
+}
+
+int inputExceptionHandler(const char * komunikat)
+{
+    int wartosc = 0;
+    int c; // do czyszczenia bufora
+
+    while (1) {
+        printf(ANSI_BOLD ANSI_CYAN "%s" ANSI_RESET "\n > ", komunikat);
+        if (scanf("%d", &wartosc) == 1) {
+            if (wartosc > 0) {
+                return wartosc;
+            } else {
+                printf(ANSI_RED "[BLAD] Liczba musi byc wieksza od 0!\n" ANSI_RESET);
+            }
+        } else {
+            printf(ANSI_RED "[BLAD] To nie jest liczba!\n" ANSI_RESET);
+
+            while ((c = getchar()) != '\n' && c != EOF);
+        }
+    }
 }

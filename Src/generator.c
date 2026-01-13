@@ -9,6 +9,9 @@
 #include <time.h>
 #include <stdio.h>
 #include <signal.h>
+#include <errno.h>
+#include <sched.h>
+
 
 
 volatile sig_atomic_t running = 1;
@@ -18,16 +21,26 @@ int pid;
 
 int id_pamieci;
 PamiecDzielona *sklep;
+
+void obslugaSIGCHLD(int sig)
+{
+    (void)sig;
+    while (waitpid(-1, NULL, WNOHANG) > 0);
+}
+
 void obslugaSIGINT(int sig)
 {
     if (sig == SIGINT)
     {
         running = 0;
+        exit(0);
     }
 }
+
 int main()
 {
     signal(SIGINT, obslugaSIGINT);
+    signal(SIGCHLD, obslugaSIGCHLD);
 
     setbuf(stdout, NULL);
     srand(time(NULL));
@@ -46,10 +59,13 @@ int main()
         exit(1);
     }
     sklep = mapuj_pamiec_dzielona(id_pamieci);
+    int id_semafora = alokujSemafor(klucz, 3, 0);
 
-    LOG_GENERATOR("ROZPOCZYNAM SYMULACJE DNIA\n");
+    int liczba_klientow = inputExceptionHandler("Podaj liczbe klientów do symulacji");
 
-    for (int i= 0; i < KLIENCI; i++)
+    LOG_GENERATOR("ROZPOCZYNAM SYMULACJE DLA %d KLIENTÓW\n", liczba_klientow);
+
+    for (int i= 0; i < liczba_klientow; i++)
     {
 
         if (running == 0) {
@@ -65,82 +81,82 @@ int main()
             break;
         }
 
-        // Faza 1: (Pierwszych 10 klientów) -> WOLNO
-        if (i < 10) {
-            if (i == 0) LOG_SYSTEM("FAZA 1");
-            //1.5s - 2.5s
-            wejscie_do_sklepu = rand() % 1000000 + 1500000;
-        }
-        // Faza 2: (Kolejnych 50 klientów) -> BARDZO SZYBKO
-        else if (i < 60) {
-            if (i == 10) LOG_SYSTEM("FAZA 2: GODZINY SZCZYTU");
-            //0.1s - 0.3s
-            wejscie_do_sklepu = rand() % 200000 + 100000;
-        }
-        // Faza 3: (Reszta) -> ŚREDNIO
-        else {
-            if (i == 60) LOG_SYSTEM("FAZA 3");
-            //0.8s - 1.5s
-            wejscie_do_sklepu = rand() % 700000 + 800000;
-        }
-        int kawalki = wejscie_do_sklepu / 100000;
-        if (kawalki == 0) kawalki = 1;
+        while(1) {
+            if (!running || sklep->statystyki.ewakuacja) break;
 
-        int przerwanie = 0;
-        for(int k=0; k<kawalki; k++) {
-            usleep(100000);
-            if (sklep->statystyki.ewakuacja == 1) {
-                przerwanie = 1;
-                if(running == 0 || sklep->czy_otwarte == 0) break;
+            waitSemafor(id_semafora, SEM_KASY, 0);
+            int aktualnie_w_sklepie = sklep->statystyki.liczba_klientow_w_sklepie;
+            signalSemafor(id_semafora, SEM_KASY);
+
+            if (aktualnie_w_sklepie < MAX_KLIENCI_W_SKLEPIE) {
                 break;
+            }
+
+            while(running && !sklep->statystyki.ewakuacja) {
+                SIM_SLEEP_US(100000);
+
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                int stan = sklep->statystyki.liczba_klientow_w_sklepie;
+                signalSemafor(id_semafora, SEM_KASY);
+
+                if(stan <= PROG_WZNOWIENIA) {
+                    break;
+                }
             }
         }
 
-        if (przerwanie) {
-            LOG_GENERATOR("Wykryto EWAKUACJE w trakcie czekania! Uciekam.\n");
-            break;
-        }
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        if (!running || sklep->statystyki.ewakuacja) break;
+        signalSemafor(id_semafora, SEM_KASY);
 
-        if(running == 0) break;
-
+        long delay = 0;
+        if (i < 10) delay = rand() % 500000 + 500000;       // Faza 1: Wolno (0.5 - 1.0s)
+        else if (i < liczba_klientow * 0.6) delay = rand() % 50000; // Faza 2: Bardzo szybko (0 - 0.05s)
+        else delay = rand() % 300000;
+        SIM_SLEEP_US(delay);
 
         pid = fork();
         if (pid == 0)
         {
-            LOG_GENERATOR("Stworzono proces potomny\n");
             execlp("./klient","klient", NULL);
 
-            if (1)
-            {
-                perror("\nNie ma pliku klienta\nnn");
-                exit(1);
-            }
+            perror("\nNie ma pliku klienta\n");
+            exit(1);
 
-        }else if (pid > 0){
-            if (i < 10 || i >= 60 || i % 5 == 0) {
-                LOG_GENERATOR("Wchodzi klient [%d] (PID: %d)", i, pid);
+        } else if (pid > 0) {
+            if (i < 5 || i >= liczba_klientow-5 || i % 20 == 0) {
+                LOG_GENERATOR("Wchodzi klient [%d/%d] (PID: %d)", i+1, liczba_klientow, pid);
             }
-        }
-        if (pid < 0)
-        {
-            perror("\nsystem nie pozwolil stworzyc procesu\n");
+        } else {
+            perror("Fork failed");
+            SIM_SLEEP_US(100000);
+            i--;
         }
     }
 
-    LOG_GENERATOR("Wszyscy klienci sobie zyja, czekam az skoncza zakupy\n");
-    for (int j=0; j <KLIENCI; j++)
-    {
-        if (sklep->czy_otwarte == 0)
-        {
-            LOG_GENERATOR("Sklep zamknięty, nie wpuszczam więcej osób.\n");
+    LOG_GENERATOR("Wszyscy zaplanowani klienci wygenerowani. Zamykam wejście.");
+    waitSemafor(id_semafora, SEM_KASY, 0);
+    int dzialaj = 0;
+    signalSemafor(id_semafora, SEM_KASY);
+
+    LOG_GENERATOR("Czekam na opuszczenie sklepu przez ostatnich klientów...\n");
+    while(1) {
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        int stan = sklep->statystyki.liczba_klientow_w_sklepie;
+        int ewakuacja = sklep->statystyki.ewakuacja;
+        signalSemafor(id_semafora, SEM_KASY);
+
+        if (stan <= 0 && dzialaj == 0) {
             break;
         }
+        if (ewakuacja) break;
+
+        SIM_SLEEP_US(100000);
     }
 
     while(wait(NULL) > 0);
+
     LOG_GENERATOR("Sklep pusty, zamykam generator\n");
     return 0;
-
-
 
 }

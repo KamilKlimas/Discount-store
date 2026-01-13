@@ -10,6 +10,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <signal.h>
+#include <sched.h>
 
 int id_kasy;
 int id_pamieci;
@@ -46,6 +47,8 @@ int main(int argc, char *argv[]) {
     sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
     signalSemafor(id_semafora, SEM_KASY);
 
+    int zgloszono_problem = 0;
+
     while (dzialaj) {
         if (sklep->statystyki.ewakuacja) {
             LOG_KASA_SAMO(id_kasy,"EWAKUACJA! Zamykam terminal.\n");
@@ -60,26 +63,32 @@ int main(int argc, char *argv[]) {
         signalSemafor(id_semafora, SEM_KASY);
 
         if (otwarta==0) {
-            sleep(1);
+            SIM_SLEEP_S(1);
             continue;
         }
 
 
         if (zablokowana) {
-            if (sklep->kasy_samo[id_kasy].alkohol)
+            if (zgloszono_problem == 0)
             {
-                LOG_KASA_SAMO(id_kasy, "WERYFIKACJA WIEKU!\n");
-            }else
-            {
-                LOG_KASA_SAMO(id_kasy, "AWARIA! Czekam na pomoc...\n");
+                if (sklep->kasy_samo[id_kasy].alkohol)
+                {
+                    LOG_KASA_SAMO(id_kasy, "WERYFIKACJA WIEKU!\n");
+                }else
+                {
+                    LOG_KASA_SAMO(id_kasy, "AWARIA! Czekam na pomoc...\n");
+                }
             }
-            sleep(1);
+            SIM_SLEEP_S(1);
             continue;
+        }else
+        {
+            zgloszono_problem = 0;
         }
 
         if (wplata > 0.0) {
             LOG_KASA_SAMO(id_kasy, "Przetwarzam płatność od klienta PID %d: %.2f PLN\n",klient_pid, wplata);
-            sleep(1);
+            SIM_SLEEP_S(1);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
             sklep->statystyki.utarg += wplata;
@@ -92,7 +101,7 @@ int main(int argc, char *argv[]) {
             signalSemafor(id_semafora, SEM_KASY);
         }
 
-        usleep(200000);
+        SIM_SLEEP_S(1);
     }
 
     cleanUp();

@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <sched.h>
 
 int dzialaj = 1;
 
@@ -70,7 +71,7 @@ int main()
 
             if (czy_zablokowana == 1)
             {
-                sleep(1);
+                SIM_SLEEP_US(200000);
                 if (status_alko == 1)
                 {
                     LOG_PRACOWNIK("Weryfikacja wieku przy kasie %d. Klient ma %d lat.\n", j, wiek_klienta);
@@ -110,10 +111,10 @@ int main()
                 signalSemafor(id_semafora, SEM_KASY);
 
             }
-            usleep(200000);
+            SIM_SLEEP_US(100000);
         }else
         {
-            usleep(100000);
+            sched_yield();
         }
     }
     odlacz_pamiec_dzielona(sklep);
