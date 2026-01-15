@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -g -Wextra
+CFLAGS = -Wall -g -Wextra -pthread
 INCLUDES = -IInclude
 SRCDIR = Src
 

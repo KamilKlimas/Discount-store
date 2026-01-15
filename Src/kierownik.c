@@ -425,7 +425,7 @@ int main()
                 for (int i = KASY_SAMOOBSLUGOWE - 1; i >= 0; i--) {
                     if (sklep->kasy_samo[i].otwarta && !sklep->kasy_samo[i].zajeta) {
                         sklep->kasy_samo[i].otwarta = 0;
-                    	LOG_KIEROWNIK("Zamykam kase samoobslugowa %d (Klienci: %d < Prog: %d)\n", i, klienci_total, prog_zamykania);
+                    	LOG_KIEROWNIK("Zamykam kase samoobslugowa %d (Klienci: %d < Prog: %d)\n", i+1, klienci_total, prog_zamykania);
                         break;
                     }
                 }
@@ -462,7 +462,7 @@ int main()
 					double seconds = difftime(time(NULL), sklep->kasa_stato[j].czas_ostatniej_obslugi); //<- zamykanie kasy po 30 sekundach bez klienta
 					if (seconds > ZAMKNIJ_KASE_PO || sklep->kasa_stato[j].zamykanie_w_toku == 1)
 					{
-						LOG_KIEROWNIK("Zamykam kase stacjonarna %d\n", j);
+						LOG_KIEROWNIK("Zamykam kase stacjonarna %d\n", j+1);
 						waitSemafor(id_semafora, SEM_KASY, 0);
 						sklep->kasa_stato[j].otwarta = 0;
 						sklep->kasa_stato[j].zamykanie_w_toku = 0;
