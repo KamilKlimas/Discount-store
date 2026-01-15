@@ -107,13 +107,11 @@ int waitSemafor(int semID, int number, int flagi)
     struct sembuf operacje[1];
     operacje[0].sem_num = number;
     operacje[0].sem_op = -1;
-    operacje[0].sem_flg = flagi; //sem_undo
-    //printf(" -> [PID %d] ZABLOKOWALEM semafor nr %d\n z id %d", getpid(), number, semID);
+    operacje[0].sem_flg = flagi;
     while (semop(semID, operacje, 1) == -1) {
         if (errno == EINTR) {
             continue;
         }
-
         // EIDRM - semafor został usunięty przez Kierownika
         // EINVAL - semafor nie istnieje (już usunięty)
         if (errno == EIDRM || errno == EINVAL) {
@@ -127,13 +125,12 @@ int waitSemafor(int semID, int number, int flagi)
     return 1;
 }
 
-//operacja V (oddaj/podnies)
 void signalSemafor(int semID, int number)
 {
-    struct sembuf operacje[1]; //kelner a bardziej formularz do niego
-    operacje[0].sem_num = number; //numer stolika - czyli ktory semafor
-    operacje[0].sem_op = 1; //co podac? -1 = zabloku klucz +1 = oddaj klucz
-    operacje[0].sem_flg = 0; //wczesniej SEM_UNDO wykrzaczało klienta bo usuwalo ostatni signal (inreverse)
+    struct sembuf operacje[1];
+    operacje[0].sem_num = number;
+    operacje[0].sem_op = 1;
+    operacje[0].sem_flg = 0;
     if (semop(semID, operacje, 1) == -1)
     {
         while (semop(semID, operacje, 1) == -1) {
@@ -205,7 +202,6 @@ void usun_kolejke(int msgid)
     if (msgctl(msgid, IPC_RMID, NULL) == -1)
     {
         perror("Błąd podczas usuwania kolejki komunikatów (msgctl)");
-        // 0 - sukces, -1 - blad
     }
 }
 
@@ -223,8 +219,7 @@ int BezpieczneWyslanieKlienta(int msgid, struct messg_buffer *msg)
         if (buf.msg_cbytes + rozmiar_msg < buf.msg_qbytes - MARGINES_KOLEJKI_BAJTY) {
             if (msgsnd(msgid, msg, rozmiar_msg, IPC_NOWAIT) == -1) {
                 if (errno == EAGAIN) {
-                    sched_yield();
-                    //usleep(1000);
+                    SIM_SLEEP_US(1000);
                     continue;
                 }
                 if (errno == EINTR) continue;
@@ -233,8 +228,7 @@ int BezpieczneWyslanieKlienta(int msgid, struct messg_buffer *msg)
             }
             return 0;
         } else {
-            //usleep(50000);
-            sched_yield();
+            SIM_SLEEP_US(50000);
         }
     }
 }
@@ -313,6 +307,7 @@ int usunZSrodkaKolejkiFIFO(KolejkaKlientow *k, pid_t pid)
     return 1;
 }
 
+//Handler wejścia standardowego
 int inputExceptionHandler(const char * komunikat)
 {
     int wartosc = 0;

@@ -11,6 +11,16 @@
 #include <sys/msg.h>
 #include <sys/types.h>
 
+//#define TRYB_TURBO
+
+#ifdef TRYB_TURBO
+	#define SIM_SLEEP_US(x) (void)(x)
+	#define SIM_SLEEP_S(x)  (void)(x)
+#else
+	#define SIM_SLEEP_US(x) usleep(x)
+	#define SIM_SLEEP_S(x)  sleep(x)
+#endif
+
 #define FTOK_PATH "/tmp/dyskont_projekt"
 
 // Definicje kolorów ANSI
@@ -32,15 +42,8 @@
 #define LOG_GENERATOR(fmt, ...) printf(ANSI_CYAN              "[GENERATOR]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
 #define LOG_SYSTEM(fmt, ...)    printf(ANSI_BOLD ANSI_WHITE   "[SYSTEM]      " ANSI_RESET fmt "\n", ##__VA_ARGS__)
 
-//#define TRYB_BEZ_SLEEP 1
 
-#ifdef TRYB_BEZ_SLEEP
-	#define SIM_SLEEP_US(x) do { (void)(x); sched_yield(); } while(0)
-	#define SIM_SLEEP_S(x) do { (void)(x); sched_yield(); } while(0)
-#else
-	#define SIM_SLEEP_US(x) usleep(x)
-	#define SIM_SLEEP_S(x) sleep(x)
-#endif
+
 
 //Global constants - stałe systemu
 #define MAX_PRODUKTOW 50
@@ -139,6 +142,7 @@ typedef struct {
 	int platnosc_w_toku;
 	time_t czas_ostatniej_obslugi;
 	int zamykanie_w_toku;
+	int liczba_do_obsluzenia;
 } KasaStacjonarna;
 
 //statystyki

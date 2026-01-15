@@ -10,7 +10,6 @@
 #include <time.h>
 #include <unistd.h>
 #include <signal.h>
-#include <sched.h>
 
 int id_kasy;
 int id_pamieci;
@@ -27,9 +26,13 @@ void ObslugaSygnalu(int sig) {
 }
 
 int main(int argc, char *argv[]) {
+
+    signal(SIGINT, SIG_IGN);
+
     setbuf(stdout, NULL);
+
     if (argc < 2) {
-        LOG_KASA_SAMO(id_kasy,"[BLAD] Brak ID kasy samoobsługowej \n");
+        LOG_KASA_SAMO(id_kasy+1,"[BLAD] Brak ID kasy samoobsługowej \n");
         exit(1);
     }
     id_kasy = atoi(argv[1]);
@@ -40,9 +43,8 @@ int main(int argc, char *argv[]) {
     id_semafora = alokujSemafor(klucz, 3, 0);
 
     signal(SIGQUIT, ObslugaSygnalu);
-    signal(SIGINT, ObslugaSygnalu);
 
-    LOG_KASA_SAMO(id_kasy,"(PID: %d) gotowa.\n", id_kasy);
+    LOG_KASA_SAMO(id_kasy+1,"(PID: %d) gotowa.\n", id_kasy);
     waitSemafor(id_semafora, SEM_KASY, 0);
     sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
     signalSemafor(id_semafora, SEM_KASY);
@@ -51,7 +53,7 @@ int main(int argc, char *argv[]) {
 
     while (dzialaj) {
         if (sklep->statystyki.ewakuacja) {
-            LOG_KASA_SAMO(id_kasy,"EWAKUACJA! Zamykam terminal.\n");
+            LOG_KASA_SAMO(id_kasy+1,"EWAKUACJA! Zamykam terminal.\n");
             break;
         }
 
@@ -67,17 +69,18 @@ int main(int argc, char *argv[]) {
             continue;
         }
 
-
+        //symulacja zgloszenia awarii/alkoholu
         if (zablokowana) {
             if (zgloszono_problem == 0)
             {
                 if (sklep->kasy_samo[id_kasy].alkohol)
                 {
-                    LOG_KASA_SAMO(id_kasy, "WERYFIKACJA WIEKU!\n");
+                    LOG_KASA_SAMO(id_kasy+1, "WERYFIKACJA WIEKU!\n");
                 }else
                 {
-                    LOG_KASA_SAMO(id_kasy, "AWARIA! Czekam na pomoc...\n");
+                    LOG_KASA_SAMO(id_kasy+1, "AWARIA! Czekam na pomoc...\n");
                 }
+                zgloszono_problem = 1;
             }
             SIM_SLEEP_S(1);
             continue;
@@ -87,7 +90,7 @@ int main(int argc, char *argv[]) {
         }
 
         if (wplata > 0.0) {
-            LOG_KASA_SAMO(id_kasy, "Przetwarzam płatność od klienta PID %d: %.2f PLN\n",klient_pid, wplata);
+            LOG_KASA_SAMO(id_kasy+1, "Przetwarzam płatność od klienta PID %d: %.2f PLN\n",klient_pid, wplata);
             SIM_SLEEP_S(1);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
@@ -97,7 +100,7 @@ int main(int argc, char *argv[]) {
 
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
-            LOG_KASA_SAMO(id_kasy, "Płatność zaakceptowana. Drukuję paragon.\n");
+            LOG_KASA_SAMO(id_kasy+1, "Płatność zaakceptowana. Drukuję paragon.\n");
             signalSemafor(id_semafora, SEM_KASY);
         }
 

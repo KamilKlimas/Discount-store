@@ -13,13 +13,15 @@
 #include <sched.h>
 
 int czyDziala = 1;
-int moje_id;
 volatile int status_pracy = 0;
-int id_pamieci;
-PamiecDzielona *sklep;
 
+int moje_id;
+int id_pamieci;
 int id_semafora;
 int id_kolejki;
+PamiecDzielona *sklep;
+
+
 
 void cleanUpKasy()
 {
@@ -30,7 +32,7 @@ void cleanUpKasy()
             sklep->kasa_stato[moje_id].otwarta = 0;
         }
         odlacz_pamiec_dzielona(sklep);
-        LOG_KASJER(moje_id + 1,"konczy zmiane, do zobaczenia w niedziele handlowa ;)");
+        LOG_KASJER(moje_id + 1,"konczy zmiane");
     }
 
 }
@@ -41,7 +43,7 @@ void ObslugaSygnalu(int sig) {
         status_pracy = 1;
     }
     else if (sig == SIGUSR2) {
-        status_pracy = 0;
+        LOG_KASJER(moje_id, "Zamykam kase na polecenie kierownika\n");
     }
     else if (sig == SIGQUIT) { exit(0); }
 }
@@ -63,9 +65,7 @@ int main (int argc, char *argv[])
     }
 
     moje_id = atoi(argv[1]);
-
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
-
     if (klucz == -1)
     {
         perror("\nblad ftok\n");
@@ -96,18 +96,28 @@ int main (int argc, char *argv[])
     LOG_KASJER(moje_id + 1,"zaczyna prace (typ nasluchu: %ld)\n", moj_typ_nasluchu);
     while (1)
     {
-        waitSemafor(id_semafora, SEM_KOLEJKI, 0);
-        int liczba_w_kolejce = sklep->kolejka_stato[moje_id].rozmiar;
-        signalSemafor(id_semafora, SEM_KOLEJKI);
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        int zamykanie = sklep->kasa_stato[moje_id].zamykanie_w_toku;
+        int limit = sklep->kasa_stato[moje_id].liczba_do_obsluzenia;
+        signalSemafor(id_semafora, SEM_KASY);
 
         //sprawdzenie czy na pewno kasa moze zostac zamknieta
-        if (status_pracy == 0 && liczba_w_kolejce == 0)
-        {
-            while (status_pracy == 0) {
-                sched_yield();
-                SIM_SLEEP_US(100000);
+        if (zamykanie) {
+            if (limit <=0) {                                        //dziala na zasadzie: sygnal zamkniecia
+                status_pracy = 0;                                   //zapisz ile teraz w kolejce -> (liczba_do_obsluzenia) =limit
+                waitSemafor(id_semafora, SEM_KASY, 0);  //obsluguj dopoki limit <= 0
+                sklep->kasa_stato[moje_id].otwarta = 0;
+                sklep->kasa_stato[moje_id].zamykanie_w_toku =0;
+                signalSemafor(id_semafora,SEM_KASY);
             }
-            LOG_KASJER(moje_id+1, "otrzymalem sygnal,  wznawiam prace\n");
+        }else {
+            waitSemafor(id_semafora, SEM_KASY, 0);
+            status_pracy = sklep->kasa_stato[moje_id].otwarta;
+            signalSemafor(id_semafora, SEM_KASY);
+        }
+
+        if (status_pracy == 0) {
+            SIM_SLEEP_US(100000);
             continue;
         }
 
@@ -122,6 +132,12 @@ int main (int argc, char *argv[])
 
         if (klient_pid >0)
         {
+            if (zamykanie) {
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                sklep->kasa_stato[moje_id].liczba_do_obsluzenia -=1;
+                signalSemafor(id_semafora, SEM_KASY);
+            }
+
             LOG_KASJER(moje_id+1, "Wolam klienta %d do kasy.\n", klient_pid);
 
             waitSemafor(id_semafora, SEM_KASY, 0);
@@ -174,7 +190,6 @@ int main (int argc, char *argv[])
             signalSemafor(id_semafora, SEM_KASY);
         }else
         {
-            sched_yield();
             SIM_SLEEP_US(100000);
         }
     }

@@ -10,37 +10,59 @@
 #include <stdio.h>
 #include <signal.h>
 #include <errno.h>
-#include <sched.h>
+#include <pthread.h>
 
 
 
 volatile sig_atomic_t running = 1;
-
 int wejscie_do_sklepu;
 int pid;
-
 int id_pamieci;
+
 PamiecDzielona *sklep;
 
-void obslugaSIGCHLD(int sig)
-{
-    (void)sig;
-    while (waitpid(-1, NULL, WNOHANG) > 0);
+pthread_t t_zombie;
+sigset_t maska_sigchld;
+
+void *watekSprzatajacy(void *arg) {
+    (void)arg;
+    int sig;
+    while (1) {
+        int err = sigwait(&maska_sigchld, &sig);
+        if (err != 0) {
+            perror("sigwait error");
+            continue;
+        }
+
+        if (sig == SIGCHLD) {
+            while (waitpid(-1, NULL, WNOHANG) > 0);
+        }
+    }
 }
 
 void obslugaSIGINT(int sig)
 {
-    if (sig == SIGINT)
-    {
-        running = 0;
-        exit(0);
-    }
+    if (sig == SIGINT){running = 0;}
 }
 
 int main()
 {
+
+    sigemptyset(&maska_sigchld);
+    sigaddset(&maska_sigchld, SIGCHLD);
+
+    if (pthread_sigmask(SIG_BLOCK, &maska_sigchld, NULL) != 0) {
+        perror("Blad blokowania SIGCHLD");
+        exit(1);
+    }
+
+    //wątek sprzątający asynchronicznie
+    if (pthread_create(&t_zombie, NULL, watekSprzatajacy, NULL) != 0) {
+        perror("Blad tworzenia watku zombie");
+        exit(1);
+    }
+
     signal(SIGINT, obslugaSIGINT);
-    signal(SIGCHLD, obslugaSIGCHLD);
 
     setbuf(stdout, NULL);
     srand(time(NULL));
@@ -59,6 +81,7 @@ int main()
         exit(1);
     }
     sklep = mapuj_pamiec_dzielona(id_pamieci);
+
     int id_semafora = alokujSemafor(klucz, 3, 0);
 
     int liczba_klientow = inputExceptionHandler("Podaj liczbe klientów do symulacji");
@@ -70,7 +93,6 @@ int main()
 
         if (running == 0) {
             LOG_GENERATOR("Otrzymano Ctrl+C. Zamykam sklep dla nowych klientów.");
-            if(sklep != NULL) sklep->czy_otwarte = 0;
             break;
         }
 
@@ -92,22 +114,7 @@ int main()
                 break;
             }
 
-            while(running && !sklep->statystyki.ewakuacja) {
-                SIM_SLEEP_US(100000);
-
-                waitSemafor(id_semafora, SEM_KASY, 0);
-                int stan = sklep->statystyki.liczba_klientow_w_sklepie;
-                signalSemafor(id_semafora, SEM_KASY);
-
-                if(stan <= PROG_WZNOWIENIA) {
-                    break;
-                }
-            }
         }
-
-        waitSemafor(id_semafora, SEM_KASY, 0);
-        if (!running || sklep->statystyki.ewakuacja) break;
-        signalSemafor(id_semafora, SEM_KASY);
 
         long delay = 0;
         if (i < 10) delay = rand() % 500000 + 500000;       // Faza 1: Wolno (0.5 - 1.0s)
@@ -118,8 +125,12 @@ int main()
         pid = fork();
         if (pid == 0)
         {
-            execlp("./klient","klient", NULL);
 
+            sigset_t empty;
+            sigemptyset(&empty);
+            pthread_sigmask(SIG_SETMASK, &empty, NULL);
+
+            execlp("./klient","klient", NULL);
             perror("\nNie ma pliku klienta\n");
             exit(1);
 
@@ -135,28 +146,11 @@ int main()
     }
 
     LOG_GENERATOR("Wszyscy zaplanowani klienci wygenerowani. Zamykam wejście.");
-    waitSemafor(id_semafora, SEM_KASY, 0);
-    int dzialaj = 0;
-    signalSemafor(id_semafora, SEM_KASY);
 
-    LOG_GENERATOR("Czekam na opuszczenie sklepu przez ostatnich klientów...\n");
-    while(1) {
-        waitSemafor(id_semafora, SEM_KASY, 0);
-        int stan = sklep->statystyki.liczba_klientow_w_sklepie;
-        int ewakuacja = sklep->statystyki.ewakuacja;
-        signalSemafor(id_semafora, SEM_KASY);
+    pthread_cancel(t_zombie);
+    pthread_join(t_zombie, NULL);
 
-        if (stan <= 0 && dzialaj == 0) {
-            break;
-        }
-        if (ewakuacja) break;
-
-        SIM_SLEEP_US(100000);
-    }
-
-    while(wait(NULL) > 0);
-
-    LOG_GENERATOR("Sklep pusty, zamykam generator\n");
+    odlacz_pamiec_dzielona(sklep);
     return 0;
 
 }

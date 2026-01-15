@@ -16,10 +16,9 @@ int id_semafora;
 int id_kolejki;
 PamiecDzielona *sklep;
 int pid;
+
 int czas;
-
 int indeks;
-
 int alkohol = 0;
 int alkohol_lista[] = {16,17,18,19};
 
@@ -97,7 +96,6 @@ int main()
     int ile_prod = (rand() % 10) + 1;
     char **paragon = malloc(ile_prod * sizeof(char*));
     int *koszyk_id = malloc(ile_prod * sizeof(int));
-
     if (paragon == NULL || koszyk_id == NULL) {
         perror("Brak pamieci");
         exit(1);
@@ -113,19 +111,14 @@ int main()
         waitSemafor(id_semafora, SEM_KASY, 0);
         if (sklep->produkty[indeks].sztuk >0){
             sklep->produkty[indeks].sztuk -=1;
-            if (exists(alkohol_lista, 4, indeks))
-            {
-                alkohol = 1;
-            }
+            if (exists(alkohol_lista, 4, indeks)){alkohol = 1;}
 
             moj_rachunek+= sklep->produkty[indeks].cena;
-            //LOG_KLIENT(pid,"Zostalo [%d] sztuk [%s]\n", sklep->produkty[indeks].sztuk, sklep->produkty[indeks].nazwa);
             paragon[i] = sklep->produkty[indeks].nazwa;
             koszyk_id[i] = indeks;
 
         }else
         {
-            //LOG_KLIENT(pid,"Brak towaru: [%s]\n", sklep->produkty[indeks].nazwa);
             koszyk_id[i] = -1;
             paragon[i] = NULL;
         }
@@ -176,7 +169,7 @@ int main()
                 }
             }
 
-            if (difftime(time(NULL), start_wait)>MAX_CZAS_OCZEKIWANIA)
+            if (difftime(time(NULL), start_wait)>MAX_CZAS_OCZEKIWANIA) //zmiana trybu ze wzgledu na czas oczekiwania
             {
                 int stacjo_otwarta = 0;
                 waitSemafor(id_semafora, SEM_KASY,0);
@@ -223,13 +216,11 @@ int main()
 
             //czekanie na interwencje pracownik.c zeby zmienił flage z .zablokowana = 1 na 0
             while(1) {
-                //sleep(1);
                 waitSemafor(id_semafora, SEM_KASY, 0);
                 int blok = sklep->kasy_samo[nr_kasy].zablokowana;
                 signalSemafor(id_semafora, SEM_KASY);
                 if(!blok) break;
 
-                sched_yield();
                 SIM_SLEEP_US(200000);
             }
         }
@@ -259,12 +250,11 @@ int main()
         signalSemafor(id_semafora, SEM_KASY);
         LOG_KLIENT(pid,"Kasa odblokowana, kontynuuję.\n");
 
-       // LOG_KLIENT(pid, "Przekazuję kwotę %.2f do terminala nr %d...\n", moj_rachunek, nr_kasy);
         if (moj_rachunek > 0.001)
         {
             waitSemafor(id_semafora, SEM_KASY, 0);
-            sklep->kasy_samo[nr_kasy].obslugiwany_klient = pid; // Podpisz się
-            sklep->kasy_samo[nr_kasy].aktualna_kwota = moj_rachunek; // Wprowadź kwotę
+            sklep->kasy_samo[nr_kasy].obslugiwany_klient = pid;
+            sklep->kasy_samo[nr_kasy].aktualna_kwota = moj_rachunek;
             signalSemafor(id_semafora, SEM_KASY);
 
             while (1) {
@@ -289,15 +279,11 @@ int main()
 
         if (moj_rachunek > 0.001)
         {
-            //juz po skonczonej platnosci drukowanie "paragonu
             waitSemafor(id_semafora, SEM_KASY, 0);
             WypiszParagon(paragon, koszyk_id, ile_prod, moj_rachunek);
             signalSemafor(id_semafora, SEM_KASY);
         }
 
-
-
-        // Zwolnij kase
         waitSemafor(id_semafora, SEM_KASY, 0);
         sklep->kasy_samo[nr_kasy].zajeta = 0;
         obsluzony = 1;
@@ -311,7 +297,6 @@ int main()
         // Wybierz kolejke (tam gdzie krocej) lub domyslnie K1, jesli K2 otwarta to mozna przejsc
         int wybrana_kasa = 0;
 
-
         waitSemafor(id_semafora, SEM_KOLEJKI, 0);
         if (sklep->kasa_stato[1].otwarta) {
             //zmiana decyzji o wyborze kasy ze wzgledu na dlugosc kolejki (domyslnie kasa 1)
@@ -321,6 +306,7 @@ int main()
         signalSemafor(id_semafora, SEM_KOLEJKI);
 
         LOG_KLIENT(pid,"W kolejce do Stacjonarnej %d\n", wybrana_kasa + 1);
+
         struct messg_buffer msg;
 
         while (1)
@@ -333,6 +319,7 @@ int main()
                 continue;
             }
 
+            //Mozliwosc zmiany kolejki jesli sasiad otwarty oraz jego kolejka mniejsza o 1
             waitSemafor(id_semafora, SEM_KOLEJKI, 0);
             int sasiad = (wybrana_kasa == 0) ? 1 : 0;
             int rozmiar_mojej = sklep->kolejka_stato[wybrana_kasa].rozmiar;
@@ -340,19 +327,21 @@ int main()
             int czy_otwarta_sasiad = (sasiad == 0) ? sklep->kasa_stato[0].otwarta : sklep->kasa_stato[1].otwarta;
             int czy_moja_otwarta = sklep->kasa_stato[wybrana_kasa].otwarta;
 
-            if (czy_otwarta_sasiad && rozmiar_sasiada == 0)
+            if (czy_otwarta_sasiad)
             {
-                int uciekam = 0;
-                if (czy_moja_otwarta && rozmiar_mojej > 1) uciekam = 1;
+                int oplaca_sie = (rozmiar_sasiada < (rozmiar_mojej - 1));
+                int uciekam = (!czy_moja_otwarta && rozmiar_mojej > 0);
+
                 if (!czy_moja_otwarta && rozmiar_mojej > 0) uciekam = 1;
-                if (uciekam)
+                if (oplaca_sie || uciekam)
                 {
                     if (usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid) == 1)
                     {
                         wybrana_kasa = sasiad;
                         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
 
-                        char* powod = czy_moja_otwarta ? "tłok" : "zamknięta";
+                        char* powod = czy_moja_otwarta ? "krótsza kolejka" : "moja zamknięta";
+                        //
                         LOG_KLIENT(pid, "Zmieniam kolejkę! (Powód: %s) Ide do kasy %d\n", powod, wybrana_kasa + 1);
                     }
                 }

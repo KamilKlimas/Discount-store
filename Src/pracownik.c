@@ -11,23 +11,25 @@
 #include <sched.h>
 
 int dzialaj = 1;
-
 int id_pamieci;
 PamiecDzielona *sklep;
-
 int id_semafora;
 
-void ObslugaSygnalu(int signal){
-    (void)signal;
-    LOG_PRACOWNIK("Otrzymano sygnal zakonczenia pracy\n" );
+
+void cleanUPPracownik(){
     dzialaj = 0;
+    odlacz_pamiec_dzielona(sklep);
+    LOG_PRACOWNIK("Otrzymano sygnal zakonczenia pracy\n" );
 }
 
 void ewakuacja(int signalNum)
 {
     if (signalNum == SIGQUIT)
     {
-        LOG_PRACOWNIK("KONIEC PRACY\n");
+        if (sklep != NULL && sklep->statystyki.ewakuacja == 1) {
+            LOG_PRACOWNIK("EWAKUACJA! Uciekam!\n");
+        } else {
+        }
         exit(0);
     }
 }
@@ -35,8 +37,11 @@ void ewakuacja(int signalNum)
 
 int main()
 {
-    setbuf(stdout, NULL);
     signal(SIGINT, SIG_IGN);
+
+    atexit(cleanUPPracownik);
+
+    setbuf(stdout, NULL);
     signal(SIGQUIT, ewakuacja);
 
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
@@ -54,10 +59,7 @@ int main()
     }
 
     sklep = mapuj_pamiec_dzielona(id_pamieci);
-
     id_semafora = alokujSemafor(klucz, 3, 0);
-
-
 
     while (dzialaj ==1)
     {
@@ -69,6 +71,7 @@ int main()
             int wiek_klienta = sklep->kasy_samo[j].wiek_klienta;
             signalSemafor(id_semafora, SEM_KASY);
 
+            //odblokowywanie zablokowanych kas
             if (czy_zablokowana == 1)
             {
                 SIM_SLEEP_US(200000);
@@ -95,7 +98,6 @@ int main()
                     signalSemafor(id_semafora, SEM_KASY);
                 }
             }
-
         }
 
         if (sklep->czy_otwarte == 1)
@@ -112,11 +114,8 @@ int main()
 
             }
             SIM_SLEEP_US(100000);
-        }else
-        {
-            sched_yield();
         }
     }
-    odlacz_pamiec_dzielona(sklep);
+
     return 0;
 }
