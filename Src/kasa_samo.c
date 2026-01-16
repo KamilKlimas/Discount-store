@@ -15,7 +15,7 @@ int id_kasy;
 int id_pamieci;
 PamiecDzielona *sklep;
 int id_semafora;
-int dzialaj = 1;
+volatile sig_atomic_t dzialaj = 1;
 
 void cleanUp() {
     if (sklep != NULL) odlacz_pamiec_dzielona(sklep);
@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 
     signal(SIGQUIT, ObslugaSygnalu);
 
-    LOG_KASA_SAMO(id_kasy+1,"(PID: %d) gotowa.\n", id_kasy);
+    LOG_KASA_SAMO(id_kasy+1,"(PID: %d) gotowa.\n", getpid());
     waitSemafor(id_semafora, SEM_KASY, 0);
     sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
     signalSemafor(id_semafora, SEM_KASY);

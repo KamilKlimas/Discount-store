@@ -21,61 +21,51 @@ int id_semafora;
 int id_kolejki;
 PamiecDzielona *sklep;
 
-
-
-void cleanUpKasy()
-{
-
-    if (sklep != NULL)
-    {
-        if(moje_id >= 0 && moje_id < KASY_STACJONARNE) {
+void cleanUpKasy() {
+    if (sklep != NULL) {
+        if (moje_id >= 0 && moje_id < KASY_STACJONARNE) {
             sklep->kasa_stato[moje_id].otwarta = 0;
         }
         odlacz_pamiec_dzielona(sklep);
-        LOG_KASJER(moje_id + 1,"konczy zmiane");
+        LOG_KASJER(moje_id + 1, "konczy zmiane");
     }
-
 }
-
 
 void ObslugaSygnalu(int sig) {
     if (sig == SIGUSR1) {
         status_pracy = 1;
+    } else if (sig == SIGUSR2) {
+        LOG_KASJER(moje_id+1, "Zamykam kase na polecenie kierownika\n");
+    } else if (sig == SIGQUIT) {
+        _exit(0);
+
     }
-    else if (sig == SIGUSR2) {
-        LOG_KASJER(moje_id, "Zamykam kase na polecenie kierownika\n");
-    }
-    else if (sig == SIGQUIT) { exit(0); }
 }
 
-int main (int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
     signal(SIGINT, SIG_IGN);
     signal(SIGUSR1, ObslugaSygnalu);
     signal(SIGUSR2, ObslugaSygnalu);
     signal(SIGQUIT, ObslugaSygnalu);
 
+
     atexit(cleanUpKasy);
 
-    if (argc < 2)
-    {
+    if (argc < 2) {
         LOG_SYSTEM("brak argumentu od kierownika\n");
         exit(1);
     }
 
     moje_id = atoi(argv[1]);
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
-    if (klucz == -1)
-    {
+    if (klucz == -1) {
         perror("\nblad ftok\n");
         exit(1);
     }
 
-
     id_pamieci = podlacz_pamiec_dzielona();
-    if (id_pamieci == -1)
-    {
+    if (id_pamieci == -1) {
         perror("\nblad podlacz_pamiec_dzielona\n");
         exit(1);
     }
@@ -84,33 +74,32 @@ int main (int argc, char *argv[])
     id_semafora = alokujSemafor(klucz, 3, 0);
     id_kolejki = stworzKolejke();
 
-
-
     struct messg_buffer msg;
-    long moj_typ_nasluchu = moje_id +KANAL_KASJERA_OFFSET;
+    long moj_typ_nasluchu = moje_id + KANAL_KASJERA_OFFSET;
 
-    waitSemafor(id_semafora, SEM_KASY,0);
+    waitSemafor(id_semafora, SEM_KASY, 0);
     status_pracy = sklep->kasa_stato[moje_id].otwarta;
     signalSemafor(id_semafora,SEM_KASY);
 
-    LOG_KASJER(moje_id + 1,"zaczyna prace (typ nasluchu: %ld)\n", moj_typ_nasluchu);
-    while (1)
-    {
+    LOG_KASJER(moje_id + 1, "zaczyna prace (typ nasluchu: %ld)\n", moj_typ_nasluchu);
+    while (1) {
         waitSemafor(id_semafora, SEM_KASY, 0);
         int zamykanie = sklep->kasa_stato[moje_id].zamykanie_w_toku;
         int limit = sklep->kasa_stato[moje_id].liczba_do_obsluzenia;
         signalSemafor(id_semafora, SEM_KASY);
 
+
         //sprawdzenie czy na pewno kasa moze zostac zamknieta
         if (zamykanie) {
-            if (limit <=0) {                                        //dziala na zasadzie: sygnal zamkniecia
-                status_pracy = 0;                                   //zapisz ile teraz w kolejce -> (liczba_do_obsluzenia) =limit
-                waitSemafor(id_semafora, SEM_KASY, 0);  //obsluguj dopoki limit <= 0
+            if (limit <= 0) {
+                //dziala na zasadzie: sygnal zamkniecia
+                status_pracy = 0; //zapisz ile teraz w kolejce -> (liczba_do_obsluzenia) =limit
+                waitSemafor(id_semafora, SEM_KASY, 0); //obsluguj dopoki limit <= 0
                 sklep->kasa_stato[moje_id].otwarta = 0;
-                sklep->kasa_stato[moje_id].zamykanie_w_toku =0;
+                sklep->kasa_stato[moje_id].zamykanie_w_toku = 0;
                 signalSemafor(id_semafora,SEM_KASY);
             }
-        }else {
+        } else {
             waitSemafor(id_semafora, SEM_KASY, 0);
             status_pracy = sklep->kasa_stato[moje_id].otwarta;
             signalSemafor(id_semafora, SEM_KASY);
@@ -124,17 +113,15 @@ int main (int argc, char *argv[])
         //obsluga klientow az do ostatniego nawet po sygnale o zamknieciu kasy
         pid_t klient_pid = 0;
         waitSemafor(id_semafora, SEM_KOLEJKI, 0);
-        if (sklep->kolejka_stato[moje_id].rozmiar > 0)
-        {
+        if (sklep->kolejka_stato[moje_id].rozmiar > 0) {
             klient_pid = zdejmijZKolejkiFIFO(&sklep->kolejka_stato[moje_id]);
         }
         signalSemafor(id_semafora, SEM_KOLEJKI);
 
-        if (klient_pid >0)
-        {
+        if (klient_pid > 0) {
             if (zamykanie) {
                 waitSemafor(id_semafora, SEM_KASY, 0);
-                sklep->kasa_stato[moje_id].liczba_do_obsluzenia -=1;
+                sklep->kasa_stato[moje_id].liczba_do_obsluzenia -= 1;
                 signalSemafor(id_semafora, SEM_KASY);
             }
 
@@ -146,7 +133,7 @@ int main (int argc, char *argv[])
             signalSemafor(id_semafora, SEM_KASY);
 
             //wezwanie klienta
-            msg.mesg_type = (long)klient_pid;
+            msg.mesg_type = (long) klient_pid;
             msg.ID_klienta = moje_id;
             msg.kwota = 0;
             WyslijDoKolejki(id_kolejki, &msg);
@@ -155,41 +142,39 @@ int main (int argc, char *argv[])
             OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
 
             if (msg.ma_alkohol == 1 && msg.wiek < 18) {
-                LOG_KASJER(moje_id + 1, "Klient %d jest nieletni (%d lat)! Odmawiam sprzedaży alkoholu.", msg.ID_klienta, msg.wiek);
-
-                msg.mesg_type = (long)klient_pid;
+                LOG_KASJER(moje_id + 1, "Klient %d jest nieletni (%d lat)! Odmawiam sprzedaży alkoholu.",
+                msg.ID_klienta, msg.wiek);
+                msg.mesg_type = (long) klient_pid;
                 msg.kwota = -2.0; //kod odrzucenia
                 WyslijDoKolejki(id_kolejki, &msg);
 
                 OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
 
                 LOG_KASJER(moje_id + 1, "Klient %d skorygował zakupy. Nowa kwota: %.2f", msg.ID_klienta, msg.kwota);
-            }
-            else if (msg.ma_alkohol == 1) {
+            } else if (msg.ma_alkohol == 1) {
                 LOG_KASJER(moje_id + 1, "Weryfikacja wieku pomyślna (%d lat). Sprzedaję alkohol.", msg.wiek);
             }
 
-            LOG_KASJER(moje_id +1,"Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
+            LOG_KASJER(moje_id +1, "Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
 
             SIM_SLEEP_US(rand() % 500000 + 500000);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
             sklep->statystyki.utarg += msg.kwota;
-            sklep->statystyki.liczba_obsluzonych_klientow +=1;
+            sklep->statystyki.liczba_obsluzonych_klientow += 1;
             signalSemafor(id_semafora, SEM_UTARG);
 
             // Potwierdzenie zaplaty
-            msg.mesg_type = (long)klient_pid;
+            msg.mesg_type = (long) klient_pid;
             msg.kwota = -1.0;
             WyslijDoKolejki(id_kolejki, &msg);
 
-            LOG_KASJER(moje_id+1, "obsluzylem klienta %d\n",msg.ID_klienta);
+            LOG_KASJER(moje_id+1, "obsluzylem klienta %d\n", msg.ID_klienta);
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasa_stato[moje_id].zajeta = 0;
             sklep->kasa_stato[moje_id].czas_ostatniej_obslugi = time(NULL);
             signalSemafor(id_semafora, SEM_KASY);
-        }else
-        {
+        } else {
             SIM_SLEEP_US(100000);
         }
     }

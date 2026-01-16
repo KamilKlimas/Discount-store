@@ -34,15 +34,50 @@
 #define ANSI_CYAN    "\x1b[36m"      // Generator / System
 #define ANSI_WHITE   "\x1b[37m"
 
-#define LOG_KIEROWNIK(fmt, ...) printf(ANSI_BOLD ANSI_RED     "[KIEROWNIK]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
-#define LOG_KASJER(id, fmt, ...) printf(ANSI_BLUE              "[KASJER %d]    " ANSI_RESET fmt "\n", id, ##__VA_ARGS__)
-#define LOG_KLIENT(pid, fmt, ...) printf(ANSI_GREEN             "[KLIENT %d] " ANSI_RESET fmt, pid, ##__VA_ARGS__)
-#define LOG_KASA_SAMO(id, fmt, ...) printf(ANSI_MAGENTA           "[KASA SAMO %d] " ANSI_RESET fmt "\n", id, ##__VA_ARGS__)
-#define LOG_PRACOWNIK(fmt, ...) printf(ANSI_YELLOW            "[PRACOWNIK]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
-#define LOG_GENERATOR(fmt, ...) printf(ANSI_CYAN              "[GENERATOR]   " ANSI_RESET fmt "\n", ##__VA_ARGS__)
-#define LOG_SYSTEM(fmt, ...)    printf(ANSI_BOLD ANSI_WHITE   "[SYSTEM]      " ANSI_RESET fmt "\n", ##__VA_ARGS__)
+#define LOG_FILE "logi_sklep.txt"
 
+#define LOG_TO_FILE(prefix, fmt, ...) do { \
+FILE *_lf = fopen(LOG_FILE, "a"); \
+if (_lf) { \
+fprintf(_lf, prefix fmt "\n", ##__VA_ARGS__); \
+fclose(_lf); \
+} \
+} while(0)
 
+#define LOG_KIEROWNIK(fmt, ...) do { \
+printf(ANSI_BOLD ANSI_RED "[KIEROWNIK] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
+LOG_TO_FILE("[KIEROWNIK] ", fmt, ##__VA_ARGS__); \
+} while(0)
+
+#define LOG_KASJER(id, fmt, ...) do { \
+printf(ANSI_BLUE "[KASJER %d] " ANSI_RESET fmt "\n", id, ##__VA_ARGS__); \
+LOG_TO_FILE("[KASJER %d] ", fmt, id, ##__VA_ARGS__); \
+} while(0)
+
+#define LOG_KLIENT(pid, fmt, ...) do { \
+printf(ANSI_GREEN "[KLIENT %d] " ANSI_RESET fmt, pid, ##__VA_ARGS__); \
+LOG_TO_FILE("[KLIENT %d] ", fmt, pid, ##__VA_ARGS__); \
+} while(0)
+
+#define LOG_KASA_SAMO(id, fmt, ...) do { \
+printf(ANSI_MAGENTA "[KASA SAMO %d] " ANSI_RESET fmt "\n", id, ##__VA_ARGS__); \
+LOG_TO_FILE("[KASA SAMO %d] ", fmt, id, ##__VA_ARGS__); \
+} while(0)
+
+#define LOG_PRACOWNIK(fmt, ...) do { \
+printf(ANSI_YELLOW "[PRACOWNIK] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
+LOG_TO_FILE("[PRACOWNIK] ", fmt, ##__VA_ARGS__); \
+} while(0)
+
+#define LOG_GENERATOR(fmt, ...) do { \
+printf(ANSI_CYAN "[GENERATOR] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
+LOG_TO_FILE("[GENERATOR] ", fmt, ##__VA_ARGS__); \
+} while(0)
+
+#define LOG_SYSTEM(fmt, ...) do { \
+printf(ANSI_BOLD ANSI_WHITE "[SYSTEM] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
+LOG_TO_FILE("[SYSTEM] ", fmt, ##__VA_ARGS__); \
+} while(0)
 
 
 //Global constants - stałe systemu
@@ -51,7 +86,6 @@
 #define KASY_STACJONARNE 2
 #define MIN_PRODUKTOW_KOSZYK 3
 #define SZANSA_SAMOOBSLUGA 95
-
 #define KANAL_KASJERA_OFFSET 100
 
 #define MARGINES_KOLEJKI_BAJTY 4096
@@ -198,7 +232,7 @@ int alokujSemafor(key_t klucz, int number, int flagi);
 int zwolnijSemafor(int semID, int number);
 void inicjalizujSemafor(int semID, int number, int val);
 int waitSemafor(int semID, int number, int flags);
-void signalSemafor(int semID, int number);
+int signalSemafor(int semID, int number);
 int valueSemafor(int semID, int number);
 
 //funckje kolejka komunikatow

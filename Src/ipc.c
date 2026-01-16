@@ -115,7 +115,7 @@ int waitSemafor(int semID, int number, int flagi)
         // EIDRM - semafor został usunięty przez Kierownika
         // EINVAL - semafor nie istnieje (już usunięty)
         if (errno == EIDRM || errno == EINVAL) {
-            exit(0);
+            return -1;
         }
 
         perror("waitSemafor error");
@@ -125,7 +125,7 @@ int waitSemafor(int semID, int number, int flagi)
     return 1;
 }
 
-void signalSemafor(int semID, int number)
+int signalSemafor(int semID, int number)
 {
     struct sembuf operacje[1];
     operacje[0].sem_num = number;
@@ -141,13 +141,14 @@ void signalSemafor(int semID, int number)
             // EIDRM - semafor został usunięty przez Kierownika
             // EINVAL - semafor nie istnieje (już usunięty)
             if (errno == EIDRM || errno == EINVAL) {
-                exit(0);
+                return -1;
             }
 
             perror("waitSemafor error");
             exit(1);
         }
     }
+    return 0;
 }
 
 int valueSemafor(int semID, int number)
