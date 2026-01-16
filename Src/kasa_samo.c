@@ -90,7 +90,7 @@ int main(int argc, char *argv[]) {
         }
 
         if (wplata > 0.0) {
-            LOG_KASA_SAMO(id_kasy+1, "Przetwarzam płatność od klienta PID %d: %.2f PLN\n",klient_pid, wplata);
+            LOG_KASA_SAMO(id_kasy+1, "Przetwarzam płatnosc od klienta PID %d: %.2f zl\n",klient_pid, wplata);
             SIM_SLEEP_S(1);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
@@ -100,7 +100,7 @@ int main(int argc, char *argv[]) {
 
             waitSemafor(id_semafora, SEM_KASY, 0);
             sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
-            LOG_KASA_SAMO(id_kasy+1, "Płatność zaakceptowana. Drukuję paragon.\n");
+            LOG_KASA_SAMO(id_kasy+1, "Platnosc zaakceptowana. Drukuję paragon.\n");
             signalSemafor(id_semafora, SEM_KASY);
         }
 

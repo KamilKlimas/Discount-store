@@ -84,9 +84,9 @@ int main()
 
     int id_semafora = alokujSemafor(klucz, 3, 0);
 
-    int liczba_klientow = inputExceptionHandler("Podaj liczbe klientów do symulacji");
+    int liczba_klientow = inputExceptionHandler("Podaj liczbe klientow do symulacji");
 
-    LOG_GENERATOR("ROZPOCZYNAM SYMULACJE DLA %d KLIENTÓW\n", liczba_klientow);
+    LOG_GENERATOR("ROZPOCZYNAM SYMULACJE DLA %d KLIENTOW\n", liczba_klientow);
 
     for (int i= 0; i < liczba_klientow; i++)
     {

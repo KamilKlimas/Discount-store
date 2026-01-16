@@ -202,7 +202,7 @@ void usun_kolejke(int msgid)
 {
     if (msgctl(msgid, IPC_RMID, NULL) == -1)
     {
-        perror("Błąd podczas usuwania kolejki komunikatów (msgctl)");
+        perror("Bląd podczas usuwania kolejki komunikatów (msgctl)");
     }
 }
 

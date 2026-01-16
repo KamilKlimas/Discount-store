@@ -51,7 +51,7 @@ void WypiszParagon(char **paragon, int *koszyk_id, int ile_prod, double finalna_
             first = 0;
         }
     }
-    snprintf(bufor + offset, sizeof(bufor) - offset, " ] SUMA: %.2f PLN", finalna_kwota);
+    snprintf(bufor + offset, sizeof(bufor) - offset, " ] SUMA: %.2f zl", finalna_kwota);
 
     LOG_KLIENT(pid, "%s\n", bufor);
 }
@@ -247,7 +247,7 @@ int main() {
 
         if (alkohol == 1 && status_alko == -1) //<- (-1) oznacza odrzucenie przez pracownika
         {
-            LOG_KLIENT(pid, "Odmowa! Oddaję alkohol, kupuję resztę.\n");
+            LOG_KLIENT(pid, "Odmowa! Oddaję alkohol, kupuje reszte.\n");
 
             for (int k = 0; k < ile_prod; k++) {
                 int id_prod = koszyk_id[k];
@@ -262,7 +262,7 @@ int main() {
         }
         sklep->kasy_samo[nr_kasy].alkohol = 0;
         signalSemafor(id_semafora, SEM_KASY);
-        LOG_KLIENT(pid, "Kasa odblokowana, kontynuuję.\n");
+        LOG_KLIENT(pid, "Kasa odblokowana, kontynuuje.\n");
 
         if (moj_rachunek > 0.001) {
             waitSemafor(id_semafora, SEM_KASY, 0);
@@ -277,7 +277,7 @@ int main() {
                 signalSemafor(id_semafora, SEM_KASY);
 
                 if (czy_juz == 0.0) {
-                    LOG_KLIENT(pid, "Terminal potwierdził płatność. Zabieram paragon.\n");
+                    LOG_KLIENT(pid, "Terminal potwierdzil platnosc. Zabieram paragon.\n");
                     break;
                 }
                 if (ewak) {
@@ -326,7 +326,7 @@ int main() {
         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
         signalSemafor(id_semafora, SEM_KOLEJKI);
 
-        LOG_KLIENT(pid, "W kolejce do Stacjonarnej %d\n", wybrana_kasa + 1);
+        LOG_KLIENT(pid, "W kolejce do stacjonarnej %d\n", wybrana_kasa + 1);
 
         struct messg_buffer msg;
 
@@ -357,9 +357,9 @@ int main() {
                         wybrana_kasa = sasiad;
                         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
 
-                        char *powod = czy_moja_otwarta ? "krótsza kolejka" : "moja zamknięta";
+                        char *powod = czy_moja_otwarta ? "krotsza kolejka" : "moja zamknieta";
                         //
-                        LOG_KLIENT(pid, "Zmieniam kolejkę! (Powód: %s) Ide do kasy %d\n", powod, wybrana_kasa + 1);
+                        LOG_KLIENT(pid, "Zmieniam kolejke! (Powod: %s) Ide do kasy %d\n", powod, wybrana_kasa + 1);
                     }
                 }
             }
@@ -390,7 +390,7 @@ int main() {
             OdbierzZKolejki(id_kolejki, &msg, (long) pid);
 
             if (msg.kwota == -2.0) {
-                LOG_KLIENT(pid, "Kasjer odmówił sprzedaży alkoholu! Oddaję na półkę.\n");
+                LOG_KLIENT(pid, "Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.\n");
 
                 waitSemafor(id_semafora, SEM_KASY, 0);
                 for (int k = 0; k < ile_prod; k++) {

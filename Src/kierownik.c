@@ -150,7 +150,7 @@ void ZamknijKase1(int sig) {
             waitSemafor(id_semafora, SEM_KOLEJKI, 0);
             sklep->kasa_stato[0].liczba_do_obsluzenia = sklep->kolejka_stato[0].rozmiar;
             signalSemafor(id_semafora, SEM_KOLEJKI);
-            LOG_KIEROWNIK("Zamykam KASA 1 (Do obsłużenia: %d)\n", sklep->kasa_stato[0].liczba_do_obsluzenia);
+            LOG_KIEROWNIK("Zamykam KASA 1 (Do obsluzenia: %d)\n", sklep->kasa_stato[0].liczba_do_obsluzenia);
         }
         signalSemafor(id_semafora, SEM_KASY);
     }
@@ -166,7 +166,7 @@ void ZamknijKase2(int sig) {
             waitSemafor(id_semafora, SEM_KOLEJKI, 0);
             sklep->kasa_stato[1].liczba_do_obsluzenia = sklep->kolejka_stato[1].rozmiar;
             signalSemafor(id_semafora, SEM_KOLEJKI);
-            LOG_KIEROWNIK("Zamykam KASA 2 (Do obsłużenia: %d)\n", sklep->kasa_stato[1].liczba_do_obsluzenia);
+            LOG_KIEROWNIK("Zamykam KASA 2 (Do obsluzenia: %d)\n", sklep->kasa_stato[1].liczba_do_obsluzenia);
         }
         signalSemafor(id_semafora, SEM_KASY);
     }
@@ -295,7 +295,7 @@ int main() {
     }
 
     LOG_KIEROWNIK("Uruchomiono %d terminali kas samoobslugowych.\n", KASY_SAMOOBSLUGOWE);
-    LOG_KIEROWNIK("Wykładanie towaru na półki...\n");
+    LOG_KIEROWNIK("Wykladanie towaru na polki...\n");
 
     for (int i = 0; i < sklep->liczba_produktow; i++) {
         int id_kategoria = i % KATEGORIE;
@@ -359,7 +359,7 @@ int main() {
 
     while (CzyDziala == 1) {
         if (sklep->czy_otwarte == 0) {
-            LOG_KIEROWNIK("Generator zamknął sklep. Rozpoczynam procedurę zamykania.");
+            LOG_KIEROWNIK("Generator zamknal sklep. Rozpoczynam procedure zamykania.");
             CzyDziala = 0;
             break;
         }
@@ -500,7 +500,7 @@ int main() {
         // Rozwiazanie dla klientow stojacych w kolejce do stacjo (1 lub 2) gdy zostalo za wczesniej wywołane SIGINT
         waitSemafor(id_semafora, SEM_KASY, 0);
         if (k1_size > 0) {
-            LOG_KIEROWNIK("Zamykanie: Zostało %d osób w kolejce do K1. Wymuszam otwarcie!", k1_size);
+            LOG_KIEROWNIK("Zamykanie: Zostalo %d osób w kolejce do K1. Wymuszam otwarcie!", k1_size);
             sklep->kasa_stato[0].otwarta = 1;
             sklep->kasa_stato[0].zamykanie_w_toku = 0;
             sklep->kasa_stato[0].czas_ostatniej_obslugi = time(NULL);
