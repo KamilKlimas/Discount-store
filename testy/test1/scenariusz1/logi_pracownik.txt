@@ -1,0 +1,2016 @@
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 68 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 63 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 32 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 20 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 42 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 49 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 5 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 38 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 21 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 38 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 19 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 2 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 28 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 0 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 32 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 38 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 68 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 67 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 45 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 58 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 39 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 70 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 70 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 46 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 36 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 49 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 57 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 32 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 37 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 36 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 61 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 14 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 0 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 26 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 58 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 24 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 28 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 44 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 31 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 14 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 4 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 38 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 70 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 20 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 19 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 30 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 34 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 59 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 31 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 51 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 60 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 25 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 46 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 68 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 60 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 62 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 63 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 70 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 42 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 20 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 66 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 51 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 68 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 23 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 52 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 25 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 51 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 14 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 21 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 47 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 30 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 47 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 55 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 59 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 5 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 32 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 41 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 52 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 44 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 39 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 39 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 32 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 24 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 25 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 41 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 65 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 22 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 32 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 70 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 59 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 25 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 60 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 37 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 22 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 37 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 26 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 51 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 2 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 21 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 70 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 38 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 20 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 44 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 45 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 35 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 65 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 5 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 66 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 59 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 36 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 28 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 28 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 66 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 35 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 45 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 46 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 21 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 31 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 68 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 37 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 65 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 19 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 22 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 47 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 5 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 65 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 30 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 22 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 14 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 42 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 61 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 67 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 63 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 26 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 21 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 31 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 61 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 62 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 39 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 63 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 19 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 23 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 65 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 39 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 25 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 60 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 35 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 46 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 53 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 22 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 4 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 34 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 70 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 4 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 19 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 52 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 37 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 57 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 55 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 66 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 42 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 2 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 23 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 36 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 23 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 14 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 2 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 32 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 16 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 5 i odkładam na polke.
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 67 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 61 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 67 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 52 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 37 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 60 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 43 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 68 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 61 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 66 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Banan do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 21 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 62 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 19 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 21 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 46 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 42 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kielbasa do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Lody do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 41 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Wodka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Wino do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 65 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 33 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 24 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Jablko do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 38 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Marchew do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Kabanos do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bagietka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 28 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 57 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Pomidor do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Mleko do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 45 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 69 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 23 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Ziemniak do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Szynka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ser zolty do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 51 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 60 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Piwo do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Chleb do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 42 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] 178567: Uzupelnilem Frytki do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Proszek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 47 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] 178567: Uzupelnilem Pizza do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] 178567: Uzupelnilem Jogurt do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 34 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 54 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 34 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 47 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 34 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 29 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 61 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 20 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 67 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 48 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 45 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 65 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 15 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 2 i odkładam na polke.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 40 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 18 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 47 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 50 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 56 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 57 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 41 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 26 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 27 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 55 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 41 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 42 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 60 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 64 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 44 lat.
+
+[PRACOWNIK] Pelnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] koncze prace.
+

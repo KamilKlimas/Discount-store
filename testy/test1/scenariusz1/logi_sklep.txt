@@ -1,0 +1,5336 @@
+[KIEROWNIK] Uruchomiono 6 terminali kas samoobslugowych.
+
+[KIEROWNIK] Wykladanie towaru na polki...
+
+[KIEROWNIK] sklep zatowarowany
+
+[KIEROWNIK] pracownik proszony na stanowisko
+
+[KIEROWNIK] Kasjer 2 proszony o gotowosc
+
+[KIEROWNIK] Kasjer 1 proszony o gotowosc
+
+[KASA SAMO 4] (PID: 9357) gotowa.
+
+[KASJER 2] zaczyna prace (typ nasluchu: 101)
+
+[KASJER 1] zaczyna prace (typ nasluchu: 100)
+
+[KIEROWNIK] Sklep otwarty. PID 9349
+
+[KIEROWNIK] Dostepne polecenia:
+-> kill -SIGUSR1 9349 (Otworz Kase 2)
+-> kill -SIGUSR2 9349 (Zamknij Kase 2)
+-> kill -34 9349 (Zamknij Kase 1)
+-> kill -SIGQUIT 9349 (ewakuacja)
+
+[KIEROWNIK] ----------------------------------------------------------
+
+[KASA SAMO 1] (PID: 9354) gotowa.
+
+[KASA SAMO 2] (PID: 9355) gotowa.
+
+[KASA SAMO 6] (PID: 9359) gotowa.
+
+[KASA SAMO 5] (PID: 9358) gotowa.
+
+[KASA SAMO 3] (PID: 9356) gotowa.
+
+[KIEROWNIK] Otwieram kase samoobslugowa 0 (Klienci: 0)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 1 (Klienci: 0)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 2 (Klienci: 0)
+
+[GENERATOR] ROZPOCZYNAM SYMULACJE DLA 10000 KLIENTOW
+
+[GENERATOR] Wchodzi klient [1/10000] (PID: 9400)
+[GENERATOR] Wchodzi klient [2/10000] (PID: 9401)
+[GENERATOR] Wchodzi klient [3/10000] (PID: 9402)
+[GENERATOR] Wchodzi klient [4/10000] (PID: 9403)
+[GENERATOR] Wchodzi klient [5/10000] (PID: 9404)
+[KLIENT 9404] Przy kasie samo nr 0.
+
+[KLIENT 9404] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9404: 3.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9404] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9403] Przy kasie samo nr 1.
+
+[KLIENT 9404] PARAGON: [ Mydlo ] SUMA: 3.00 zl
+
+[KLIENT 9403] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9402] Przy kasie samo nr 0.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9403: 74.00 zl
+
+[KLIENT 9400] Przy kasie samo nr 2.
+
+[KLIENT 9402] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9400] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9403] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9403] PARAGON: [ Chleb, Piwo, Marchew, Plyn do naczyn, Plyn do naczyn, Ziemniak, Szynka ] SUMA: 74.00 zl
+
+[KLIENT 9401] Przy kasie samo nr 1.
+
+[KLIENT 9401] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9415] W kolejce do stacjonarnej 1
+
+[GENERATOR] Wchodzi klient [21/10000] (PID: 9420)
+[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 16)
+
+[KLIENT 9405] Przy kasie samo nr 3.
+
+[KLIENT 9405] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 43 lat.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9405: 22.50 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9405] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 31 lat.
+
+[KLIENT 9405] PARAGON: [ Plyn do naczyn, Chleb, Warzywa na patelnie, Marchew ] SUMA: 22.50 zl
+
+[KLIENT 9402] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 22)
+
+[KLIENT 9409] Przy kasie samo nr 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 18 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9402: 184.50 zl
+
+[KLIENT 9409] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9401] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9406] Przy kasie samo nr 3.
+
+[KLIENT 9424] W kolejce do stacjonarnej 1
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9401: 311.00 zl
+
+[KLIENT 9402] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9409: 76.90 zl
+
+[KLIENT 9406] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9400] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9402] PARAGON: [ Paczek, Szynka, Gruszka, Whisky, Domestos, Banan, Bulka, Jogurt, Boczek ] SUMA: 184.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9409] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9406: 118.20 zl
+
+[KLIENT 9401] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9400: 163.90 zl
+
+[KLIENT 9409] PARAGON: [ Winogrono, Domestos, Kabanos ] SUMA: 76.90 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9401] PARAGON: [ Banan, Whisky, Whisky, Boczek, Winogrono, Wodka, Chleb, Kabanos, Jogurt, Paczek ] SUMA: 311.00 zl
+
+[KLIENT 9410] Przy kasie samo nr 0.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 27)
+
+[KLIENT 9406] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9410] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9410] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 9400] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9433] W kolejce do stacjonarnej 1
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9407] Przy kasie samo nr 1.
+
+[KLIENT 9406] PARAGON: [ Ziemniak, Piwo, Plyn do naczyn, Banan, Wodka, Szynka, Lody ] SUMA: 118.20 zl
+
+[KLIENT 9400] PARAGON: [ Boczek, Frytki, Pomidor, Winogrono, Marchew, Szynka, Paczek, Domestos, Paczek, Proszek ] SUMA: 163.90 zl
+
+[KLIENT 9407] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9413] Przy kasie samo nr 2.
+
+[KLIENT 9413] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9408] Przy kasie samo nr 3.
+
+[KLIENT 9408] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9413: 6.50 zl
+
+[KLIENT 9412] Przy kasie samo nr 4.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9412] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9411] Przy kasie samo nr 5.
+
+[KLIENT 9413] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9412: 220.90 zl
+
+[KLIENT 9411] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 9413] PARAGON: [ Mydlo, Paczek ] SUMA: 6.50 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[GENERATOR] Wchodzi klient [41/10000] (PID: 9444)
+[KLIENT 9412] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9412] PARAGON: [ Lody, Mleko, Kielbasa, Winogrono, Whisky, Whisky, Banan ] SUMA: 220.90 zl
+
+[KLIENT 9417] Przy kasie samo nr 2.
+
+[KLIENT 9417] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9416] Przy kasie samo nr 4.
+
+[KLIENT 9416] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9446] W kolejce do stacjonarnej 1
+
+[KIEROWNIK] Kolejka do kasy nr1: 4. Otwieram kase...
+
+[KASJER 1] Wolam klienta 9415 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyślna (41 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9415 na: 33.70 zl
+
+[KASJER 1] obsluzylem klienta 9415
+
+[KLIENT 9415] PARAGON: [ Kielbasa, Bagietka, Marchew ] SUMA: 33.70 zl
+
+[GENERATOR] Wchodzi klient [61/10000] (PID: 9464)
+[KASJER 1] Wolam klienta 9424 do kasy.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 15 lat.
+
+[KLIENT 9461] W kolejce do stacjonarnej 1
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 0 i odkładam na półkę.
+
+[KASJER 1] Weryfikacja wieku pomyślna (55 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9424 na: 16.70 zl
+
+[KASJER 1] obsluzylem klienta 9424
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 34 lat.
+
+[KLIENT 9424] PARAGON: [ Banan, Gruszka, Warzywa na patelnie ] SUMA: 16.70 zl
+
+[KLIENT 9410] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9410] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 33 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9410: 48.00 zl
+
+[KLIENT 9407] Kasa odblokowana, kontynuuje.
+
+[KASJER 1] Wolam klienta 9433 do kasy.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9410] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9407: 85.80 zl
+
+[KASJER 1] Zakupy od Klienta 9433 na: 95.00 zl
+
+[KASJER 1] obsluzylem klienta 9433
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 40 lat.
+
+[KLIENT 9417] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9410] PARAGON: [ Plyn do naczyn, Kielbasa, Frytki ] SUMA: 48.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9433] PARAGON: [ Kabanos, Wodka ] SUMA: 95.00 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9407] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 55 lat.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9417: 43.50 zl
+
+[KLIENT 9407] PARAGON: [ Mydlo, Jogurt, Ser zolty, Bulka, Chleb, Domestos, Proszek, Jablko ] SUMA: 85.80 zl
+
+[KASJER 1] Wolam klienta 9446 do kasy.
+
+[KLIENT 9408] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9417] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9419] Przy kasie samo nr 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 31 lat.
+
+[KLIENT 9416] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9417] PARAGON: [ Pomidor, Proszek ] SUMA: 43.50 zl
+
+[KLIENT 9419] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASJER 1] Weryfikacja wieku pomyślna (69 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9446 na: 180.10 zl
+
+[KASJER 1] obsluzylem klienta 9446
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9408: 95.90 zl
+
+[KLIENT 9414] Przy kasie samo nr 1.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9416: 33.70 zl
+
+[KLIENT 9446] PARAGON: [ Szynka, Pomidor, Pizza, Kabanos, Marchew, Paczek, Mleko, Mleko, Wodka ] SUMA: 180.10 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9414] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9414] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 9408] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9420] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9411] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9408] PARAGON: [ Ziemniak, Kielbasa, Lody, Jogurt, Mydlo, Wino, Domestos, Piwo ] SUMA: 95.90 zl
+
+[KLIENT 9420] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9416] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9471] W kolejce do stacjonarnej 1
+
+[KASJER 1] Wolam klienta 9461 do kasy.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9420: 18.50 zl
+
+[KLIENT 9416] PARAGON: [ Jablko, Bagietka, Domestos, Lody ] SUMA: 33.70 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9411: 91.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASJER 1] Weryfikacja wieku pomyślna (22 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9461 na: 55.90 zl
+
+[KASJER 1] obsluzylem klienta 9461
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9418] Przy kasie samo nr 3.
+
+[KLIENT 9411] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9420] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9461] PARAGON: [ Wodka, Plyn do naczyn, Jogurt, Ogorek ] SUMA: 55.90 zl
+
+[KLIENT 9418] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9422] Przy kasie samo nr 4.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9411] PARAGON: [ Lody, Lody, Pomidor, Jogurt, Ser zolty, Pizza, Banan, Mleko ] SUMA: 91.40 zl
+
+[KLIENT 9420] PARAGON: [ Maslo, Domestos ] SUMA: 18.50 zl
+
+[KLIENT 9422] Kasa odblokowana, kontynuuje.
+
+[KASJER 1] Wolam klienta 9471 do kasy.
+
+[KLIENT 9428] Przy kasie samo nr 2.
+
+[GENERATOR] Wchodzi klient [81/10000] (PID: 9484)
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9422: 85.00 zl
+
+[KASJER 1] Weryfikacja wieku pomyślna (32 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9471 na: 117.80 zl
+
+[KASJER 1] obsluzylem klienta 9471
+
+[KLIENT 9428] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9421] Przy kasie samo nr 5.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9471] PARAGON: [ Domestos, Chleb, Marchew, Maslo, Mleko, Pomidor, Whisky ] SUMA: 117.80 zl
+
+[KLIENT 9422] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9421] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9483] W kolejce do stacjonarnej 1
+
+[KLIENT 9422] PARAGON: [ Wodka, Szynka ] SUMA: 85.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9421: 118.50 zl
+
+[KASJER 1] Wolam klienta 9483 do kasy.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9423] Przy kasie samo nr 4.
+
+[KLIENT 9421] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASJER 1] Weryfikacja wieku pomyślna (34 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9483 na: 6.10 zl
+
+[KASJER 1] obsluzylem klienta 9483
+
+[KLIENT 9423] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9421] PARAGON: [ Boczek, Ogorek, Boczek, Plyn do naczyn, Mydlo, Wino, Mydlo, Chleb ] SUMA: 118.50 zl
+
+[KLIENT 9483] PARAGON: [ Banan, Jogurt ] SUMA: 6.10 zl
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Pizza do 50 sztuk
+
+[KLIENT 9431] Przy kasie samo nr 5.
+
+[PRACOWNIK] 9351: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[KLIENT 9431] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 9490] W kolejce do stacjonarnej 1
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Pomidor do 50 sztuk
+
+[KASJER 1] Wolam klienta 9490 do kasy.
+
+[PRACOWNIK] 9351: Uzupelnilem Bagietka do 50 sztuk
+
+[KASJER 1] Zakupy od Klienta 9490 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 9490
+
+[PRACOWNIK] 9351: Uzupelnilem Jogurt do 50 sztuk
+
+[KLIENT 9490] PARAGON: [ Ogorek, Ogorek ] SUMA: 12.00 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Mydlo do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Paczek do 50 sztuk
+
+[GENERATOR] Wchodzi klient [101/10000] (PID: 9504)
+[PRACOWNIK] 9351: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 18 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 60 lat.
+
+[KLIENT 9419] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9419: 7.50 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 35 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9414] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9419] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9414: 93.60 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 47 lat.
+
+[KLIENT 9419] PARAGON: [ Gruszka, Marchew ] SUMA: 7.50 zl
+
+[KLIENT 9428] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9414] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 62 lat.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9428: 7.00 zl
+
+[KLIENT 9418] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9414] PARAGON: [ Frytki, Boczek, Banan, Banan, Bagietka, Gruszka, Mydlo, Wino ] SUMA: 93.60 zl
+
+[KLIENT 9432] Przy kasie samo nr 0.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9428] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9418: 45.90 zl
+
+[KLIENT 9508] W kolejce do stacjonarnej 1
+
+[KLIENT 9432] Kasa odblokowana, kontynuuje.
+
+[KASJER 1] Wolam klienta 9508 do kasy.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 19 lat.
+
+[KLIENT 9423] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9428] PARAGON: [ Ziemniak, Gruszka ] SUMA: 7.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9425] Przy kasie samo nr 1.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9432: 90.90 zl
+
+[KLIENT 9418] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASJER 1] Weryfikacja wieku pomyślna (21 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9508 na: 52.10 zl
+
+[KASJER 1] obsluzylem klienta 9508
+
+[KLIENT 9425] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[PRACOWNIK] 9351: Uzupelnilem Jablko do 50 sztuk
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9423: 137.80 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9418] PARAGON: [ Pomidor, Winogrono, Maslo, Mydlo, Pizza ] SUMA: 45.90 zl
+
+[KLIENT 9435] Przy kasie samo nr 2.
+
+[KLIENT 9508] PARAGON: [ Winogrono, Chleb, Maslo, Ogorek, Maslo, Pomidor, Piwo, Mydlo, Bagietka ] SUMA: 52.10 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9432] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9431] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Ziemniak do 50 sztuk
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9423] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9435] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9434] Przy kasie samo nr 3.
+
+[KLIENT 9432] PARAGON: [ Bulka, Proszek, Proszek, Ziemniak, Pizza ] SUMA: 90.90 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Chleb do 50 sztuk
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9431: 66.40 zl
+
+[KLIENT 9423] PARAGON: [ Kielbasa, Whisky, Maslo, Gruszka, Jogurt, Frytki, Bulka, Paczek ] SUMA: 137.80 zl
+
+[KLIENT 9434] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Mleko do 50 sztuk
+
+[KLIENT 9438] Przy kasie samo nr 0.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[GENERATOR] Wchodzi klient [121/10000] (PID: 9524)
+[KLIENT 9431] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] 9351: Uzupelnilem Piwo do 50 sztuk
+
+[KLIENT 9438] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9434: 21.00 zl
+
+[KLIENT 9431] PARAGON: [ Jogurt, Ser zolty, Plyn do naczyn, Paczek, Kielbasa ] SUMA: 66.40 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Szynka do 50 sztuk
+
+[KLIENT 9436] Przy kasie samo nr 4.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9438: 35.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9434] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9436] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9441] Przy kasie samo nr 5.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9434] PARAGON: [ Ziemniak, Warzywa na patelnie, Mydlo, Piwo, Chleb ] SUMA: 21.00 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Proszek do 50 sztuk
+
+[KLIENT 9441] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 9438] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9437] Przy kasie samo nr 3.
+
+[PRACOWNIK] 9351: Uzupelnilem Banan do 50 sztuk
+
+[KLIENT 9438] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 9437] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Marchew do 50 sztuk
+
+[KLIENT 9439] Przy kasie samo nr 0.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9437: 218.90 zl
+
+[KLIENT 9439] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[PRACOWNIK] 9351: Uzupelnilem Ser zolty do 50 sztuk
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9437] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] 9351: Uzupelnilem Wino do 50 sztuk
+
+[KLIENT 9437] PARAGON: [ Ser zolty, Ser zolty, Boczek, Ser zolty, Ser zolty, Maslo, Szynka, Bulka, Chleb, Wino ] SUMA: 218.90 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Kielbasa do 50 sztuk
+
+[KLIENT 9440] Przy kasie samo nr 3.
+
+[PRACOWNIK] 9351: Uzupelnilem Gruszka do 50 sztuk
+
+[KLIENT 9440] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9440: 87.90 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9440] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] 9351: Uzupelnilem Wodka do 50 sztuk
+
+[KLIENT 9440] PARAGON: [ Ogorek, Pizza, Kielbasa, Lody, Jablko, Warzywa na patelnie, Winogrono ] SUMA: 87.90 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Boczek do 50 sztuk
+
+[KLIENT 9445] Przy kasie samo nr 3.
+
+[KLIENT 9445] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9445] Kasa 3 zablokowana, czekaj na obsluge
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Winogrono do 50 sztuk
+
+[GENERATOR] Wchodzi klient [141/10000] (PID: 9548)
+[PRACOWNIK] 9351: Uzupelnilem Maslo do 50 sztuk
+
+[KLIENT 9549] W kolejce do stacjonarnej 1
+
+[KASJER 1] Wolam klienta 9549 do kasy.
+
+[PRACOWNIK] 9351: Uzupelnilem Kabanos do 50 sztuk
+
+[KASJER 1] Weryfikacja wieku pomyślna (36 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9549 na: 1.90 zl
+
+[KASJER 1] obsluzylem klienta 9549
+
+[KLIENT 9549] PARAGON: [ Jogurt ] SUMA: 1.90 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 60 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9554] W kolejce do stacjonarnej 1
+
+[KASJER 1] Wolam klienta 9554 do kasy.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 44 lat.
+
+[KLIENT 9439] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASJER 1] Zakupy od Klienta 9554 na: 36.00 zl
+
+[KASJER 1] obsluzylem klienta 9554
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 46 lat.
+
+[KLIENT 9554] PARAGON: [ Boczek, Piwo ] SUMA: 36.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9439: 59.20 zl
+
+[KLIENT 9425] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9439] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 24 lat.
+
+[KLIENT 9435] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9425: 132.70 zl
+
+[KLIENT 9439] PARAGON: [ Gruszka, Paczek, Pomidor, Mleko, Paczek, Jogurt, Plyn do naczyn, Ser zolty ] SUMA: 59.20 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9425] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 32 lat.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9435: 10.90 zl
+
+[KLIENT 9444] Przy kasie samo nr 0.
+
+[KLIENT 9445] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9425] PARAGON: [ Maslo, Mleko, Ziemniak, Plyn do naczyn, Szynka, Bagietka, Ogorek, Kabanos, Bagietka ] SUMA: 132.70 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9444] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9435] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9445: 7.70 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 27 lat.
+
+[KLIENT 9436] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9435] PARAGON: [ Jablko, Paczek, Ziemniak, Jogurt ] SUMA: 10.90 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9443] Przy kasie samo nr 1.
+
+[KLIENT 9445] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9436: 75.10 zl
+
+[KLIENT 9441] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9443] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9445] PARAGON: [ Mleko, Jogurt, Ziemniak ] SUMA: 7.70 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9448] Przy kasie samo nr 2.
+
+[GENERATOR] Wchodzi klient [161/10000] (PID: 9568)
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9436] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9441: 16.00 zl
+
+[KLIENT 9448] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9442] Przy kasie samo nr 3.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9436] PARAGON: [ Mleko, Ogorek, Jogurt, Warzywa na patelnie, Bulka, Kabanos ] SUMA: 75.10 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9442] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9441] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9441] PARAGON: [ Gruszka, Warzywa na patelnie, Paczek ] SUMA: 16.00 zl
+
+[KLIENT 9450] Przy kasie samo nr 4.
+
+[KLIENT 9450] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9449] Przy kasie samo nr 5.
+
+[PRACOWNIK] 9351: Uzupelnilem Frytki do 50 sztuk
+
+[KLIENT 9449] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9450: 84.20 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9450] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9450] PARAGON: [ Banan, Whisky ] SUMA: 84.20 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Bulka do 50 sztuk
+
+[KLIENT 9451] Przy kasie samo nr 4.
+
+[KLIENT 9451] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Pizza do 50 sztuk
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9451: 50.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9451] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9573] W kolejce do stacjonarnej 1
+
+[KASJER 1] Wolam klienta 9573 do kasy.
+
+[KLIENT 9451] PARAGON: [ Boczek, Pizza ] SUMA: 50.00 zl
+
+[KASJER 1] Weryfikacja wieku pomyślna (58 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9573 na: 160.30 zl
+
+[KASJER 1] obsluzylem klienta 9573
+
+[PRACOWNIK] 9351: Uzupelnilem Bagietka do 50 sztuk
+
+[KLIENT 9573] PARAGON: [ Piwo, Winogrono, Ziemniak, Marchew, Gruszka, Szynka, Jogurt, Kabanos, Proszek ] SUMA: 160.30 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Jogurt do 50 sztuk
+
+[KLIENT 9447] Przy kasie samo nr 4.
+
+[KLIENT 9447] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Lody do 50 sztuk
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9447: 124.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9447] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9447] PARAGON: [ Jablko, Chleb, Wodka, Warzywa na patelnie, Frytki, Ogorek, Paczek, Warzywa na patelnie, Wodka ] SUMA: 124.50 zl
+
+[KLIENT 9452] Przy kasie samo nr 4.
+
+[KLIENT 9452] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 47 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 66 lat.
+
+[KLIENT 9444] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9444: 71.20 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 35 lat.
+
+[KLIENT 9443] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9444] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9443: 80.60 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 15 lat.
+
+[KLIENT 9444] PARAGON: [ Ogorek, Bagietka, Szynka, Pomidor, Pomidor ] SUMA: 71.20 zl
+
+[KLIENT 9448] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na półkę.
+
+[KLIENT 9443] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9455] Przy kasie samo nr 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 29 lat.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9448: 13.90 zl
+
+[KLIENT 9443] PARAGON: [ Bagietka, Paczek, Ser zolty, Proszek, Winogrono, Piwo ] SUMA: 80.60 zl
+
+[KLIENT 9442] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9442] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9455] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9448] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 25 lat.
+
+[KLIENT 9448] PARAGON: [ Chleb, Warzywa na patelnie, Jogurt ] SUMA: 13.90 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9442: 141.00 zl
+
+[KLIENT 9452] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9458] Przy kasie samo nr 1.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9442] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9458] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9452: 14.00 zl
+
+[KLIENT 9442] PARAGON: [ Szynka, Szynka, Piwo, Ogorek, Jablko, Kielbasa, Warzywa na patelnie, Ziemniak ] SUMA: 141.00 zl
+
+[KLIENT 9449] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9457] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9458: 12.00 zl
+
+[KLIENT 9452] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9457] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9456] Przy kasie samo nr 3.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9449: 66.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9452] PARAGON: [ Ziemniak, Chleb, Marchew, Gruszka ] SUMA: 14.00 zl
+
+[KLIENT 9456] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9458] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9449] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9458] PARAGON: [ Domestos ] SUMA: 12.00 zl
+
+[KLIENT 9449] PARAGON: [ Bagietka, Paczek, Kielbasa, Boczek ] SUMA: 66.70 zl
+
+[KLIENT 9453] Przy kasie samo nr 1.
+
+[KLIENT 9453] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9454] Przy kasie samo nr 4.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9454] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9462] Przy kasie samo nr 5.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9462] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 9462] Kasa 5 zablokowana, czekaj na obsluge
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Gruszka do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Paczek do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 24 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 70 lat.
+
+[KLIENT 9455] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 16 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9455: 23.50 zl
+
+[KLIENT 9453] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 2 i odkładam na półkę.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9455] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 38 lat.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9453: 139.40 zl
+
+[KLIENT 9455] PARAGON: [ Piwo, Pomidor, Mydlo, Plyn do naczyn ] SUMA: 23.50 zl
+
+[KLIENT 9457] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9457] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9453] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 20 lat.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9457: 55.80 zl
+
+[KLIENT 9453] PARAGON: [ Banan, Frytki, Proszek, Marchew, Maslo, Szynka, Ser zolty, Ogorek, Bagietka ] SUMA: 139.40 zl
+
+[KLIENT 9456] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9460] Przy kasie samo nr 0.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9457] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9460] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 28 lat.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9456: 67.60 zl
+
+[KLIENT 9459] Przy kasie samo nr 1.
+
+[KLIENT 9457] PARAGON: [ Wodka, Mleko, Domestos ] SUMA: 55.80 zl
+
+[KLIENT 9454] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9459] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9456] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9463] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9454: 142.40 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9456] PARAGON: [ Bagietka, Warzywa na patelnie, Ziemniak, Szynka, Winogrono ] SUMA: 67.60 zl
+
+[KLIENT 9463] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9462] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[GENERATOR] Wchodzi klient [181/10000] (PID: 9592)
+[KLIENT 9454] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9462: 9.40 zl
+
+[KLIENT 9454] PARAGON: [ Wodka, Mleko, Bagietka, Jablko, Frytki, Bulka, Ogorek, Kabanos, Pizza ] SUMA: 142.40 zl
+
+[KLIENT 9464] Przy kasie samo nr 3.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9462] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9464] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9466] Przy kasie samo nr 4.
+
+[KLIENT 9462] PARAGON: [ Pomidor, Bulka ] SUMA: 9.40 zl
+
+[KLIENT 9466] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9464: 202.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9466: 45.40 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9464] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9470] Przy kasie samo nr 5.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9464] PARAGON: [ Szynka, Kabanos, Frytki, Whisky, Chleb, Mydlo, Marchew ] SUMA: 202.00 zl
+
+[KLIENT 9466] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9470] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9466] PARAGON: [ Piwo, Lody, Frytki, Winogrono, Chleb ] SUMA: 45.40 zl
+
+[KLIENT 9469] Przy kasie samo nr 3.
+
+[KLIENT 9469] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9469] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 9472] Przy kasie samo nr 4.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9470: 12.00 zl
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9472] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9470] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9470] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9472: 3.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9465] Przy kasie samo nr 5.
+
+[KLIENT 9472] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9465] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9472] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9465: 192.70 zl
+
+[KLIENT 9468] Przy kasie samo nr 4.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9465] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9468] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9465] PARAGON: [ Kabanos, Warzywa na patelnie, Bulka, Wodka, Marchew, Mleko, Pizza, Domestos, Proszek, Pizza ] SUMA: 192.70 zl
+
+[KLIENT 9467] Przy kasie samo nr 5.
+
+[KLIENT 9467] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 9467] Kasa 5 zablokowana, czekaj na obsluge
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Ogorek do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 51 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 63 lat.
+
+[KLIENT 9460] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 65 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9460: 133.60 zl
+
+[KLIENT 9459] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9460] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 20 lat.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9459: 156.70 zl
+
+[KLIENT 9463] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9460] PARAGON: [ Pomidor, Szynka, Pizza, Bulka, Pizza, Bagietka, Wodka ] SUMA: 133.60 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9459] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 15 lat.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9463: 55.10 zl
+
+[KLIENT 9469] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9474] Przy kasie samo nr 0.
+
+[KLIENT 9459] PARAGON: [ Ogorek, Bulka, Ser zolty, Bulka, Whisky, Ziemniak, Banan, Bagietka, Wino, Chleb ] SUMA: 156.70 zl
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 4 i odkładam na półkę.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9474] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9469: 14.10 zl
+
+[KLIENT 9463] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 59 lat.
+
+[KLIENT 9468] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9468] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9463] PARAGON: [ Marchew, Chleb, Pomidor, Bagietka, Domestos, Maslo, Plyn do naczyn, Winogrono ] SUMA: 55.10 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9469] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9468: 82.80 zl
+
+[KLIENT 9473] Przy kasie samo nr 1.
+
+[KLIENT 9467] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9469] PARAGON: [ Banan, Jogurt, Plyn do naczyn ] SUMA: 14.10 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9473] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9479] Przy kasie samo nr 2.
+
+[KLIENT 9468] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9467: 113.10 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9473: 142.20 zl
+
+[KLIENT 9479] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9480] Przy kasie samo nr 3.
+
+[KLIENT 9468] PARAGON: [ Ser zolty, Frytki, Boczek, Ogorek, Piwo, Mleko ] SUMA: 82.80 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9480] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9479: 7.50 zl
+
+[KLIENT 9467] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9475] Przy kasie samo nr 4.
+
+[KLIENT 9473] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] 9351: Uzupelnilem Piwo do 50 sztuk
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9467] PARAGON: [ Proszek, Ogorek, Pizza, Pizza, Piwo, Pizza, Mydlo, Bagietka, Jogurt, Ogorek ] SUMA: 113.10 zl
+
+[KLIENT 9475] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9473] PARAGON: [ Mleko, Wodka, Frytki, Jablko, Whisky, Ziemniak, Bulka ] SUMA: 142.20 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9480: 8.00 zl
+
+[KLIENT 9479] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9479] PARAGON: [ Warzywa na patelnie ] SUMA: 7.50 zl
+
+[KLIENT 9480] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9482] Przy kasie samo nr 1.
+
+[KLIENT 9480] PARAGON: [ Plyn do naczyn ] SUMA: 8.00 zl
+
+[KLIENT 9482] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9476] Przy kasie samo nr 2.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9476] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9476] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 9477] Przy kasie samo nr 3.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9477] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9478] Przy kasie samo nr 5.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9478] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9478: 75.30 zl
+
+[KLIENT 9611] W kolejce do stacjonarnej 1
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9478] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASJER 1] Wolam klienta 9611 do kasy.
+
+[KLIENT 9478] PARAGON: [ Marchew, Wino, Pizza, Plyn do naczyn, Mydlo, Maslo, Paczek, Mleko ] SUMA: 75.30 zl
+
+[KASJER 1] Zakupy od Klienta 9611 na: 96.70 zl
+
+[KASJER 1] obsluzylem klienta 9611
+
+[KLIENT 9611] PARAGON: [ Bulka, Whisky, Warzywa na patelnie, Chleb, Mleko ] SUMA: 96.70 zl
+
+[KLIENT 9487] Przy kasie samo nr 5.
+
+[KLIENT 9487] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9487: 6.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9487] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9487] PARAGON: [ Ogorek ] SUMA: 6.00 zl
+
+[KLIENT 9481] Przy kasie samo nr 5.
+
+[GENERATOR] Wchodzi klient [201/10000] (PID: 9620)
+[KLIENT 9481] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 17 lat.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 0 i odkładam na półkę.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 25 lat.
+
+[KLIENT 9474] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9474] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9474: 81.80 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 47 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9482] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9474] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 56 lat.
+
+[KLIENT 9474] PARAGON: [ Pizza, Wino, Wino, Mleko ] SUMA: 81.80 zl
+
+[KLIENT 9476] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9482: 43.00 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9482] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9476: 127.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 25 lat.
+
+[KLIENT 9477] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9482] PARAGON: [ Plyn do naczyn, Wino, Gruszka ] SUMA: 43.00 zl
+
+[KLIENT 9485] Przy kasie samo nr 0.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9476] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9477: 86.90 zl
+
+[KLIENT 9485] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9484] Przy kasie samo nr 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 42 lat.
+
+[KLIENT 9476] PARAGON: [ Jogurt, Mydlo, Paczek, Jablko, Banan, Mydlo, Ogorek, Whisky, Winogrono, Domestos ] SUMA: 127.00 zl
+
+[KLIENT 9475] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9484] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9475: 51.80 zl
+
+[KLIENT 9477] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9485: 208.50 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9477] PARAGON: [ Maslo, Frytki, Piwo, Paczek, Boczek, Winogrono, Domestos, Mleko, Bagietka ] SUMA: 86.90 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9481] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9485] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9492] Przy kasie samo nr 2.
+
+[KLIENT 9475] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9485] PARAGON: [ Wino, Plyn do naczyn, Szynka, Kielbasa, Whisky, Domestos, Ziemniak, Paczek ] SUMA: 208.50 zl
+
+[KLIENT 9492] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9481: 197.40 zl
+
+[KLIENT 9475] PARAGON: [ Paczek, Ser zolty, Frytki, Bagietka, Jogurt, Banan, Ziemniak ] SUMA: 51.80 zl
+
+[KLIENT 9488] Przy kasie samo nr 0.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9481] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9488] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9492: 12.00 zl
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9481] PARAGON: [ Jablko, Wodka, Pizza, Ziemniak, Boczek, Szynka, Jogurt, Kabanos ] SUMA: 197.40 zl
+
+[KLIENT 9486] Przy kasie samo nr 3.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9492] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9486] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9494] Przy kasie samo nr 4.
+
+[KLIENT 9492] PARAGON: [ Domestos ] SUMA: 12.00 zl
+
+[KLIENT 9494] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9486: 212.40 zl
+
+[KLIENT 9493] Przy kasie samo nr 2.
+
+[KLIENT 9622] W kolejce do stacjonarnej 1
+
+[PRACOWNIK] 9351: Uzupelnilem Banan do 50 sztuk
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9494: 43.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9493] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9486] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9489] Przy kasie samo nr 5.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Marchew do 50 sztuk
+
+[KASJER 1] Wolam klienta 9622 do kasy.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9486] PARAGON: [ Whisky, Szynka, Banan, Wodka, Banan, Piwo, Ser zolty, Jablko, Mydlo, Paczek ] SUMA: 212.40 zl
+
+[KLIENT 9489] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 9494] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] AWARIA! Czekam na pomoc...
+
+[KASJER 1] Weryfikacja wieku pomyślna (64 lat). Sprzedaję alkohol.
+[KLIENT 9496] Przy kasie samo nr 3.
+
+[KASJER 1] Zakupy od Klienta 9622 na: 83.40 zl
+
+[KASJER 1] obsluzylem klienta 9622
+
+[KLIENT 9494] PARAGON: [ Warzywa na patelnie, Plyn do naczyn, Kielbasa ] SUMA: 43.50 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Ser zolty do 50 sztuk
+
+[KLIENT 9496] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9622] PARAGON: [ Bagietka, Domestos, Banan, Pizza, Ser zolty, Ogorek, Lody ] SUMA: 83.40 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9496: 24.00 zl
+
+[KLIENT 9491] Przy kasie samo nr 4.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9496] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9491] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9496] PARAGON: [ Paczek, Pizza, Marchew ] SUMA: 24.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9491: 178.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9497] Przy kasie samo nr 3.
+
+[KLIENT 9491] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9497] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9497] Kasa 3 zablokowana, czekaj na obsluge
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9491] PARAGON: [ Paczek, Domestos, Maslo, Szynka, Warzywa na patelnie, Pizza, Whisky, Ogorek ] SUMA: 178.50 zl
+
+[KLIENT 9631] W kolejce do stacjonarnej 1
+
+[KLIENT 9495] Przy kasie samo nr 4.
+
+[KASJER 1] Wolam klienta 9631 do kasy.
+
+[KLIENT 9495] Kasa odblokowana, kontynuuje.
+
+[KASJER 1] Weryfikacja wieku pomyślna (54 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9631 na: 121.00 zl
+
+[KASJER 1] obsluzylem klienta 9631
+
+[PRACOWNIK] 9351: Uzupelnilem Mydlo do 50 sztuk
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9495: 226.30 zl
+
+[KLIENT 9631] PARAGON: [ Gruszka, Kielbasa, Wodka, Wino, Pizza ] SUMA: 121.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9495] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9495] PARAGON: [ Szynka, Maslo, Chleb, Whisky, Domestos, Proszek, Boczek, Warzywa na patelnie, Mleko ] SUMA: 226.30 zl
+
+[KLIENT 9504] Przy kasie samo nr 4.
+
+[KLIENT 9504] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Warzywa na patelnie do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 38 lat.
+
+[KLIENT 9635] W kolejce do stacjonarnej 1
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KASJER 1] Wolam klienta 9635 do kasy.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 67 lat.
+
+[KLIENT 9488] Kasa odblokowana, kontynuuje.
+
+[KASJER 1] Weryfikacja wieku pomyślna (20 lat). Sprzedaję alkohol.
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASJER 1] Zakupy od Klienta 9635 na: 92.20 zl
+
+[KASJER 1] obsluzylem klienta 9635
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 26 lat.
+
+[KLIENT 9635] PARAGON: [ Banan, Pomidor, Lody, Lody, Szynka, Chleb ] SUMA: 92.20 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9488: 129.90 zl
+
+[KLIENT 9484] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9488] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 65 lat.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9484: 230.70 zl
+
+[KLIENT 9493] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9488] PARAGON: [ Jogurt, Ser zolty, Domestos, Bagietka, Whisky, Piwo, Mleko ] SUMA: 129.90 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9484] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9493: 82.20 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 68 lat.
+
+[KLIENT 9497] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9484] PARAGON: [ Proszek, Boczek, Pomidor, Whisky, Banan, Kielbasa, Mydlo, Lody, Ser zolty ] SUMA: 230.70 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9499] Przy kasie samo nr 0.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9497: 62.70 zl
+
+[KLIENT 9493] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 5
+
+[KLIENT 9504] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9499] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9493] PARAGON: [ Kielbasa, Jablko, Proszek, Gruszka, Maslo, Banan ] SUMA: 82.20 zl
+
+[KLIENT 9501] Przy kasie samo nr 1.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9504: 1.90 zl
+
+[KLIENT 9497] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9501] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Jablko do 50 sztuk
+
+[KLIENT 9500] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9497] PARAGON: [ Wodka, Gruszka, Banan, Piwo, Ogorek, Jablko ] SUMA: 62.70 zl
+
+[KLIENT 9489] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9500] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9504] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9501: 90.50 zl
+
+[KLIENT 9504] PARAGON: [ Jogurt ] SUMA: 1.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9489: 134.60 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9500: 103.00 zl
+
+[KLIENT 9501] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9498] Przy kasie samo nr 3.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[GENERATOR] Wchodzi klient [221/10000] (PID: 9645)
+[KLIENT 9489] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9501] PARAGON: [ Lody, Chleb, Piwo, Domestos, Kabanos ] SUMA: 90.50 zl
+
+[KLIENT 9500] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9498] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9503] Przy kasie samo nr 4.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9489] PARAGON: [ Marchew, Boczek, Ziemniak, Chleb, Banan, Boczek, Bulka, Domestos, Chleb, Wodka ] SUMA: 134.60 zl
+
+[KLIENT 9500] PARAGON: [ Proszek, Maslo, Jablko, Mydlo, Plyn do naczyn, Proszek, Frytki ] SUMA: 103.00 zl
+
+[KLIENT 9503] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9507] Przy kasie samo nr 1.
+
+[KLIENT 9507] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9505] Przy kasie samo nr 2.
+
+[KLIENT 9505] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9502] Przy kasie samo nr 5.
+
+[KLIENT 9502] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9647] W kolejce do stacjonarnej 1
+
+[PRACOWNIK] 9351: Uzupelnilem Pizza do 50 sztuk
+
+[KASJER 1] Wolam klienta 9647 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyślna (41 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9647 na: 146.10 zl
+
+[KASJER 1] obsluzylem klienta 9647
+
+[KLIENT 9647] PARAGON: [ Boczek, Kielbasa, Whisky, Banan, Jogurt ] SUMA: 146.10 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 35 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 68 lat.
+
+[KLIENT 9499] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9499: 55.50 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 56 lat.
+
+[KLIENT 9507] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9499] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9507: 1.90 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 34 lat.
+
+[KLIENT 9499] PARAGON: [ Chleb, Gruszka, Gruszka, Warzywa na patelnie, Jablko, Wino ] SUMA: 55.50 zl
+
+[KLIENT 9505] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9507] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9505: 115.20 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 43 lat.
+
+[KLIENT 9498] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9506] Przy kasie samo nr 0.
+
+[KLIENT 9507] PARAGON: [ Jogurt ] SUMA: 1.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9506] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9505] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9498: 208.40 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 43 lat.
+
+[KLIENT 9503] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9505] PARAGON: [ Maslo, Maslo, Domestos, Kabanos, Bagietka, Boczek ] SUMA: 115.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9498] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9503: 94.00 zl
+
+[KLIENT 9509] Przy kasie samo nr 1.
+
+[KLIENT 9498] PARAGON: [ Ziemniak, Kabanos, Szynka, Bagietka, Ogorek, Mleko, Whisky, Jogurt, Paczek, Plyn do naczyn ] SUMA: 208.40 zl
+
+[KLIENT 9502] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9509] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9511] Przy kasie samo nr 2.
+
+[KLIENT 9503] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9502: 94.70 zl
+
+[KLIENT 9511] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9509: 20.00 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Chleb do 50 sztuk
+
+[KLIENT 9503] PARAGON: [ Wodka, Kielbasa, Pizza, Gruszka, Mydlo ] SUMA: 94.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9514] Przy kasie samo nr 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9511: 3.80 zl
+
+[KLIENT 9502] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9509] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9514] Kasa 3 zablokowana, czekaj na obsluge
+
+[KASA SAMO 4] AWARIA! Czekam na pomoc...
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9502] PARAGON: [ Kielbasa, Bagietka, Warzywa na patelnie, Wino, Banan, Plyn do naczyn, Mleko, Ziemniak, Paczek, Chleb ] SUMA: 94.70 zl
+
+[KLIENT 9513] Przy kasie samo nr 4.
+
+[KLIENT 9509] PARAGON: [ Plyn do naczyn, Piwo, Plyn do naczyn ] SUMA: 20.00 zl
+
+[KLIENT 9511] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9513] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9511] PARAGON: [ Mleko ] SUMA: 3.80 zl
+
+[KLIENT 9510] Przy kasie samo nr 1.
+
+[KLIENT 9510] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9516] Przy kasie samo nr 2.
+
+[PRACOWNIK] 9351: Uzupelnilem Proszek do 50 sztuk
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9513: 86.70 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9516] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9513] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9512] Przy kasie samo nr 5.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9516: 48.00 zl
+
+[KLIENT 9513] PARAGON: [ Wino, Mleko, Winogrono, Proszek, Plyn do naczyn ] SUMA: 86.70 zl
+
+[KLIENT 9512] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9516] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9515] Przy kasie samo nr 4.
+
+[KLIENT 9516] PARAGON: [ Pizza, Warzywa na patelnie, Chleb, Pizza ] SUMA: 48.00 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Wino do 50 sztuk
+
+[KLIENT 9515] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9519] Przy kasie samo nr 2.
+
+[KLIENT 9519] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Boczek do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Maslo do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 56 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 52 lat.
+
+[KLIENT 9506] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9506: 115.20 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 40 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9510] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9506] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 3
+
+[KLIENT 9506] PARAGON: [ Maslo, Maslo, Domestos, Kabanos, Bagietka, Boczek ] SUMA: 115.20 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9510: 97.10 zl
+
+[KLIENT 9519] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9510] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9519: 85.10 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 66 lat.
+
+[KLIENT 9514] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9518] Przy kasie samo nr 0.
+
+[KLIENT 9510] PARAGON: [ Pomidor, Wino, Mleko, Chleb, Mleko, Boczek, Ziemniak, Maslo, Marchew, Paczek ] SUMA: 97.10 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9518] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9519] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 64 lat.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9514: 11.00 zl
+
+[KLIENT 9515] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9519] PARAGON: [ Bagietka, Lody, Winogrono, Kabanos, Ziemniak ] SUMA: 85.10 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9514] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9517] Przy kasie samo nr 1.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9515: 196.40 zl
+
+[KLIENT 9512] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9514] PARAGON: [ Chleb, Maslo ] SUMA: 11.00 zl
+
+[KLIENT 9517] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9520] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9515] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9520] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9525] Przy kasie samo nr 3.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9512: 257.90 zl
+
+[KLIENT 9515] PARAGON: [ Proszek, Kielbasa, Winogrono, Kabanos, Mleko, Bagietka, Maslo, Kabanos ] SUMA: 196.40 zl
+
+[KLIENT 9525] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Mleko do 50 sztuk
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9512] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9523] Przy kasie samo nr 4.
+
+[KLIENT 9512] PARAGON: [ Ser zolty, Proszek, Winogrono, Gruszka, Pomidor, Ser zolty, Kabanos, Warzywa na patelnie, Boczek, Kabanos ] SUMA: 257.90 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9525: 3.50 zl
+
+[KLIENT 9523] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[PRACOWNIK] 9351: Uzupelnilem Szynka do 50 sztuk
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[GENERATOR] Wchodzi klient [241/10000] (PID: 9669)
+[KLIENT 9525] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9527] Przy kasie samo nr 5.
+
+[KLIENT 9525] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[KLIENT 9527] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9522] Przy kasie samo nr 3.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9527: 15.00 zl
+
+[KLIENT 9522] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9527] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9522: 62.00 zl
+
+[KLIENT 9527] PARAGON: [ Lody ] SUMA: 15.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9522] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9522] PARAGON: [ Chleb, Boczek, Plyn do naczyn, Piwo, Warzywa na patelnie, Paczek, Marchew ] SUMA: 62.00 zl
+
+[KLIENT 9528] Przy kasie samo nr 5.
+
+[KLIENT 9528] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Plyn do naczyn do 50 sztuk
+
+[KLIENT 9521] Przy kasie samo nr 3.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9528: 6.50 zl
+
+[KLIENT 9521] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9528] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9528] PARAGON: [ Maslo ] SUMA: 6.50 zl
+
+[KLIENT 9526] Przy kasie samo nr 5.
+
+[KLIENT 9526] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Lody do 50 sztuk
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9526: 78.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9526] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9526] PARAGON: [ Jablko, Jablko, Wodka, Ogorek, Bulka, Ser zolty ] SUMA: 78.90 zl
+
+[KLIENT 9531] Przy kasie samo nr 5.
+
+[KLIENT 9531] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9531: 3.50 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9531] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 24 lat.
+
+[KLIENT 9531] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 46 lat.
+
+[KLIENT 9518] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9524] Przy kasie samo nr 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 28 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9518: 91.60 zl
+
+[KLIENT 9517] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9524] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9518] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 58 lat.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9517: 199.90 zl
+
+[KLIENT 9518] PARAGON: [ Jogurt, Domestos, Plyn do naczyn, Mleko, Szynka, Piwo, Lody, Jogurt ] SUMA: 91.60 zl
+
+[KLIENT 9520] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9517] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9520: 66.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 40 lat.
+
+[KLIENT 9517] PARAGON: [ Szynka, Marchew, Pizza, Szynka, Wodka, Paczek, Boczek, Jogurt, Domestos ] SUMA: 199.90 zl
+
+[KLIENT 9521] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9538] Przy kasie samo nr 0.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9520] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9538] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 41 lat.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9521: 144.20 zl
+
+[KLIENT 9520] PARAGON: [ Domestos, Domestos, Pizza, Pomidor, Warzywa na patelnie, Plyn do naczyn ] SUMA: 66.00 zl
+
+[KLIENT 9523] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9532] Przy kasie samo nr 1.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9521] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9532] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9523: 76.90 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9521] PARAGON: [ Wino, Maslo, Ser zolty, Bagietka, Marchew, Frytki, Mleko, Mydlo, Bagietka, Kabanos ] SUMA: 144.20 zl
+
+[KLIENT 9524] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9529] Przy kasie samo nr 2.
+
+[PRACOWNIK] 9351: Uzupelnilem Ziemniak do 50 sztuk
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9523] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9529] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9533] Przy kasie samo nr 3.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9524: 67.30 zl
+
+[KLIENT 9523] PARAGON: [ Lody, Domestos, Wino, Pizza, Jogurt ] SUMA: 76.90 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9529: 132.20 zl
+
+[KLIENT 9533] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9524] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9541] Przy kasie samo nr 4.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9533: 29.90 zl
+
+[KLIENT 9524] PARAGON: [ Maslo, Jablko, Wino, Paczek, Bulka, Warzywa na patelnie, Bagietka, Warzywa na patelnie, Mleko, Bulka ] SUMA: 67.30 zl
+
+[KLIENT 9529] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9541] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9529] PARAGON: [ Banan, Boczek, Domestos, Ogorek, Ziemniak, Chleb, Wino, Maslo, Proszek ] SUMA: 132.20 zl
+
+[KLIENT 9530] Przy kasie samo nr 5.
+
+[KLIENT 9533] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9541: 6.50 zl
+
+[KLIENT 9530] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 9530] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 9540] Przy kasie samo nr 2.
+
+[KLIENT 9533] PARAGON: [ Banan, Winogrono, Warzywa na patelnie, Mleko, Chleb ] SUMA: 29.90 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9541] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9540] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9543] Przy kasie samo nr 3.
+
+[KLIENT 9541] PARAGON: [ Maslo ] SUMA: 6.50 zl
+
+[KLIENT 9543] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9540: 31.30 zl
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9540] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9539] Przy kasie samo nr 4.
+
+[KLIENT 9540] PARAGON: [ Pizza, Ogorek, Jablko, Mleko ] SUMA: 31.30 zl
+
+[KLIENT 9539] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Kielbasa do 50 sztuk
+
+[KLIENT 9545] Przy kasie samo nr 2.
+
+[KLIENT 9545] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9539: 192.50 zl
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9539] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9539] PARAGON: [ Ser zolty, Lody, Ziemniak, Kielbasa, Marchew, Proszek, Kabanos, Wino ] SUMA: 192.50 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Jogurt do 50 sztuk
+
+[KLIENT 9546] Przy kasie samo nr 4.
+
+[PRACOWNIK] 9351: Uzupelnilem Wodka do 50 sztuk
+
+[KLIENT 9546] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9546: 6.70 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9546] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9546] PARAGON: [ Banan, Marchew ] SUMA: 6.70 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Ogorek do 50 sztuk
+
+[KLIENT 9547] Przy kasie samo nr 4.
+
+[KLIENT 9547] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9547: 14.00 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Kabanos do 50 sztuk
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9547] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9547] PARAGON: [ Maslo, Warzywa na patelnie ] SUMA: 14.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 65 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 24 lat.
+
+[KLIENT 9544] Przy kasie samo nr 4.
+
+[GENERATOR] Wchodzi klient [261/10000] (PID: 9700)
+[KLIENT 9538] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9544] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 20 lat.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9544: 162.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9538: 8.50 zl
+
+[KLIENT 9532] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9538] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 16 lat.
+
+[KLIENT 9544] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9545] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9532: 89.40 zl
+
+[KLIENT 9538] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na półkę.
+
+[KLIENT 9544] PARAGON: [ Marchew, Paczek, Ogorek, Whisky, Proszek, Proszek ] SUMA: 162.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9532] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9545: 8.90 zl
+
+[KLIENT 9532] PARAGON: [ Jogurt, Wodka, Piwo, Jablko, Wodka ] SUMA: 89.40 zl
+
+[KLIENT 9543] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9543] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 46 lat.
+
+[KLIENT 9548] Przy kasie samo nr 0.
+
+[KLIENT 9545] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9548] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9545] PARAGON: [ Bagietka, Marchew, Bagietka ] SUMA: 8.90 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9543: 39.50 zl
+
+[KLIENT 9542] Przy kasie samo nr 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9548: 62.40 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9530] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9543] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9542] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9551] Przy kasie samo nr 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9543] PARAGON: [ Boczek, Warzywa na patelnie ] SUMA: 39.50 zl
+
+[KLIENT 9551] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 9548] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9530: 76.90 zl
+
+[KASA SAMO 3] AWARIA! Czekam na pomoc...
+
+[KLIENT 9550] Przy kasie samo nr 3.
+
+[KLIENT 9548] PARAGON: [ Bulka, Kabanos, Maslo ] SUMA: 62.40 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9530] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9550] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[PRACOWNIK] 9351: Uzupelnilem Piwo do 50 sztuk
+
+[KLIENT 9553] Przy kasie samo nr 0.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9530] PARAGON: [ Paczek, Plyn do naczyn, Gruszka, Banan, Pizza, Domestos, Banan, Piwo, Ogorek, Domestos ] SUMA: 76.90 zl
+
+[KLIENT 9553] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9552] Przy kasie samo nr 4.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9552] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9555] Przy kasie samo nr 5.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9555] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Bulka do 50 sztuk
+
+[PRACOWNIK] 9351: Uzupelnilem Winogrono do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 33 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 40 lat.
+
+[KLIENT 9553] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9542] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 2
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9553: 229.90 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9553] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9542: 284.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 68 lat.
+
+[KLIENT 9551] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9553] PARAGON: [ Jogurt, Piwo, Ziemniak, Whisky, Boczek, Wino, Whisky ] SUMA: 229.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9542] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9551: 72.70 zl
+
+[KLIENT 9542] PARAGON: [ Boczek, Frytki, Whisky, Gruszka, Paczek, Proszek, Pizza, Kabanos, Wodka, Paczek ] SUMA: 284.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 70 lat.
+
+[KLIENT 9559] Przy kasie samo nr 0.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9550] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9551] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9557] Przy kasie samo nr 1.
+
+[KLIENT 9559] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 43 lat.
+
+[KLIENT 9551] PARAGON: [ Paczek, Kabanos, Banan, Marchew, Warzywa na patelnie ] SUMA: 72.70 zl
+
+[KLIENT 9557] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9550: 69.90 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9552] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9562] Przy kasie samo nr 2.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9550] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9552: 228.70 zl
+
+[KLIENT 9562] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9555] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9550] PARAGON: [ Jablko, Ogorek, Gruszka, Pizza, Jogurt, Piwo, Maslo, Ser zolty ] SUMA: 69.90 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9562: 43.00 zl
+
+[KLIENT 9552] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9555: 112.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9552] PARAGON: [ Ser zolty, Wino, Pizza, Whisky, Szynka, Bagietka, Ogorek, Lody, Maslo ] SUMA: 228.70 zl
+
+[KLIENT 9556] Przy kasie samo nr 3.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9562] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9555] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9556] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9562] PARAGON: [ Lody, Kielbasa ] SUMA: 43.00 zl
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9555] PARAGON: [ Mleko, Pizza, Bulka, Mydlo, Kielbasa, Szynka, Mleko, Jogurt, Plyn do naczyn ] SUMA: 112.40 zl
+
+[KLIENT 9560] Przy kasie samo nr 4.
+
+[KLIENT 9560] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 9558] Przy kasie samo nr 2.
+
+[KASA SAMO 5] AWARIA! Czekam na pomoc...
+
+[KLIENT 9558] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9565] Przy kasie samo nr 5.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9565] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9714] W kolejce do stacjonarnej 1
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9565: 84.40 zl
+
+[KASJER 1] Wolam klienta 9714 do kasy.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9565] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASJER 1] Zakupy od Klienta 9714 na: 56.70 zl
+
+[KASJER 1] obsluzylem klienta 9714
+
+[KLIENT 9565] PARAGON: [ Whisky, Jablko, Bulka ] SUMA: 84.40 zl
+
+[KLIENT 9714] PARAGON: [ Maslo, Ogorek, Banan, Jablko, Kielbasa, Chleb, Piwo ] SUMA: 56.70 zl
+
+[KLIENT 9564] Przy kasie samo nr 5.
+
+[KLIENT 9564] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Domestos do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 27 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 20 lat.
+
+[KLIENT 9559] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9559: 71.20 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 47 lat.
+
+[KLIENT 9557] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9559] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9557: 55.20 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 33 lat.
+
+[KLIENT 9558] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9559] PARAGON: [ Maslo, Proszek, Pizza, Bagietka, Pomidor ] SUMA: 71.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9557] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9558: 124.80 zl
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 4
+
+[KLIENT 9556] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9561] Przy kasie samo nr 0.
+
+[KLIENT 9557] PARAGON: [ Jablko, Winogrono, Piwo, Gruszka, Wino, Bulka, Jogurt ] SUMA: 55.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9561] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9558] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9556: 175.20 zl
+
+[KLIENT 9563] Przy kasie samo nr 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 24 lat.
+
+[KLIENT 9560] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9558] PARAGON: [ Maslo, Gruszka, Gruszka, Lody, Winogrono, Winogrono, Wino, Wodka, Paczek ] SUMA: 124.80 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9563] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9556] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9560: 128.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9563: 115.50 zl
+
+[KLIENT 9556] PARAGON: [ Ser zolty, Winogrono, Whisky, Gruszka, Chleb, Boczek, Mydlo, Mleko, Domestos ] SUMA: 175.20 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9564] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9569] Przy kasie samo nr 2.
+
+[KLIENT 9560] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9563] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9569] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9560] PARAGON: [ Winogrono, Wodka, Boczek, Paczek, Jablko, Wodka ] SUMA: 128.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9564: 92.20 zl
+
+[KLIENT 9568] Przy kasie samo nr 3.
+
+[KLIENT 9563] PARAGON: [ Wino, Maslo, Wodka, Ogorek, Lody, Pizza ] SUMA: 115.50 zl
+
+[GENERATOR] Wchodzi klient [281/10000] (PID: 9724)
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9564] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9568] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9566] Przy kasie samo nr 1.
+
+[KLIENT 9564] PARAGON: [ Kabanos, Banan, Gruszka, Kielbasa ] SUMA: 92.20 zl
+
+[KLIENT 9566] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[PRACOWNIK] 9351: Uzupelnilem Szynka do 50 sztuk
+
+[KLIENT 9571] Przy kasie samo nr 4.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9568: 41.90 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9571] Kasa 4 zablokowana, czekaj na obsluge
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9567] Przy kasie samo nr 5.
+
+[KASA SAMO 5] AWARIA! Czekam na pomoc...
+
+[KLIENT 9568] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9567] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9568] PARAGON: [ Winogrono, Boczek ] SUMA: 41.90 zl
+
+[KLIENT 9570] Przy kasie samo nr 3.
+
+[KLIENT 9570] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9570: 122.70 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9570] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9570] PARAGON: [ Boczek, Frytki, Ogorek, Ogorek, Paczek, Ser zolty, Ser zolty, Mydlo, Banan, Ogorek ] SUMA: 122.70 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Pomidor do 50 sztuk
+
+[KLIENT 9572] Przy kasie samo nr 3.
+
+[KLIENT 9572] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 70 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 34 lat.
+
+[KLIENT 9561] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9561: 88.80 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 61 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9566] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9561] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 28 lat.
+
+[KLIENT 9561] PARAGON: [ Gruszka, Proszek, Bagietka, Wino, Bagietka, Gruszka, Banan, Bagietka ] SUMA: 88.80 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9566: 58.70 zl
+
+[KLIENT 9569] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9566] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9569: 3.20 zl
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 4
+
+[KLIENT 9574] Przy kasie samo nr 0.
+
+[KLIENT 9572] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9566] PARAGON: [ Ziemniak, Ziemniak, Bagietka, Mleko, Paczek, Proszek, Gruszka, Banan ] SUMA: 58.70 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9574] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9569] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 26 lat.
+
+[KLIENT 9571] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9572: 144.10 zl
+
+[KLIENT 9569] PARAGON: [ Bagietka ] SUMA: 3.20 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9575] Przy kasie samo nr 1.
+
+[KLIENT 9572] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9571: 139.50 zl
+
+[KLIENT 9575] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9572] PARAGON: [ Kielbasa, Szynka, Piwo, Frytki, Bagietka, Pizza, Jogurt, Boczek ] SUMA: 144.10 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9576] Przy kasie samo nr 2.
+
+[KLIENT 9567] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9571] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9576] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9577] Przy kasie samo nr 3.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9567: 79.90 zl
+
+[KLIENT 9571] PARAGON: [ Kabanos, Chleb, Whisky ] SUMA: 139.50 zl
+
+[KLIENT 9577] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9578] Przy kasie samo nr 4.
+
+[KLIENT 9567] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9578] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9567] PARAGON: [ Jogurt, Domestos, Lody, Kielbasa, Gruszka, Frytki, Mydlo, Mydlo ] SUMA: 79.90 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Frytki do 50 sztuk
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9578: 16.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9584] Przy kasie samo nr 5.
+
+[KLIENT 9578] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9584] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9578] PARAGON: [ Marchew, Mydlo, Chleb, Maslo ] SUMA: 16.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9584: 2.50 zl
+
+[KLIENT 9583] Przy kasie samo nr 4.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9584] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9583] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9584] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9583: 206.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9585] Przy kasie samo nr 5.
+
+[KLIENT 9583] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9585] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9583] PARAGON: [ Paczek, Whisky, Boczek, Chleb, Whisky, Ogorek ] SUMA: 206.00 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Gruszka do 50 sztuk
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9585: 67.00 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Bagietka do 50 sztuk
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9586] Przy kasie samo nr 4.
+
+[KLIENT 9585] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9586] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9585] PARAGON: [ Piwo, Pizza, Szynka ] SUMA: 67.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9586: 58.80 zl
+
+[KLIENT 9587] Przy kasie samo nr 5.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9586] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9587] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9586] PARAGON: [ Kabanos, Mleko ] SUMA: 58.80 zl
+
+[KLIENT 9588] Przy kasie samo nr 4.
+
+[KLIENT 9588] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[PRACOWNIK] 9351: Uzupelnilem Paczek do 50 sztuk
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] 9351: Uzupelnilem Whisky do 50 sztuk
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 70 lat.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 70 lat.
+
+[KLIENT 9574] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9574: 133.90 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 34 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9575] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9574] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9575: 133.90 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 48 lat.
+
+[KLIENT 9574] PARAGON: [ Wodka, Wino, Ser zolty, Banan, Maslo, Bagietka, Ser zolty ] SUMA: 133.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9576] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9575] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9576: 154.50 zl
+
+[KLIENT 9589] Przy kasie samo nr 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 30 lat.
+
+[KLIENT 9575] PARAGON: [ Wodka, Wino, Ser zolty, Banan, Maslo, Bagietka, Ser zolty ] SUMA: 133.90 zl
+
+[KLIENT 9577] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9589] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9589] Kasa 0 zablokowana, czekaj na obsluge
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9591] Przy kasie samo nr 1.
+
+[KLIENT 9576] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 68 lat.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9577: 151.60 zl
+
+[KLIENT 9591] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9576] PARAGON: [ Proszek, Wino, Warzywa na patelnie, Maslo, Frytki, Gruszka, Jablko, Wodka, Lody ] SUMA: 154.50 zl
+
+[KLIENT 9588] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9577] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9588: 122.10 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9591: 2.50 zl
+
+[KLIENT 9590] Przy kasie samo nr 2.
+
+[KLIENT 9577] PARAGON: [ Banan, Mleko, Bulka, Domestos, Domestos, Wodka, Bagietka, Boczek, Jablko, Wodka ] SUMA: 151.60 zl
+
+[KLIENT 9587] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9591] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9590] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9588] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9587: 55.00 zl
+
+[KLIENT 9591] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KLIENT 9592] Przy kasie samo nr 3.
+
+[KLIENT 9588] PARAGON: [ Lody, Paczek, Gruszka, Bulka, Lody, Ser zolty, Boczek, Pizza, Chleb, Bagietka ] SUMA: 122.10 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9590: 67.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9592] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9592] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 9593] Przy kasie samo nr 1.
+
+[KLIENT 9587] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[GENERATOR] Wchodzi klient [301/10000] (PID: 9752)
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9590] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9593] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 9587] PARAGON: [ Bagietka, Gruszka, Jablko, Bagietka, Jogurt, Gruszka, Wino, Bagietka ] SUMA: 55.00 zl
+
+[KLIENT 9598] Przy kasie samo nr 4.
+
+[KASA SAMO 2] AWARIA! Czekam na pomoc...
+
+[KLIENT 9590] PARAGON: [ Piwo, Pizza, Szynka ] SUMA: 67.00 zl
+
+[KLIENT 9598] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9600] Przy kasie samo nr 5.
+
+[KLIENT 9600] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9598: 28.00 zl
+
+[KLIENT 9599] Przy kasie samo nr 2.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9600: 27.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9753] W kolejce do stacjonarnej 1
+
+[KLIENT 9598] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9599] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASJER 1] Wolam klienta 9753 do kasy.
+
+[KLIENT 9598] PARAGON: [ Kielbasa ] SUMA: 28.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9599: 134.40 zl
+
+[KLIENT 9600] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASJER 1] Zakupy od Klienta 9753 na: 24.90 zl
+
+[KASJER 1] obsluzylem klienta 9753
+
+[KLIENT 9600] PARAGON: [ Marchew, Ser zolty ] SUMA: 27.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9602] Przy kasie samo nr 4.
+
+[KLIENT 9753] PARAGON: [ Lody, Winogrono ] SUMA: 24.90 zl
+
+[KLIENT 9599] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9602] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9599] PARAGON: [ Piwo, Kabanos, Chleb, Domestos, Ser zolty, Mydlo, Bulka, Wino ] SUMA: 134.40 zl
+
+[KLIENT 9601] Przy kasie samo nr 5.
+
+[KLIENT 9601] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9602: 15.00 zl
+
+[KLIENT 9603] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9603] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9602] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9602] PARAGON: [ Lody ] SUMA: 15.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9603: 44.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9604] Przy kasie samo nr 4.
+
+[KLIENT 9603] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9604] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9603] PARAGON: [ Maslo, Marchew, Proszek ] SUMA: 44.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9604: 75.40 zl
+
+[PRACOWNIK] 9351: Uzupelnilem Boczek do 50 sztuk
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9607] Przy kasie samo nr 2.
+
+[KLIENT 9604] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9607] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] 9351: Uzupelnilem Mydlo do 50 sztuk
+
+[KLIENT 9604] PARAGON: [ Piwo, Frytki, Kielbasa, Piwo, Marchew, Pizza, Bulka, Ogorek ] SUMA: 75.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9607: 32.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9606] Przy kasie samo nr 4.
+
+[KLIENT 9607] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9606] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9607] PARAGON: [ Boczek ] SUMA: 32.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9606: 80.00 zl
+
+[KLIENT 9605] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9762] W kolejce do stacjonarnej 1
+
+[KASJER 1] Wolam klienta 9762 do kasy.
+
+[KLIENT 9606] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9605] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9763] W kolejce do stacjonarnej 1
+
+[KLIENT 9606] PARAGON: [ Frytki, Wodka, Mydlo, Ser zolty ] SUMA: 80.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9605: 75.40 zl
+
+[KASJER 1] Weryfikacja wieku pomyślna (49 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9762 na: 78.70 zl
+
+[KASJER 1] obsluzylem klienta 9762
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 39 lat.
+
+[KLIENT 9608] Przy kasie samo nr 4.
+
+[KLIENT 9762] PARAGON: [ Chleb, Szynka, Ogorek, Plyn do naczyn, Frytki, Bagietka ] SUMA: 78.70 zl
+
+[KLIENT 9605] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9608] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9605] PARAGON: [ Piwo, Frytki, Kielbasa, Piwo, Marchew, Pizza, Bulka, Ogorek ] SUMA: 75.40 zl
+
+[KLIENT 9589] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 1
+
+[KASJER 1] Wolam klienta 9763 do kasy.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9608: 132.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9589: 127.00 zl
+
+[KLIENT 9610] Przy kasie samo nr 2.
+
+[KASJER 1] Weryfikacja wieku pomyślna (46 lat). Sprzedaję alkohol.
+[KASJER 1] Zakupy od Klienta 9763 na: 8.90 zl
+
+[KASJER 1] obsluzylem klienta 9763
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9593] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9610] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 20 lat.
+
+[KLIENT 9589] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9763] PARAGON: [ Marchew, Bagietka, Bagietka ] SUMA: 8.90 zl
+
+[KLIENT 9608] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9610: 12.90 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9589] PARAGON: [ Pizza, Banan, Kabanos, Piwo, Frytki, Pomidor, Jogurt, Winogrono, Pomidor, Gruszka ] SUMA: 127.00 zl
+
+[KLIENT 9608] PARAGON: [ Whisky, Szynka, Warzywa na patelnie ] SUMA: 132.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9593: 7.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9609] Przy kasie samo nr 0.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9592] Kasa odblokowana, kontynuuje.
+
+[KIEROWNIK] Otrzymano SIGINT -> Zamykam sklep dla nowych klientow
+
+[KLIENT 9593] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9610] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 42 lat.
+
+[KLIENT 9609] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9612] Przy kasie samo nr 4.
+
+[GENERATOR] Sklep zamkniety lub ewakuacja. Wstrzymuje wpuszczanie.
+[GENERATOR] Wszyscy zaplanowani klienci wygenerowani. Zamykam wejście.
+[KLIENT 9593] PARAGON: [ Warzywa na patelnie ] SUMA: 7.50 zl
+
+[KLIENT 9610] PARAGON: [ Bulka, Domestos ] SUMA: 12.90 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9612] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9592: 25.90 zl
+
+[KIEROWNIK] Czekam na ostatnich klientów (118)...
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 48 lat.
+
+[KLIENT 9601] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9613] Przy kasie samo nr 1.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9592] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9613] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9613] Kasa 1 zablokowana, czekaj na obsluge
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9601: 84.60 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9592] PARAGON: [ Domestos, Jogurt, Domestos ] SUMA: 25.90 zl
+
+[KLIENT 9619] Przy kasie samo nr 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 64 lat.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9609] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9619] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9601] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9618] Przy kasie samo nr 3.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9619: 45.00 zl
+
+[KLIENT 9601] PARAGON: [ Warzywa na patelnie, Gruszka, Bulka, Pizza, Ogorek, Domestos, Boczek, Bagietka ] SUMA: 84.60 zl
+
+[KLIENT 9613] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9609: 156.70 zl
+
+[KLIENT 9618] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 54 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9609] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9613: 93.50 zl
+
+[KLIENT 9619] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9609] PARAGON: [ Szynka, Ziemniak, Pizza, Marchew, Mleko, Whisky, Jogurt, Paczek ] SUMA: 156.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9619] PARAGON: [ Szynka ] SUMA: 45.00 zl
+
+[KLIENT 9620] Przy kasie samo nr 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 53 lat.
+
+[KLIENT 9613] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9618] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9620] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9613] PARAGON: [ Piwo, Pomidor, Ser zolty, Ziemniak, Pizza, Lody, Lody, Ogorek ] SUMA: 93.50 zl
+
+[KLIENT 9623] Przy kasie samo nr 0.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9620: 6.00 zl
+
+[KLIENT 9612] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9623] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9618: 133.20 zl
+
+[KLIENT 9625] Przy kasie samo nr 1.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9625] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9620] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9612: 99.50 zl
+
+[KLIENT 9621] Przy kasie samo nr 2.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9623: 29.50 zl
+
+[KLIENT 9618] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9620] PARAGON: [ Ziemniak, Piwo ] SUMA: 6.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9621] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9612] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9623] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9618] PARAGON: [ Bulka, Maslo, Mleko, Mydlo, Gruszka, Plyn do naczyn, Ogorek, Szynka, Kabanos ] SUMA: 133.20 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9625: 30.00 zl
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9612] PARAGON: [ Whisky, Chleb, Pomidor, Paczek, Mydlo ] SUMA: 99.50 zl
+
+[KLIENT 9623] PARAGON: [ Marchew, Domestos, Lody ] SUMA: 29.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9625] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9626] Przy kasie samo nr 0.
+
+[KLIENT 9625] PARAGON: [ Pizza, Frytki ] SUMA: 30.00 zl
+
+[KLIENT 9626] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9624] Przy kasie samo nr 1.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9626: 22.40 zl
+
+[KLIENT 9624] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9628] Przy kasie samo nr 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 21 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9624: 90.50 zl
+
+[KLIENT 9626] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9628] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9627] Przy kasie samo nr 4.
+
+[KLIENT 9626] PARAGON: [ Frytki, Ziemniak, Warzywa na patelnie, Bulka ] SUMA: 22.40 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 14 lat.
+
+[KLIENT 9621] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9624] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9627] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9630] Przy kasie samo nr 5.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 3 i odkładam na półkę.
+
+[KLIENT 9624] PARAGON: [ Piwo, Chleb, Ser zolty, Jablko, Lody, Proszek, Paczek ] SUMA: 90.50 zl
+
+[KLIENT 9630] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9632] Przy kasie samo nr 0.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9621: 116.80 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9627: 90.50 zl
+
+[KLIENT 9632] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9628] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9628] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9630: 37.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9621] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9627] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9633] Przy kasie samo nr 1.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9632: 83.00 zl
+
+[KLIENT 9621] PARAGON: [ Lody, Wino, Ogorek, Bagietka, Warzywa na patelnie, Pizza, Banan, Winogrono, Plyn do naczyn, Lody ] SUMA: 116.80 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9628: 41.00 zl
+
+[KLIENT 9627] PARAGON: [ Piwo, Chleb, Ser zolty, Jablko, Lody, Proszek, Paczek ] SUMA: 90.50 zl
+
+[KLIENT 9630] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9633] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 43 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9630] PARAGON: [ Pizza, Ziemniak, Mydlo, Maslo, Warzywa na patelnie ] SUMA: 37.00 zl
+
+[KLIENT 9632] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9628] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9632] PARAGON: [ Mydlo, Proszek, Szynka ] SUMA: 83.00 zl
+
+[KLIENT 9628] PARAGON: [ Paczek, Marchew, Proszek ] SUMA: 41.00 zl
+
+[KLIENT 9634] Przy kasie samo nr 2.
+
+[KLIENT 9633] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9634] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9636] Przy kasie samo nr 0.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9633: 20.00 zl
+
+[KLIENT 9636] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9641] Przy kasie samo nr 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9633] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9636: 32.50 zl
+
+[KLIENT 9641] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9633] PARAGON: [ Pomidor, Gruszka, Maslo ] SUMA: 20.00 zl
+
+[KLIENT 9642] Przy kasie samo nr 4.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9641: 12.00 zl
+
+[KLIENT 9642] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9636] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 61 lat.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9644] Przy kasie samo nr 1.
+
+[KLIENT 9636] PARAGON: [ Chleb, Kielbasa ] SUMA: 32.50 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9642: 21.90 zl
+
+[KLIENT 9641] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9644] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9646] Przy kasie samo nr 0.
+
+[KLIENT 9634] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9641] PARAGON: [ Ogorek, Ogorek ] SUMA: 12.00 zl
+
+[KLIENT 9642] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9646] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9644: 7.80 zl
+
+[KLIENT 9642] PARAGON: [ Mydlo, Pizza, Bulka ] SUMA: 21.90 zl
+
+[KLIENT 9643] Przy kasie samo nr 3.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9634: 14.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9646: 18.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9644] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9643] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9643] Kasa 3 zablokowana, czekaj na obsluge
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9634] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9645] Przy kasie samo nr 4.
+
+[KLIENT 9644] PARAGON: [ Mleko, Piwo ] SUMA: 7.80 zl
+
+[KLIENT 9646] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9634] PARAGON: [ Winogrono, Gruszka ] SUMA: 14.90 zl
+
+[KLIENT 9645] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9646] PARAGON: [ Pizza ] SUMA: 18.00 zl
+
+[KLIENT 9648] Przy kasie samo nr 1.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 28 lat.
+
+[KLIENT 9648] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9649] Przy kasie samo nr 0.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9645: 108.00 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9649] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9648: 90.30 zl
+
+[KLIENT 9645] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9650] Przy kasie samo nr 2.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9649: 329.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9645] PARAGON: [ Chleb, Szynka, Kabanos, Paczek ] SUMA: 108.00 zl
+
+[KLIENT 9643] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9648] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9650] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9651] Przy kasie samo nr 5.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9648] PARAGON: [ Domestos, Domestos, Warzywa na patelnie, Ziemniak, Winogrono, Paczek, Proszek, Banan, Banan ] SUMA: 90.30 zl
+
+[KLIENT 9649] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9651] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9643: 31.30 zl
+
+[KLIENT 9659] Przy kasie samo nr 4.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9649] PARAGON: [ Kabanos, Szynka, Wino, Pizza, Maslo, Whisky, Wodka, Kabanos ] SUMA: 329.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9643] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9659] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 59 lat.
+
+[KLIENT 9652] Przy kasie samo nr 0.
+
+[KLIENT 9643] PARAGON: [ Marchew, Mleko, Pomidor, Piwo, Ziemniak, Marchew, Plyn do naczyn ] SUMA: 31.30 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9659: 4.00 zl
+
+[KLIENT 9652] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9650] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9657] Przy kasie samo nr 1.
+
+[KLIENT 9659] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9657] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9659] PARAGON: [ Piwo ] SUMA: 4.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9650: 123.90 zl
+
+[KLIENT 9661] Przy kasie samo nr 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 59 lat.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9661] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9650] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9662] Przy kasie samo nr 4.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 51 lat.
+
+[KLIENT 9650] PARAGON: [ Boczek, Paczek, Jogurt, Mydlo, Ogorek, Pizza, Kabanos, Chleb ] SUMA: 123.90 zl
+
+[KLIENT 9651] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9661: 12.00 zl
+
+[KLIENT 9662] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9658] Przy kasie samo nr 2.
+
+[KLIENT 9661] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 41 lat.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9651: 123.90 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9662: 32.00 zl
+
+[KLIENT 9652] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9658] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9661] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9651] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9662] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 26 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9652: 200.00 zl
+
+[KLIENT 9657] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9651] PARAGON: [ Boczek, Paczek, Jogurt, Mydlo, Ogorek, Pizza, Kabanos, Chleb ] SUMA: 123.90 zl
+
+[KLIENT 9660] Przy kasie samo nr 3.
+
+[KLIENT 9662] PARAGON: [ Boczek ] SUMA: 32.00 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9652] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9657: 79.50 zl
+
+[KLIENT 9660] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9663] Przy kasie samo nr 4.
+
+[KLIENT 9652] PARAGON: [ Gruszka, Proszek, Kielbasa, Piwo, Ogorek, Ziemniak, Whisky, Wodka ] SUMA: 200.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9658] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9663] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9657] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9660: 57.20 zl
+
+[KLIENT 9664] Przy kasie samo nr 0.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9658: 86.20 zl
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9657] PARAGON: [ Domestos, Piwo, Maslo, Szynka, Pomidor, Paczek ] SUMA: 79.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9664] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9660] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 38 lat.
+
+[KLIENT 9665] Przy kasie samo nr 5.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9660] PARAGON: [ Proszek, Ogorek, Winogrono, Mleko, Marchew ] SUMA: 57.20 zl
+
+[KLIENT 9658] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9665] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 9665] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 9666] Przy kasie samo nr 1.
+
+[KLIENT 9658] PARAGON: [ Bagietka, Pomidor, Frytki, Piwo, Warzywa na patelnie, Chleb, Wodka, Maslo ] SUMA: 86.20 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9664] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9666] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9667] Przy kasie samo nr 2.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9664: 81.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9666: 187.40 zl
+
+[KLIENT 9667] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 51 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9668] Przy kasie samo nr 3.
+
+[KLIENT 9664] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9666] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9667: 145.80 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9668] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9664] PARAGON: [ Jogurt, Whisky ] SUMA: 81.90 zl
+
+[KLIENT 9666] PARAGON: [ Mleko, Domestos, Chleb, Szynka, Kielbasa, Winogrono, Whisky, Banan ] SUMA: 187.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 65 lat.
+
+[KLIENT 9663] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9667] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9668: 83.40 zl
+
+[KLIENT 9667] PARAGON: [ Winogrono, Frytki, Whisky, Winogrono, Lody, Paczek, Jablko, Domestos ] SUMA: 145.80 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9663: 47.50 zl
+
+[KLIENT 9665] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9669] Przy kasie samo nr 0.
+
+[KLIENT 9668] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9663] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9669] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9669] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 9668] PARAGON: [ Mydlo, Mydlo, Warzywa na patelnie, Frytki, Piwo, Proszek, Pizza, Bulka ] SUMA: 83.40 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9665: 84.50 zl
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9663] PARAGON: [ Warzywa na patelnie, Gruszka, Proszek ] SUMA: 47.50 zl
+
+[KLIENT 9670] Przy kasie samo nr 1.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9665] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9670] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9673] Przy kasie samo nr 2.
+
+[KLIENT 9665] PARAGON: [ Bulka, Ser zolty, Ziemniak, Bagietka, Szynka, Banan, Banan ] SUMA: 84.50 zl
+
+[KLIENT 9673] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9671] Przy kasie samo nr 3.
+
+[KLIENT 9671] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9673: 28.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 33 lat.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9672] Przy kasie samo nr 4.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9673] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9672] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9678] Przy kasie samo nr 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 29 lat.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9669] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9673] PARAGON: [ Kielbasa ] SUMA: 28.00 zl
+
+[KLIENT 9678] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9679] Przy kasie samo nr 2.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9669: 145.40 zl
+
+[KLIENT 9670] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9679] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 37 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9670: 77.90 zl
+
+[KLIENT 9669] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9669] PARAGON: [ Boczek, Bagietka, Lody, Banan, Pizza, Gruszka, Ogorek, Boczek, Wino ] SUMA: 145.40 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 26 lat.
+
+[KLIENT 9670] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9671] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9670] PARAGON: [ Domestos, Paczek, Marchew, Frytki, Proszek, Plyn do naczyn, Mydlo, Jogurt ] SUMA: 77.90 zl
+
+[KLIENT 9680] Przy kasie samo nr 0.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 64 lat.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9671: 127.20 zl
+
+[KLIENT 9680] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9672] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9681] Przy kasie samo nr 1.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9681] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9671] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9672: 37.60 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9680: 15.00 zl
+
+[KLIENT 9671] PARAGON: [ Jogurt, Jogurt, Jogurt, Maslo, Pizza, Szynka, Domestos, Kielbasa, Domestos ] SUMA: 127.20 zl
+
+[KLIENT 9678] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9681: 10.30 zl
+
+[KLIENT 9680] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9672] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9678: 68.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 38 lat.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9683] Przy kasie samo nr 3.
+
+[KLIENT 9680] PARAGON: [ Lody ] SUMA: 15.00 zl
+
+[KLIENT 9672] PARAGON: [ Pizza, Jogurt, Ogorek, Mydlo, Chleb, Banan ] SUMA: 37.60 zl
+
+[KLIENT 9681] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KLIENT 9683] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9681] PARAGON: [ Mleko, Maslo ] SUMA: 10.30 zl
+
+[KLIENT 9682] Przy kasie samo nr 0.
+
+[KLIENT 9678] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9679] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9682] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9678] PARAGON: [ Pizza, Plyn do naczyn, Mydlo, Kielbasa, Marchew, Pomidor ] SUMA: 68.00 zl
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9683: 15.00 zl
+
+[KLIENT 9686] Przy kasie samo nr 1.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9679: 81.90 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9683] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9686] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9688] Przy kasie samo nr 4.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 30 lat.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9683] PARAGON: [ Mydlo, Domestos ] SUMA: 15.00 zl
+
+[KLIENT 9679] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9688] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9679] PARAGON: [ Jogurt, Whisky ] SUMA: 81.90 zl
+
+[KLIENT 9684] Przy kasie samo nr 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 15 lat.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9688: 2.50 zl
+
+[KLIENT 9684] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9682] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na półkę.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9685] Przy kasie samo nr 2.
+
+[KLIENT 9688] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9682: 162.90 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9684: 236.50 zl
+
+[KLIENT 9686] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9686] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9685] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9688] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9687] Przy kasie samo nr 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9684] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9682] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9685: 236.50 zl
+
+[KLIENT 9687] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9686: 38.50 zl
+
+[KLIENT 9684] PARAGON: [ Kielbasa, Boczek, Piwo, Kabanos, Pizza, Szynka, Jablko, Szynka, Ogorek ] SUMA: 236.50 zl
+
+[KLIENT 9682] PARAGON: [ Whisky, Boczek, Bulka, Chleb, Lody, Pizza, Piwo, Pomidor ] SUMA: 162.90 zl
+
+[KLIENT 9689] Przy kasie samo nr 4.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9686] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9685] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9689] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9694] Przy kasie samo nr 0.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9687: 240.20 zl
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9686] PARAGON: [ Proszek, Jablko ] SUMA: 38.50 zl
+
+[KLIENT 9685] PARAGON: [ Kielbasa, Boczek, Piwo, Kabanos, Pizza, Szynka, Jablko, Szynka, Ogorek ] SUMA: 236.50 zl
+
+[KLIENT 9694] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9692] Przy kasie samo nr 3.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9687] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9692] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9695] Przy kasie samo nr 1.
+
+[KLIENT 9687] PARAGON: [ Lody, Mleko, Maslo, Wodka, Bulka, Whisky, Kabanos, Jablko, Kielbasa, Warzywa na patelnie ] SUMA: 240.20 zl
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9695] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9700] Przy kasie samo nr 2.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 44 lat.
+
+[KLIENT 9700] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9695: 110.80 zl
+
+[KLIENT 9701] Przy kasie samo nr 5.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 16 lat.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9701] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9692] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9695] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 4 i odkładam na półkę.
+
+[KLIENT 9695] PARAGON: [ Ogorek, Lody, Ziemniak, Lody, Ziemniak, Szynka, Jablko, Mleko, Lody, Paczek ] SUMA: 110.80 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9701: 28.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9692: 294.60 zl
+
+[KLIENT 9689] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9689] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 55 lat.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9702] Przy kasie samo nr 1.
+
+[KLIENT 9701] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9692] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9689: 74.70 zl
+
+[KLIENT 9702] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9701] PARAGON: [ Kielbasa ] SUMA: 28.00 zl
+
+[KLIENT 9692] PARAGON: [ Whisky, Jablko, Plyn do naczyn, Piwo, Szynka, Ogorek, Whisky, Kabanos, Winogrono, Bagietka ] SUMA: 294.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9689] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9694] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 34 lat.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9702: 35.50 zl
+
+[KLIENT 9703] Przy kasie samo nr 3.
+
+[KLIENT 9689] PARAGON: [ Bulka, Jablko, Szynka, Pizza, Paczek, Mleko ] SUMA: 74.70 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9694: 75.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9702] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9703] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9706] Przy kasie samo nr 4.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9702] PARAGON: [ Piwo, Ser zolty, Jablko, Mydlo ] SUMA: 35.50 zl
+
+[KLIENT 9694] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9700] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9706] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9703: 98.70 zl
+
+[KLIENT 9694] PARAGON: [ Gruszka, Mleko, Boczek, Proszek ] SUMA: 75.80 zl
+
+[KLIENT 9704] Przy kasie samo nr 1.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9703] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9700: 87.00 zl
+
+[KLIENT 9704] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9704] Kasa 1 zablokowana, czekaj na obsluge
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9706: 60.00 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9707] Przy kasie samo nr 0.
+
+[KLIENT 9703] PARAGON: [ Proszek, Chleb, Banan, Kabanos ] SUMA: 98.70 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9700] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 70 lat.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9706] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9707] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9705] Przy kasie samo nr 5.
+
+[KLIENT 9700] PARAGON: [ Kielbasa, Domestos, Bagietka, Wodka, Mleko ] SUMA: 87.00 zl
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9706] PARAGON: [ Ser zolty, Proszek ] SUMA: 60.00 zl
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9705] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9708] Przy kasie samo nr 2.
+
+[KLIENT 9704] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9708] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9712] Przy kasie samo nr 3.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9704: 146.30 zl
+
+[KLIENT 9712] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9715] Przy kasie samo nr 4.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9708: 49.20 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 63 lat.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9715] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9704] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9712: 272.90 zl
+
+[KLIENT 9708] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9704] PARAGON: [ Proszek, Wino, Marchew, Gruszka, Boczek, Jablko, Chleb, Wino, Mleko ] SUMA: 146.30 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 42 lat.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9708] PARAGON: [ Banan, Szynka ] SUMA: 49.20 zl
+
+[KLIENT 9705] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9712] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9717] Przy kasie samo nr 1.
+
+[KLIENT 9712] PARAGON: [ Kabanos, Kabanos, Ser zolty, Szynka, Whisky, Domestos, Bulka ] SUMA: 272.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9705: 163.90 zl
+
+[KLIENT 9717] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 9718] Przy kasie samo nr 2.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9707] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9718] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9705] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9716] Przy kasie samo nr 3.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9707: 152.20 zl
+
+[KLIENT 9705] PARAGON: [ Ziemniak, Winogrono, Chleb, Boczek, Marchew, Ser zolty, Gruszka, Ser zolty, Wodka, Pizza ] SUMA: 163.90 zl
+
+[KLIENT 9716] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9718: 140.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 15 lat.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9707] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 4 i odkładam na półkę.
+
+[KLIENT 9718] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9716: 280.40 zl
+
+[KLIENT 9707] PARAGON: [ Proszek, Kabanos, Domestos, Boczek, Bagietka, Lody ] SUMA: 152.20 zl
+
+[KLIENT 9720] Przy kasie samo nr 5.
+
+[KLIENT 9718] PARAGON: [ Ogorek, Whisky, Maslo, Szynka, Marchew ] SUMA: 140.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9716] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9715] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9715] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9720] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9719] Przy kasie samo nr 0.
+
+[KLIENT 9716] PARAGON: [ Winogrono, Domestos, Whisky, Maslo, Domestos, Whisky, Ser zolty, Kabanos ] SUMA: 280.40 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9720: 45.00 zl
+
+[KLIENT 9719] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 14 lat.
+
+[KLIENT 9721] Przy kasie samo nr 2.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9715: 15.00 zl
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] NIELETNI! Zabieram alkohol z kasy 1 i odkładam na półkę.
+
+[KLIENT 9721] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9722] Przy kasie samo nr 3.
+
+[KLIENT 9715] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9720] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9717] Odmowa! Oddaję alkohol, kupuje reszte.
+
+[KLIENT 9717] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9722] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9715] PARAGON: [ Lody ] SUMA: 15.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9721: 45.00 zl
+
+[KLIENT 9720] PARAGON: [ Szynka ] SUMA: 45.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9722: 104.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9717: 38.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9721] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9721] PARAGON: [ Szynka ] SUMA: 45.00 zl
+
+[KLIENT 9717] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9723] Przy kasie samo nr 4.
+
+[KLIENT 9722] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 60 lat.
+
+[KLIENT 9717] PARAGON: [ Piwo, Boczek, Marchew ] SUMA: 38.50 zl
+
+[KLIENT 9723] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9723] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 9722] PARAGON: [ Proszek, Chleb, Szynka, Frytki, Warzywa na patelnie ] SUMA: 104.00 zl
+
+[KLIENT 9726] Przy kasie samo nr 2.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9726] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9727] Przy kasie samo nr 1.
+
+[KLIENT 9719] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9727] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9726: 73.40 zl
+
+[KLIENT 9728] Przy kasie samo nr 3.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9719: 173.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9726] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 30 lat.
+
+[KLIENT 9728] Kasa 3 zablokowana, czekaj na obsluge
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] AWARIA! Czekam na pomoc...
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9727: 120.90 zl
+
+[KLIENT 9724] Przy kasie samo nr 5.
+
+[KLIENT 9726] PARAGON: [ Bulka, Wodka, Kielbasa, Chleb ] SUMA: 73.40 zl
+
+[KLIENT 9719] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9727] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9724] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9719] PARAGON: [ Paczek, Ziemniak, Pomidor, Jablko, Proszek, Jablko, Wodka, Boczek, Szynka ] SUMA: 173.00 zl
+
+[KLIENT 9723] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9725] Przy kasie samo nr 2.
+
+[KLIENT 9727] PARAGON: [ Whisky, Kielbasa, Mydlo, Winogrono ] SUMA: 120.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9724: 184.40 zl
+
+[KLIENT 9725] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9733] Przy kasie samo nr 0.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9723: 46.00 zl
+
+[KLIENT 9733] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 9736] Przy kasie samo nr 1.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9725: 75.20 zl
+
+[KLIENT 9724] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9723] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9736] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9724] PARAGON: [ Ser zolty, Frytki, Kielbasa, Kabanos, Chleb, Boczek, Chleb, Lody, Warzywa na patelnie, Bulka ] SUMA: 184.40 zl
+
+[KLIENT 9723] PARAGON: [ Warzywa na patelnie, Pomidor, Wino ] SUMA: 46.00 zl
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 3
+
+[KLIENT 9725] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9725] PARAGON: [ Plyn do naczyn, Plyn do naczyn, Warzywa na patelnie, Wino, Mydlo, Plyn do naczyn, Bulka, Mleko, Ziemniak, Piwo ] SUMA: 75.20 zl
+
+[KLIENT 9735] Przy kasie samo nr 4.
+
+[KLIENT 9728] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9735] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9735] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 9734] Przy kasie samo nr 2.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9728: 25.00 zl
+
+[KLIENT 9734] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 23 lat.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9737] Przy kasie samo nr 5.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9728] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9737] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 58 lat.
+
+[KLIENT 9728] PARAGON: [ Ser zolty ] SUMA: 25.00 zl
+
+[KLIENT 9733] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9739] Przy kasie samo nr 3.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 42 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9733: 9.00 zl
+
+[KLIENT 9736] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9739] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9733] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9739: 68.80 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9736: 48.70 zl
+
+[KLIENT 9733] PARAGON: [ Piwo, Gruszka ] SUMA: 9.00 zl
+
+[KLIENT 9734] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 62 lat.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9736] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9739] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9736] PARAGON: [ Gruszka, Winogrono, Wino, Mleko ] SUMA: 48.70 zl
+
+[KLIENT 9739] PARAGON: [ Bulka, Lody, Wodka, Bulka, Plyn do naczyn, Piwo ] SUMA: 68.80 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9734: 346.00 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 33 lat.
+
+[KLIENT 9738] Przy kasie samo nr 0.
+
+[KLIENT 9735] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9734] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9738] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KLIENT 9740] Przy kasie samo nr 1.
+
+[KLIENT 9734] PARAGON: [ Domestos, Kabanos, Ziemniak, Ziemniak, Whisky, Whisky, Whisky, Gruszka, Lody, Lody ] SUMA: 346.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9735: 69.50 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 49 lat.
+
+[KLIENT 9740] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9737] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9741] Przy kasie samo nr 3.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KLIENT 9741] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9735] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9742] Przy kasie samo nr 2.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9737: 78.50 zl
+
+[KLIENT 9738] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9740: 192.40 zl
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9735] PARAGON: [ Mleko, Domestos, Proszek, Bagietka, Plyn do naczyn, Warzywa na patelnie ] SUMA: 69.50 zl
+
+[KLIENT 9742] Kasa 2 zablokowana, czekaj na obsluge
+
+[KASA SAMO 3] AWARIA! Czekam na pomoc...
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Usuwam awarię techniczną przy kasie 2
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9738: 219.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9740] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9737] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9740] PARAGON: [ Whisky, Ser zolty, Boczek, Wino, Domestos, Paczek, Winogrono ] SUMA: 192.40 zl
+
+[KLIENT 9737] PARAGON: [ Szynka, Frytki, Gruszka, Mydlo, Ogorek, Warzywa na patelnie ] SUMA: 78.50 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 39 lat.
+
+[KLIENT 9738] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9743] Przy kasie samo nr 1.
+
+[KLIENT 9742] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KLIENT 9738] PARAGON: [ Boczek, Whisky, Chleb, Whisky, Piwo, Jogurt, Warzywa na patelnie, Maslo, Jablko ] SUMA: 219.90 zl
+
+[KLIENT 9743] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9742: 162.90 zl
+
+[KLIENT 9744] Przy kasie samo nr 4.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9741] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9744] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 9742] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9749] Przy kasie samo nr 0.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9741: 63.20 zl
+
+[KLIENT 9742] PARAGON: [ Ser zolty, Ogorek, Ogorek, Winogrono, Kielbasa, Plyn do naczyn, Whisky ] SUMA: 162.90 zl
+
+[KLIENT 9749] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 58 lat.
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9741] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9751] Przy kasie samo nr 5.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9741] PARAGON: [ Pizza, Marchew, Mydlo, Bagietka, Boczek, Chleb ] SUMA: 63.20 zl
+
+[KLIENT 9751] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9743] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9752] Przy kasie samo nr 2.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9751: 9.90 zl
+
+[KLIENT 9752] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 49 lat.
+
+[KLIENT 9750] Przy kasie samo nr 3.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9743: 48.70 zl
+
+[KLIENT 9751] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KLIENT 9750] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 9750] Kasa 3 zablokowana, czekaj na obsluge
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KLIENT 9743] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9751] PARAGON: [ Winogrono ] SUMA: 9.90 zl
+
+[KLIENT 9743] PARAGON: [ Gruszka, Winogrono, Wino, Mleko ] SUMA: 48.70 zl
+
+[KLIENT 9744] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 46 lat.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9744: 38.40 zl
+
+[KLIENT 9754] Przy kasie samo nr 1.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9754] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 52 lat.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KLIENT 9755] Przy kasie samo nr 5.
+
+[KLIENT 9749] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9744] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9755] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9744] PARAGON: [ Ogorek, Bagietka, Mleko, Maslo, Piwo, Warzywa na patelnie, Marchew, Mydlo, Jogurt ] SUMA: 38.40 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 69 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9749: 109.50 zl
+
+[KLIENT 9754] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9757] Przy kasie samo nr 4.
+
+[KLIENT 9749] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 3. Klient ma 63 lat.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9754: 213.00 zl
+
+[KLIENT 9752] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9749] PARAGON: [ Pomidor, Lody, Ogorek, Whisky ] SUMA: 109.50 zl
+
+[KLIENT 9757] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9752: 5.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9757: 4.00 zl
+
+[KLIENT 9754] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9750] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9759] Przy kasie samo nr 0.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 27 lat.
+
+[KLIENT 9754] PARAGON: [ Whisky, Boczek, Lody, Gruszka, Ser zolty, Kielbasa, Kielbasa ] SUMA: 213.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9750: 74.80 zl
+
+[KLIENT 9752] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9759] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9757] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9752] PARAGON: [ Gruszka ] SUMA: 5.00 zl
+
+[KLIENT 9756] Przy kasie samo nr 1.
+
+[KLIENT 9757] PARAGON: [ Piwo ] SUMA: 4.00 zl
+
+[KLIENT 9750] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9759: 18.00 zl
+
+[KLIENT 9755] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9756] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9758] Przy kasie samo nr 2.
+
+[KLIENT 9750] PARAGON: [ Marchew, Plyn do naczyn, Kielbasa, Ziemniak, Mleko, Mydlo, Gruszka, Piwo, Maslo, Frytki ] SUMA: 74.80 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9758] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9760] Przy kasie samo nr 4.
+
+[KLIENT 9759] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9755: 75.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9756: 106.70 zl
+
+[KLIENT 9760] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9758: 335.80 zl
+
+[KLIENT 9759] PARAGON: [ Pizza ] SUMA: 18.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KLIENT 9761] Przy kasie samo nr 3.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9755] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9756] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 4. Klient ma 63 lat.
+
+[KLIENT 9761] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9755] PARAGON: [ Szynka, Plyn do naczyn, Ogorek, Marchew, Pomidor, Gruszka ] SUMA: 75.00 zl
+
+[KLIENT 9756] PARAGON: [ Piwo, Ogorek, Bulka, Pizza, Piwo, Kielbasa, Frytki, Mleko, Wino ] SUMA: 106.70 zl
+
+[KLIENT 9758] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9764] Przy kasie samo nr 0.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 4.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9761: 167.50 zl
+
+[KLIENT 9758] PARAGON: [ Proszek, Whisky, Wodka, Wino, Mleko, Whisky, Domestos, Kabanos ] SUMA: 335.80 zl
+
+[KLIENT 9764] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KASA SAMO 1] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9765] Przy kasie samo nr 1.
+
+[KLIENT 9760] Kasa odblokowana, kontynuuje.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 0. Klient ma 28 lat.
+
+[KLIENT 9761] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9765] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 0.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 9760: 155.60 zl
+
+[KLIENT 9761] PARAGON: [ Pizza, Warzywa na patelnie, Proszek, Proszek, Boczek, Wodka ] SUMA: 167.50 zl
+
+[KLIENT 9766] Przy kasie samo nr 2.
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 1. Klient ma 38 lat.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9766] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 9767] Przy kasie samo nr 3.
+
+[KLIENT 9764] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KLIENT 9760] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 1.
+
+[KLIENT 9767] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9760] PARAGON: [ Jogurt, Pomidor, Wodka, Kabanos, Piwo, Banan, Ogorek, Wino, Ogorek ] SUMA: 155.60 zl
+
+[KLIENT 9768] Przy kasie samo nr 5.
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 2. Klient ma 45 lat.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 9764: 52.30 zl
+
+[KLIENT 9765] Kasa odblokowana, kontynuuje.
+
+[KLIENT 9768] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 2.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 9767: 109.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9764] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KLIENT 9766] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 9765: 138.90 zl
+
+[KLIENT 9767] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9764] PARAGON: [ Jogurt, Bulka, Wino, Mydlo, Pomidor, Plyn do naczyn ] SUMA: 52.30 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9765] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9767] PARAGON: [ Piwo, Kabanos, Maslo, Wino, Jablko, Ogorek, Jablko, Bulka ] SUMA: 109.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 9766: 161.50 zl
+
+[PRACOWNIK] Weryfikacja wieku przy kasie 5. Klient ma 66 lat.
+
+[KLIENT 9765] PARAGON: [ Paczek, Gruszka, Mydlo, Wodka, Whisky, Bulka, Maslo ] SUMA: 138.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[PRACOWNIK] Pełnoletni (OK). Zatwierdzam alkohol na kasie 5.
+
+[KLIENT 9766] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9766] PARAGON: [ Winogrono, Bagietka, Ser zolty, Paczek, Winogrono, Wodka, Proszek, Proszek ] SUMA: 161.50 zl
+
+[KLIENT 9768] Kasa odblokowana, kontynuuje.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 9768: 191.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KLIENT 9768] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 9768] PARAGON: [ Pomidor, Kielbasa, Plyn do naczyn, Szynka, Kabanos, Domestos, Kielbasa, Marchew, Piwo ] SUMA: 191.00 zl
+
+[KIEROWNIK] Sklep pusty. Wszyscy wyszli.
+[KIEROWNIK] Rozpoczynam finalne sprzątanie...
+[KIEROWNIK] [WATEK CLEANUP] Rozpoczynam procedure czyszczenia...
+[KIEROWNIK] 
+RAPORT KONCOWY:2026-01-20
+---Utarg: 27796.00---
+---Obsluzeni Klienci: 317---
+[KIEROWNIK] [WATEK CLEANUP] Zabijam procesy potomne...
+[KIEROWNIK] [1m[31m[WATEK CLEANUP] Zasoby zwolnione.[0m
+[PRACOWNIK] koncze prace.
+
+[KIEROWNIK] Zamkniecie zakonczone pomyslnie.
