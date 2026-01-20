@@ -27,7 +27,10 @@ void ObslugaSygnalu(int sig) {
 
 int main(int argc, char *argv[]) {
 
-    signal(SIGINT, SIG_IGN);
+    if (signal(SIGINT, SIG_IGN) == SIG_ERR) {
+    perror("signal SIGINT");
+    exit(1);
+	}
 
     setbuf(stdout, NULL);
 
@@ -42,7 +45,10 @@ int main(int argc, char *argv[]) {
     sklep = mapuj_pamiec_dzielona(id_pamieci);
     id_semafora = alokujSemafor(klucz, 4, 0);
 
-    signal(SIGQUIT, ObslugaSygnalu);
+    if (signal(SIGQUIT, ObslugaSygnalu) == SIG_ERR) {
+    perror("signal SIGQUIT");
+    exit(1);
+	}
 
     LOG_KASA_SAMO(id_kasy+1,"(PID: %d) gotowa.\n", getpid());
     waitSemafor(id_semafora, SEM_KASY, 0);

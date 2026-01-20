@@ -114,7 +114,7 @@ void WypiszParagon(char **paragon, int *koszyk_id, int ile_prod, double finalna_
 int main() {
     setbuf(stdout, NULL);
 
-    signal(SIGINT, SIG_IGN);
+    if (signal(SIGINT, SIG_IGN) == SIG_ERR) { perror("signal SIGINT"); exit(1); }
 
     pid = getpid();
     srand(pid ^ time(NULL));
@@ -135,7 +135,7 @@ int main() {
 
     id_kolejki = stworzKolejke();
 
-    signal(SIGQUIT, Uciekaj);
+    if (signal(SIGQUIT, Uciekaj) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
 
     while (1) {
         struct sembuf op;
@@ -428,12 +428,16 @@ int main() {
 
         while (1) {
             int wynik = msgrcv(id_kolejki, &msg, sizeof(msg) - sizeof(long), (long) pid, IPC_NOWAIT);
-            if (wynik != -1) {
-                if (msg.kwota == 0) {
-                    break;
-                }
-                continue;
-            }
+			if (wynik != -1) {
+    			if (msg.kwota == 0) {
+        			break;
+    			}
+    			continue;
+			}
+			if (errno != ENOMSG && errno != EINTR) {
+    			perror("msgrcv");
+    			CleanupAndExit(0);
+			}
 
             //Mozliwosc zmiany kolejki jesli sasiad otwarty oraz jego kolejka mniejsza o 1
             waitSemafor(id_semafora, SEM_KOLEJKI, 0);

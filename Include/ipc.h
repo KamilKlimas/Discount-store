@@ -11,7 +11,7 @@
 #include <sys/msg.h>
 #include <sys/types.h>
 
-//#define TRYB_TURBO
+#define TRYB_TURBO
 
 #ifdef TRYB_TURBO
 	#define SIM_SLEEP_US(x) (void)(x)
@@ -148,6 +148,7 @@ LOG_TO_FILE(LOG_FILE_SYSTEM, "[SYSTEM] ", fmt, ##__VA_ARGS__); \
 
 #define MARGINES_KOLEJKI_BAJTY 4096
 #define MAX_MIEJSC_W_SKLEPIE 120
+#define MAX_LICZBA_KLIENTOW 20000
 
 //Dynamic checkout opening menagment - dynamiczne otwieranie kas
 #define K_KLIENTOW_NA_KASE 5 //For K customers 1 checkout - co K klientów 1 kasa

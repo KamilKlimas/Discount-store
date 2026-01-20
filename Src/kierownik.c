@@ -40,16 +40,15 @@ void obslugaZombie(int sig) {
 
 void GenerujRaport() {
     if (sklep == NULL) return;
-	time_t t = time(NULL);
+time_t t = time(NULL);
     struct tm *currentTime = localtime(&t);
 
-
+    // "Raport z przebiegu symulacji zapisać w pliku (plikach) tekstowym."
     LOG_KIEROWNIK_BOTH("\nRAPORT KONCOWY:%04d-%02d-%02d\n---Utarg: %.2f---\n---Obsluzeni Klienci: %d---",
                   currentTime->tm_year + 1900, currentTime->tm_mon + 1, currentTime->tm_mday,
                   sklep->statystyki.utarg,
                   sklep->statystyki.liczba_obsluzonych_klientow);
 
-	// "Raport z przebiegu symulacji zapisać w pliku (plikach) tekstowym."
     FILE *f;
     f = fopen("Raport-dnia.txt", "a");
     if (f != NULL) {
@@ -67,6 +66,7 @@ void *watekCzyszczacy(void *arg) {
     struct sembuf op = {0, -1, 0};
     while (semop(id_sem_cleanup, &op, 1) == -1) {
         if (errno == EINTR) continue;
+        perror("semop cleanup wait");
         pthread_exit(NULL);
     }
 
@@ -77,11 +77,11 @@ void *watekCzyszczacy(void *arg) {
     GenerujRaport();
     LOG_KIEROWNIK("[WATEK CLEANUP] Zabijam procesy potomne...");
 
-    if (kasjer1_pid > 0) kill(kasjer1_pid, SIGQUIT);
-    if (kasjer2_pid > 0) kill(kasjer2_pid, SIGQUIT);
-    if (pracownik_pid > 0) kill(pracownik_pid, SIGQUIT);
+    if (kasjer1_pid > 0 && kill(kasjer1_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill kasjer1");
+    if (kasjer2_pid > 0 && kill(kasjer2_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill kasjer2");
+    if (pracownik_pid > 0 && kill(pracownik_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill pracownik");
     for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
-        if (pids_samo[i] > 0) kill(pids_samo[i], SIGQUIT);
+        if (pids_samo[i] > 0 && kill(pids_samo[i], SIGQUIT) == -1 && errno != ESRCH) perror("kill kasa_samo");
     }
 
     SIM_SLEEP_US(100000);
@@ -95,7 +95,7 @@ void *watekCzyszczacy(void *arg) {
         id_pamieci = -1;
     }
     if (id_semafora != -1) {
-        semctl(id_semafora, 0, IPC_RMID);
+        if (semctl(id_semafora, 0, IPC_RMID) == -1) perror("semctl IPC_RMID"); // Usuwa cały zestaw
         id_semafora = -1;
     }
     if (id_kolejki != -1) {
@@ -103,18 +103,23 @@ void *watekCzyszczacy(void *arg) {
         id_kolejki = -1;
     }
 
-    remove(FTOK_PATH);
+    if (remove(FTOK_PATH) == -1 && errno != ENOENT) {
+        perror("remove FTOK_PATH");
+    }
 
     LOG_KIEROWNIK(ANSI_BOLD ANSI_RED "[WATEK CLEANUP] Zasoby zwolnione." ANSI_RESET);
 
     struct sembuf op_signal = {1, 1, 0};
-    semop(id_sem_cleanup, &op_signal, 1);
+    if (semop(id_sem_cleanup, &op_signal, 1) == -1) {
+        perror("semop cleanup signal");
+    }
 
     return NULL;
 }
 
 void ObslugaSygnalu(int signal) {
     if (signal == SIGINT) {
+        // "Na polecenie kierownika sklepu (sygnał 2) jest zamykana dana kasa (1 lub 2)." (sygnał sterujący zamknięciem wejścia)
         LOG_KIEROWNIK_BOTH("Otrzymano SIGINT -> Zamykam sklep dla nowych klientow\n");
 
         CzyDziala = 0;
@@ -125,17 +130,18 @@ void ObslugaSygnalu(int signal) {
         }
 
         if (id_semafora != -1) {
-            semctl(id_semafora, SEM_WEJSCIE, SETVAL, MAX_MIEJSC_W_SKLEPIE);
+            if (semctl(id_semafora, SEM_WEJSCIE, SETVAL, MAX_MIEJSC_W_SKLEPIE) == -1) {
+                perror("semctl SETVAL SEM_WEJSCIE");
+            }
         }
     }
 }
 
-// "Na polecenie kierownika sklepu (sygnał 1) jest otwierana kasa 2."
-void OtworzKase2(int sig)
+void OtworzKase2(int sig) // <- kasa 2 otwierana tylko na polecenie kierownika
 {
     (void) sig;
     if (sklep != NULL) {
-
+        // "Na polecenie kierownika sklepu (sygnał 1) jest otwierana kasa 2."
         waitSemafor(id_semafora, SEM_KASY, 0);
         sklep->kasa_stato[1].otwarta = 1;
         sklep->kasa_stato[1].zamykanie_w_toku = 0;
@@ -148,10 +154,10 @@ void OtworzKase2(int sig)
     }
 }
 
-// "Na polecenie kierownika sklepu (sygnał 2) jest zamykana dana kasa (1 lub 2)."
 void ZamknijKase1(int sig) {
     (void) sig;
     if (sklep != NULL) {
+        // "Na polecenie kierownika sklepu (sygnał 2) jest zamykana dana kasa (1 lub 2)."
         waitSemafor(id_semafora, SEM_KASY, 0);
         if (sklep->kasa_stato[0].otwarta) {
             sklep->kasa_stato[0].zamykanie_w_toku = 1;
@@ -165,10 +171,10 @@ void ZamknijKase1(int sig) {
     }
 }
 
-// "Na polecenie kierownika sklepu (sygnał 2) jest zamykana dana kasa (1 lub 2)."
 void ZamknijKase2(int sig) {
     (void) sig;
     if (sklep != NULL) {
+        // "Na polecenie kierownika sklepu (sygnał 2) jest zamykana dana kasa (1 lub 2)."
         waitSemafor(id_semafora, SEM_KASY, 0);
         if (sklep->kasa_stato[1].otwarta) {
             sklep->kasa_stato[1].zamykanie_w_toku = 1;
@@ -186,7 +192,9 @@ void Ewakuacja(int sig) {
     (void) sig;
     // "Na polecenie kierownika sklepu (sygnał 3) klienci natychmiast opuszczają supermarket..."
     LOG_KIEROWNIK_BOTH("ALARM -> EWAKUACJA\n");
-    signal(SIGQUIT, SIG_IGN);
+    if (signal(SIGQUIT, SIG_IGN) == SIG_ERR) {
+        perror("signal SIGQUIT");
+    }
 
     if (sklep != NULL) {
         sklep->statystyki.ewakuacja = 1;
@@ -194,14 +202,16 @@ void Ewakuacja(int sig) {
     }
 
     if (id_semafora != -1) {
-        semctl(id_semafora, SEM_WEJSCIE, SETVAL, MAX_MIEJSC_W_SKLEPIE);
+        if (semctl(id_semafora, SEM_WEJSCIE, SETVAL, MAX_MIEJSC_W_SKLEPIE) == -1) {
+            perror("semctl SETVAL SEM_WEJSCIE");
+        }
     }
 
-    if (pracownik_pid > 0) kill(pracownik_pid, SIGQUIT);
-    if (kasjer1_pid > 0) kill(kasjer1_pid, SIGQUIT);
-    if (kasjer2_pid > 0) kill(kasjer2_pid, SIGQUIT);
+    if (pracownik_pid > 0 && kill(pracownik_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill pracownik");
+    if (kasjer1_pid > 0 && kill(kasjer1_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill kasjer1");
+    if (kasjer2_pid > 0 && kill(kasjer2_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill kasjer2");
     for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
-        if (pids_samo[i] > 0) kill(pids_samo[i], SIGQUIT);
+        if (pids_samo[i] > 0 && kill(pids_samo[i], SIGQUIT) == -1 && errno != ESRCH) perror("kill kasa_samo");
     }
 
     CzyDziala = 0;
@@ -221,27 +231,30 @@ const char *baza_towarow[8][4] = {
 };
 
 double cennik[8][4] = {
-    {3.50, 4.20, 5.00, 9.90}, // 0: Owoce
-    {2.00, 2.50, 8.50, 6.00}, // 1: Warzywa
-    {4.50, 0.90, 3.20, 3.50}, // 2: Pieczywo
-    {3.80, 25.00, 1.90, 6.50}, // 3: Nabial
-    {4.00, 30.00, 40.00, 80.00}, // 4: Alkohol
-    {45.00, 28.00, 32.00, 55.00}, // 5: Wedliny
-    {12.00, 18.00, 15.00, 7.50}, // 6: Mrozonki
-    {35.00, 8.00, 3.00, 12.00} // 7: Chemia
+    {3.50, 4.20, 5.00, 9.90}, // Ceny owoców
+    {2.00, 2.50, 8.50, 6.00}, // Ceny warzyw
+    {4.50, 0.90, 3.20, 3.50}, // Pieczywo
+    {3.80, 25.00, 1.90, 6.50}, // Nabiał
+    {4.00, 30.00, 40.00, 80.00}, // Alkohol
+    {45.00, 28.00, 32.00, 55.00}, // Wędliny
+    {12.00, 18.00, 15.00, 7.50}, // Mrożonki
+    {35.00, 8.00, 3.00, 12.00} // Chemia
 };
 
 int main() {
-    signal(SIGINT, SIG_IGN);
+    if (signal(SIGINT, SIG_IGN) == SIG_ERR) {
+        perror("signal SIGINT");
+        exit(1);
+    }
     setbuf(stdout, NULL);
 
-    remove(LOG_FILE_KIEROWNIK);
-    remove(LOG_FILE_KASJER);
-    remove(LOG_FILE_KLIENT);
-    remove(LOG_FILE_KASA_SAMO);
-    remove(LOG_FILE_PRACOWNIK);
-    remove(LOG_FILE_GENERATOR);
-    remove(LOG_FILE_SYSTEM);
+    if (remove(LOG_FILE_KIEROWNIK) == -1 && errno != ENOENT) perror("remove log_kierownik");
+    if (remove(LOG_FILE_KASJER) == -1 && errno != ENOENT) perror("remove log_kasjer");
+    if (remove(LOG_FILE_KLIENT) == -1 && errno != ENOENT) perror("remove log_klient");
+    if (remove(LOG_FILE_KASA_SAMO) == -1 && errno != ENOENT) perror("remove log_kasa_samo");
+    if (remove(LOG_FILE_PRACOWNIK) == -1 && errno != ENOENT) perror("remove log_pracownik");
+    if (remove(LOG_FILE_GENERATOR) == -1 && errno != ENOENT) perror("remove log_generator");
+    if (remove(LOG_FILE_SYSTEM) == -1 && errno != ENOENT) perror("remove log_system");
 
     id_sem_cleanup = semget(IPC_PRIVATE, 2, 0600 | IPC_CREAT);
     if (id_sem_cleanup == -1) {
@@ -253,22 +266,28 @@ int main() {
     inicjalizujSemafor(id_sem_cleanup, 1, 0);
 
     if (pthread_create(&t_cleanup, NULL, watekCzyszczacy, NULL) != 0) {
-        perror("Bład tworzenia wątku czyszczącego");
+        perror("Blad tworzenia watku czyszczacego");
         exit(1);
     }
 
-    signal(SIGQUIT, Ewakuacja);
+    if (signal(SIGQUIT, Ewakuacja) == SIG_ERR) {
+        perror("signal SIGQUIT");
+        exit(1);
+    }
 
     struct sigaction sa;
     sa.sa_handler = ObslugaSygnalu;
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = 0;
-    sigaction(SIGINT, &sa, NULL);
+    if (sigaction(SIGINT, &sa, NULL) == -1) {
+        perror("sigaction SIGINT");
+        exit(1);
+    }
 
-    signal(SIGUSR1, OtworzKase2);
-    signal(SIGUSR2, ZamknijKase2);
-    signal(SIGRTMIN, ZamknijKase1);
-    signal(SIGCHLD, obslugaZombie);
+    if (signal(SIGUSR1, OtworzKase2) == SIG_ERR) { perror("signal SIGUSR1"); exit(1); }
+    if (signal(SIGUSR2, ZamknijKase2) == SIG_ERR) { perror("signal SIGUSR2"); exit(1); }
+    if (signal(SIGRTMIN, ZamknijKase1) == SIG_ERR) { perror("signal SIGRTMIN"); exit(1); }
+    if (signal(SIGCHLD, obslugaZombie) == SIG_ERR) { perror("signal SIGCHLD"); exit(1); }
 
     time_t t = time(NULL);
     (void) t;
@@ -333,8 +352,12 @@ int main() {
     pracownik_pid = fork();
     if (pracownik_pid == 0) {
         LOG_KIEROWNIK("pracownik proszony na stanowisko\n");
-        signal(SIGQUIT, SIG_DFL);
+        if (signal(SIGQUIT, SIG_DFL) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
         execlp("./pracownik", "pracownik",NULL);
+        perror("execlp pracownik");
+        exit(1);
+    } else if (pracownik_pid < 0) {
+        perror("fork pracownik");
         exit(1);
     }
     SIM_SLEEP_S(1);
@@ -342,8 +365,12 @@ int main() {
     kasjer1_pid = fork();
     if (kasjer1_pid == 0) {
         LOG_KIEROWNIK("Kasjer 1 proszony o gotowosc\n");
-        signal(SIGQUIT, SIG_DFL);
+        if (signal(SIGQUIT, SIG_DFL) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
         execlp("./kasjer", "kasjer", "0", NULL);
+        perror("execlp kasjer1");
+        exit(1);
+    } else if (kasjer1_pid < 0) {
+        perror("fork kasjer1");
         exit(1);
     }
     SIM_SLEEP_S(1);
@@ -351,8 +378,12 @@ int main() {
     kasjer2_pid = fork();
     if (kasjer2_pid == 0) {
         LOG_KIEROWNIK("Kasjer 2 proszony o gotowosc\n");
-        signal(SIGQUIT, SIG_DFL);
+        if (signal(SIGQUIT, SIG_DFL) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
         execlp("./kasjer", "kasjer", "1", NULL);
+        perror("execlp kasjer2");
+        exit(1);
+    } else if (kasjer2_pid < 0) {
+        perror("fork kasjer2");
         exit(1);
     }
     SIM_SLEEP_S(1);
@@ -360,16 +391,20 @@ int main() {
     for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
         pids_samo[i] = fork();
         if (pids_samo[i] == 0) {
-            signal(SIGQUIT, SIG_DFL);
+            if (signal(SIGQUIT, SIG_DFL) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
             char arg_id[5];
             sprintf(arg_id, "%d", i);
             execlp("./kasy_samo", "kasy_samo", arg_id, NULL);
             perror("Blad execlp kasy_samo");
             exit(1);
+        } else if (pids_samo[i] < 0) {
+            perror("fork kasa_samo");
+            exit(1);
         }
     }
     SIM_SLEEP_S(1);
 
+    // "W pewnym dyskoncie jest łącznie 8 kas: 2 kasy stacjonarne i 6 kas samoobsługowych."
     LOG_KIEROWNIK_BOTH("Sklep otwarty. PID %d\n", getpid());
     LOG_KIEROWNIK("Dostepne polecenia:\n"
     "-> kill -SIGUSR1 %d (Otworz Kase 2)\n"
@@ -501,7 +536,7 @@ int main() {
         goto cleanup_and_exit;
     }
 
-    LOG_KIEROWNIK("Czekam na ostatnich klientów (%d)...", ile_klientow);
+    LOG_KIEROWNIK("Czekam na ostatnich klientow (%d)...", ile_klientow);
     signal(SIGCHLD, SIG_DFL);
 
     //oczekiwanie na klientow konczacych swoje dzialanie
@@ -523,7 +558,7 @@ int main() {
         // Rozwiazanie dla klientow stojacych w kolejce do stacjo (1 lub 2) gdy zostalo za wczesniej wywołane SIGINT
         waitSemafor(id_semafora, SEM_KASY, 0);
         if (k1_size > 0) {
-            LOG_KIEROWNIK("Zamykanie: Zostalo %d osób w kolejce do K1. Wymuszam otwarcie!", k1_size);
+            LOG_KIEROWNIK("Zamykanie: Zostalo %d osob w kolejce do K1. Wymuszam otwarcie!", k1_size);
             sklep->kasa_stato[0].otwarta = 1;
             sklep->kasa_stato[0].zamykanie_w_toku = 0;
             sklep->kasa_stato[0].czas_ostatniej_obslugi = time(NULL);
@@ -540,7 +575,7 @@ int main() {
         SIM_SLEEP_S(1);
     }
 cleanup_and_exit:
-    LOG_KIEROWNIK("Rozpoczynam finalne sprzątanie...");
+    LOG_KIEROWNIK("Rozpoczynam finalne sprzatanie...");
 
     struct sembuf op_signal = {0, 1, 0};
     semop(id_sem_cleanup, &op_signal, 1);
@@ -548,13 +583,16 @@ cleanup_and_exit:
     struct sembuf op_wait = {1, -1, 0};
     while (semop(id_sem_cleanup, &op_wait, 1) == -1) {
         if (errno == EINTR) continue;
+        perror("semop cleanup wait");
         break;
     }
 
     pthread_join(t_cleanup, NULL);
 
     if (id_sem_cleanup != -1) {
-        semctl(id_sem_cleanup, 0, IPC_RMID);
+        if (semctl(id_sem_cleanup, 0, IPC_RMID) == -1) {
+            perror("semctl cleanup IPC_RMID");
+        }
         id_sem_cleanup = -1;
     }
 

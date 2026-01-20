@@ -48,8 +48,8 @@ void obslugaSIGINT(int sig)
 int main()
 {
 
-    sigemptyset(&maska_sigchld);
-    sigaddset(&maska_sigchld, SIGCHLD);
+    if (sigemptyset(&maska_sigchld) == -1) { perror("sigemptyset"); exit(1); }
+    if (sigaddset(&maska_sigchld, SIGCHLD) == -1) { perror("sigaddset SIGCHLD"); exit(1); }
 
     if (pthread_sigmask(SIG_BLOCK, &maska_sigchld, NULL) != 0) {
         perror("Blad blokowania SIGCHLD");
@@ -62,7 +62,7 @@ int main()
         exit(1);
     }
 
-    signal(SIGINT, obslugaSIGINT);
+    if (signal(SIGINT, obslugaSIGINT) == SIG_ERR) { perror("signal SIGINT"); exit(1); }
 
     setbuf(stdout, NULL);
     srand(time(NULL));

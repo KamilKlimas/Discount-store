@@ -35,12 +35,18 @@ void ewakuacja(int signalNum) {
 }
 
 int main() {
-    signal(SIGINT, SIG_IGN);
+    if (signal(SIGINT, SIG_IGN) == SIG_ERR) {
+    perror("signal SIGINT");
+    exit(1);
+	}
 
     atexit(cleanUPPracownik);
 
     setbuf(stdout, NULL);
-    signal(SIGQUIT, ewakuacja);
+    if (signal(SIGQUIT, ewakuacja) == SIG_ERR) {
+    perror("signal SIGQUIT");
+    exit(1);
+	}
 
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
     if (klucz == -1) {

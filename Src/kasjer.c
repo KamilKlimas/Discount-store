@@ -44,10 +44,10 @@ void ObslugaSygnalu(int sig) {
 
 int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
-    signal(SIGINT, SIG_IGN);
-    signal(SIGUSR1, ObslugaSygnalu);
-    signal(SIGUSR2, ObslugaSygnalu);
-    signal(SIGQUIT, ObslugaSygnalu);
+    if (signal(SIGINT, SIG_IGN) == SIG_ERR) { perror("signal SIGINT"); exit(1); }
+	if (signal(SIGUSR1, ObslugaSygnalu) == SIG_ERR) { perror("signal SIGUSR1"); exit(1); }
+	if (signal(SIGUSR2, ObslugaSygnalu) == SIG_ERR) { perror("signal SIGUSR2"); exit(1); }
+	if (signal(SIGQUIT, ObslugaSygnalu) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
 
 
     atexit(cleanUpKasy);

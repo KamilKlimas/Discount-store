@@ -99,7 +99,11 @@ void inicjalizujSemafor(int semID, int number, int val)
 
 int zwolnijSemafor(int semID, int number)
 {
-    return semctl(semID, number, IPC_RMID);
+    int ret = semctl(semID, number, IPC_RMID);
+		if (ret == -1) {
+    	perror("semctl IPC_RMID");
+	}
+return ret;
 }
 
 int waitSemafor(int semID, int number, int flagi)
@@ -153,7 +157,11 @@ int signalSemafor(int semID, int number)
 
 int valueSemafor(int semID, int number)
 {
-    return semctl(semID, number, GETVAL, NULL);
+    int val = semctl(semID, number, GETVAL, NULL);
+	if (val == -1) {
+    	perror("semctl GETVAL");
+	}
+	return val;
 }
 
 //KOLEJKI KOMUNIKATOW
@@ -316,11 +324,14 @@ int inputExceptionHandler(const char * komunikat)
 
     while (1) {
         printf(ANSI_BOLD ANSI_CYAN "%s" ANSI_RESET "\n > ", komunikat);
+        fflush(stdout);
         if (scanf("%d", &wartosc) == 1) {
-            if (wartosc > 0) {
+            if (wartosc > 0 && wartosc <= MAX_LICZBA_KLIENTOW) {
                 return wartosc;
-            } else {
+            } else if (wartosc <= 0) {
                 printf(ANSI_RED "[BLAD] Liczba musi byc wieksza od 0!\n" ANSI_RESET);
+            } else {
+                printf(ANSI_RED "[BLAD] Maksymalna liczba to %d!\n" ANSI_RESET, MAX_LICZBA_KLIENTOW);
             }
         } else {
             printf(ANSI_RED "[BLAD] To nie jest liczba!\n" ANSI_RESET);
