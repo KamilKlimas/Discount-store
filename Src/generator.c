@@ -82,20 +82,32 @@ int main()
     }
     sklep = mapuj_pamiec_dzielona(id_pamieci);
 
-    int id_semafora = alokujSemafor(klucz, 3, 0);
+    int id_semafora = alokujSemafor(klucz, 4, 0);
 
     int liczba_klientow = inputExceptionHandler("Podaj liczbe klientow do symulacji");
 
-    LOG_GENERATOR("ROZPOCZYNAM SYMULACJE DLA %d KLIENTOW\n", liczba_klientow);
+    // "Klienci przychodzą do sklepu w dowolnych momentach czasu..."
+    LOG_GENERATOR_BOTH("Wpuszczam %d procesow (tryb generatora: %s)", liczba_klientow,
 
+#ifdef TRYB_TURBO
+                  "TURBO"
+#else
+                  "NORMALNY"
+#endif
+    );
+
+
+    int utworzone = 0;
     for (int i= 0; i < liczba_klientow; i++)
     {
-
         if (running == 0) {
-            LOG_GENERATOR("Otrzymano Ctrl+C. Zamykam sklep dla nowych klientów.");
+#ifndef TRYB_TURBO
+            LOG_GENERATOR("Otrzymano Ctrl+C. Zamykam sklep dla nowych klientow.");
+#endif
             break;
         }
 
+#ifndef TRYB_TURBO
         if (sklep->czy_otwarte == 0 || sklep->statystyki.ewakuacja == 1)
         {
             LOG_GENERATOR("Sklep zamkniety. Koncze wpuszczanie klientow.\n");
@@ -103,24 +115,26 @@ int main()
             break;
         }
 
-        while(1) {
-            if (!running || sklep->statystyki.ewakuacja) break;
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        int otwarte = sklep->czy_otwarte;
+        int ewakuacja = sklep->statystyki.ewakuacja;
+        signalSemafor(id_semafora, SEM_KASY);
 
-            waitSemafor(id_semafora, SEM_KASY, 0);
-            int aktualnie_w_sklepie = sklep->statystyki.liczba_klientow_w_sklepie;
-            signalSemafor(id_semafora, SEM_KASY);
-
-            if (aktualnie_w_sklepie < MAX_KLIENCI_W_SKLEPIE) {
-                break;
-            }
-
+        if (!running || !otwarte || ewakuacja) {
+            LOG_GENERATOR("Sklep zamkniety lub ewakuacja. Wstrzymuje tworzenie klientow.");
+            break;
         }
+#else
+        (void)id_semafora;
+#endif
 
+    #ifndef TRYB_TURBO
         long delay = 0;
         if (i < 10) delay = rand() % 500000 + 500000;       // Faza 1: Wolno (0.5 - 1.0s)
         else if (i < liczba_klientow * 0.6) delay = rand() % 50000; // Faza 2: Bardzo szybko (0 - 0.05s)
         else delay = rand() % 300000;
         SIM_SLEEP_US(delay);
+    #endif
 
         pid = fork();
         if (pid == 0)
@@ -135,9 +149,12 @@ int main()
             exit(1);
 
         } else if (pid > 0) {
+            utworzone++;
+#ifndef TRYB_TURBO
             if (i < 5 || i >= liczba_klientow-5 || i % 20 == 0) {
                 LOG_GENERATOR("Wchodzi klient [%d/%d] (PID: %d)", i+1, liczba_klientow, pid);
             }
+#endif
         } else {
             perror("Fork failed");
             SIM_SLEEP_US(100000);
@@ -145,7 +162,7 @@ int main()
         }
     }
 
-    LOG_GENERATOR("Wszyscy zaplanowani klienci wygenerowani. Zamykam wejście.");
+    LOG_GENERATOR_BOTH("Zakonczylem wpuszczanie klientow. Utworzone: %d/%d", utworzone, liczba_klientow);
 
     pthread_cancel(t_zombie);
     pthread_join(t_zombie, NULL);

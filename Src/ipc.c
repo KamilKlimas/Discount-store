@@ -160,7 +160,7 @@ int valueSemafor(int semID, int number)
 int stworzKolejke()
 {
     key_t klucz = utworz_klucz('S');
-    int msgid = msgget(klucz, IPC_CREAT | 0600); // zmien potem na minimalne uprawnienia
+    int msgid = msgget(klucz, IPC_CREAT | 0600);
     if (msgid == -1)
     {
         perror("msgget");
@@ -202,7 +202,7 @@ void usun_kolejke(int msgid)
 {
     if (msgctl(msgid, IPC_RMID, NULL) == -1)
     {
-        perror("Bląd podczas usuwania kolejki komunikatów (msgctl)");
+        perror("Blad podczas usuwania kolejki komunikatow (msgctl)");
     }
 }
 

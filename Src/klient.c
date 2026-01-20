@@ -10,6 +10,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <sched.h>
+#include <errno.h>
 
 int id_pamieci;
 int id_semafora;
@@ -22,6 +23,17 @@ int indeks;
 int alkohol = 0;
 int alkohol_lista[] = {16, 17, 18, 19};
 
+static volatile sig_atomic_t wymuszone_wyjscie = 0;
+
+static int wejscie_zarejestrowane = 0;
+static int w_kolejce_samo = 0;
+static int w_kolejce_stacjo = 0;
+static int kasa_stacjo_idx = -1;
+
+static char **paragon = NULL;
+static int *koszyk_id = NULL;
+static int ile_prod = 0;
+
 int exists(int arr[], int size, int value) {
     for (int i = 0; i < size; i++) {
         if (arr[i] == value) {
@@ -33,7 +45,50 @@ int exists(int arr[], int size, int value) {
 
 void Uciekaj(int sig) {
     (void) sig;
-    exit(0);
+    wymuszone_wyjscie = 1;
+}
+
+static void CleanupAndExit(int code) {
+    if (sklep != NULL) {
+        if (w_kolejce_samo) {
+            if (waitSemafor(id_semafora, SEM_KOLEJKI, 0) != -1) {
+                usunZSrodkaKolejkiFIFO(&sklep->kolejka_samoobsluga, pid);
+                signalSemafor(id_semafora, SEM_KOLEJKI);
+            }
+            w_kolejce_samo = 0;
+        }
+
+        if (w_kolejce_stacjo && kasa_stacjo_idx >= 0) {
+            if (waitSemafor(id_semafora, SEM_KOLEJKI, 0) != -1) {
+                usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[kasa_stacjo_idx], pid);
+                signalSemafor(id_semafora, SEM_KOLEJKI);
+            }
+            w_kolejce_stacjo = 0;
+        }
+
+        if (wejscie_zarejestrowane) {
+            if (waitSemafor(id_semafora, SEM_KASY, 0) != -1) {
+                sklep->statystyki.liczba_klientow_w_sklepie--;
+                signalSemafor(id_semafora, SEM_KASY);
+            }
+            signalSemafor(id_semafora, SEM_WEJSCIE);
+            wejscie_zarejestrowane = 0;
+        }
+    }
+
+    if (paragon) {
+        free(paragon);
+        paragon = NULL;
+    }
+    if (koszyk_id) {
+        free(koszyk_id);
+        koszyk_id = NULL;
+    }
+    if (sklep != NULL) {
+        odlacz_pamiec_dzielona(sklep);
+        sklep = NULL;
+    }
+    exit(code);
 }
 
 void WypiszParagon(char **paragon, int *koszyk_id, int ile_prod, double finalna_kwota) {
@@ -76,22 +131,54 @@ int main() {
         exit(1);
     }
     sklep = mapuj_pamiec_dzielona(id_pamieci);
-    id_semafora = alokujSemafor(klucz, 3, 0);
+    id_semafora = alokujSemafor(klucz, 4, 0);
 
     id_kolejki = stworzKolejke();
 
     signal(SIGQUIT, Uciekaj);
 
+    while (1) {
+        struct sembuf op;
+        op.sem_num = SEM_WEJSCIE;
+        op.sem_op = -1;
+        op.sem_flg = 0;
+
+        if (semop(id_semafora, &op, 1) == 0) {
+            break;
+        }
+        if (errno == EINTR) {
+            if (wymuszone_wyjscie) {
+                CleanupAndExit(0);
+            }
+            continue;
+        }
+        if (errno == EIDRM || errno == EINVAL) {
+            CleanupAndExit(0);
+        }
+    }
+
+    waitSemafor(id_semafora, SEM_KASY, 0);
+    int otwarte = sklep->czy_otwarte;
+    int ewakuacja = sklep->statystyki.ewakuacja;
+    signalSemafor(id_semafora, SEM_KASY);
+
+    if (!otwarte || ewakuacja) {
+        signalSemafor(id_semafora, SEM_WEJSCIE);
+        CleanupAndExit(0);
+    }
+
     waitSemafor(id_semafora, SEM_KASY, 0);
     sklep->statystyki.liczba_klientow_w_sklepie += 1;
     signalSemafor(id_semafora, SEM_KASY);
+    wejscie_zarejestrowane = 1;
 
-    int ile_prod = (rand() % 10) + 1;
-    char **paragon = malloc(ile_prod * sizeof(char*));
-    int *koszyk_id = malloc(ile_prod * sizeof(int));
+    // "...robiąc zakupy – od 3 do 10 produktów różnych kategorii (owoce, warzywa, pieczywo, nabiał, alkohol, wędliny, …)."
+    ile_prod = (rand() % 10) + 1;
+    paragon = malloc(ile_prod * sizeof(char*));
+    koszyk_id = malloc(ile_prod * sizeof(int));
     if (paragon == NULL || koszyk_id == NULL) {
         perror("Brak pamieci");
-        exit(1);
+        CleanupAndExit(1);
     }
     int wiek = (rand()%57) + 14; //14-70 lat
     double moj_rachunek = 0.0;
@@ -120,6 +207,7 @@ int main() {
         SIM_SLEEP_US(50000);
     }
 
+    // "Większość klientów korzysta z kas samoobsługowych (ok. 95%), pozostali (ok. 5%) stają w kolejce do kas stacjonarnych."
     int tryb = (rand() % 100 < SZANSA_SAMOOBSLUGA) ? 1 : 2;
     int obsluzony = 0;
     int nr_kasy = -1;
@@ -127,9 +215,10 @@ int main() {
     //samoobsluga
     if (tryb == 1) {
         waitSemafor(id_semafora, SEM_KOLEJKI, 0);
-        //<- wspolna kolejka do kas samoobslugowych (jesli klient wybierze kase samoobslugowa to zostaje dodany na koniec koljki fifo
+        // "Do wszystkich kas samoobsługowych jest jedna kolejka;"
         dodajDoKolejkiFIFO(&sklep->kolejka_samoobsluga, pid);
         signalSemafor(id_semafora, SEM_KOLEJKI);
+        w_kolejce_samo = 1;
 
         time_t start_wait = time(NULL);
         while (1) {
@@ -141,15 +230,8 @@ int main() {
                 waitSemafor(id_semafora, SEM_KOLEJKI, 0);
                 usunZSrodkaKolejkiFIFO(&sklep->kolejka_samoobsluga, pid);
                 signalSemafor(id_semafora, SEM_KOLEJKI);
-
-                waitSemafor(id_semafora, SEM_KASY, 0);
-                sklep->statystyki.liczba_klientow_w_sklepie--;
-                signalSemafor(id_semafora, SEM_KASY);
-
-                free(paragon);
-                free(koszyk_id);
-                odlacz_pamiec_dzielona(sklep);
-                exit(0);
+                w_kolejce_samo = 0;
+                CleanupAndExit(0);
             }
 
             waitSemafor(id_semafora, SEM_KOLEJKI, 0);
@@ -158,6 +240,7 @@ int main() {
             signalSemafor(id_semafora, SEM_KOLEJKI);
 
             if (pierwwszy == pid) {
+                // "Klient podchodzi do pierwszej wolnej kasy;"
                 waitSemafor(id_semafora,SEM_KASY, 0); //<- wybor kasy (szukanie PIERWSZEJ wolnej)
                 for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
                     if (sklep->kasy_samo[i].otwarta == 1 && sklep->kasy_samo[i].zajeta == 0) {
@@ -172,10 +255,12 @@ int main() {
                     waitSemafor(id_semafora, SEM_KOLEJKI, 0);
                     zdejmijZKolejkiFIFO(&sklep->kolejka_samoobsluga); //<- jesli znalazł to wychodzi z kolejki
                     signalSemafor(id_semafora, SEM_KOLEJKI);
+                    w_kolejce_samo = 0;
                     break;
                 }
             }
 
+            // "Jeżeli czas oczekiwania w kolejce na kasę samoobsługową jest dłuższy niż T, klient może przejść do kasy stacjonarnej jeżeli jest otwarta;"
             if (difftime(time(NULL), start_wait) > MAX_CZAS_OCZEKIWANIA) //zmiana trybu ze wzgledu na czas oczekiwania
             {
                 int stacjo_otwarta = 0;
@@ -189,9 +274,13 @@ int main() {
                     //tryb = 2 <- jesli czas oczekuwania jest dluzszy niz T to klient idzie do kasy stacjonarnej
                     usunZSrodkaKolejkiFIFO(&sklep->kolejka_samoobsluga, pid);
                     signalSemafor(id_semafora, SEM_KOLEJKI);
+                    w_kolejce_samo = 0;
                     tryb = 2;
                     break;
                 }
+            }
+            if (wymuszone_wyjscie) {
+                CleanupAndExit(0);
             }
             SIM_SLEEP_US(200000);
         }
@@ -201,10 +290,13 @@ int main() {
     if (tryb == 1 && nr_kasy != -1) {
         int awaria = rand() % 100;
         LOG_KLIENT(pid, "Przy kasie samo nr %d.\n", nr_kasy);
+        // "Co pewien losowy czas kasa się blokuje (np. waga towaru nie zgadza się z wyborem klienta) – wówczas konieczna jest interwencja obsługi aby odblokować kasę."
         if ((awaria > 90) || alkohol) {
             waitSemafor(id_semafora, SEM_KASY, 0);
             //<- weryfikacja wieku klienta jesli w jego zakupach znajduje sie alkohol
+            // "Przy zakupie produktów z alkoholem konieczna weryfikacja kupującego przez obsługę (wiek>18);"
             if (alkohol == 1) {
+                // alkohol: 0 - brak, 1 - weryfikacja, 2 - zatwierdzony, -1 - odrzucony
                 sklep->kasy_samo[nr_kasy].zablokowana = 1;
                 sklep->kasy_samo[nr_kasy].alkohol = 1;
                 sklep->kasy_samo[nr_kasy].wiek_klienta = wiek;
@@ -229,12 +321,12 @@ int main() {
                     waitSemafor(id_semafora, SEM_KASY, 0);
                     sklep->kasy_samo[nr_kasy].zajeta = 0;
                     sklep->kasy_samo[nr_kasy].zablokowana = 0;
-                    sklep->statystyki.liczba_klientow_w_sklepie--;
                     signalSemafor(id_semafora, SEM_KASY);
-                    free(paragon);
-                    free(koszyk_id);
-                    odlacz_pamiec_dzielona(sklep);
-                    exit(0);
+                    CleanupAndExit(0);
+                }
+
+                if (wymuszone_wyjscie) {
+                    CleanupAndExit(0);
                 }
 
                 SIM_SLEEP_US(200000);
@@ -247,7 +339,7 @@ int main() {
 
         if (alkohol == 1 && status_alko == -1) //<- (-1) oznacza odrzucenie przez pracownika
         {
-            LOG_KLIENT(pid, "Odmowa! Oddaję alkohol, kupuje reszte.\n");
+            LOG_KLIENT(pid, "Odmowa! Oddaje alkohol, kupuje reszte.\n");
 
             for (int k = 0; k < ile_prod; k++) {
                 int id_prod = koszyk_id[k];
@@ -284,12 +376,12 @@ int main() {
                     waitSemafor(id_semafora, SEM_KASY, 0);
                     sklep->kasy_samo[nr_kasy].zajeta = 0;
                     sklep->kasy_samo[nr_kasy].aktualna_kwota = 0;
-                    sklep->statystyki.liczba_klientow_w_sklepie--;
                     signalSemafor(id_semafora, SEM_KASY);
-                    free(paragon);
-                    free(koszyk_id);
-                    odlacz_pamiec_dzielona(sklep);
-                    exit(0);
+                    CleanupAndExit(0);
+                }
+
+                if (wymuszone_wyjscie) {
+                    CleanupAndExit(0);
                 }
 
 
@@ -301,6 +393,7 @@ int main() {
             signalSemafor(id_semafora, SEM_UTARG);
         }
 
+        // "Klient kasuje produkty, płaci kartą i otrzymuje wydruk (raport) z listą zakupów i zapłaconą kwotą ;"
         if (moj_rachunek > 0.001) {
             waitSemafor(id_semafora, SEM_KASY, 0);
             WypiszParagon(paragon, koszyk_id, ile_prod, moj_rachunek);
@@ -315,6 +408,7 @@ int main() {
 
     //platnosc stacjonarna
     if (tryb == 2 && !obsluzony) {
+        // "Jeżeli kasa 2 jest otwarta, to każdej z kas tworzy się osobna kolejka klientów (klienci z kolejki do kasy 1 mogą przejść do kolejki do kasy 2);"
         // Wybierz kolejke (tam gdzie krocej) lub domyslnie K1, jesli K2 otwarta to mozna przejsc
         int wybrana_kasa = 0;
 
@@ -325,6 +419,8 @@ int main() {
         }
         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
         signalSemafor(id_semafora, SEM_KOLEJKI);
+        w_kolejce_stacjo = 1;
+        kasa_stacjo_idx = wybrana_kasa;
 
         LOG_KLIENT(pid, "W kolejce do stacjonarnej %d\n", wybrana_kasa + 1);
 
@@ -356,6 +452,7 @@ int main() {
                     if (usunZSrodkaKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid) == 1) {
                         wybrana_kasa = sasiad;
                         dodajDoKolejkiFIFO(&sklep->kolejka_stato[wybrana_kasa], pid);
+                        kasa_stacjo_idx = wybrana_kasa;
 
                         char *powod = czy_moja_otwarta ? "krotsza kolejka" : "moja zamknieta";
                         //
@@ -368,12 +465,17 @@ int main() {
             waitSemafor(id_semafora, SEM_KASY, 0);
             if (sklep->statystyki.ewakuacja) {
                 signalSemafor(id_semafora, SEM_KASY);
-                exit(0);
+                CleanupAndExit(0);
             }
             signalSemafor(id_semafora, SEM_KASY);
 
+            if (wymuszone_wyjscie) {
+                CleanupAndExit(0);
+            }
+
             SIM_SLEEP_US(200000);
         }
+        w_kolejce_stacjo = 0;
 
         // Odbieram wiadomosc skierowana do pid klienta
         if (msg.kwota == 0) {
@@ -422,12 +524,6 @@ int main() {
             }
         }
     }
-    free(paragon);
-    free(koszyk_id);
-    waitSemafor(id_semafora, SEM_KASY, 0);
-    sklep->statystyki.liczba_klientow_w_sklepie--;
-    signalSemafor(id_semafora, SEM_KASY);
-
-    odlacz_pamiec_dzielona(sklep);
-    return 0;
+    w_kolejce_stacjo = 0;
+    CleanupAndExit(0);
 }

@@ -55,7 +55,7 @@ int main() {
     }
 
     sklep = mapuj_pamiec_dzielona(id_pamieci);
-    id_semafora = alokujSemafor(klucz, 3, 0);
+    id_semafora = alokujSemafor(klucz, 4, 0);
 
     while (dzialaj == 1) {
         for (int j = 0; j < KASY_SAMOOBSLUGOWE; j++) {
@@ -68,10 +68,11 @@ int main() {
             int wiek_klienta = sklep->kasy_samo[j].wiek_klienta;
             signalSemafor(id_semafora, SEM_KASY);
 
-            //odblokowywanie zablokowanych kas
+            // "Co pewien losowy czas kasa się blokuje ... – wówczas konieczna jest interwencja obsługi aby odblokować kasę."
             if (czy_zablokowana == 1) {
                 SIM_SLEEP_US(200000);
                 if (status_alko == 1) {
+                    // "Przy zakupie produktów z alkoholem konieczna weryfikacja kupującego przez obsługę (wiek>18);"
                     LOG_PRACOWNIK("Weryfikacja wieku przy kasie %d. Klient ma %d lat.\n", j, wiek_klienta);
 
                     if (waitSemafor(id_semafora, SEM_KASY, 0) == -1) {
@@ -79,16 +80,16 @@ int main() {
                         break;
                     }
                     if (wiek_klienta < 18) {
-                        LOG_PRACOWNIK("NIELETNI! Zabieram alkohol z kasy %d i odkładam na półkę.\n", j);
+                        LOG_PRACOWNIK("NIELETNI! Zabieram alkohol z kasy %d i odkładam na polke.\n", j);
                         sklep->kasy_samo[j].alkohol = -1;
                     } else {
-                        LOG_PRACOWNIK("Pełnoletni (OK). Zatwierdzam alkohol na kasie %d.\n", j);
+                        LOG_PRACOWNIK("Pelnoletni (OK). Zatwierdzam alkohol na kasie %d.\n", j);
                         sklep->kasy_samo[j].alkohol = 2;
                     }
                     sklep->kasy_samo[j].zablokowana = 0;
                     signalSemafor(id_semafora, SEM_KASY);
                 } else {
-                    LOG_PRACOWNIK("Usuwam awarię techniczną przy kasie %d\n", j);
+                    LOG_PRACOWNIK("Usuwam awarie techniczną przy kasie %d\n", j);
                     if (waitSemafor(id_semafora, SEM_KASY, 0) == -1) {
                         dzialaj = 0;
                         break;

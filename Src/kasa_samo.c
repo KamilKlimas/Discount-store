@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
     key_t klucz = ftok(FTOK_PATH, 'S');
     id_pamieci = podlacz_pamiec_dzielona();
     sklep = mapuj_pamiec_dzielona(id_pamieci);
-    id_semafora = alokujSemafor(klucz, 3, 0);
+    id_semafora = alokujSemafor(klucz, 4, 0);
 
     signal(SIGQUIT, ObslugaSygnalu);
 
@@ -69,12 +69,13 @@ int main(int argc, char *argv[]) {
             continue;
         }
 
-        //symulacja zgloszenia awarii/alkoholu
+        // "Co pewien losowy czas kasa się blokuje ... – wówczas konieczna jest interwencja obsługi aby odblokować kasę."
         if (zablokowana) {
             if (zgloszono_problem == 0)
             {
                 if (sklep->kasy_samo[id_kasy].alkohol)
                 {
+                    // "Przy zakupie produktów z alkoholem konieczna weryfikacja kupującego przez obsługę (wiek>18);"
                     LOG_KASA_SAMO(id_kasy+1, "WERYFIKACJA WIEKU!\n");
                 }else
                 {

@@ -34,72 +34,129 @@
 #define ANSI_CYAN    "\x1b[36m"      // Generator / System
 #define ANSI_WHITE   "\x1b[37m"
 
-#define LOG_FILE "logi_sklep.txt"
+#define LOG_FILE_KIEROWNIK "logi_kierownik.txt"
+#define LOG_FILE_KASJER "logi_kasjer.txt"
+#define LOG_FILE_KLIENT "logi_klient.txt"
+#define LOG_FILE_KASA_SAMO "logi_kasa_samo.txt"
+#define LOG_FILE_PRACOWNIK "logi_pracownik.txt"
+#define LOG_FILE_GENERATOR "logi_generator.txt"
+#define LOG_FILE_SYSTEM "logi_system.txt"
 
-#define LOG_TO_FILE(prefix, fmt, ...) do { \
-FILE *_lf = fopen(LOG_FILE, "a"); \
+#define LOG_TO_FILE(file, prefix, fmt, ...) do { \
+FILE *_lf = fopen(file, "a"); \
 if (_lf) { \
 fprintf(_lf, prefix fmt "\n", ##__VA_ARGS__); \
 fclose(_lf); \
 } \
 } while(0)
 
+#ifdef TRYB_TURBO
+#define LOG_KIEROWNIK(fmt, ...) do { \
+LOG_TO_FILE(LOG_FILE_KIEROWNIK, "[KIEROWNIK] ", fmt, ##__VA_ARGS__); \
+} while(0)
+#else
 #define LOG_KIEROWNIK(fmt, ...) do { \
 printf(ANSI_BOLD ANSI_RED "[KIEROWNIK] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
-LOG_TO_FILE("[KIEROWNIK] ", fmt, ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_KIEROWNIK, "[KIEROWNIK] ", fmt, ##__VA_ARGS__); \
+} while(0)
+#endif
+
+#define LOG_KIEROWNIK_BOTH(fmt, ...) do { \
+printf(ANSI_BOLD ANSI_RED "[KIEROWNIK] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_KIEROWNIK, "[KIEROWNIK] ", fmt, ##__VA_ARGS__); \
 } while(0)
 
+#ifdef TRYB_TURBO
+#define LOG_KASJER(id, fmt, ...) do { \
+LOG_TO_FILE(LOG_FILE_KASJER, "[KASJER %d] ", fmt, id, ##__VA_ARGS__); \
+} while(0)
+#else
 #define LOG_KASJER(id, fmt, ...) do { \
 printf(ANSI_BLUE "[KASJER %d] " ANSI_RESET fmt "\n", id, ##__VA_ARGS__); \
-LOG_TO_FILE("[KASJER %d] ", fmt, id, ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_KASJER, "[KASJER %d] ", fmt, id, ##__VA_ARGS__); \
 } while(0)
+#endif
 
+#ifdef TRYB_TURBO
+#define LOG_KLIENT(pid, fmt, ...) do { \
+LOG_TO_FILE(LOG_FILE_KLIENT, "[KLIENT %d] ", fmt, pid, ##__VA_ARGS__); \
+} while(0)
+#else
 #define LOG_KLIENT(pid, fmt, ...) do { \
 printf(ANSI_GREEN "[KLIENT %d] " ANSI_RESET fmt, pid, ##__VA_ARGS__); \
-LOG_TO_FILE("[KLIENT %d] ", fmt, pid, ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_KLIENT, "[KLIENT %d] ", fmt, pid, ##__VA_ARGS__); \
 } while(0)
+#endif
 
+#ifdef TRYB_TURBO
+#define LOG_KASA_SAMO(id, fmt, ...) do { \
+LOG_TO_FILE(LOG_FILE_KASA_SAMO, "[KASA SAMO %d] ", fmt, id, ##__VA_ARGS__); \
+} while(0)
+#else
 #define LOG_KASA_SAMO(id, fmt, ...) do { \
 printf(ANSI_MAGENTA "[KASA SAMO %d] " ANSI_RESET fmt "\n", id, ##__VA_ARGS__); \
-LOG_TO_FILE("[KASA SAMO %d] ", fmt, id, ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_KASA_SAMO, "[KASA SAMO %d] ", fmt, id, ##__VA_ARGS__); \
 } while(0)
+#endif
 
+#ifdef TRYB_TURBO
+#define LOG_PRACOWNIK(fmt, ...) do { \
+LOG_TO_FILE(LOG_FILE_PRACOWNIK, "[PRACOWNIK] ", fmt, ##__VA_ARGS__); \
+} while(0)
+#else
 #define LOG_PRACOWNIK(fmt, ...) do { \
 printf(ANSI_YELLOW "[PRACOWNIK] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
-LOG_TO_FILE("[PRACOWNIK] ", fmt, ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_PRACOWNIK, "[PRACOWNIK] ", fmt, ##__VA_ARGS__); \
 } while(0)
+#endif
 
+#ifdef TRYB_TURBO
+#define LOG_GENERATOR(fmt, ...) do { \
+LOG_TO_FILE(LOG_FILE_GENERATOR, "[GENERATOR] ", fmt, ##__VA_ARGS__); \
+} while(0)
+#else
 #define LOG_GENERATOR(fmt, ...) do { \
 printf(ANSI_CYAN "[GENERATOR] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
-LOG_TO_FILE("[GENERATOR] ", fmt, ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_GENERATOR, "[GENERATOR] ", fmt, ##__VA_ARGS__); \
+} while(0)
+#endif
+
+#define LOG_GENERATOR_BOTH(fmt, ...) do { \
+printf(ANSI_CYAN "[GENERATOR] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_GENERATOR, "[GENERATOR] ", fmt, ##__VA_ARGS__); \
 } while(0)
 
+#ifdef TRYB_TURBO
+#define LOG_SYSTEM(fmt, ...) do { \
+LOG_TO_FILE(LOG_FILE_SYSTEM, "[SYSTEM] ", fmt, ##__VA_ARGS__); \
+} while(0)
+#else
 #define LOG_SYSTEM(fmt, ...) do { \
 printf(ANSI_BOLD ANSI_WHITE "[SYSTEM] " ANSI_RESET fmt "\n", ##__VA_ARGS__); \
-LOG_TO_FILE("[SYSTEM] ", fmt, ##__VA_ARGS__); \
+LOG_TO_FILE(LOG_FILE_SYSTEM, "[SYSTEM] ", fmt, ##__VA_ARGS__); \
 } while(0)
+#endif
 
 
 //Global constants - stałe systemu
 #define MAX_PRODUKTOW 50
-#define KASY_SAMOOBSLUGOWE 6 // <- wymaganie dla kas
+#define KASY_SAMOOBSLUGOWE 6 // "...łącznie 8 kas: 2 kasy stacjonarne i 6 kas samoobsługowych."
 #define KASY_STACJONARNE 2
 #define MIN_PRODUKTOW_KOSZYK 3
-#define SZANSA_SAMOOBSLUGA 95
+#define SZANSA_SAMOOBSLUGA 95 // "Większość klientów korzysta z kas samoobsługowych (ok. 95%), pozostali (ok. 5%) stają w kolejce do kas stacjonarnych."
 #define KANAL_KASJERA_OFFSET 100
 
 #define MARGINES_KOLEJKI_BAJTY 4096
-#define MAX_KLIENCI_W_SKLEPIE 80
-#define PROG_WZNOWIENIA 50
+#define MAX_MIEJSC_W_SKLEPIE 120
 
 //Dynamic checkout opening menagment - dynamiczne otwieranie kas
 #define K_KLIENTOW_NA_KASE 5 //For K customers 1 checkout - co K klientów 1 kasa
-#define MIN_CZYNNYCH_KAS_SAMO 3
+#define MIN_CZYNNYCH_KAS_SAMO 3 // "Zawsze działają co najmniej 3 kasy samoobsługowe;"
 
 //Staffed checkout - kasa stacjonarna
-#define OTWORZ_KASE_1_PRZY 3 //>=3 customers in queue - >=3 klientow w kolejce
-#define ZAMKNIJ_KASE_PO 30 //30 sec waittime without customers - 30 sekund oczekiwania brak klientow
-#define MAX_CZAS_OCZEKIWANIA 10 // T
+#define OTWORZ_KASE_1_PRZY 3 // "Jeżeli liczba osób stojących w kolejce do kasy jest większa niż 3 otwierana jest kasa 1;"
+#define ZAMKNIJ_KASE_PO 30 // "Jeżeli po obsłużeniu ostatniego klienta w kolejce przez 30 sekund nie pojawi się następny klient, kasa jest zamykana;"
+#define MAX_CZAS_OCZEKIWANIA 10 // "Jeżeli czas oczekiwania w kolejce na kasę samoobsługową jest dłuższy niż T..."
 
 //Kolejka do kas
 #define MAX_DLUGOSC_KOLEJKI 300
@@ -109,6 +166,7 @@ LOG_TO_FILE("[SYSTEM] ", fmt, ##__VA_ARGS__); \
 #define SEM_KASY 0
 #define SEM_UTARG 1
 #define SEM_KOLEJKI 2
+#define SEM_WEJSCIE 3
 
 #define KATEGORIE 8
 #define LICZBA_PRODUKTOW 32
@@ -160,7 +218,7 @@ typedef struct{
 	int zablokowana;
 	pid_t obslugiwany_klient;
 	int platnosc_w_toku;
-	int alkohol; // 0 - brak, 1 - weryfikacja, 2 - zatwierdzony, -1 - odrzucony
+	int alkohol;
 	int wiek_klienta;
 	float aktualna_kwota;
 } KasaSamoobslugowa;

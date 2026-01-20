@@ -71,7 +71,7 @@ int main(int argc, char *argv[]) {
     }
     sklep = mapuj_pamiec_dzielona(id_pamieci);
 
-    id_semafora = alokujSemafor(klucz, 3, 0);
+    id_semafora = alokujSemafor(klucz, 4, 0);
     id_kolejki = stworzKolejke();
 
     struct messg_buffer msg;
@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
         signalSemafor(id_semafora, SEM_KASY);
 
 
-        //sprawdzenie czy na pewno kasa moze zostac zamknieta
+        // "Jeśli w kolejce do kasy czekali klienci (przed ogłoszeniem decyzji o jej zamknięciu) to powinni zostać obsłużeni przez tę kasę."
         if (zamykanie) {
             if (limit <= 0) {
                 //dziala na zasadzie: sygnal zamkniecia
@@ -106,11 +106,11 @@ int main(int argc, char *argv[]) {
         }
 
         if (status_pracy == 0) {
-            SIM_SLEEP_US(100000);
+            SIM_SLEEP_US(25000);
             continue;
         }
 
-        //obsluga klientow az do ostatniego nawet po sygnale o zamknieciu kasy
+        // "Jeśli w kolejce do kasy czekali klienci (przed ogłoszeniem decyzji o jej zamknięciu) to powinni zostać obsłużeni przez tę kasę."
         pid_t klient_pid = 0;
         waitSemafor(id_semafora, SEM_KOLEJKI, 0);
         if (sklep->kolejka_stato[moje_id].rozmiar > 0) {
@@ -141,6 +141,7 @@ int main(int argc, char *argv[]) {
             //oczekiwanie na paragon
             OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
 
+            // "Przy zakupie produktów z alkoholem konieczna weryfikacja kupującego przez obsługę (wiek>18);"
             if (msg.ma_alkohol == 1 && msg.wiek < 18) {
                 LOG_KASJER(moje_id + 1, "Klient %d jest nieletni (%d lat)! Odmawiam sprzedaży alkoholu.",
                 msg.ID_klienta, msg.wiek);
@@ -152,12 +153,12 @@ int main(int argc, char *argv[]) {
 
                 LOG_KASJER(moje_id + 1, "Klient %d skorygował zakupy. Nowa kwota: %.2f", msg.ID_klienta, msg.kwota);
             } else if (msg.ma_alkohol == 1) {
-                LOG_KASJER(moje_id + 1, "Weryfikacja wieku pomyślna (%d lat). Sprzedaję alkohol.", msg.wiek);
+                LOG_KASJER(moje_id + 1, "Weryfikacja wieku pomyślna (%d lat). Sprzedaje alkohol.", msg.wiek);
             }
 
             LOG_KASJER(moje_id +1, "Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
 
-            SIM_SLEEP_US(rand() % 500000 + 500000);
+            SIM_SLEEP_US(rand() % 25000);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
             sklep->statystyki.utarg += msg.kwota;
@@ -175,7 +176,7 @@ int main(int argc, char *argv[]) {
             sklep->kasa_stato[moje_id].czas_ostatniej_obslugi = time(NULL);
             signalSemafor(id_semafora, SEM_KASY);
         } else {
-            SIM_SLEEP_US(100000);
+            SIM_SLEEP_US(50000);
         }
     }
     return 0;
