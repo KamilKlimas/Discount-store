@@ -1,0 +1,870 @@
+[KLIENT 11770] Przy kasie samo nr 0.
+
+[KLIENT 11770] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11770] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11770] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11776] Przy kasie samo nr 1.
+
+[KLIENT 11776] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11776] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11776] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11782] Przy kasie samo nr 2.
+
+[KLIENT 11782] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11782] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11770] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11770] PARAGON: [ Lody, Bagietka, Proszek, Marchew, Plyn do naczyn, Wino, Szynka, Boczek, Proszek ] SUMA: 171.90 zl
+
+[KLIENT 11783] Przy kasie samo nr 0.
+
+[KLIENT 11783] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11783] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11782] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11783] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11776] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11776] PARAGON: [ Jablko, Proszek, Banan, Domestos, Pizza, Plyn do naczyn, Mydlo ] SUMA: 83.70 zl
+
+[KLIENT 11789] Przy kasie samo nr 1.
+
+[KLIENT 11789] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11789] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11789] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11782] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11782] PARAGON: [ Domestos ] SUMA: 12.00 zl
+
+[KLIENT 11783] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11783] PARAGON: [ Jablko, Jogurt, Ziemniak, Wodka, Proszek, Maslo, Chleb, Warzywa na patelnie ] SUMA: 100.90 zl
+
+[KLIENT 11802] Przy kasie samo nr 0.
+
+[KLIENT 11802] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11802] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11795] Przy kasie samo nr 2.
+
+[KLIENT 11795] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11795] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11802] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11795] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11789] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11789] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[KLIENT 11808] Przy kasie samo nr 1.
+
+[KLIENT 11808] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11808] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11808] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11810] Przy kasie samo nr 3.
+
+[KLIENT 11810] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11810] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11795] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11795] PARAGON: [ Winogrono, Chleb, Kielbasa, Chleb, Ogorek, Lody, Jogurt ] SUMA: 69.80 zl
+
+[KLIENT 11802] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11802] PARAGON: [ Mydlo, Proszek, Proszek, Pomidor, Banan, Chleb, Bagietka, Ogorek ] SUMA: 99.40 zl
+
+[KLIENT 11821] Przy kasie samo nr 0.
+
+[KLIENT 11821] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11821] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11810] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11817] W kolejce do stacjonarnej 1
+
+[KLIENT 11829] Przy kasie samo nr 2.
+
+[KLIENT 11829] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11829] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11843] Przy kasie samo nr 4.
+
+[KLIENT 11843] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11843] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11818] Przy kasie samo nr 5.
+
+[KLIENT 11818] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 11818] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 11821] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11829] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11841] W kolejce do stacjonarnej 1
+
+[KLIENT 11843] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11818] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11808] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11808] PARAGON: [ Kabanos, Frytki, Pomidor, Gruszka, Banan ] SUMA: 84.70 zl
+
+[KLIENT 11838] Przy kasie samo nr 1.
+
+[KLIENT 11838] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11838] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11816] W kolejce do stacjonarnej 1
+
+[KLIENT 11861] W kolejce do stacjonarnej 1
+
+[KLIENT 11840] W kolejce do stacjonarnej 1
+
+[KLIENT 11838] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11858] W kolejce do stacjonarnej 1
+
+[KLIENT 11821] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11821] PARAGON: [ Wodka, Bulka, Warzywa na patelnie, Gruszka ] SUMA: 53.40 zl
+
+[KLIENT 11810] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11810] PARAGON: [ Wino, Pizza, Bagietka, Wino, Pomidor ] SUMA: 89.70 zl
+
+[KLIENT 11829] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11829] PARAGON: [ Kielbasa, Frytki, Bulka, Kielbasa, Kielbasa, Lody, Ziemniak, Jogurt, Frytki ] SUMA: 127.80 zl
+
+[KLIENT 11843] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11843] PARAGON: [ Ogorek, Marchew, Kielbasa ] SUMA: 36.50 zl
+
+[KLIENT 11822] Przy kasie samo nr 0.
+
+[KLIENT 11822] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11822] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11817] PARAGON: [ Proszek, Warzywa na patelnie, Marchew, Marchew, Marchew, Winogrono, Piwo, Kabanos, Kabanos, Banan ] SUMA: 178.10 zl
+
+[KLIENT 11844] Przy kasie samo nr 2.
+
+[KLIENT 11844] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11844] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11841] PARAGON: [ Domestos ] SUMA: 12.00 zl
+
+[KLIENT 11819] Przy kasie samo nr 3.
+
+[KLIENT 11819] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11819] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11842] Przy kasie samo nr 4.
+
+[KLIENT 11842] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11842] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11816] PARAGON: [ Whisky, Wino, Piwo, Wino, Whisky, Proszek, Mleko, Kabanos, Wodka ] SUMA: 357.80 zl
+
+[KLIENT 11861] PARAGON: [ Kabanos, Paczek, Marchew, Domestos, Mydlo, Warzywa na patelnie ] SUMA: 83.50 zl
+
+[KLIENT 11822] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11840] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 11840] PARAGON: [ Szynka ] SUMA: 11.20 zl
+
+[KLIENT 11844] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11858] PARAGON: [ Warzywa na patelnie, Jablko, Banan, Kielbasa, Pomidor, Paczek, Mydlo, Whisky, Maslo, Plyn do naczyn ] SUMA: 152.70 zl
+
+[KLIENT 11888] W kolejce do stacjonarnej 1
+
+[KLIENT 11819] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11888] PARAGON: [ Maslo ] SUMA: 6.50 zl
+
+[KLIENT 11818] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11818] PARAGON: [ Proszek, Bagietka, Whisky, Marchew, Gruszka, Paczek ] SUMA: 129.20 zl
+
+[KLIENT 11937] W kolejce do stacjonarnej 1
+
+[KLIENT 11842] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11838] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11838] PARAGON: [ Whisky, Boczek, Paczek, Bagietka, Maslo, Mydlo, Bagietka, Lody, Gruszka ] SUMA: 151.40 zl
+
+[KLIENT 11832] Przy kasie samo nr 1.
+
+[KLIENT 11832] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11832] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11825] Przy kasie samo nr 5.
+
+[KLIENT 11825] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 11825] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 11937] PARAGON: [ Bulka ] SUMA: 0.90 zl
+
+[KLIENT 11832] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11920] W kolejce do stacjonarnej 1
+
+[KLIENT 11825] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11941] W kolejce do stacjonarnej 1
+
+[KLIENT 11920] PARAGON: [ Proszek, Boczek, Kielbasa, Bagietka, Whisky, Pizza ] SUMA: 196.20 zl
+
+[KLIENT 11946] W kolejce do stacjonarnej 1
+
+[KLIENT 11941] PARAGON: [ Bagietka, Piwo, Gruszka, Wodka, Kielbasa, Jablko, Lody, Lody, Marchew, Whisky ] SUMA: 196.20 zl
+
+[KLIENT 11946] PARAGON: [ Bagietka, Piwo, Gruszka, Wodka, Kielbasa, Jablko, Lody, Lody, Marchew, Whisky ] SUMA: 196.20 zl
+
+[KLIENT 11844] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11844] PARAGON: [ Boczek, Piwo, Jablko, Pomidor, Winogrono, Piwo, Kielbasa, Wodka ] SUMA: 129.90 zl
+
+[KLIENT 11819] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11819] PARAGON: [ Mleko, Kabanos, Winogrono, Wodka, Bagietka, Bagietka, Paczek, Gruszka ] SUMA: 123.60 zl
+
+[KLIENT 11822] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11846] Przy kasie samo nr 2.
+
+[KLIENT 11846] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11846] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11822] PARAGON: [ Piwo, Proszek, Plyn do naczyn, Domestos, Ser zolty ] SUMA: 64.00 zl
+
+[KLIENT 11831] Przy kasie samo nr 0.
+
+[KLIENT 11831] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11831] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11824] Przy kasie samo nr 3.
+
+[KLIENT 11824] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11824] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11846] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11824] Odmowa! Oddaje alkohol, kupuje reszte.
+
+[KLIENT 11824] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11831] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11825] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11825] PARAGON: [ Kielbasa, Paczek, Domestos, Domestos, Paczek, Boczek ] SUMA: 91.00 zl
+
+[KLIENT 11832] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11832] PARAGON: [ Lody, Jablko ] SUMA: 18.50 zl
+
+[KLIENT 11842] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11842] PARAGON: [ Kabanos, Frytki ] SUMA: 67.00 zl
+
+[KLIENT 11830] Przy kasie samo nr 1.
+
+[KLIENT 11830] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11830] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11960] W kolejce do stacjonarnej 1
+
+[KLIENT 11856] Przy kasie samo nr 4.
+
+[KLIENT 11856] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11856] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11839] Przy kasie samo nr 5.
+
+[KLIENT 11839] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 11839] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 11960] PARAGON: [ Ziemniak, Ziemniak, Chleb, Chleb, Paczek ] SUMA: 16.50 zl
+
+[KLIENT 11830] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11856] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11824] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11824] PARAGON: [ Domestos, Mleko ] SUMA: 15.80 zl
+
+[KLIENT 11839] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11831] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11846] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11831] PARAGON: [ Ziemniak, Warzywa na patelnie, Bulka, Mydlo, Banan ] SUMA: 17.60 zl
+
+[KLIENT 11860] Przy kasie samo nr 3.
+
+[KLIENT 11846] PARAGON: [ Bagietka, Warzywa na patelnie, Warzywa na patelnie, Boczek, Kabanos, Wino, Mleko ] SUMA: 139.00 zl
+
+[KLIENT 11860] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11860] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11823] Przy kasie samo nr 0.
+
+[KLIENT 11823] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11823] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11845] Przy kasie samo nr 2.
+
+[KLIENT 11845] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11845] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11860] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11823] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11845] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11856] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11856] PARAGON: [ Wodka, Chleb, Bagietka, Ogorek ] SUMA: 53.70 zl
+
+[KLIENT 11830] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11830] PARAGON: [ Jablko, Ser zolty, Wodka, Bulka, Mleko, Pomidor, Boczek, Bagietka, Wino, Kielbasa ] SUMA: 154.90 zl
+
+[KLIENT 11863] Przy kasie samo nr 1.
+
+[KLIENT 11863] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11863] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11855] Przy kasie samo nr 4.
+
+[KLIENT 11855] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11855] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11863] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11855] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11860] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11860] PARAGON: [ Maslo, Gruszka, Wino, Pizza, Ser zolty, Winogrono, Gruszka, Kabanos ] SUMA: 134.40 zl
+
+[KLIENT 11839] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11839] PARAGON: [ Pomidor, Paczek, Plyn do naczyn, Jogurt ] SUMA: 21.90 zl
+
+[KLIENT 11847] Przy kasie samo nr 3.
+
+[KLIENT 11847] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11847] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11823] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11823] PARAGON: [ Jogurt, Banan, Ogorek, Bagietka, Banan, Pomidor, Warzywa na patelnie, Piwo, Jablko ] SUMA: 43.00 zl
+
+[KLIENT 11845] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11845] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 11878] Przy kasie samo nr 0.
+
+[KLIENT 11878] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11878] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11826] Przy kasie samo nr 2.
+
+[KLIENT 11826] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11826] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11828] Przy kasie samo nr 5.
+
+[KLIENT 11828] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 11828] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 11847] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11878] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11826] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11855] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11855] PARAGON: [ Lody, Piwo, Mleko, Pomidor ] SUMA: 31.30 zl
+
+[KLIENT 11863] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11863] PARAGON: [ Maslo, Gruszka, Wino, Pizza, Ser zolty, Winogrono, Gruszka, Kabanos ] SUMA: 134.40 zl
+
+[KLIENT 11828] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11827] Przy kasie samo nr 1.
+
+[KLIENT 11827] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11827] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11820] Przy kasie samo nr 4.
+
+[KLIENT 11820] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11820] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11827] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11820] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11878] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11878] PARAGON: [ Ser zolty, Ziemniak, Wino, Szynka, Ogorek, Jablko, Ziemniak ] SUMA: 59.70 zl
+
+[KLIENT 11847] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11847] PARAGON: [ Gruszka, Pomidor, Ogorek, Plyn do naczyn, Warzywa na patelnie, Bagietka, Mleko, Kabanos, Jogurt, Bagietka ] SUMA: 102.10 zl
+
+[KLIENT 11826] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11826] PARAGON: [ Frytki, Ogorek, Ogorek, Pomidor, Winogrono, Boczek ] SUMA: 74.40 zl
+
+[KLIENT 11874] Przy kasie samo nr 0.
+
+[KLIENT 11874] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11874] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11857] Przy kasie samo nr 2.
+
+[KLIENT 11857] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11857] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11864] Przy kasie samo nr 3.
+
+[KLIENT 11864] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11864] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11874] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11995] W kolejce do stacjonarnej 1
+
+[KLIENT 11857] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11995] PARAGON: [ Ziemniak, Winogrono, Kielbasa, Domestos, Piwo, Paczek, Szynka, Lody, Frytki, Ogorek ] SUMA: 103.60 zl
+
+[KLIENT 11827] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11827] PARAGON: [ Chleb, Lody, Jablko, Ziemniak, Boczek, Kabanos, Mleko, Lody ] SUMA: 130.80 zl
+
+[KLIENT 11820] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11820] PARAGON: [ Kielbasa, Szynka, Ziemniak, Paczek, Ziemniak, Ser zolty, Gruszka ] SUMA: 56.70 zl
+
+[KLIENT 11828] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11828] PARAGON: [ Domestos, Gruszka, Kabanos, Plyn do naczyn, Bulka, Frytki, Mydlo ] SUMA: 95.90 zl
+
+[KLIENT 11864] Odmowa! Oddaje alkohol, kupuje reszte.
+
+[KLIENT 11864] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11851] Przy kasie samo nr 1.
+
+[KLIENT 11851] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11851] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11875] Przy kasie samo nr 4.
+
+[KLIENT 11875] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11875] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11884] Przy kasie samo nr 5.
+
+[KLIENT 11884] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 11884] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 11851] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11875] Odmowa! Oddaje alkohol, kupuje reszte.
+
+[KLIENT 11875] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11884] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11857] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11857] PARAGON: [ Pizza, Pizza, Gruszka, Maslo, Szynka, Szynka, Kielbasa, Boczek, Jogurt ] SUMA: 131.80 zl
+
+[KLIENT 11874] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11874] PARAGON: [ Jablko, Lody, Paczek, Mleko, Jablko, Ziemniak ] SUMA: 31.30 zl
+
+[KLIENT 11895] Przy kasie samo nr 0.
+
+[KLIENT 11895] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11895] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11890] Przy kasie samo nr 2.
+
+[KLIENT 11890] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11890] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11895] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11890] Kasa odblokowana, kontynuuje.
+
+[KLIENT 12001] W kolejce do stacjonarnej 1
+
+[KLIENT 11865] W kolejce do stacjonarnej 1
+
+[KLIENT 11876] W kolejce do stacjonarnej 1
+
+[KLIENT 11898] W kolejce do stacjonarnej 1
+
+[KLIENT 11931] W kolejce do stacjonarnej 1
+
+[KLIENT 11889] W kolejce do stacjonarnej 1
+
+[KLIENT 11871] W kolejce do stacjonarnej 1
+
+[KLIENT 11850] W kolejce do stacjonarnej 1
+
+[KLIENT 11849] W kolejce do stacjonarnej 1
+
+[KLIENT 11883] W kolejce do stacjonarnej 1
+
+[KLIENT 11854] W kolejce do stacjonarnej 1
+
+[KLIENT 11905] W kolejce do stacjonarnej 1
+
+[KLIENT 11906] W kolejce do stacjonarnej 1
+
+[KLIENT 11900] W kolejce do stacjonarnej 1
+
+[KLIENT 11852] W kolejce do stacjonarnej 1
+
+[KLIENT 11891] W kolejce do stacjonarnej 1
+
+[KLIENT 11919] W kolejce do stacjonarnej 1
+
+[KLIENT 11892] W kolejce do stacjonarnej 1
+
+[KLIENT 11907] W kolejce do stacjonarnej 1
+
+[KLIENT 11904] W kolejce do stacjonarnej 1
+
+[KLIENT 11877] W kolejce do stacjonarnej 1
+
+[KLIENT 12001] PARAGON: [ Wodka ] SUMA: 40.00 zl
+
+[KLIENT 11872] W kolejce do stacjonarnej 1
+
+[KLIENT 11848] W kolejce do stacjonarnej 1
+
+[KLIENT 11859] W kolejce do stacjonarnej 1
+
+[KLIENT 11901] W kolejce do stacjonarnej 1
+
+[KLIENT 11853] W kolejce do stacjonarnej 1
+
+[KLIENT 11885] W kolejce do stacjonarnej 1
+
+[KLIENT 11864] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11884] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11864] PARAGON: [ Frytki, Jablko, Whisky, Ziemniak ] SUMA: 97.50 zl
+
+[KLIENT 11884] PARAGON: [ Ziemniak, Pizza, Gruszka, Kielbasa, Proszek, Chleb, Ziemniak, Paczek ] SUMA: 98.00 zl
+
+[KLIENT 11851] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11851] PARAGON: [ Mydlo, Kabanos, Ogorek, Wino, Mydlo, Bagietka, Lody, Ser zolty, Paczek ] SUMA: 123.70 zl
+
+[KLIENT 11875] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11875] PARAGON: [ Lody, Marchew, Winogrono, Szynka, Ziemniak, Piwo, Chleb ] SUMA: 49.10 zl
+
+[KLIENT 11865] PARAGON: [ Bagietka, Jablko ] SUMA: 6.70 zl
+
+[KLIENT 11932] Przy kasie samo nr 1.
+
+[KLIENT 11932] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11932] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11876] PARAGON: [ Szynka, Plyn do naczyn, Mleko, Frytki ] SUMA: 35.00 zl
+
+[KLIENT 11862] Przy kasie samo nr 3.
+
+[KLIENT 11862] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11862] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11886] Przy kasie samo nr 4.
+
+[KLIENT 11886] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11886] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11898] PARAGON: [ Proszek, Bagietka, Warzywa na patelnie, Mleko, Pomidor, Bagietka, Boczek, Marchew, Chleb ] SUMA: 100.20 zl
+
+[KLIENT 11932] Odmowa! Oddaje alkohol, kupuje reszte.
+
+[KLIENT 11932] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11944] Przy kasie samo nr 5.
+
+[KLIENT 11944] Weryfikacja wieku na kasie 5 (Alkohol w koszyku)
+
+[KLIENT 11944] Kasa 5 zablokowana, czekaj na obsluge
+
+[KLIENT 11889] PARAGON: [ Ser zolty, Boczek ] SUMA: 37.00 zl
+
+[KLIENT 11862] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11886] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11908] W kolejce do stacjonarnej 1
+
+[KLIENT 11918] W kolejce do stacjonarnej 1
+
+[KLIENT 11961] W kolejce do stacjonarnej 1
+
+[KLIENT 11969] W kolejce do stacjonarnej 1
+
+[KLIENT 11940] W kolejce do stacjonarnej 1
+
+[KLIENT 11936] W kolejce do stacjonarnej 1
+
+[KLIENT 11947] W kolejce do stacjonarnej 1
+
+[KLIENT 11934] W kolejce do stacjonarnej 1
+
+[KLIENT 11943] W kolejce do stacjonarnej 1
+
+[KLIENT 11931] PARAGON: [ Mleko, Kielbasa, Kabanos, Pizza, Chleb, Boczek ] SUMA: 141.30 zl
+
+[KLIENT 11959] W kolejce do stacjonarnej 1
+
+[KLIENT 11903] W kolejce do stacjonarnej 1
+
+[KLIENT 11938] W kolejce do stacjonarnej 1
+
+[KLIENT 12006] W kolejce do stacjonarnej 1
+
+[KLIENT 11930] W kolejce do stacjonarnej 1
+
+[KLIENT 11894] W kolejce do stacjonarnej 1
+
+[KLIENT 11921] W kolejce do stacjonarnej 1
+
+[KLIENT 11926] W kolejce do stacjonarnej 1
+
+[KLIENT 11957] W kolejce do stacjonarnej 1
+
+[KLIENT 11939] W kolejce do stacjonarnej 1
+
+[KLIENT 11922] W kolejce do stacjonarnej 1
+
+[KLIENT 11882] W kolejce do stacjonarnej 1
+
+[KLIENT 11897] W kolejce do stacjonarnej 1
+
+[KLIENT 11944] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11965] W kolejce do stacjonarnej 1
+
+[KLIENT 11925] W kolejce do stacjonarnej 1
+
+[KLIENT 11933] W kolejce do stacjonarnej 1
+
+[KLIENT 11935] W kolejce do stacjonarnej 1
+
+[KLIENT 11948] W kolejce do stacjonarnej 1
+
+[KLIENT 11895] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11895] PARAGON: [ Plyn do naczyn, Ogorek, Proszek, Marchew, Banan, Wino ] SUMA: 85.70 zl
+
+[KLIENT 11873] W kolejce do stacjonarnej 1
+
+[KLIENT 11927] Przy kasie samo nr 0.
+
+[KLIENT 11927] Weryfikacja wieku na kasie 0 (Alkohol w koszyku)
+
+[KLIENT 11902] W kolejce do stacjonarnej 1
+
+[KLIENT 11927] Kasa 0 zablokowana, czekaj na obsluge
+
+[KLIENT 11914] W kolejce do stacjonarnej 1
+
+[KLIENT 11962] W kolejce do stacjonarnej 1
+
+[KLIENT 11879] W kolejce do stacjonarnej 1
+
+[KLIENT 11890] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11890] PARAGON: [ Boczek, Szynka, Domestos, Chleb, Warzywa na patelnie, Plyn do naczyn, Warzywa na patelnie ] SUMA: 82.70 zl
+
+[KLIENT 11880] Przy kasie samo nr 2.
+
+[KLIENT 11881] W kolejce do stacjonarnej 1
+
+[KLIENT 11880] Weryfikacja wieku na kasie 2 (Alkohol w koszyku)
+
+[KLIENT 11880] Kasa 2 zablokowana, czekaj na obsluge
+
+[KLIENT 11956] W kolejce do stacjonarnej 1
+
+[KLIENT 11887] W kolejce do stacjonarnej 1
+
+[KLIENT 11871] PARAGON: [ Pomidor, Ogorek, Banan ] SUMA: 18.70 zl
+
+[KLIENT 11850] PARAGON: [ Ogorek, Plyn do naczyn, Szynka, Gruszka, Kielbasa, Lody, Bagietka, Winogrono ] SUMA: 86.30 zl
+
+[KLIENT 11849] PARAGON: [ Gruszka, Warzywa na patelnie, Lody, Ser zolty, Pomidor, Maslo, Jogurt, Plyn do naczyn, Kabanos, Jablko ] SUMA: 115.90 zl
+
+[KLIENT 11927] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11883] PARAGON: [ Wodka, Winogrono, Chleb ] SUMA: 54.40 zl
+
+[KLIENT 11880] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11854] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 11854] PARAGON: [ Proszek, Domestos ] SUMA: 47.00 zl
+
+[KLIENT 11942] W kolejce do stacjonarnej 1
+
+[KLIENT 11972] W kolejce do stacjonarnej 1
+
+[KLIENT 11928] W kolejce do stacjonarnej 1
+
+[KLIENT 11971] W kolejce do stacjonarnej 1
+
+[KLIENT 11945] W kolejce do stacjonarnej 1
+
+[KLIENT 11955] W kolejce do stacjonarnej 1
+
+[KLIENT 11905] PARAGON: [ Pizza, Boczek, Frytki, Winogrono, Piwo, Wino, Bulka, Ziemniak, Proszek ] SUMA: 143.80 zl
+
+[KLIENT 11893] W kolejce do stacjonarnej 1
+
+[KLIENT 11862] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11862] PARAGON: [ Kielbasa, Mleko, Kabanos ] SUMA: 86.80 zl
+
+[KLIENT 11967] W kolejce do stacjonarnej 1
+
+[KLIENT 11932] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11932] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 11886] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11886] PARAGON: [ Proszek, Kielbasa, Maslo, Mleko, Kielbasa, Warzywa na patelnie, Wino, Jablko ] SUMA: 142.30 zl
+
+[KLIENT 11906] PARAGON: [ Kabanos, Gruszka, Piwo, Bulka, Winogrono, Szynka, Ser zolty, Piwo, Winogrono ] SUMA: 104.90 zl
+
+[KLIENT 11949] Przy kasie samo nr 1.
+
+[KLIENT 11929] W kolejce do stacjonarnej 1
+
+[KLIENT 11949] Weryfikacja wieku na kasie 1 (Alkohol w koszyku)
+
+[KLIENT 11949] Kasa 1 zablokowana, czekaj na obsluge
+
+[KLIENT 11963] W kolejce do stacjonarnej 1
+
+[KLIENT 11923] Przy kasie samo nr 3.
+
+[KLIENT 11923] Weryfikacja wieku na kasie 3 (Alkohol w koszyku)
+
+[KLIENT 11923] Kasa 3 zablokowana, czekaj na obsluge
+
+[KLIENT 11964] Przy kasie samo nr 4.
+
+[KLIENT 11964] Weryfikacja wieku na kasie 4 (Alkohol w koszyku)
+
+[KLIENT 11964] Kasa 4 zablokowana, czekaj na obsluge
+
+[KLIENT 11900] PARAGON: [ Ziemniak, Pizza, Banan, Marchew ] SUMA: 26.70 zl
+
+[KLIENT 11891] PARAGON: [ Pomidor, Wino, Mydlo, Mleko, Boczek ] SUMA: 77.30 zl
+
+[KLIENT 11949] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11927] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11923] Kasa odblokowana, kontynuuje.
+
+[KLIENT 11927] PARAGON: [ Kielbasa, Kabanos, Mleko, Lody, Ogorek, Marchew, Wodka ] SUMA: 150.30 zl
+
+[KLIENT 11880] Terminal potwierdzil platnosc. Zabieram paragon.
+
+[KLIENT 11880] PARAGON: [ Jogurt, Banan, Plyn do naczyn ] SUMA: 14.10 zl
+
+[KLIENT 11852] PARAGON: [ Pomidor, Ser zolty, Paczek, Winogrono, Ser zolty, Whisky, Paczek ] SUMA: 115.40 zl
+
