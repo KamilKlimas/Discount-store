@@ -1,0 +1,2 @@
+[GENERATOR] Wpuszczam 10000 procesow (tryb generatora: TURBO)
+[GENERATOR] Zakonczylem wpuszczanie klientow. Utworzone: 10000/10000

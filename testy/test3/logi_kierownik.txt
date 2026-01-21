@@ -1,0 +1,56 @@
+[KIEROWNIK] Uruchomiono 6 terminali kas samoobslugowych.
+
+[KIEROWNIK] Wykladanie towaru na polki...
+
+[KIEROWNIK] sklep zatowarowany
+
+[KIEROWNIK] pracownik proszony na stanowisko
+
+[KIEROWNIK] Kasjer 1 proszony o gotowosc
+
+[KIEROWNIK] Kasjer 2 proszony o gotowosc
+
+[KIEROWNIK] Sklep otwarty. PID 85911
+
+[KIEROWNIK] Dostepne polecenia:
+-> kill -SIGUSR1 85911 (Otworz Kase 2)
+-> kill -SIGUSR2 85911 (Zamknij Kase 2)
+-> kill -34 85911 (Zamknij Kase 1)
+-> kill -SIGQUIT 85911 (ewakuacja)
+
+[KIEROWNIK] ----------------------------------------------------------
+
+[KIEROWNIK] Otwieram kase samoobslugowa 0 (Klienci: 0)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 1 (Klienci: 0)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 2 (Klienci: 0)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 120)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 120)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 120)
+
+[KIEROWNIK] Kolejka do kasy nr1: 25. Otwieram kase...
+
+[KIEROWNIK] Otwarto kase numer 2
+
+[KIEROWNIK] Zamykam kase samoobslugowa 6 (Klienci: 14 < Prog: 15)
+
+[KIEROWNIK] Zamykam kase samoobslugowa 5 (Klienci: 9 < Prog: 10)
+
+[KIEROWNIK] Zamykam kase samoobslugowa 4 (Klienci: 3 < Prog: 5)
+
+[KIEROWNIK] Otrzymano SIGINT -> Zamykam sklep dla nowych klientow
+
+[KIEROWNIK] Brak klientow. Koniec pracy.
+[KIEROWNIK] Rozpoczynam finalne sprzatanie...
+[KIEROWNIK] [WATEK CLEANUP] Rozpoczynam procedure czyszczenia...
+[KIEROWNIK] [WATEK CLEANUP] Zabijam procesy potomne...
+[KIEROWNIK] 
+RAPORT KONCOWY:2026-01-21
+---Utarg: 886285.20---
+---Obsluzeni Klienci: 10000---
+[KIEROWNIK] [1m[31m[WATEK CLEANUP] Zasoby zwolnione.[0m
+[KIEROWNIK] Zamkniecie zakonczone pomyslnie.
