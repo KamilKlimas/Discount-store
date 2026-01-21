@@ -147,9 +147,7 @@ int main() {
         } else if (pid > 0) {
             utworzone++;
 #ifndef TRYB_TURBO
-            if (i < 5 || i >= liczba_klientow - 5 || i % 20 == 0) {
                 LOG_GENERATOR("Wchodzi klient [%d/%d] (PID: %d)", i + 1, liczba_klientow, pid);
-            }
 #endif
         } else {
             perror("Fork failed");

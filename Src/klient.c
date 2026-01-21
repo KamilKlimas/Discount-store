@@ -121,6 +121,9 @@ int main() {
 
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
     if (klucz == -1) {
+        if (errno == ENOENT) {
+            exit(0);
+        }
         perror("\nbrak argumentu od kierownika\n");
         exit(1);
     }
@@ -434,6 +437,9 @@ int main() {
     			}
     			continue;
 			}
+            if (errno == EIDRM || errno == EINVAL) {
+                CleanupAndExit(0);
+            }
 			if (errno != ENOMSG && errno != EINTR) {
     			perror("msgrcv");
     			CleanupAndExit(0);

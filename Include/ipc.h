@@ -11,7 +11,7 @@
 #include <sys/msg.h>
 #include <sys/types.h>
 
-#define TRYB_TURBO
+//#define TRYB_TURBO
 
 #ifdef TRYB_TURBO
 	#define SIM_SLEEP_US(x) (void)(x)

@@ -33,7 +33,7 @@ tmux select-pane -t 1
 #tmux send-keys "echo 'Oczekiwanie na inicjalizację Kierownika...'; sleep 4; ./generator" C-m
 
 tmux select-pane -t 2
-tmux send-keys "watch -n 1 'ipcs -s && ipcs -m'" C-m
+tmux send-keys "watch -n 1 'ipcs -s && ipcs -m && ipcs -q'" C-m
 
 tmux attach-session -t $SESSION > /dev/null 2>&1
 
