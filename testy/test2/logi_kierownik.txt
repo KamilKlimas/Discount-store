@@ -10,13 +10,13 @@
 
 [KIEROWNIK] Kasjer 2 proszony o gotowosc
 
-[KIEROWNIK] Sklep otwarty. PID 40690
+[KIEROWNIK] Sklep otwarty. PID 51242
 
 [KIEROWNIK] Dostepne polecenia:
--> kill -SIGUSR1 40690 (Otworz Kase 2)
--> kill -SIGUSR2 40690 (Zamknij Kase 2)
--> kill -34 40690 (Zamknij Kase 1)
--> kill -SIGQUIT 40690 (ewakuacja)
+-> kill -SIGUSR1 51242 (Otworz Kase 2)
+-> kill -SIGUSR2 51242 (Zamknij Kase 2)
+-> kill -34 51242 (Zamknij Kase 1)
+-> kill -SIGQUIT 51242 (ewakuacja)
 
 [KIEROWNIK] ----------------------------------------------------------
 
@@ -26,19 +26,21 @@
 
 [KIEROWNIK] Otwieram kase samoobslugowa 2 (Klienci: 0)
 
-[KIEROWNIK] Kolejka do kasy nr1: 6. Otwieram kase...
+[KIEROWNIK] Kolejka do kasy nr1: 4. Otwieram kase...
 
-[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 38)
+[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 23)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 38)
+[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 23)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 38)
+[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 61)
 
 [KIEROWNIK] Zamykam kase samoobslugowa 6 (Klienci: 14 < Prog: 15)
 
 [KIEROWNIK] Zamykam kase samoobslugowa 5 (Klienci: 9 < Prog: 10)
 
 [KIEROWNIK] Zamykam kase samoobslugowa 4 (Klienci: 4 < Prog: 5)
+
+[KIEROWNIK] Zamykam kase stacjonarna 1
 
 [KIEROWNIK] Otrzymano SIGINT -> Zamykam sklep dla nowych klientow
 
@@ -48,7 +50,7 @@
 [KIEROWNIK] [WATEK CLEANUP] Zabijam procesy potomne...
 [KIEROWNIK] 
 RAPORT KONCOWY:2026-01-21
----Utarg: 84725.10---
+---Utarg: 89617.40---
 ---Obsluzeni Klienci: 1000---
 [KIEROWNIK] [1m[31m[WATEK CLEANUP] Zasoby zwolnione.[0m
 [KIEROWNIK] Zamkniecie zakonczone pomyslnie.
