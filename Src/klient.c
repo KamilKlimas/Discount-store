@@ -29,6 +29,7 @@ static int wejscie_zarejestrowane = 0;
 static int w_kolejce_samo = 0;
 static int w_kolejce_stacjo = 0;
 static int kasa_stacjo_idx = -1;
+static int klient_aktywny = 0;
 
 static char **paragon = NULL;
 static int *koszyk_id = NULL;
@@ -70,6 +71,10 @@ static void CleanupAndExit(int code) {
             if (waitSemafor(id_semafora, SEM_KASY, 0) != -1) {
                 sklep->statystyki.liczba_klientow_w_sklepie--;
                 signalSemafor(id_semafora, SEM_KASY);
+            }
+            if (klient_aktywny) {
+                waitSemafor(id_semafora, SEM_KLIENCI, 0);
+                klient_aktywny = 0;
             }
             signalSemafor(id_semafora, SEM_WEJSCIE);
             wejscie_zarejestrowane = 0;
@@ -114,7 +119,10 @@ void WypiszParagon(char **paragon, int *koszyk_id, int ile_prod, double finalna_
 int main() {
     setbuf(stdout, NULL);
 
-    if (signal(SIGINT, SIG_IGN) == SIG_ERR) { perror("signal SIGINT"); exit(1); }
+    if (signal(SIGINT, SIG_IGN) == SIG_ERR) {
+        perror("signal SIGINT");
+        exit(1);
+    }
 
     pid = getpid();
     srand(pid ^ time(NULL));
@@ -134,11 +142,14 @@ int main() {
         exit(1);
     }
     sklep = mapuj_pamiec_dzielona(id_pamieci);
-    id_semafora = alokujSemafor(klucz, 4, 0);
+    id_semafora = alokujSemafor(klucz, 5, 0);
 
     id_kolejki = stworzKolejke();
 
-    if (signal(SIGQUIT, Uciekaj) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
+    if (signal(SIGQUIT, Uciekaj) == SIG_ERR) {
+        perror("signal SIGQUIT");
+        exit(1);
+    }
 
     while (1) {
         struct sembuf op;
@@ -174,6 +185,9 @@ int main() {
     sklep->statystyki.liczba_klientow_w_sklepie += 1;
     signalSemafor(id_semafora, SEM_KASY);
     wejscie_zarejestrowane = 1;
+    if (signalSemafor(id_semafora, SEM_KLIENCI) != -1) {
+        klient_aktywny = 1;
+    }
 
     // "...robiąc zakupy – od 3 do 10 produktów różnych kategorii (owoce, warzywa, pieczywo, nabiał, alkohol, wędliny, …)."
     ile_prod = (rand() % 10) + 1;
@@ -431,19 +445,19 @@ int main() {
 
         while (1) {
             int wynik = msgrcv(id_kolejki, &msg, sizeof(msg) - sizeof(long), (long) pid, IPC_NOWAIT);
-			if (wynik != -1) {
-    			if (msg.kwota == 0) {
-        			break;
-    			}
-    			continue;
-			}
+            if (wynik != -1) {
+                if (msg.kwota == 0) {
+                    break;
+                }
+                continue;
+            }
             if (errno == EIDRM || errno == EINVAL) {
                 CleanupAndExit(0);
             }
-			if (errno != ENOMSG && errno != EINTR) {
-    			perror("msgrcv");
-    			CleanupAndExit(0);
-			}
+            if (errno != ENOMSG && errno != EINTR) {
+                perror("msgrcv");
+                CleanupAndExit(0);
+            }
 
             //Mozliwosc zmiany kolejki jesli sasiad otwarty oraz jego kolejka mniejsza o 1
             waitSemafor(id_semafora, SEM_KOLEJKI, 0);
@@ -517,7 +531,7 @@ int main() {
                 alkohol = 0;
                 signalSemafor(id_semafora, SEM_KASY);
 
-                // Poprawiony rachunek wyslany do kasjera (bez alkoholu)
+                // Poprawiony rachunek wyslany do kasjera (bez alko)
                 msg.mesg_type = id_kasjera + KANAL_KASJERA_OFFSET;
                 msg.ID_klienta = pid;
                 msg.kwota = moj_rachunek;

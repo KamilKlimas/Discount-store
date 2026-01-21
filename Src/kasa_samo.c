@@ -28,14 +28,14 @@ void ObslugaSygnalu(int sig) {
 int main(int argc, char *argv[]) {
 
     if (signal(SIGINT, SIG_IGN) == SIG_ERR) {
-    perror("signal SIGINT");
-    exit(1);
-	}
+        perror("signal SIGINT");
+        exit(1);
+    }
 
     setbuf(stdout, NULL);
 
     if (argc < 2) {
-        LOG_KASA_SAMO(id_kasy+1,"[BLAD] Brak ID kasy samoobsługowej \n");
+        LOG_KASA_SAMO(id_kasy+1,"[BLAD] Brak ID kasy samoobslugowej \n");
         exit(1);
     }
     id_kasy = atoi(argv[1]);
@@ -43,12 +43,12 @@ int main(int argc, char *argv[]) {
     key_t klucz = ftok(FTOK_PATH, 'S');
     id_pamieci = podlacz_pamiec_dzielona();
     sklep = mapuj_pamiec_dzielona(id_pamieci);
-    id_semafora = alokujSemafor(klucz, 4, 0);
+    id_semafora = alokujSemafor(klucz, 5, 0);
 
     if (signal(SIGQUIT, ObslugaSygnalu) == SIG_ERR) {
-    perror("signal SIGQUIT");
-    exit(1);
-	}
+        perror("signal SIGQUIT");
+        exit(1);
+    }
 
     LOG_KASA_SAMO(id_kasy+1,"(PID: %d) gotowa.\n", getpid());
     waitSemafor(id_semafora, SEM_KASY, 0);

@@ -36,17 +36,17 @@ void ewakuacja(int signalNum) {
 
 int main() {
     if (signal(SIGINT, SIG_IGN) == SIG_ERR) {
-    perror("signal SIGINT");
-    exit(1);
-	}
+        perror("signal SIGINT");
+        exit(1);
+    }
 
     atexit(cleanUPPracownik);
 
     setbuf(stdout, NULL);
     if (signal(SIGQUIT, ewakuacja) == SIG_ERR) {
-    perror("signal SIGQUIT");
-    exit(1);
-	}
+        perror("signal SIGQUIT");
+        exit(1);
+    }
 
     key_t klucz = ftok("/tmp/dyskont_projekt", 'S');
     if (klucz == -1) {
@@ -61,7 +61,7 @@ int main() {
     }
 
     sklep = mapuj_pamiec_dzielona(id_pamieci);
-    id_semafora = alokujSemafor(klucz, 4, 0);
+    id_semafora = alokujSemafor(klucz, 5, 0);
 
     while (dzialaj == 1) {
         for (int j = 0; j < KASY_SAMOOBSLUGOWE; j++) {
@@ -86,16 +86,18 @@ int main() {
                         break;
                     }
                     if (wiek_klienta < 18) {
-                        LOG_PRACOWNIK("NIELETNI! Zabieram alkohol z kasy %d i odkładam na polke.\n", j);
+                        // alkohol: 0 - brak, 1 - weryfikacja, 2 - zatwierdzony, -1 - odrzucony
+                        LOG_PRACOWNIK("NIELETNI! Zabieram alkohol z kasy %d i odkladam na polke.\n", j);
                         sklep->kasy_samo[j].alkohol = -1;
                     } else {
-                        LOG_PRACOWNIK("Pelnoletni (OK). Zatwierdzam alkohol na kasie %d.\n", j);
+                        // alkohol: 0 - brak, 1 - weryfikacja, 2 - zatwierdzony, -1 - odrzucony
+                        LOG_PRACOWNIK("Pelnolatni (OK). Zatwierdzam alkohol na kasie %d.\n", j);
                         sklep->kasy_samo[j].alkohol = 2;
                     }
                     sklep->kasy_samo[j].zablokowana = 0;
                     signalSemafor(id_semafora, SEM_KASY);
                 } else {
-                    LOG_PRACOWNIK("Usuwam awarie techniczną przy kasie %d\n", j);
+                    LOG_PRACOWNIK("Usuwam awarie techniczna przy kasie %d\n", j);
                     if (waitSemafor(id_semafora, SEM_KASY, 0) == -1) {
                         dzialaj = 0;
                         break;

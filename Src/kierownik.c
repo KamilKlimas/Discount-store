@@ -38,6 +38,15 @@ void obslugaZombie(int sig) {
     while (waitpid(-1, NULL, WNOHANG) > 0);
 }
 
+static void CzekajNaProces(pid_t pid) {
+    if (pid <= 0) return;
+    while (waitpid(pid, NULL, 0) == -1) {
+        if (errno == EINTR) continue;
+        if (errno == ECHILD) break;
+        break;
+    }
+}
+
 void GenerujRaport() {
     if (sklep == NULL) return;
 time_t t = time(NULL);
@@ -74,7 +83,16 @@ void *watekCzyszczacy(void *arg) {
     sprzatanie_rozpoczete = 1;
 
     LOG_KIEROWNIK("[WATEK CLEANUP] Rozpoczynam procedure czyszczenia...");
-    GenerujRaport();
+    if (tryb_ewakuacji && id_semafora != -1) {
+        struct sembuf op_zero = {SEM_KLIENCI, 0, 0};
+        while (semop(id_semafora, &op_zero, 1) == -1) {
+            if (errno == EINTR) continue;
+            if (errno == EIDRM || errno == EINVAL) break;
+            perror("semop wait SEM_KLIENCI zero");
+            break;
+        }
+    }
+
     LOG_KIEROWNIK("[WATEK CLEANUP] Zabijam procesy potomne...");
 
     if (kasjer1_pid > 0 && kill(kasjer1_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill kasjer1");
@@ -83,6 +101,15 @@ void *watekCzyszczacy(void *arg) {
     for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
         if (pids_samo[i] > 0 && kill(pids_samo[i], SIGQUIT) == -1 && errno != ESRCH) perror("kill kasa_samo");
     }
+
+    CzekajNaProces(kasjer1_pid);
+    CzekajNaProces(kasjer2_pid);
+    CzekajNaProces(pracownik_pid);
+    for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
+        CzekajNaProces(pids_samo[i]);
+    }
+
+    GenerujRaport();
 
     SIM_SLEEP_US(100000);
 
@@ -103,7 +130,7 @@ void *watekCzyszczacy(void *arg) {
         id_kolejki = -1;
     }
 
-    if (remove(FTOK_PATH) == -1 && errno != ENOENT) {
+    if (remove(FTOK_PATH) == -1) {
         perror("remove FTOK_PATH");
     }
 
@@ -207,13 +234,6 @@ void Ewakuacja(int sig) {
         }
     }
 
-    if (pracownik_pid > 0 && kill(pracownik_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill pracownik");
-    if (kasjer1_pid > 0 && kill(kasjer1_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill kasjer1");
-    if (kasjer2_pid > 0 && kill(kasjer2_pid, SIGQUIT) == -1 && errno != ESRCH) perror("kill kasjer2");
-    for (int i = 0; i < KASY_SAMOOBSLUGOWE; i++) {
-        if (pids_samo[i] > 0 && kill(pids_samo[i], SIGQUIT) == -1 && errno != ESRCH) perror("kill kasa_samo");
-    }
-
     CzyDziala = 0;
     zadano_zamkniecie = 1;
     tryb_ewakuacji = 1;
@@ -234,9 +254,9 @@ double cennik[8][4] = {
     {3.50, 4.20, 5.00, 9.90}, // Ceny owoców
     {2.00, 2.50, 8.50, 6.00}, // Ceny warzyw
     {4.50, 0.90, 3.20, 3.50}, // Pieczywo
-    {3.80, 5.00, 1.90, 6.50}, // Nabiał
+    {3.80, 25.00, 1.90, 6.50}, // Nabiał
     {4.00, 30.00, 40.00, 80.00}, // Alkohol
-    {11.20, 28.00, 32.00, 40.00}, // Wędliny
+    {45.00, 28.00, 32.00, 55.00}, // Wędliny
     {12.00, 18.00, 15.00, 7.50}, // Mrożonki
     {35.00, 8.00, 3.00, 12.00} // Chemia
 };
@@ -304,11 +324,12 @@ int main() {
         exit(1);
     }
 
-    id_semafora = alokujSemafor(klucz, 4, 0600 | IPC_CREAT);
+    id_semafora = alokujSemafor(klucz, 5, 0600 | IPC_CREAT);
     inicjalizujSemafor(id_semafora, SEM_KASY, 1);
     inicjalizujSemafor(id_semafora, SEM_UTARG, 1);
     inicjalizujSemafor(id_semafora, SEM_KOLEJKI, 1);
     inicjalizujSemafor(id_semafora, SEM_WEJSCIE, MAX_MIEJSC_W_SKLEPIE);
+    inicjalizujSemafor(id_semafora, SEM_KLIENCI, 0);
 
     id_kolejki = stworzKolejke();
 

@@ -44,10 +44,22 @@ void ObslugaSygnalu(int sig) {
 
 int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
-    if (signal(SIGINT, SIG_IGN) == SIG_ERR) { perror("signal SIGINT"); exit(1); }
-	if (signal(SIGUSR1, ObslugaSygnalu) == SIG_ERR) { perror("signal SIGUSR1"); exit(1); }
-	if (signal(SIGUSR2, ObslugaSygnalu) == SIG_ERR) { perror("signal SIGUSR2"); exit(1); }
-	if (signal(SIGQUIT, ObslugaSygnalu) == SIG_ERR) { perror("signal SIGQUIT"); exit(1); }
+    if (signal(SIGINT, SIG_IGN) == SIG_ERR) {
+        perror("signal SIGINT");
+        exit(1);
+    }
+    if (signal(SIGUSR1, ObslugaSygnalu) == SIG_ERR) {
+        perror("signal SIGUSR1");
+        exit(1);
+    }
+    if (signal(SIGUSR2, ObslugaSygnalu) == SIG_ERR) {
+        perror("signal SIGUSR2");
+        exit(1);
+    }
+    if (signal(SIGQUIT, ObslugaSygnalu) == SIG_ERR) {
+        perror("signal SIGQUIT");
+        exit(1);
+    }
 
 
     atexit(cleanUpKasy);
@@ -71,7 +83,7 @@ int main(int argc, char *argv[]) {
     }
     sklep = mapuj_pamiec_dzielona(id_pamieci);
 
-    id_semafora = alokujSemafor(klucz, 4, 0);
+    id_semafora = alokujSemafor(klucz, 5, 0);
     id_kolejki = stworzKolejke();
 
     struct messg_buffer msg;
@@ -106,7 +118,7 @@ int main(int argc, char *argv[]) {
         }
 
         if (status_pracy == 0) {
-            SIM_SLEEP_US(25000);
+            SIM_SLEEP_US(100000);
             continue;
         }
 
@@ -143,7 +155,7 @@ int main(int argc, char *argv[]) {
 
             // "Przy zakupie produktów z alkoholem konieczna weryfikacja kupującego przez obsługę (wiek>18);"
             if (msg.ma_alkohol == 1 && msg.wiek < 18) {
-                LOG_KASJER(moje_id + 1, "Klient %d jest nieletni (%d lat)! Odmawiam sprzedaży alkoholu.",
+                LOG_KASJER(moje_id + 1, "Klient %d jest nieletni (%d lat)! Odmawiam sprzedazy alkoholu.",
                 msg.ID_klienta, msg.wiek);
                 msg.mesg_type = (long) klient_pid;
                 msg.kwota = -2.0; //kod odrzucenia
@@ -151,14 +163,14 @@ int main(int argc, char *argv[]) {
 
                 OdbierzZKolejki(id_kolejki, &msg, moj_typ_nasluchu);
 
-                LOG_KASJER(moje_id + 1, "Klient %d skorygował zakupy. Nowa kwota: %.2f", msg.ID_klienta, msg.kwota);
+                LOG_KASJER(moje_id + 1, "Klient %d skorygowal zakupy. Nowa kwota: %.2f", msg.ID_klienta, msg.kwota);
             } else if (msg.ma_alkohol == 1) {
-                LOG_KASJER(moje_id + 1, "Weryfikacja wieku pomyślna (%d lat). Sprzedaje alkohol.", msg.wiek);
+                LOG_KASJER(moje_id + 1, "Weryfikacja wieku pomyslna (%d lat). Sprzedaje alkohol.", msg.wiek);
             }
 
             LOG_KASJER(moje_id +1, "Zakupy od Klienta %d na: %.2f zl\n", msg.ID_klienta, msg.kwota);
 
-            SIM_SLEEP_US(rand() % 25000);
+            SIM_SLEEP_US(rand() % 500000 + 500000);
 
             waitSemafor(id_semafora, SEM_UTARG, 0);
             sklep->statystyki.utarg += msg.kwota;
@@ -176,7 +188,7 @@ int main(int argc, char *argv[]) {
             sklep->kasa_stato[moje_id].czas_ostatniej_obslugi = time(NULL);
             signalSemafor(id_semafora, SEM_KASY);
         } else {
-            SIM_SLEEP_US(50000);
+            SIM_SLEEP_US(100000);
         }
     }
     return 0;
