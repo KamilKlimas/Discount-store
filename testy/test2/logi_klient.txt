@@ -1,0 +1,4068 @@
+[KLIENT 40747] W kolejce do stacjonarnej 1
+
+[KLIENT 40759] W kolejce do stacjonarnej 1
+
+[KLIENT 40753] W kolejce do stacjonarnej 1
+
+[KLIENT 40766] W kolejce do stacjonarnej 1
+
+[KLIENT 40772] W kolejce do stacjonarnej 1
+
+[KLIENT 40765] W kolejce do stacjonarnej 1
+
+[KLIENT 40778] W kolejce do stacjonarnej 1
+
+[KLIENT 40747] PARAGON: [ Pomidor, Wino ] SUMA: 38.50 zl
+
+[KLIENT 40784] W kolejce do stacjonarnej 1
+
+[KLIENT 40759] PARAGON: [ Szynka, Kielbasa, Bagietka, Maslo, Lody, Mleko, Marchew ] SUMA: 104.00 zl
+
+[KLIENT 40790] W kolejce do stacjonarnej 1
+
+[KLIENT 40753] PARAGON: [ Pomidor, Mleko, Kielbasa, Marchew, Paczek, Pomidor, Pizza, Pizza, Ogorek ] SUMA: 96.80 zl
+
+[KLIENT 40791] W kolejce do stacjonarnej 1
+
+[KLIENT 40792] W kolejce do stacjonarnej 1
+
+[KLIENT 40798] W kolejce do stacjonarnej 1
+
+[KLIENT 40800] W kolejce do stacjonarnej 1
+
+[KLIENT 40816] W kolejce do stacjonarnej 1
+
+[KLIENT 40801] W kolejce do stacjonarnej 1
+
+[KLIENT 40810] W kolejce do stacjonarnej 1
+
+[KLIENT 40766] PARAGON: [ Banan, Piwo, Maslo ] SUMA: 14.70 zl
+
+[KLIENT 40812] W kolejce do stacjonarnej 1
+
+[KLIENT 40824] W kolejce do stacjonarnej 1
+
+[KLIENT 40807] W kolejce do stacjonarnej 1
+
+[KLIENT 40821] W kolejce do stacjonarnej 1
+
+[KLIENT 40832] W kolejce do stacjonarnej 1
+
+[KLIENT 40826] W kolejce do stacjonarnej 1
+
+[KLIENT 40831] W kolejce do stacjonarnej 1
+
+[KLIENT 40828] W kolejce do stacjonarnej 1
+
+[KLIENT 40830] W kolejce do stacjonarnej 1
+
+[KLIENT 40834] W kolejce do stacjonarnej 1
+
+[KLIENT 40827] W kolejce do stacjonarnej 1
+
+[KLIENT 40855] W kolejce do stacjonarnej 1
+
+[KLIENT 40804] W kolejce do stacjonarnej 1
+
+[KLIENT 40809] W kolejce do stacjonarnej 1
+
+[KLIENT 40802] W kolejce do stacjonarnej 1
+
+[KLIENT 40806] W kolejce do stacjonarnej 1
+
+[KLIENT 40808] W kolejce do stacjonarnej 1
+
+[KLIENT 40772] PARAGON: [ Piwo, Wodka, Boczek ] SUMA: 76.00 zl
+
+[KLIENT 40814] W kolejce do stacjonarnej 1
+
+[KLIENT 40799] W kolejce do stacjonarnej 1
+
+[KLIENT 40854] W kolejce do stacjonarnej 1
+
+[KLIENT 40825] W kolejce do stacjonarnej 1
+
+[KLIENT 40871] W kolejce do stacjonarnej 1
+
+[KLIENT 40867] W kolejce do stacjonarnej 1
+
+[KLIENT 40862] W kolejce do stacjonarnej 1
+
+[KLIENT 40822] W kolejce do stacjonarnej 1
+
+[KLIENT 40819] W kolejce do stacjonarnej 1
+
+[KLIENT 40866] W kolejce do stacjonarnej 1
+
+[KLIENT 40835] W kolejce do stacjonarnej 1
+
+[KLIENT 40805] W kolejce do stacjonarnej 1
+
+[KLIENT 40853] W kolejce do stacjonarnej 1
+
+[KLIENT 40859] W kolejce do stacjonarnej 1
+
+[KLIENT 40823] W kolejce do stacjonarnej 1
+
+[KLIENT 40811] W kolejce do stacjonarnej 1
+
+[KLIENT 40857] W kolejce do stacjonarnej 1
+
+[KLIENT 40817] W kolejce do stacjonarnej 1
+
+[KLIENT 40863] W kolejce do stacjonarnej 1
+
+[KLIENT 40869] W kolejce do stacjonarnej 1
+
+[KLIENT 40815] W kolejce do stacjonarnej 1
+
+[KLIENT 40820] W kolejce do stacjonarnej 1
+
+[KLIENT 40849] W kolejce do stacjonarnej 1
+
+[KLIENT 40858] W kolejce do stacjonarnej 1
+
+[KLIENT 40813] W kolejce do stacjonarnej 1
+
+[KLIENT 40829] W kolejce do stacjonarnej 1
+
+[KLIENT 40803] W kolejce do stacjonarnej 1
+
+[KLIENT 40891] W kolejce do stacjonarnej 1
+
+[KLIENT 40870] W kolejce do stacjonarnej 1
+
+[KLIENT 40850] W kolejce do stacjonarnej 1
+
+[KLIENT 40818] W kolejce do stacjonarnej 1
+
+[KLIENT 40878] W kolejce do stacjonarnej 1
+
+[KLIENT 40886] W kolejce do stacjonarnej 1
+
+[KLIENT 40896] W kolejce do stacjonarnej 1
+
+[KLIENT 40875] W kolejce do stacjonarnej 1
+
+[KLIENT 40873] W kolejce do stacjonarnej 1
+
+[KLIENT 40765] PARAGON: [ Ogorek, Mleko, Ogorek, Wino, Domestos, Ogorek, Ziemniak ] SUMA: 65.80 zl
+
+[KLIENT 40894] W kolejce do stacjonarnej 1
+
+[KLIENT 40842] W kolejce do stacjonarnej 1
+
+[KLIENT 40833] W kolejce do stacjonarnej 1
+
+[KLIENT 40889] W kolejce do stacjonarnej 1
+
+[KLIENT 40846] W kolejce do stacjonarnej 1
+
+[KLIENT 40860] W kolejce do stacjonarnej 1
+
+[KLIENT 40864] W kolejce do stacjonarnej 1
+
+[KLIENT 40843] W kolejce do stacjonarnej 1
+
+[KLIENT 40874] W kolejce do stacjonarnej 1
+
+[KLIENT 40844] W kolejce do stacjonarnej 1
+
+[KLIENT 40865] W kolejce do stacjonarnej 1
+
+[KLIENT 40900] W kolejce do stacjonarnej 1
+
+[KLIENT 40910] W kolejce do stacjonarnej 1
+
+[KLIENT 40861] W kolejce do stacjonarnej 1
+
+[KLIENT 40841] W kolejce do stacjonarnej 1
+
+[KLIENT 40847] W kolejce do stacjonarnej 1
+
+[KLIENT 40852] W kolejce do stacjonarnej 1
+
+[KLIENT 40877] W kolejce do stacjonarnej 1
+
+[KLIENT 40887] W kolejce do stacjonarnej 1
+
+[KLIENT 40845] W kolejce do stacjonarnej 1
+
+[KLIENT 40876] W kolejce do stacjonarnej 1
+
+[KLIENT 40879] W kolejce do stacjonarnej 1
+
+[KLIENT 40848] W kolejce do stacjonarnej 1
+
+[KLIENT 40897] W kolejce do stacjonarnej 1
+
+[KLIENT 40851] W kolejce do stacjonarnej 1
+
+[KLIENT 40885] W kolejce do stacjonarnej 1
+
+[KLIENT 40856] W kolejce do stacjonarnej 1
+
+[KLIENT 40909] W kolejce do stacjonarnej 1
+
+[KLIENT 40778] PARAGON: [ Kielbasa, Wodka, Warzywa na patelnie ] SUMA: 75.50 zl
+
+[KLIENT 40912] W kolejce do stacjonarnej 1
+
+[KLIENT 40872] W kolejce do stacjonarnej 1
+
+[KLIENT 40903] W kolejce do stacjonarnej 1
+
+[KLIENT 40868] W kolejce do stacjonarnej 1
+
+[KLIENT 40911] W kolejce do stacjonarnej 1
+
+[KLIENT 40890] W kolejce do stacjonarnej 1
+
+[KLIENT 40907] W kolejce do stacjonarnej 1
+
+[KLIENT 40902] W kolejce do stacjonarnej 1
+
+[KLIENT 40784] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40898] W kolejce do stacjonarnej 1
+
+[KLIENT 40906] W kolejce do stacjonarnej 1
+
+[KLIENT 40899] W kolejce do stacjonarnej 1
+
+[KLIENT 40913] W kolejce do stacjonarnej 1
+
+[KLIENT 40888] W kolejce do stacjonarnej 1
+
+[KLIENT 40924] W kolejce do stacjonarnej 1
+
+[KLIENT 40917] W kolejce do stacjonarnej 1
+
+[KLIENT 40908] W kolejce do stacjonarnej 1
+
+[KLIENT 40895] W kolejce do stacjonarnej 1
+
+[KLIENT 40893] W kolejce do stacjonarnej 1
+
+[KLIENT 40905] W kolejce do stacjonarnej 1
+
+[KLIENT 40901] W kolejce do stacjonarnej 1
+
+[KLIENT 40914] W kolejce do stacjonarnej 1
+
+[KLIENT 40892] W kolejce do stacjonarnej 1
+
+[KLIENT 40784] PARAGON: [ Marchew, Szynka ] SUMA: 47.50 zl
+
+[KLIENT 40925] W kolejce do stacjonarnej 1
+
+[KLIENT 40904] W kolejce do stacjonarnej 1
+
+[KLIENT 40916] W kolejce do stacjonarnej 1
+
+[KLIENT 40915] W kolejce do stacjonarnej 1
+
+[KLIENT 40790] PARAGON: [ Domestos, Bulka, Mleko, Warzywa na patelnie, Kielbasa, Wodka ] SUMA: 92.20 zl
+
+[KLIENT 40923] W kolejce do stacjonarnej 1
+
+[KLIENT 40926] W kolejce do stacjonarnej 1
+
+[KLIENT 40927] W kolejce do stacjonarnej 1
+
+[KLIENT 40791] PARAGON: [ Plyn do naczyn, Plyn do naczyn ] SUMA: 16.00 zl
+
+[KLIENT 40930] W kolejce do stacjonarnej 1
+
+[KLIENT 40792] PARAGON: [ Piwo, Plyn do naczyn, Jablko ] SUMA: 15.50 zl
+
+[KLIENT 40928] W kolejce do stacjonarnej 1
+
+[KLIENT 40929] W kolejce do stacjonarnej 1
+
+[KLIENT 40931] W kolejce do stacjonarnej 1
+
+[KLIENT 40798] PARAGON: [ Szynka, Ser zolty, Wodka, Szynka, Szynka, Marchew, Ogorek ] SUMA: 208.50 zl
+
+[KLIENT 40800] PARAGON: [ Jablko, Frytki, Winogrono, Ser zolty, Boczek ] SUMA: 82.40 zl
+
+[KLIENT 40932] W kolejce do stacjonarnej 1
+
+[KLIENT 40816] PARAGON: [ Pizza, Kabanos, Lody ] SUMA: 88.00 zl
+
+[KLIENT 40801] PARAGON: [ Warzywa na patelnie, Kielbasa, Gruszka, Gruszka, Lody, Ziemniak, Bagietka, Piwo, Winogrono ] SUMA: 79.60 zl
+
+[KLIENT 40810] PARAGON: [ Szynka, Pizza, Warzywa na patelnie ] SUMA: 70.50 zl
+
+[KLIENT 40934] W kolejce do stacjonarnej 1
+
+[KLIENT 40933] W kolejce do stacjonarnej 1
+
+[KLIENT 40812] PARAGON: [ Paczek, Kielbasa, Bagietka, Maslo, Ogorek, Whisky ] SUMA: 127.20 zl
+
+[KLIENT 40937] W kolejce do stacjonarnej 1
+
+[KLIENT 40936] W kolejce do stacjonarnej 1
+
+[KLIENT 40935] W kolejce do stacjonarnej 1
+
+[KLIENT 40824] PARAGON: [ Warzywa na patelnie, Mleko ] SUMA: 11.30 zl
+
+[KLIENT 40807] PARAGON: [ Wino, Piwo, Gruszka ] SUMA: 39.00 zl
+
+[KLIENT 40939] W kolejce do stacjonarnej 1
+
+[KLIENT 40938] W kolejce do stacjonarnej 1
+
+[KLIENT 40821] PARAGON: [ Kielbasa, Ser zolty, Plyn do naczyn, Mleko, Szynka, Kielbasa ] SUMA: 137.80 zl
+
+[KLIENT 40832] PARAGON: [ Kielbasa, Jablko, Szynka, Plyn do naczyn, Maslo, Kielbasa ] SUMA: 119.00 zl
+
+[KLIENT 40941] W kolejce do stacjonarnej 1
+
+[KLIENT 40826] PARAGON: [ Frytki, Wodka, Jogurt, Paczek, Domestos, Proszek, Jogurt, Pizza ] SUMA: 124.30 zl
+
+[KLIENT 40940] W kolejce do stacjonarnej 1
+
+[KLIENT 40831] PARAGON: [ Marchew, Paczek, Mydlo, Wino, Whisky, Bulka, Maslo, Whisky, Chleb ] SUMA: 210.90 zl
+
+[KLIENT 40942] W kolejce do stacjonarnej 1
+
+[KLIENT 40828] PARAGON: [ Wodka, Banan, Warzywa na patelnie ] SUMA: 51.70 zl
+
+[KLIENT 40830] PARAGON: [ Szynka, Ogorek, Piwo, Paczek, Pizza, Szynka, Domestos ] SUMA: 133.50 zl
+
+[KLIENT 40943] W kolejce do stacjonarnej 1
+
+[KLIENT 40945] W kolejce do stacjonarnej 1
+
+[KLIENT 40834] PARAGON: [ Bagietka, Whisky ] SUMA: 83.20 zl
+
+[KLIENT 40944] W kolejce do stacjonarnej 1
+
+[KLIENT 40827] PARAGON: [ Gruszka, Szynka, Ser zolty, Mleko, Plyn do naczyn, Frytki, Kabanos, Pizza, Boczek ] SUMA: 203.80 zl
+
+[KLIENT 40947] W kolejce do stacjonarnej 1
+
+[KLIENT 40946] W kolejce do stacjonarnej 1
+
+[KLIENT 40855] PARAGON: [ Ziemniak, Ser zolty, Wodka ] SUMA: 67.00 zl
+
+[KLIENT 40804] PARAGON: [ Bagietka ] SUMA: 3.20 zl
+
+[KLIENT 40948] W kolejce do stacjonarnej 1
+
+[KLIENT 40949] W kolejce do stacjonarnej 1
+
+[KLIENT 40809] PARAGON: [ Whisky ] SUMA: 80.00 zl
+
+[KLIENT 40802] PARAGON: [ Plyn do naczyn, Wodka ] SUMA: 48.00 zl
+
+[KLIENT 40951] W kolejce do stacjonarnej 1
+
+[KLIENT 40950] W kolejce do stacjonarnej 1
+
+[KLIENT 40806] PARAGON: [ Piwo, Paczek, Szynka, Gruszka, Jogurt, Pomidor ] SUMA: 67.90 zl
+
+[KLIENT 40808] PARAGON: [ Maslo ] SUMA: 6.50 zl
+
+[KLIENT 40952] W kolejce do stacjonarnej 1
+
+[KLIENT 40814] PARAGON: [ Chleb, Jablko, Ziemniak, Mleko, Wodka, Kielbasa, Plyn do naczyn, Lody ] SUMA: 104.80 zl
+
+[KLIENT 40799] PARAGON: [ Mydlo, Wodka, Mleko, Ser zolty, Whisky ] SUMA: 151.80 zl
+
+[KLIENT 40953] W kolejce do stacjonarnej 1
+
+[KLIENT 40854] PARAGON: [ Warzywa na patelnie, Kabanos, Boczek, Jablko, Jogurt, Maslo, Ser zolty, Lody ] SUMA: 146.40 zl
+
+[KLIENT 40954] W kolejce do stacjonarnej 1
+
+[KLIENT 40956] W kolejce do stacjonarnej 1
+
+[KLIENT 40825] PARAGON: [ Whisky, Wino, Kielbasa, Maslo ] SUMA: 144.50 zl
+
+[KLIENT 40955] W kolejce do stacjonarnej 1
+
+[KLIENT 40871] PARAGON: [ Mydlo ] SUMA: 3.00 zl
+
+[KLIENT 40957] W kolejce do stacjonarnej 1
+
+[KLIENT 40867] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 40862] PARAGON: [ Marchew, Banan, Lody ] SUMA: 21.70 zl
+
+[KLIENT 40959] W kolejce do stacjonarnej 1
+
+[KLIENT 40960] W kolejce do stacjonarnej 1
+
+[KLIENT 40819] PARAGON: [ Maslo, Lody, Plyn do naczyn, Jogurt ] SUMA: 31.40 zl
+
+[KLIENT 40958] W kolejce do stacjonarnej 1
+
+[KLIENT 40822] PARAGON: [ Proszek, Ogorek, Domestos, Ogorek, Gruszka, Jogurt, Frytki, Jogurt, Ser zolty ] SUMA: 104.80 zl
+
+[KLIENT 40966] W kolejce do stacjonarnej 1
+
+[KLIENT 40866] PARAGON: [ Bulka, Plyn do naczyn, Warzywa na patelnie, Warzywa na patelnie ] SUMA: 23.90 zl
+
+[KLIENT 40961] W kolejce do stacjonarnej 1
+
+[KLIENT 40968] W kolejce do stacjonarnej 1
+
+[KLIENT 40835] PARAGON: [ Frytki, Frytki, Maslo, Pizza, Ogorek ] SUMA: 54.50 zl
+
+[KLIENT 40805] PARAGON: [ Maslo, Plyn do naczyn, Mleko, Bulka, Whisky, Pizza, Frytki, Gruszka, Ogorek ] SUMA: 140.20 zl
+
+[KLIENT 40969] W kolejce do stacjonarnej 1
+
+[KLIENT 40853] PARAGON: [ Mleko, Ziemniak, Ogorek, Boczek, Mydlo, Bulka, Ser zolty, Mydlo, Ogorek ] SUMA: 81.70 zl
+
+[KLIENT 40859] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40970] W kolejce do stacjonarnej 1
+
+[KLIENT 40859] PARAGON: [ Pizza, Marchew, Banan, Kielbasa, Jablko, Ziemniak, Winogrono ] SUMA: 68.10 zl
+
+[KLIENT 40971] W kolejce do stacjonarnej 1
+
+[KLIENT 40823] PARAGON: [ Plyn do naczyn, Gruszka, Chleb, Winogrono ] SUMA: 27.40 zl
+
+[KLIENT 40972] W kolejce do stacjonarnej 1
+
+[KLIENT 40811] PARAGON: [ Lody, Mleko, Mleko, Proszek, Ogorek, Ser zolty, Jablko, Domestos ] SUMA: 104.10 zl
+
+[KLIENT 40857] PARAGON: [ Plyn do naczyn, Frytki, Winogrono, Whisky, Plyn do naczyn ] SUMA: 117.90 zl
+
+[KLIENT 40973] W kolejce do stacjonarnej 1
+
+[KLIENT 40975] W kolejce do stacjonarnej 1
+
+[KLIENT 40817] PARAGON: [ Gruszka, Piwo, Boczek ] SUMA: 41.00 zl
+
+[KLIENT 40974] W kolejce do stacjonarnej 1
+
+[KLIENT 40976] W kolejce do stacjonarnej 1
+
+[KLIENT 40863] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 40869] PARAGON: [ Plyn do naczyn, Bagietka, Pizza, Chleb, Chleb, Piwo ] SUMA: 42.20 zl
+
+[KLIENT 40815] PARAGON: [ Whisky, Kielbasa, Marchew, Wodka, Warzywa na patelnie, Mleko, Ogorek, Kabanos ] SUMA: 222.80 zl
+
+[KLIENT 40977] W kolejce do stacjonarnej 1
+
+[KLIENT 40820] PARAGON: [ Banan, Jablko, Jablko, Ogorek, Mleko ] SUMA: 21.00 zl
+
+[KLIENT 40978] W kolejce do stacjonarnej 1
+
+[KLIENT 40849] PARAGON: [ Plyn do naczyn, Ser zolty, Maslo, Plyn do naczyn, Bagietka, Domestos ] SUMA: 62.70 zl
+
+[KLIENT 40979] W kolejce do stacjonarnej 1
+
+[KLIENT 40858] PARAGON: [ Gruszka, Ogorek, Lody, Paczek, Boczek ] SUMA: 61.50 zl
+
+[KLIENT 40982] W kolejce do stacjonarnej 1
+
+[KLIENT 40980] W kolejce do stacjonarnej 1
+
+[KLIENT 40981] W kolejce do stacjonarnej 1
+
+[KLIENT 40813] PARAGON: [ Wodka, Jogurt, Marchew, Marchew, Jogurt, Jablko, Paczek, Banan ] SUMA: 60.00 zl
+
+[KLIENT 40829] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40829] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[KLIENT 40984] W kolejce do stacjonarnej 1
+
+[KLIENT 40983] W kolejce do stacjonarnej 1
+
+[KLIENT 40803] PARAGON: [ Marchew, Paczek, Maslo, Pomidor, Mydlo, Proszek ] SUMA: 59.00 zl
+
+[KLIENT 40985] W kolejce do stacjonarnej 1
+
+[KLIENT 40891] PARAGON: [ Piwo, Wodka, Boczek ] SUMA: 76.00 zl
+
+[KLIENT 40870] PARAGON: [ Ser zolty, Gruszka ] SUMA: 30.00 zl
+
+[KLIENT 40986] W kolejce do stacjonarnej 1
+
+[KLIENT 40850] PARAGON: [ Ogorek, Bagietka, Pizza, Marchew, Wino, Paczek, Ziemniak ] SUMA: 65.20 zl
+
+[KLIENT 40987] W kolejce do stacjonarnej 1
+
+[KLIENT 40818] PARAGON: [ Domestos, Szynka, Jogurt, Lody, Plyn do naczyn, Jablko, Kielbasa ] SUMA: 113.40 zl
+
+[KLIENT 40878] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40989] W kolejce do stacjonarnej 1
+
+[KLIENT 40988] W kolejce do stacjonarnej 1
+
+[KLIENT 40878] PARAGON: [ Domestos, Plyn do naczyn, Wino, Szynka, Boczek, Lody ] SUMA: 142.00 zl
+
+[KLIENT 40886] PARAGON: [ Kielbasa, Wodka, Warzywa na patelnie ] SUMA: 75.50 zl
+
+[KLIENT 40991] W kolejce do stacjonarnej 1
+
+[KLIENT 40896] PARAGON: [ Winogrono, Piwo, Pomidor, Piwo, Domestos ] SUMA: 38.40 zl
+
+[KLIENT 40875] PARAGON: [ Domestos, Bulka, Mleko, Warzywa na patelnie, Kielbasa, Wodka ] SUMA: 92.20 zl
+
+[KLIENT 40990] W kolejce do stacjonarnej 1
+
+[KLIENT 40992] W kolejce do stacjonarnej 1
+
+[KLIENT 40873] PARAGON: [ Mydlo, Pizza, Bulka, Piwo, Mydlo, Ogorek, Gruszka, Warzywa na patelnie, Domestos ] SUMA: 59.40 zl
+
+[KLIENT 40894] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40993] W kolejce do stacjonarnej 1
+
+[KLIENT 40894] PARAGON: [ Proszek, Kielbasa, Banan, Piwo, Chleb ] SUMA: 75.70 zl
+
+[KLIENT 40842] PARAGON: [ Mydlo, Mleko, Maslo, Bulka, Ser zolty, Plyn do naczyn, Bulka, Whisky, Banan ] SUMA: 132.30 zl
+
+[KLIENT 40995] W kolejce do stacjonarnej 1
+
+[KLIENT 40994] W kolejce do stacjonarnej 1
+
+[KLIENT 40833] PARAGON: [ Wodka, Wodka, Piwo, Bagietka, Lody, Jogurt, Warzywa na patelnie, Wodka, Jogurt ] SUMA: 153.50 zl
+
+[KLIENT 40997] W kolejce do stacjonarnej 1
+
+[KLIENT 40889] PARAGON: [ Szynka, Banan, Gruszka ] SUMA: 54.20 zl
+
+[KLIENT 40996] W kolejce do stacjonarnej 1
+
+[KLIENT 40846] PARAGON: [ Whisky, Frytki, Gruszka, Winogrono ] SUMA: 106.90 zl
+
+[KLIENT 40860] PARAGON: [ Banan, Ser zolty, Lody, Bulka, Ogorek, Warzywa na patelnie, Wodka, Ogorek, Whisky ] SUMA: 184.60 zl
+
+[KLIENT 40998] W kolejce do stacjonarnej 1
+
+[KLIENT 40864] PARAGON: [ Ogorek ] SUMA: 6.00 zl
+
+[KLIENT 40999] W kolejce do stacjonarnej 1
+
+[KLIENT 40843] PARAGON: [ Jablko, Paczek, Kabanos, Whisky, Ziemniak ] SUMA: 144.00 zl
+
+[KLIENT 41000] W kolejce do stacjonarnej 1
+
+[KLIENT 41001] W kolejce do stacjonarnej 1
+
+[KLIENT 40874] PARAGON: [ Chleb, Szynka, Banan, Pizza, Kabanos, Wodka ] SUMA: 166.70 zl
+
+[KLIENT 41002] W kolejce do stacjonarnej 1
+
+[KLIENT 41003] W kolejce do stacjonarnej 1
+
+[KLIENT 40844] PARAGON: [ Whisky, Pomidor, Proszek, Warzywa na patelnie, Mleko, Mydlo, Szynka, Gruszka, Kielbasa, Proszek ] SUMA: 250.80 zl
+
+[KLIENT 41009] W kolejce do stacjonarnej 1
+
+[KLIENT 40865] PARAGON: [ Jablko, Paczek, Bagietka, Marchew, Gruszka, Paczek, Maslo, Mydlo, Piwo, Marchew ] SUMA: 37.20 zl
+
+[KLIENT 40900] PARAGON: [ Szynka, Wino, Domestos, Kielbasa, Wodka, Plyn do naczyn, Chleb, Frytki, Wino ] SUMA: 209.50 zl
+
+[KLIENT 40910] PARAGON: [ Warzywa na patelnie, Bulka, Banan, Whisky ] SUMA: 92.60 zl
+
+[KLIENT 41012] W kolejce do stacjonarnej 1
+
+[KLIENT 40861] PARAGON: [ Kabanos, Mleko, Ogorek, Proszek ] SUMA: 99.80 zl
+
+[KLIENT 41010] W kolejce do stacjonarnej 1
+
+[KLIENT 41011] W kolejce do stacjonarnej 1
+
+[KLIENT 41013] W kolejce do stacjonarnej 1
+
+[KLIENT 40841] PARAGON: [ Paczek, Gruszka, Maslo, Banan, Paczek ] SUMA: 22.70 zl
+
+[KLIENT 40847] PARAGON: [ Piwo, Gruszka, Domestos, Jogurt, Lody, Boczek, Boczek, Kielbasa, Kabanos ] SUMA: 184.90 zl
+
+[KLIENT 40852] PARAGON: [ Frytki, Paczek, Pizza, Piwo, Maslo, Ziemniak, Gruszka, Chleb, Pizza ] SUMA: 73.50 zl
+
+[KLIENT 41014] W kolejce do stacjonarnej 1
+
+[KLIENT 41015] W kolejce do stacjonarnej 1
+
+[KLIENT 40887] PARAGON: [ Kielbasa, Wodka, Pizza, Pomidor, Wodka ] SUMA: 134.50 zl
+
+[KLIENT 40877] PARAGON: [ Mleko, Lody, Pizza, Gruszka, Domestos, Wodka, Mleko, Maslo ] SUMA: 104.10 zl
+
+[KLIENT 41017] W kolejce do stacjonarnej 1
+
+[KLIENT 41016] W kolejce do stacjonarnej 1
+
+[KLIENT 41018] W kolejce do stacjonarnej 1
+
+[KLIENT 40845] PARAGON: [ Ogorek, Maslo ] SUMA: 12.50 zl
+
+[KLIENT 40876] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40876] PARAGON: [ Marchew, Szynka ] SUMA: 47.50 zl
+
+[KLIENT 41019] W kolejce do stacjonarnej 1
+
+[KLIENT 40879] PARAGON: [ Gruszka, Paczek, Proszek ] SUMA: 43.50 zl
+
+[KLIENT 40848] PARAGON: [ Maslo, Kielbasa, Piwo, Jogurt, Wino, Boczek, Marchew ] SUMA: 104.90 zl
+
+[KLIENT 40897] PARAGON: [ Banan, Piwo, Maslo ] SUMA: 14.70 zl
+
+[KLIENT 41020] W kolejce do stacjonarnej 1
+
+[KLIENT 41021] W kolejce do stacjonarnej 1
+
+[KLIENT 41023] W kolejce do stacjonarnej 1
+
+[KLIENT 40851] PARAGON: [ Maslo, Kielbasa, Piwo, Jogurt, Wino, Boczek, Marchew ] SUMA: 104.90 zl
+
+[KLIENT 41022] W kolejce do stacjonarnej 1
+
+[KLIENT 40885] PARAGON: [ Winogrono, Piwo, Warzywa na patelnie, Ser zolty ] SUMA: 46.40 zl
+
+[KLIENT 40856] PARAGON: [ Chleb, Wino, Domestos, Pizza, Winogrono ] SUMA: 74.40 zl
+
+[KLIENT 41024] W kolejce do stacjonarnej 1
+
+[KLIENT 40909] PARAGON: [ Whisky, Wodka, Kabanos, Winogrono, Boczek, Chleb, Maslo, Lody, Kielbasa, Boczek ] SUMA: 302.90 zl
+
+[KLIENT 41025] W kolejce do stacjonarnej 1
+
+[KLIENT 40912] PARAGON: [ Kielbasa, Maslo, Ziemniak, Ogorek, Paczek, Banan, Winogrono, Jablko, Lody ] SUMA: 78.60 zl
+
+[KLIENT 41026] W kolejce do stacjonarnej 1
+
+[KLIENT 41027] W kolejce do stacjonarnej 1
+
+[KLIENT 41028] W kolejce do stacjonarnej 1
+
+[KLIENT 40872] PARAGON: [ Lody, Ziemniak, Banan ] SUMA: 21.20 zl
+
+[KLIENT 41029] W kolejce do stacjonarnej 1
+
+[KLIENT 40903] PARAGON: [ Bulka ] SUMA: 0.90 zl
+
+[KLIENT 40868] PARAGON: [ Banan, Pomidor, Gruszka, Wino, Maslo, Paczek, Piwo, Wino, Pomidor, Lody ] SUMA: 115.20 zl
+
+[KLIENT 40911] PARAGON: [ Szynka, Kielbasa, Bagietka, Maslo, Lody, Mleko, Marchew ] SUMA: 104.00 zl
+
+[KLIENT 41030] W kolejce do stacjonarnej 1
+
+[KLIENT 41032] W kolejce do stacjonarnej 1
+
+[KLIENT 41031] W kolejce do stacjonarnej 1
+
+[KLIENT 40890] PARAGON: [ Wodka ] SUMA: 40.00 zl
+
+[KLIENT 40907] PARAGON: [ Lody, Bulka, Ser zolty ] SUMA: 40.90 zl
+
+[KLIENT 41033] W kolejce do stacjonarnej 1
+
+[KLIENT 40902] PARAGON: [ Bagietka, Banan, Ziemniak, Ser zolty, Ziemniak, Kabanos, Wino ] SUMA: 121.40 zl
+
+[KLIENT 40898] PARAGON: [ Chleb, Szynka ] SUMA: 49.50 zl
+
+[KLIENT 41035] W kolejce do stacjonarnej 1
+
+[KLIENT 41034] W kolejce do stacjonarnej 1
+
+[KLIENT 40906] PARAGON: [ Mleko, Frytki, Piwo ] SUMA: 19.80 zl
+
+[KLIENT 40899] PARAGON: [ Piwo, Whisky, Jablko, Domestos, Kielbasa, Ser zolty, Ser zolty, Bulka ] SUMA: 178.40 zl
+
+[KLIENT 41036] W kolejce do stacjonarnej 1
+
+[KLIENT 41037] W kolejce do stacjonarnej 1
+
+[KLIENT 41038] W kolejce do stacjonarnej 1
+
+[KLIENT 40913] PARAGON: [ Pomidor, Wino ] SUMA: 38.50 zl
+
+[KLIENT 40888] PARAGON: [ Banan, Ser zolty, Ser zolty, Chleb, Jablko, Winogrono, Whisky, Wino, Warzywa na patelnie ] SUMA: 189.60 zl
+
+[KLIENT 41040] W kolejce do stacjonarnej 1
+
+[KLIENT 40924] PARAGON: [ Mydlo, Piwo, Whisky, Jablko, Gruszka, Wodka ] SUMA: 135.50 zl
+
+[KLIENT 41039] W kolejce do stacjonarnej 1
+
+[KLIENT 41041] W kolejce do stacjonarnej 1
+
+[KLIENT 40917] PARAGON: [ Gruszka, Ser zolty ] SUMA: 30.00 zl
+
+[KLIENT 41042] W kolejce do stacjonarnej 1
+
+[KLIENT 40908] PARAGON: [ Plyn do naczyn, Kielbasa, Boczek, Szynka, Chleb ] SUMA: 117.50 zl
+
+[KLIENT 40895] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40895] PARAGON: [ Kielbasa, Ziemniak, Frytki, Kielbasa, Pizza, Bulka ] SUMA: 88.90 zl
+
+[KLIENT 41043] W kolejce do stacjonarnej 1
+
+[KLIENT 40893] PARAGON: [ Mleko, Maslo, Banan, Frytki ] SUMA: 26.50 zl
+
+[KLIENT 41047] W kolejce do stacjonarnej 1
+
+[KLIENT 40905] PARAGON: [ Pizza, Proszek, Kielbasa ] SUMA: 81.00 zl
+
+[KLIENT 41046] W kolejce do stacjonarnej 1
+
+[KLIENT 40901] PARAGON: [ Ogorek, Mleko, Ogorek, Wino, Domestos, Ogorek, Ziemniak ] SUMA: 65.80 zl
+
+[KLIENT 41048] W kolejce do stacjonarnej 1
+
+[KLIENT 40914] PARAGON: [ Domestos, Maslo, Bulka, Lody, Kielbasa ] SUMA: 62.40 zl
+
+[KLIENT 41049] W kolejce do stacjonarnej 1
+
+[KLIENT 40892] PARAGON: [ Domestos, Bagietka, Ziemniak, Proszek, Pizza, Bagietka, Whisky, Bagietka, Bulka, Kabanos ] SUMA: 212.50 zl
+
+[KLIENT 40925] PARAGON: [ Plyn do naczyn, Banan, Winogrono, Chleb, Mydlo, Warzywa na patelnie ] SUMA: 37.10 zl
+
+[KLIENT 41053] W kolejce do stacjonarnej 1
+
+[KLIENT 41056] W kolejce do stacjonarnej 1
+
+[KLIENT 41057] W kolejce do stacjonarnej 1
+
+[KLIENT 40904] PARAGON: [ Pomidor, Mleko, Kielbasa, Marchew, Paczek, Pomidor, Pizza, Pizza, Ogorek ] SUMA: 96.80 zl
+
+[KLIENT 40916] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40916] PARAGON: [ Mleko, Lody, Lody, Plyn do naczyn, Paczek, Ogorek, Paczek ] SUMA: 54.80 zl
+
+[KLIENT 40915] PARAGON: [ Chleb, Pizza, Marchew, Winogrono, Kielbasa, Proszek, Jogurt, Wino, Piwo, Gruszka ] SUMA: 138.80 zl
+
+[KLIENT 41059] W kolejce do stacjonarnej 1
+
+[KLIENT 41058] W kolejce do stacjonarnej 1
+
+[KLIENT 40923] PARAGON: [ Jablko, Bulka, Proszek, Chleb ] SUMA: 43.90 zl
+
+[KLIENT 40926] PARAGON: [ Frytki, Bulka, Maslo, Jablko, Winogrono, Warzywa na patelnie, Plyn do naczyn, Chleb, Mleko, Mleko ] SUMA: 60.40 zl
+
+[KLIENT 41060] W kolejce do stacjonarnej 1
+
+[KLIENT 40927] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 40927] PARAGON: [ Bulka, Kielbasa, Kabanos ] SUMA: 83.90 zl
+
+[KLIENT 41061] W kolejce do stacjonarnej 1
+
+[KLIENT 41062] W kolejce do stacjonarnej 1
+
+[KLIENT 40930] PARAGON: [ Wino, Whisky, Chleb, Lody, Mleko, Paczek, Jogurt, Lody, Mleko ] SUMA: 157.50 zl
+
+[KLIENT 41066] W kolejce do stacjonarnej 1
+
+[KLIENT 40928] PARAGON: [ Bulka, Mydlo, Wino, Bagietka, Szynka, Pizza, Bagietka ] SUMA: 103.30 zl
+
+[KLIENT 41067] W kolejce do stacjonarnej 1
+
+[KLIENT 41068] W kolejce do stacjonarnej 1
+
+[KLIENT 40929] PARAGON: [ Jablko, Paczek, Wodka ] SUMA: 47.00 zl
+
+[KLIENT 40931] PARAGON: [ Chleb, Warzywa na patelnie, Wino, Ser zolty, Wodka, Jablko, Jogurt, Piwo ] SUMA: 116.40 zl
+
+[KLIENT 41069] W kolejce do stacjonarnej 1
+
+[KLIENT 41070] W kolejce do stacjonarnej 1
+
+[KLIENT 40932] PARAGON: [ Wodka, Chleb, Jablko, Winogrono, Marchew, Ser zolty, Warzywa na patelnie, Marchew, Ser zolty, Whisky ] SUMA: 200.40 zl
+
+[KLIENT 40934] PARAGON: [ Jablko, Paczek, Wodka ] SUMA: 47.00 zl
+
+[KLIENT 40933] PARAGON: [ Boczek, Ser zolty, Piwo, Pizza, Whisky, Mydlo, Chleb, Proszek, Chleb, Frytki ] SUMA: 218.00 zl
+
+[KLIENT 41071] W kolejce do stacjonarnej 1
+
+[KLIENT 41072] W kolejce do stacjonarnej 1
+
+[KLIENT 40937] PARAGON: [ Pizza, Jogurt ] SUMA: 19.90 zl
+
+[KLIENT 41074] W kolejce do stacjonarnej 1
+
+[KLIENT 40936] PARAGON: [ Plyn do naczyn, Frytki, Chleb ] SUMA: 24.50 zl
+
+[KLIENT 40935] PARAGON: [ Bulka, Mydlo, Wino, Bagietka, Szynka, Pizza, Bagietka ] SUMA: 103.30 zl
+
+[KLIENT 41075] W kolejce do stacjonarnej 1
+
+[KLIENT 41076] W kolejce do stacjonarnej 1
+
+[KLIENT 40939] PARAGON: [ Ziemniak ] SUMA: 2.00 zl
+
+[KLIENT 41078] W kolejce do stacjonarnej 1
+
+[KLIENT 41077] W kolejce do stacjonarnej 1
+
+[KLIENT 40938] PARAGON: [ Frytki, Ziemniak, Ser zolty, Kielbasa, Kielbasa, Jogurt, Bulka, Whisky ] SUMA: 177.80 zl
+
+[KLIENT 41079] W kolejce do stacjonarnej 1
+
+[KLIENT 40941] PARAGON: [ Winogrono, Mleko, Proszek ] SUMA: 48.70 zl
+
+[KLIENT 40940] PARAGON: [ Banan, Kabanos, Warzywa na patelnie, Warzywa na patelnie, Ziemniak, Banan ] SUMA: 80.40 zl
+
+[KLIENT 40942] PARAGON: [ Plyn do naczyn, Wino ] SUMA: 38.00 zl
+
+[KLIENT 40943] PARAGON: [ Domestos, Mydlo, Winogrono, Plyn do naczyn ] SUMA: 32.90 zl
+
+[KLIENT 41080] W kolejce do stacjonarnej 1
+
+[KLIENT 40945] PARAGON: [ Winogrono, Winogrono, Jablko, Maslo, Wodka, Mydlo, Frytki ] SUMA: 84.80 zl
+
+[KLIENT 41081] W kolejce do stacjonarnej 1
+
+[KLIENT 41082] W kolejce do stacjonarnej 1
+
+[KLIENT 41083] W kolejce do stacjonarnej 1
+
+[KLIENT 40944] PARAGON: [ Jogurt, Whisky, Proszek, Paczek ] SUMA: 120.40 zl
+
+[KLIENT 41084] W kolejce do stacjonarnej 1
+
+[KLIENT 40947] PARAGON: [ Mydlo ] SUMA: 3.00 zl
+
+[KLIENT 40946] PARAGON: [ Winogrono ] SUMA: 9.90 zl
+
+[KLIENT 41085] W kolejce do stacjonarnej 1
+
+[KLIENT 41086] W kolejce do stacjonarnej 1
+
+[KLIENT 40948] PARAGON: [ Bulka, Bagietka, Paczek, Jablko ] SUMA: 11.10 zl
+
+[KLIENT 40949] PARAGON: [ Warzywa na patelnie, Boczek, Wino, Ziemniak ] SUMA: 71.50 zl
+
+[KLIENT 41087] W kolejce do stacjonarnej 1
+
+[KLIENT 41089] W kolejce do stacjonarnej 1
+
+[KLIENT 40951] PARAGON: [ Lody, Ser zolty, Pomidor, Wodka, Pizza, Ogorek, Mleko ] SUMA: 116.30 zl
+
+[KLIENT 41088] W kolejce do stacjonarnej 1
+
+[KLIENT 41090] W kolejce do stacjonarnej 1
+
+[KLIENT 40950] PARAGON: [ Proszek, Pomidor, Jogurt ] SUMA: 45.40 zl
+
+[KLIENT 40952] PARAGON: [ Piwo, Warzywa na patelnie, Warzywa na patelnie, Kabanos, Kabanos, Ogorek, Pizza ] SUMA: 153.00 zl
+
+[KLIENT 40953] PARAGON: [ Ziemniak, Plyn do naczyn, Pizza, Kabanos, Pizza, Pomidor, Maslo, Frytki, Lody ] SUMA: 143.00 zl
+
+[KLIENT 41091] W kolejce do stacjonarnej 1
+
+[KLIENT 40954] PARAGON: [ Marchew, Bulka, Mydlo, Chleb, Proszek, Ser zolty, Ser zolty, Paczek ] SUMA: 99.40 zl
+
+[KLIENT 41092] W kolejce do stacjonarnej 1
+
+[KLIENT 41093] W kolejce do stacjonarnej 1
+
+[KLIENT 40956] PARAGON: [ Ziemniak, Warzywa na patelnie ] SUMA: 9.50 zl
+
+[KLIENT 40955] PARAGON: [ Bagietka, Gruszka, Mleko ] SUMA: 12.00 zl
+
+[KLIENT 41094] W kolejce do stacjonarnej 1
+
+[KLIENT 40957] PARAGON: [ Pomidor, Ser zolty, Kielbasa, Mleko ] SUMA: 65.30 zl
+
+[KLIENT 41096] W kolejce do stacjonarnej 1
+
+[KLIENT 41095] W kolejce do stacjonarnej 1
+
+[KLIENT 40959] PARAGON: [ Pizza, Boczek, Plyn do naczyn ] SUMA: 58.00 zl
+
+[KLIENT 41097] W kolejce do stacjonarnej 1
+
+[KLIENT 41098] W kolejce do stacjonarnej 1
+
+[KLIENT 40960] PARAGON: [ Jablko, Boczek, Marchew ] SUMA: 38.00 zl
+
+[KLIENT 41099] W kolejce do stacjonarnej 1
+
+[KLIENT 40958] PARAGON: [ Ziemniak, Ser zolty, Domestos, Whisky, Ogorek, Piwo, Kabanos, Lody ] SUMA: 199.00 zl
+
+[KLIENT 40966] PARAGON: [ Winogrono, Paczek, Warzywa na patelnie ] SUMA: 20.90 zl
+
+[KLIENT 41106] W kolejce do stacjonarnej 1
+
+[KLIENT 40961] PARAGON: [ Maslo, Bagietka, Maslo, Lody, Paczek, Marchew ] SUMA: 37.20 zl
+
+[KLIENT 41101] W kolejce do stacjonarnej 1
+
+[KLIENT 40968] PARAGON: [ Frytki, Winogrono, Chleb ] SUMA: 26.40 zl
+
+[KLIENT 40969] PARAGON: [ Pomidor, Jablko, Lody, Ser zolty, Mleko, Domestos ] SUMA: 67.80 zl
+
+[KLIENT 41108] W kolejce do stacjonarnej 1
+
+[KLIENT 41107] W kolejce do stacjonarnej 1
+
+[KLIENT 40970] PARAGON: [ Chleb, Lody, Jablko, Frytki, Mydlo, Jablko, Pomidor ] SUMA: 50.00 zl
+
+[KLIENT 40971] PARAGON: [ Proszek, Ogorek, Proszek, Winogrono, Ogorek ] SUMA: 91.90 zl
+
+[KLIENT 41110] W kolejce do stacjonarnej 1
+
+[KLIENT 41109] W kolejce do stacjonarnej 1
+
+[KLIENT 40972] PARAGON: [ Maslo, Bagietka, Kielbasa, Bulka, Ser zolty ] SUMA: 63.60 zl
+
+[KLIENT 40973] PARAGON: [ Frytki, Domestos, Winogrono, Proszek, Banan, Boczek ] SUMA: 105.10 zl
+
+[KLIENT 41111] W kolejce do stacjonarnej 1
+
+[KLIENT 41112] W kolejce do stacjonarnej 1
+
+[KLIENT 41113] W kolejce do stacjonarnej 1
+
+[KLIENT 40975] PARAGON: [ Kielbasa ] SUMA: 28.00 zl
+
+[KLIENT 40974] PARAGON: [ Ogorek, Piwo, Whisky, Pomidor, Marchew, Szynka, Pizza ] SUMA: 164.00 zl
+
+[KLIENT 41114] W kolejce do stacjonarnej 1
+
+[KLIENT 40976] PARAGON: [ Boczek, Piwo, Jogurt, Bagietka ] SUMA: 41.10 zl
+
+[KLIENT 41115] W kolejce do stacjonarnej 1
+
+[KLIENT 41116] W kolejce do stacjonarnej 1
+
+[KLIENT 40977] PARAGON: [ Ogorek, Paczek, Mydlo, Ogorek, Plyn do naczyn, Wino, Ziemniak, Ogorek, Bulka ] SUMA: 65.40 zl
+
+[KLIENT 41117] W kolejce do stacjonarnej 1
+
+[KLIENT 40978] PARAGON: [ Pizza, Boczek, Warzywa na patelnie, Mleko, Pizza, Piwo ] SUMA: 83.30 zl
+
+[KLIENT 40979] PARAGON: [ Frytki, Frytki, Bagietka ] SUMA: 27.20 zl
+
+[KLIENT 41119] W kolejce do stacjonarnej 1
+
+[KLIENT 40982] PARAGON: [ Maslo, Jogurt, Wodka, Paczek, Maslo ] SUMA: 58.40 zl
+
+[KLIENT 41118] W kolejce do stacjonarnej 1
+
+[KLIENT 41120] W kolejce do stacjonarnej 1
+
+[KLIENT 40980] PARAGON: [ Maslo, Winogrono, Ziemniak, Boczek, Kielbasa, Maslo, Maslo, Bulka, Chleb, Szynka ] SUMA: 141.80 zl
+
+[KLIENT 41121] W kolejce do stacjonarnej 1
+
+[KLIENT 40981] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 40984] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 40983] PARAGON: [ Domestos, Gruszka, Winogrono, Wino, Domestos, Proszek ] SUMA: 103.90 zl
+
+[KLIENT 41122] W kolejce do stacjonarnej 1
+
+[KLIENT 40985] PARAGON: [ Kabanos, Wodka, Whisky, Domestos, Wino, Ser zolty ] SUMA: 242.00 zl
+
+[KLIENT 41124] W kolejce do stacjonarnej 1
+
+[KLIENT 41123] W kolejce do stacjonarnej 1
+
+[KLIENT 41125] W kolejce do stacjonarnej 1
+
+[KLIENT 40986] PARAGON: [ Proszek, Maslo, Ogorek, Warzywa na patelnie, Ser zolty, Boczek, Frytki, Warzywa na patelnie ] SUMA: 131.50 zl
+
+[KLIENT 40987] PARAGON: [ Frytki, Chleb, Jablko, Marchew, Bagietka, Banan, Mleko ] SUMA: 33.70 zl
+
+[KLIENT 40989] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41126] W kolejce do stacjonarnej 1
+
+[KLIENT 40989] PARAGON: [ Warzywa na patelnie, Wino, Frytki, Mydlo, Jablko ] SUMA: 56.00 zl
+
+[KLIENT 41128] W kolejce do stacjonarnej 1
+
+[KLIENT 40988] PARAGON: [ Piwo, Chleb, Mleko, Kabanos, Whisky, Maslo, Whisky, Winogrono, Whisky, Pizza ] SUMA: 341.70 zl
+
+[KLIENT 41127] W kolejce do stacjonarnej 1
+
+[KLIENT 40991] PARAGON: [ Mleko, Bagietka ] SUMA: 7.00 zl
+
+[KLIENT 40990] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41130] W kolejce do stacjonarnej 1
+
+[KLIENT 40990] PARAGON: [ Plyn do naczyn, Kielbasa, Banan, Piwo, Winogrono ] SUMA: 54.10 zl
+
+[KLIENT 41129] W kolejce do stacjonarnej 1
+
+[KLIENT 40992] PARAGON: [ Mleko, Jogurt, Pomidor, Proszek, Bagietka, Ziemniak, Ser zolty ] SUMA: 79.40 zl
+
+[KLIENT 40993] PARAGON: [ Domestos, Mydlo, Wodka, Lody, Pomidor, Maslo, Paczek, Wino ] SUMA: 118.50 zl
+
+[KLIENT 41131] W kolejce do stacjonarnej 1
+
+[KLIENT 40995] PARAGON: [ Mleko, Maslo, Jogurt, Paczek, Kielbasa, Proszek ] SUMA: 78.70 zl
+
+[KLIENT 41132] W kolejce do stacjonarnej 1
+
+[KLIENT 41133] W kolejce do stacjonarnej 1
+
+[KLIENT 40994] PARAGON: [ Frytki, Ziemniak, Plyn do naczyn, Kabanos, Jogurt, Mleko, Jablko, Kabanos, Jablko, Boczek ] SUMA: 176.70 zl
+
+[KLIENT 40997] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41134] W kolejce do stacjonarnej 1
+
+[KLIENT 40997] PARAGON: [ Kabanos, Banan, Plyn do naczyn, Marchew, Paczek, Lody, Warzywa na patelnie ] SUMA: 95.70 zl
+
+[KLIENT 40996] PARAGON: [ Gruszka ] SUMA: 5.00 zl
+
+[KLIENT 41135] W kolejce do stacjonarnej 1
+
+[KLIENT 40998] PARAGON: [ Banan, Domestos, Wodka, Bagietka, Frytki, Maslo ] SUMA: 77.90 zl
+
+[KLIENT 41137] W kolejce do stacjonarnej 1
+
+[KLIENT 41136] W kolejce do stacjonarnej 1
+
+[KLIENT 40999] PARAGON: [ Jablko, Proszek ] SUMA: 38.50 zl
+
+[KLIENT 41000] PARAGON: [ Pomidor, Ser zolty, Pizza, Kielbasa, Marchew, Ser zolty ] SUMA: 107.00 zl
+
+[KLIENT 41138] W kolejce do stacjonarnej 1
+
+[KLIENT 41001] PARAGON: [ Mydlo, Winogrono, Ser zolty, Ser zolty, Paczek, Frytki, Jablko, Bulka, Wodka, Wodka ] SUMA: 162.80 zl
+
+[KLIENT 41139] W kolejce do stacjonarnej 1
+
+[KLIENT 41140] W kolejce do stacjonarnej 1
+
+[KLIENT 41002] PARAGON: [ Bagietka, Banan, Piwo ] SUMA: 11.40 zl
+
+[KLIENT 41003] PARAGON: [ Warzywa na patelnie, Mydlo, Ogorek ] SUMA: 16.50 zl
+
+[KLIENT 41141] W kolejce do stacjonarnej 1
+
+[KLIENT 41143] W kolejce do stacjonarnej 1
+
+[KLIENT 41009] PARAGON: [ Ziemniak, Kabanos, Winogrono, Frytki, Jablko, Warzywa na patelnie, Jablko, Marchew, Boczek, Pizza ] SUMA: 145.90 zl
+
+[KLIENT 41142] W kolejce do stacjonarnej 1
+
+[KLIENT 41012] PARAGON: [ Boczek, Piwo, Proszek, Mydlo, Plyn do naczyn, Ser zolty ] SUMA: 107.00 zl
+
+[KLIENT 41010] PARAGON: [ Frytki, Proszek, Wodka, Kielbasa, Pizza, Chleb, Piwo, Kabanos, Proszek, Mleko ] SUMA: 235.30 zl
+
+[KLIENT 41150] W kolejce do stacjonarnej 1
+
+[KLIENT 41144] W kolejce do stacjonarnej 1
+
+[KLIENT 41151] W kolejce do stacjonarnej 1
+
+[KLIENT 41011] PARAGON: [ Frytki, Jablko, Domestos, Mydlo, Paczek ] SUMA: 34.00 zl
+
+[KLIENT 41013] PARAGON: [ Maslo ] SUMA: 6.50 zl
+
+[KLIENT 41014] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41152] W kolejce do stacjonarnej 1
+
+[KLIENT 41153] W kolejce do stacjonarnej 1
+
+[KLIENT 41014] PARAGON: [ Ziemniak, Paczek, Jablko, Kielbasa, Whisky, Mleko, Piwo, Pizza, Chleb ] SUMA: 147.30 zl
+
+[KLIENT 41015] PARAGON: [ Pomidor, Lody, Wino, Szynka, Szynka, Warzywa na patelnie, Ser zolty, Frytki, Piwo ] SUMA: 192.00 zl
+
+[KLIENT 41017] PARAGON: [ Mleko, Bulka ] SUMA: 4.70 zl
+
+[KLIENT 41155] W kolejce do stacjonarnej 1
+
+[KLIENT 41154] W kolejce do stacjonarnej 1
+
+[KLIENT 41016] PARAGON: [ Proszek, Jablko, Banan, Frytki, Domestos, Domestos, Boczek, Maslo, Jablko ] SUMA: 120.70 zl
+
+[KLIENT 41156] W kolejce do stacjonarnej 1
+
+[KLIENT 41018] PARAGON: [ Mleko, Bulka ] SUMA: 4.70 zl
+
+[KLIENT 41157] W kolejce do stacjonarnej 1
+
+[KLIENT 41158] W kolejce do stacjonarnej 1
+
+[KLIENT 41019] PARAGON: [ Proszek, Jablko, Banan, Frytki, Domestos, Domestos, Boczek, Maslo, Jablko ] SUMA: 120.70 zl
+
+[KLIENT 41159] W kolejce do stacjonarnej 1
+
+[KLIENT 41020] PARAGON: [ Kabanos, Banan, Piwo, Frytki, Wodka, Gruszka, Szynka, Bulka, Domestos, Proszek ] SUMA: 213.10 zl
+
+[KLIENT 41021] PARAGON: [ Szynka ] SUMA: 45.00 zl
+
+[KLIENT 41160] W kolejce do stacjonarnej 1
+
+[KLIENT 41023] PARAGON: [ Pomidor, Ziemniak, Domestos, Domestos, Proszek, Mydlo, Pizza, Banan, Jablko ] SUMA: 98.20 zl
+
+[KLIENT 41162] W kolejce do stacjonarnej 1
+
+[KLIENT 41161] W kolejce do stacjonarnej 1
+
+[KLIENT 41022] PARAGON: [ Boczek, Boczek, Jogurt, Warzywa na patelnie, Maslo, Szynka, Lody, Pomidor, Plyn do naczyn, Mydlo ] SUMA: 159.40 zl
+
+[KLIENT 41024] PARAGON: [ Maslo, Ziemniak, Piwo, Pomidor, Maslo, Pizza, Plyn do naczyn ] SUMA: 53.50 zl
+
+[KLIENT 41164] W kolejce do stacjonarnej 1
+
+[KLIENT 41025] PARAGON: [ Piwo, Plyn do naczyn, Proszek, Ziemniak, Boczek, Mydlo, Ziemniak, Piwo, Paczek ] SUMA: 93.50 zl
+
+[KLIENT 41163] W kolejce do stacjonarnej 1
+
+[KLIENT 41026] PARAGON: [ Kielbasa, Mleko ] SUMA: 31.80 zl
+
+[KLIENT 41027] PARAGON: [ Kabanos, Kabanos, Kabanos, Bagietka, Lody, Banan, Ogorek, Plyn do naczyn, Ziemniak, Wodka ] SUMA: 243.40 zl
+
+[KLIENT 41028] PARAGON: [ Plyn do naczyn, Pizza ] SUMA: 26.00 zl
+
+[KLIENT 41165] W kolejce do stacjonarnej 1
+
+[KLIENT 41167] W kolejce do stacjonarnej 1
+
+[KLIENT 41166] W kolejce do stacjonarnej 1
+
+[KLIENT 41029] PARAGON: [ Whisky, Chleb, Kielbasa, Lody ] SUMA: 127.50 zl
+
+[KLIENT 41168] W kolejce do stacjonarnej 1
+
+[KLIENT 41030] PARAGON: [ Banan, Chleb, Boczek, Maslo ] SUMA: 47.20 zl
+
+[KLIENT 41032] PARAGON: [ Kielbasa, Banan, Proszek, Wino ] SUMA: 97.20 zl
+
+[KLIENT 41169] W kolejce do stacjonarnej 1
+
+[KLIENT 41170] W kolejce do stacjonarnej 1
+
+[KLIENT 41031] PARAGON: [ Banan, Domestos, Jablko, Ser zolty ] SUMA: 44.70 zl
+
+[KLIENT 41171] W kolejce do stacjonarnej 1
+
+[KLIENT 41033] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41172] W kolejce do stacjonarnej 1
+
+[KLIENT 41033] PARAGON: [ Frytki, Lody, Bulka, Bulka, Wino ] SUMA: 58.80 zl
+
+[KLIENT 41035] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[KLIENT 41173] W kolejce do stacjonarnej 1
+
+[KLIENT 41034] PARAGON: [ Mleko, Bulka, Ziemniak, Pomidor, Piwo, Pomidor, Bagietka, Lody, Marchew ] SUMA: 48.40 zl
+
+[KLIENT 41175] W kolejce do stacjonarnej 1
+
+[KLIENT 41036] PARAGON: [ Banan ] SUMA: 4.20 zl
+
+[KLIENT 41174] W kolejce do stacjonarnej 1
+
+[KLIENT 41176] W kolejce do stacjonarnej 1
+
+[KLIENT 41037] PARAGON: [ Proszek, Paczek, Mleko, Pomidor, Lody ] SUMA: 65.80 zl
+
+[KLIENT 41177] W kolejce do stacjonarnej 1
+
+[KLIENT 41038] PARAGON: [ Chleb ] SUMA: 4.50 zl
+
+[KLIENT 41178] W kolejce do stacjonarnej 1
+
+[KLIENT 41040] PARAGON: [ Ziemniak, Whisky, Szynka, Gruszka ] SUMA: 132.00 zl
+
+[KLIENT 41179] W kolejce do stacjonarnej 1
+
+[KLIENT 41039] PARAGON: [ Maslo, Chleb, Ser zolty, Ziemniak, Banan, Piwo, Chleb ] SUMA: 50.70 zl
+
+[KLIENT 41041] PARAGON: [ Jablko, Boczek, Pizza, Warzywa na patelnie ] SUMA: 61.00 zl
+
+[KLIENT 41180] W kolejce do stacjonarnej 1
+
+[KLIENT 41042] PARAGON: [ Gruszka, Warzywa na patelnie, Proszek, Bagietka, Kielbasa, Maslo, Ogorek, Paczek, Gruszka, Banan ] SUMA: 103.90 zl
+
+[KLIENT 41043] PARAGON: [ Frytki, Jogurt, Frytki, Mleko, Ziemniak, Piwo ] SUMA: 35.70 zl
+
+[KLIENT 41181] W kolejce do stacjonarnej 1
+
+[KLIENT 41047] PARAGON: [ Bulka, Boczek, Wino, Kielbasa ] SUMA: 90.90 zl
+
+[KLIENT 41183] W kolejce do stacjonarnej 1
+
+[KLIENT 41182] W kolejce do stacjonarnej 1
+
+[KLIENT 41046] PARAGON: [ Gruszka, Kabanos, Mleko, Kielbasa, Jablko ] SUMA: 95.30 zl
+
+[KLIENT 41184] W kolejce do stacjonarnej 1
+
+[KLIENT 41048] PARAGON: [ Mleko, Kabanos, Gruszka, Ziemniak, Winogrono, Ser zolty, Bagietka, Chleb ] SUMA: 108.40 zl
+
+[KLIENT 41185] W kolejce do stacjonarnej 1
+
+[KLIENT 41049] PARAGON: [ Banan, Wino, Maslo, Paczek, Gruszka, Warzywa na patelnie, Marchew, Bulka ] SUMA: 60.10 zl
+
+[KLIENT 41186] W kolejce do stacjonarnej 1
+
+[KLIENT 41053] PARAGON: [ Kabanos, Bulka, Pomidor, Ogorek, Mleko, Banan, Plyn do naczyn ] SUMA: 86.40 zl
+
+[KLIENT 41056] PARAGON: [ Gruszka, Bulka, Bagietka, Frytki, Szynka, Plyn do naczyn, Paczek, Gruszka ] SUMA: 82.60 zl
+
+[KLIENT 41192] W kolejce do stacjonarnej 1
+
+[KLIENT 41187] W kolejce do stacjonarnej 1
+
+[KLIENT 41057] PARAGON: [ Mydlo, Jogurt, Mleko ] SUMA: 8.70 zl
+
+[KLIENT 41194] W kolejce do stacjonarnej 1
+
+[KLIENT 41059] PARAGON: [ Ogorek, Warzywa na patelnie, Wino, Pomidor, Mydlo, Ogorek, Frytki, Pomidor, Winogrono, Proszek ] SUMA: 126.40 zl
+
+[KLIENT 41058] PARAGON: [ Bagietka, Szynka, Maslo, Ogorek, Mleko, Pomidor, Marchew, Szynka, Warzywa na patelnie, Piwo ] SUMA: 132.00 zl
+
+[KLIENT 41195] W kolejce do stacjonarnej 1
+
+[KLIENT 41196] W kolejce do stacjonarnej 1
+
+[KLIENT 41060] PARAGON: [ Chleb, Ogorek, Ogorek, Ogorek, Maslo ] SUMA: 29.00 zl
+
+[KLIENT 41198] W kolejce do stacjonarnej 1
+
+[KLIENT 41197] W kolejce do stacjonarnej 1
+
+[KLIENT 41061] PARAGON: [ Kielbasa, Mleko, Marchew, Paczek, Ziemniak, Plyn do naczyn, Wino, Warzywa na patelnie, Domestos ] SUMA: 97.30 zl
+
+[KLIENT 41062] PARAGON: [ Gruszka, Domestos, Gruszka, Pizza, Ser zolty, Maslo ] SUMA: 71.50 zl
+
+[KLIENT 41066] PARAGON: [ Pizza, Bulka, Mydlo, Banan, Gruszka, Marchew, Kielbasa, Frytki ] SUMA: 73.60 zl
+
+[KLIENT 41199] W kolejce do stacjonarnej 1
+
+[KLIENT 41067] PARAGON: [ Whisky, Kielbasa, Kabanos ] SUMA: 163.00 zl
+
+[KLIENT 41200] W kolejce do stacjonarnej 1
+
+[KLIENT 41068] PARAGON: [ Winogrono, Ser zolty, Frytki, Mleko, Jablko, Kabanos, Pomidor ] SUMA: 117.70 zl
+
+[KLIENT 41201] W kolejce do stacjonarnej 1
+
+[KLIENT 41203] W kolejce do stacjonarnej 1
+
+[KLIENT 41202] W kolejce do stacjonarnej 1
+
+[KLIENT 41069] PARAGON: [ Szynka, Szynka, Winogrono, Bagietka, Boczek ] SUMA: 135.10 zl
+
+[KLIENT 41070] PARAGON: [ Wino, Chleb, Pizza, Gruszka, Bulka ] SUMA: 58.40 zl
+
+[KLIENT 41071] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41204] W kolejce do stacjonarnej 1
+
+[KLIENT 41071] PARAGON: [ Chleb, Frytki, Lody ] SUMA: 31.50 zl
+
+[KLIENT 41072] PARAGON: [ Ogorek, Warzywa na patelnie, Kielbasa, Wino, Bagietka, Ziemniak, Piwo, Winogrono ] SUMA: 90.60 zl
+
+[KLIENT 41205] W kolejce do stacjonarnej 1
+
+[KLIENT 41074] PARAGON: [ Bulka, Jogurt, Wodka, Mydlo, Chleb, Paczek, Paczek, Wodka, Mleko ] SUMA: 101.10 zl
+
+[KLIENT 41207] W kolejce do stacjonarnej 1
+
+[KLIENT 41206] W kolejce do stacjonarnej 1
+
+[KLIENT 41075] PARAGON: [ Plyn do naczyn, Pomidor, Boczek, Ziemniak, Ser zolty ] SUMA: 75.50 zl
+
+[KLIENT 41076] PARAGON: [ Gruszka, Warzywa na patelnie, Kielbasa, Kielbasa, Winogrono, Mydlo, Maslo, Ser zolty, Paczek, Domestos ] SUMA: 128.40 zl
+
+[KLIENT 41208] W kolejce do stacjonarnej 1
+
+[KLIENT 41210] W kolejce do stacjonarnej 1
+
+[KLIENT 41078] PARAGON: [ Lody, Whisky ] SUMA: 95.00 zl
+
+[KLIENT 41209] W kolejce do stacjonarnej 1
+
+[KLIENT 41077] PARAGON: [ Jogurt, Kabanos, Chleb ] SUMA: 61.40 zl
+
+[KLIENT 41079] PARAGON: [ Domestos, Maslo, Winogrono, Plyn do naczyn ] SUMA: 36.40 zl
+
+[KLIENT 41080] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41212] W kolejce do stacjonarnej 1
+
+[KLIENT 41211] W kolejce do stacjonarnej 1
+
+[KLIENT 41080] PARAGON: [ Ogorek, Szynka, Plyn do naczyn, Proszek, Kielbasa, Mleko ] SUMA: 125.80 zl
+
+[KLIENT 41081] PARAGON: [ Ser zolty, Mydlo, Piwo ] SUMA: 32.00 zl
+
+[KLIENT 41214] W kolejce do stacjonarnej 1
+
+[KLIENT 41213] W kolejce do stacjonarnej 1
+
+[KLIENT 41215] W kolejce do stacjonarnej 1
+
+[KLIENT 41082] PARAGON: [ Pomidor, Mydlo, Pomidor, Banan ] SUMA: 24.20 zl
+
+[KLIENT 41083] PARAGON: [ Ser zolty, Bagietka, Jablko, Bagietka, Proszek, Kabanos, Kielbasa, Banan ] SUMA: 157.10 zl
+
+[KLIENT 41084] PARAGON: [ Banan, Lody, Pomidor, Warzywa na patelnie, Domestos, Boczek ] SUMA: 79.20 zl
+
+[KLIENT 41085] PARAGON: [ Jogurt, Maslo, Lody, Plyn do naczyn, Whisky, Ogorek, Boczek, Piwo, Ziemniak ] SUMA: 155.40 zl
+
+[KLIENT 41216] W kolejce do stacjonarnej 1
+
+[KLIENT 41217] W kolejce do stacjonarnej 1
+
+[KLIENT 41086] PARAGON: [ Kabanos, Jablko, Piwo, Bulka ] SUMA: 63.40 zl
+
+[KLIENT 41218] W kolejce do stacjonarnej 1
+
+[KLIENT 41220] W kolejce do stacjonarnej 1
+
+[KLIENT 41087] PARAGON: [ Pizza, Pomidor, Kielbasa, Maslo, Warzywa na patelnie, Proszek, Maslo, Ogorek, Maslo ] SUMA: 122.50 zl
+
+[KLIENT 41219] W kolejce do stacjonarnej 1
+
+[KLIENT 41221] W kolejce do stacjonarnej 1
+
+[KLIENT 41089] PARAGON: [ Whisky, Domestos, Szynka, Wino, Ogorek, Domestos, Proszek, Szynka, Chleb ] SUMA: 269.50 zl
+
+[KLIENT 41222] W kolejce do stacjonarnej 1
+
+[KLIENT 41088] PARAGON: [ Wodka, Ser zolty, Kabanos, Gruszka, Mleko, Bulka, Banan, Ser zolty ] SUMA: 158.90 zl
+
+[KLIENT 41090] PARAGON: [ Paczek, Banan, Lody, Maslo, Mleko ] SUMA: 33.00 zl
+
+[KLIENT 41223] W kolejce do stacjonarnej 1
+
+[KLIENT 41091] PARAGON: [ Paczek, Kielbasa, Jogurt, Banan ] SUMA: 37.60 zl
+
+[KLIENT 41092] PARAGON: [ Bulka ] SUMA: 0.90 zl
+
+[KLIENT 41224] W kolejce do stacjonarnej 1
+
+[KLIENT 41225] W kolejce do stacjonarnej 1
+
+[KLIENT 41226] W kolejce do stacjonarnej 1
+
+[KLIENT 41093] PARAGON: [ Domestos, Kabanos, Maslo ] SUMA: 73.50 zl
+
+[KLIENT 41094] PARAGON: [ Proszek, Plyn do naczyn, Winogrono, Jablko ] SUMA: 56.40 zl
+
+[KLIENT 41096] PARAGON: [ Szynka, Jablko, Frytki, Szynka, Kielbasa, Piwo ] SUMA: 137.50 zl
+
+[KLIENT 41229] W kolejce do stacjonarnej 1
+
+[KLIENT 41227] W kolejce do stacjonarnej 1
+
+[KLIENT 41095] PARAGON: [ Maslo, Lody, Piwo, Paczek, Wino, Paczek, Pomidor, Boczek ] SUMA: 103.00 zl
+
+[KLIENT 41228] W kolejce do stacjonarnej 1
+
+[KLIENT 41230] W kolejce do stacjonarnej 1
+
+[KLIENT 41097] PARAGON: [ Proszek, Mleko, Bagietka, Jogurt, Banan, Paczek, Lody, Domestos, Mleko, Ziemniak ] SUMA: 84.40 zl
+
+[KLIENT 41098] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[KLIENT 41232] W kolejce do stacjonarnej 1
+
+[KLIENT 41231] W kolejce do stacjonarnej 1
+
+[KLIENT 41099] PARAGON: [ Bulka ] SUMA: 0.90 zl
+
+[KLIENT 41106] PARAGON: [ Ser zolty, Bagietka, Mleko, Bulka, Winogrono ] SUMA: 42.80 zl
+
+[KLIENT 41234] W kolejce do stacjonarnej 1
+
+[KLIENT 41101] PARAGON: [ Plyn do naczyn, Pizza, Chleb ] SUMA: 30.50 zl
+
+[KLIENT 41233] W kolejce do stacjonarnej 1
+
+[KLIENT 41240] W kolejce do stacjonarnej 1
+
+[KLIENT 41108] PARAGON: [ Maslo, Paczek, Jogurt, Warzywa na patelnie, Kabanos, Ser zolty, Piwo, Wodka, Ziemniak, Jablko ] SUMA: 148.90 zl
+
+[KLIENT 41107] PARAGON: [ Marchew, Marchew, Mydlo, Pomidor, Wodka, Jogurt, Warzywa na patelnie, Winogrono, Boczek, Domestos ] SUMA: 119.80 zl
+
+[KLIENT 41110] PARAGON: [ Ser zolty, Ogorek ] SUMA: 31.00 zl
+
+[KLIENT 41241] W kolejce do stacjonarnej 1
+
+[KLIENT 41243] W kolejce do stacjonarnej 1
+
+[KLIENT 41242] W kolejce do stacjonarnej 1
+
+[KLIENT 41109] PARAGON: [ Ogorek, Ser zolty, Whisky, Whisky, Jablko, Frytki, Chleb ] SUMA: 211.00 zl
+
+[KLIENT 41244] W kolejce do stacjonarnej 1
+
+[KLIENT 41111] PARAGON: [ Maslo, Whisky, Boczek, Jablko, Kielbasa, Bagietka, Gruszka, Wodka ] SUMA: 198.20 zl
+
+[KLIENT 41245] W kolejce do stacjonarnej 1
+
+[KLIENT 41112] PARAGON: [ Plyn do naczyn, Boczek, Kabanos, Mydlo, Proszek ] SUMA: 133.00 zl
+
+[KLIENT 41113] PARAGON: [ Maslo, Kielbasa, Ziemniak, Bagietka, Pizza, Mydlo, Bulka, Ziemniak, Ogorek ] SUMA: 69.60 zl
+
+[KLIENT 41114] PARAGON: [ Bagietka, Pizza, Mleko ] SUMA: 25.00 zl
+
+[KLIENT 41246] W kolejce do stacjonarnej 1
+
+[KLIENT 41115] PARAGON: [ Whisky, Domestos ] SUMA: 92.00 zl
+
+[KLIENT 41247] W kolejce do stacjonarnej 1
+
+[KLIENT 41248] W kolejce do stacjonarnej 1
+
+[KLIENT 41116] PARAGON: [ Pizza, Kielbasa, Maslo, Wino, Kielbasa, Ziemniak, Pomidor, Boczek, Lody, Pizza ] SUMA: 186.00 zl
+
+[KLIENT 41117] PARAGON: [ Ser zolty, Bagietka, Mleko, Bulka, Winogrono ] SUMA: 42.80 zl
+
+[KLIENT 41249] W kolejce do stacjonarnej 1
+
+[KLIENT 41250] W kolejce do stacjonarnej 1
+
+[KLIENT 41119] PARAGON: [ Banan, Kielbasa, Gruszka, Ser zolty, Bagietka, Boczek, Pizza, Ser zolty, Kabanos ] SUMA: 195.40 zl
+
+[KLIENT 41251] W kolejce do stacjonarnej 1
+
+[KLIENT 41118] PARAGON: [ Paczek, Banan, Jablko, Jablko, Domestos, Mleko, Bulka, Whisky ] SUMA: 111.40 zl
+
+[KLIENT 41253] W kolejce do stacjonarnej 1
+
+[KLIENT 41120] PARAGON: [ Wino ] SUMA: 30.00 zl
+
+[KLIENT 41252] W kolejce do stacjonarnej 1
+
+[KLIENT 41121] PARAGON: [ Pizza, Ziemniak ] SUMA: 20.00 zl
+
+[KLIENT 41254] W kolejce do stacjonarnej 1
+
+[KLIENT 41122] PARAGON: [ Pizza, Banan, Kabanos, Wodka, Bagietka, Wino, Mleko, Warzywa na patelnie ] SUMA: 161.70 zl
+
+[KLIENT 41124] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[KLIENT 41255] W kolejce do stacjonarnej 1
+
+[KLIENT 41257] W kolejce do stacjonarnej 1
+
+[KLIENT 41256] W kolejce do stacjonarnej 1
+
+[KLIENT 41123] PARAGON: [ Gruszka, Banan, Domestos ] SUMA: 21.20 zl
+
+[KLIENT 41125] PARAGON: [ Domestos, Piwo, Bulka, Frytki ] SUMA: 28.90 zl
+
+[KLIENT 41126] PARAGON: [ Piwo, Plyn do naczyn, Warzywa na patelnie, Winogrono, Warzywa na patelnie, Bagietka, Szynka, Piwo ] SUMA: 89.10 zl
+
+[KLIENT 41258] W kolejce do stacjonarnej 1
+
+[KLIENT 41259] W kolejce do stacjonarnej 1
+
+[KLIENT 41128] PARAGON: [ Szynka, Mleko, Proszek, Bulka, Whisky, Kielbasa, Banan, Kabanos, Warzywa na patelnie, Ser zolty ] SUMA: 284.40 zl
+
+[KLIENT 41260] W kolejce do stacjonarnej 1
+
+[KLIENT 41127] PARAGON: [ Jablko, Ogorek, Frytki, Proszek, Domestos, Paczek, Ogorek, Maslo ] SUMA: 84.50 zl
+
+[KLIENT 41130] PARAGON: [ Wodka, Gruszka, Maslo, Kielbasa, Chleb, Ser zolty, Winogrono, Warzywa na patelnie, Piwo ] SUMA: 130.40 zl
+
+[KLIENT 41262] W kolejce do stacjonarnej 1
+
+[KLIENT 41261] W kolejce do stacjonarnej 1
+
+[KLIENT 41263] W kolejce do stacjonarnej 1
+
+[KLIENT 41129] PARAGON: [ Wino, Chleb, Proszek, Bulka ] SUMA: 70.40 zl
+
+[KLIENT 41131] PARAGON: [ Ogorek, Wodka, Boczek, Wodka ] SUMA: 118.00 zl
+
+[KLIENT 41264] W kolejce do stacjonarnej 1
+
+[KLIENT 41265] W kolejce do stacjonarnej 1
+
+[KLIENT 41132] PARAGON: [ Paczek, Jogurt, Wino, Gruszka, Chleb, Bagietka, Proszek, Jogurt ] SUMA: 85.00 zl
+
+[KLIENT 41266] W kolejce do stacjonarnej 1
+
+[KLIENT 41133] PARAGON: [ Maslo ] SUMA: 6.50 zl
+
+[KLIENT 41134] PARAGON: [ Kabanos, Winogrono, Bulka, Ogorek, Maslo, Szynka, Bagietka ] SUMA: 126.50 zl
+
+[KLIENT 41267] W kolejce do stacjonarnej 1
+
+[KLIENT 41135] PARAGON: [ Kabanos, Frytki, Gruszka, Szynka, Gruszka, Gruszka, Jogurt ] SUMA: 128.90 zl
+
+[KLIENT 41137] PARAGON: [ Szynka, Kielbasa, Plyn do naczyn, Bulka, Mleko, Pizza, Mleko, Kabanos ] SUMA: 162.50 zl
+
+[KLIENT 41268] W kolejce do stacjonarnej 1
+
+[KLIENT 41136] PARAGON: [ Jablko, Kabanos, Whisky, Mydlo, Maslo ] SUMA: 148.00 zl
+
+[KLIENT 41269] W kolejce do stacjonarnej 1
+
+[KLIENT 41138] PARAGON: [ Mydlo, Chleb, Gruszka, Jogurt, Domestos, Domestos, Gruszka, Lody, Wino ] SUMA: 88.40 zl
+
+[KLIENT 41270] W kolejce do stacjonarnej 1
+
+[KLIENT 41139] PARAGON: [ Ser zolty, Gruszka ] SUMA: 30.00 zl
+
+[KLIENT 41272] W kolejce do stacjonarnej 1
+
+[KLIENT 41271] W kolejce do stacjonarnej 1
+
+[KLIENT 41140] PARAGON: [ Ziemniak, Winogrono, Kielbasa, Mydlo, Chleb, Maslo, Mleko, Kabanos, Domestos, Pomidor ] SUMA: 133.20 zl
+
+[KLIENT 41141] PARAGON: [ Mydlo, Jogurt, Jogurt, Paczek, Plyn do naczyn, Domestos, Paczek ] SUMA: 33.80 zl
+
+[KLIENT 41275] W kolejce do stacjonarnej 1
+
+[KLIENT 41274] W kolejce do stacjonarnej 1
+
+[KLIENT 41273] W kolejce do stacjonarnej 1
+
+[KLIENT 41143] PARAGON: [ Jogurt, Banan, Domestos, Plyn do naczyn, Frytki ] SUMA: 38.10 zl
+
+[KLIENT 41142] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41142] PARAGON: [ Jablko, Bulka, Pizza, Jablko, Proszek, Paczek ] SUMA: 64.40 zl
+
+[KLIENT 41276] W kolejce do stacjonarnej 1
+
+[KLIENT 41150] PARAGON: [ Domestos, Frytki, Wodka, Frytki ] SUMA: 76.00 zl
+
+[KLIENT 41144] PARAGON: [ Domestos, Pomidor, Mleko, Bulka, Jablko, Piwo, Mydlo, Pomidor, Frytki, Boczek ] SUMA: 88.20 zl
+
+[KLIENT 41277] W kolejce do stacjonarnej 1
+
+[KLIENT 41278] W kolejce do stacjonarnej 1
+
+[KLIENT 41151] PARAGON: [ Boczek, Proszek, Gruszka, Whisky, Piwo, Wino, Paczek, Jablko ] SUMA: 193.00 zl
+
+[KLIENT 41279] W kolejce do stacjonarnej 1
+
+[KLIENT 41280] W kolejce do stacjonarnej 1
+
+[KLIENT 41152] PARAGON: [ Mydlo, Mydlo, Ser zolty, Ziemniak, Mleko, Lody, Lody, Warzywa na patelnie ] SUMA: 74.30 zl
+
+[KLIENT 41153] PARAGON: [ Winogrono, Frytki, Plyn do naczyn, Jogurt, Marchew, Paczek, Proszek ] SUMA: 72.80 zl
+
+[KLIENT 41281] W kolejce do stacjonarnej 1
+
+[KLIENT 41155] PARAGON: [ Mleko, Paczek ] SUMA: 7.30 zl
+
+[KLIENT 41288] W kolejce do stacjonarnej 1
+
+[KLIENT 41154] PARAGON: [ Marchew, Mydlo, Plyn do naczyn, Chleb, Piwo, Boczek ] SUMA: 54.00 zl
+
+[KLIENT 41285] W kolejce do stacjonarnej 1
+
+[KLIENT 41156] PARAGON: [ Bulka, Chleb, Frytki, Frytki, Frytki, Pizza, Ogorek, Proszek ] SUMA: 100.40 zl
+
+[KLIENT 41157] PARAGON: [ Bulka, Chleb, Frytki, Frytki, Frytki, Pizza, Ogorek, Proszek ] SUMA: 100.40 zl
+
+[KLIENT 41290] W kolejce do stacjonarnej 1
+
+[KLIENT 41289] W kolejce do stacjonarnej 1
+
+[KLIENT 41291] W kolejce do stacjonarnej 1
+
+[KLIENT 41158] PARAGON: [ Frytki, Bagietka, Kabanos, Plyn do naczyn ] SUMA: 78.20 zl
+
+[KLIENT 41292] W kolejce do stacjonarnej 1
+
+[KLIENT 41159] PARAGON: [ Plyn do naczyn, Bulka, Mleko, Kabanos, Pizza, Szynka, Whisky, Boczek, Marchew ] SUMA: 245.20 zl
+
+[KLIENT 41160] PARAGON: [ Warzywa na patelnie, Jablko, Szynka, Mleko, Boczek, Wino ] SUMA: 121.80 zl
+
+[KLIENT 41162] PARAGON: [ Ser zolty ] SUMA: 25.00 zl
+
+[KLIENT 41293] W kolejce do stacjonarnej 1
+
+[KLIENT 41295] W kolejce do stacjonarnej 1
+
+[KLIENT 41161] PARAGON: [ Proszek, Paczek, Marchew, Lody ] SUMA: 56.00 zl
+
+[KLIENT 41294] W kolejce do stacjonarnej 1
+
+[KLIENT 41296] W kolejce do stacjonarnej 1
+
+[KLIENT 41164] PARAGON: [ Wodka ] SUMA: 40.00 zl
+
+[KLIENT 41297] W kolejce do stacjonarnej 1
+
+[KLIENT 41163] PARAGON: [ Lody, Gruszka ] SUMA: 20.00 zl
+
+[KLIENT 41165] PARAGON: [ Kabanos, Marchew, Kabanos, Frytki, Ziemniak ] SUMA: 126.50 zl
+
+[KLIENT 41167] PARAGON: [ Ser zolty, Chleb, Bagietka, Plyn do naczyn, Warzywa na patelnie, Boczek ] SUMA: 80.20 zl
+
+[KLIENT 41298] W kolejce do stacjonarnej 1
+
+[KLIENT 41299] W kolejce do stacjonarnej 1
+
+[KLIENT 41166] PARAGON: [ Marchew, Maslo, Wino, Kielbasa, Boczek, Bulka, Jablko, Bulka ] SUMA: 104.30 zl
+
+[KLIENT 41301] W kolejce do stacjonarnej 1
+
+[KLIENT 41300] W kolejce do stacjonarnej 1
+
+[KLIENT 41168] PARAGON: [ Maslo, Pomidor, Gruszka, Piwo ] SUMA: 24.00 zl
+
+[KLIENT 41169] PARAGON: [ Gruszka, Mleko, Ser zolty, Jablko, Paczek, Marchew ] SUMA: 43.30 zl
+
+[KLIENT 41303] W kolejce do stacjonarnej 1
+
+[KLIENT 41302] W kolejce do stacjonarnej 1
+
+[KLIENT 41170] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KLIENT 41304] W kolejce do stacjonarnej 1
+
+[KLIENT 41171] PARAGON: [ Ser zolty, Boczek, Gruszka, Maslo, Proszek, Chleb ] SUMA: 108.00 zl
+
+[KLIENT 41305] W kolejce do stacjonarnej 1
+
+[KLIENT 41172] PARAGON: [ Warzywa na patelnie, Jogurt, Wino, Ser zolty ] SUMA: 64.40 zl
+
+[KLIENT 41306] W kolejce do stacjonarnej 1
+
+[KLIENT 41173] PARAGON: [ Boczek, Piwo, Gruszka, Whisky, Domestos, Mleko ] SUMA: 136.80 zl
+
+[KLIENT 41175] PARAGON: [ Jogurt, Domestos, Whisky ] SUMA: 93.90 zl
+
+[KLIENT 41307] W kolejce do stacjonarnej 1
+
+[KLIENT 41174] PARAGON: [ Warzywa na patelnie, Ser zolty, Ogorek, Gruszka, Gruszka ] SUMA: 48.50 zl
+
+[KLIENT 41308] W kolejce do stacjonarnej 1
+
+[KLIENT 41176] PARAGON: [ Jogurt, Paczek, Plyn do naczyn, Kabanos, Whisky, Bulka ] SUMA: 149.30 zl
+
+[KLIENT 41309] W kolejce do stacjonarnej 1
+
+[KLIENT 41310] W kolejce do stacjonarnej 1
+
+[KLIENT 41177] PARAGON: [ Jablko, Whisky, Szynka, Whisky ] SUMA: 208.50 zl
+
+[KLIENT 41178] PARAGON: [ Lody, Winogrono, Banan ] SUMA: 29.10 zl
+
+[KLIENT 41179] PARAGON: [ Kabanos ] SUMA: 55.00 zl
+
+[KLIENT 41311] W kolejce do stacjonarnej 1
+
+[KLIENT 41180] PARAGON: [ Ser zolty, Piwo, Lody, Paczek, Kielbasa, Kabanos, Mleko ] SUMA: 134.30 zl
+
+[KLIENT 41314] W kolejce do stacjonarnej 1
+
+[KLIENT 41313] W kolejce do stacjonarnej 1
+
+[KLIENT 41312] W kolejce do stacjonarnej 1
+
+[KLIENT 41181] PARAGON: [ Bagietka, Proszek, Pizza, Mleko, Chleb, Proszek, Lody, Jogurt, Proszek ] SUMA: 151.40 zl
+
+[KLIENT 41183] PARAGON: [ Kabanos, Wino, Wodka, Paczek ] SUMA: 128.50 zl
+
+[KLIENT 41316] W kolejce do stacjonarnej 1
+
+[KLIENT 41182] PARAGON: [ Domestos, Bulka, Pomidor, Wodka, Szynka, Warzywa na patelnie, Proszek ] SUMA: 148.90 zl
+
+[KLIENT 41315] W kolejce do stacjonarnej 1
+
+[KLIENT 41317] W kolejce do stacjonarnej 1
+
+[KLIENT 41184] PARAGON: [ Bagietka, Chleb, Paczek, Jablko, Gruszka ] SUMA: 19.70 zl
+
+[KLIENT 41185] PARAGON: [ Domestos, Mydlo, Jogurt, Whisky, Domestos, Jablko, Lody ] SUMA: 127.40 zl
+
+[KLIENT 41318] W kolejce do stacjonarnej 1
+
+[KLIENT 41186] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41319] W kolejce do stacjonarnej 1
+
+[KLIENT 41186] PARAGON: [ Ser zolty, Banan, Warzywa na patelnie ] SUMA: 36.70 zl
+
+[KLIENT 41192] PARAGON: [ Gruszka, Plyn do naczyn, Pizza, Whisky, Pizza, Bagietka, Maslo ] SUMA: 138.70 zl
+
+[KLIENT 41321] W kolejce do stacjonarnej 1
+
+[KLIENT 41187] PARAGON: [ Ogorek, Ogorek, Mleko, Pizza, Boczek, Boczek ] SUMA: 97.80 zl
+
+[KLIENT 41320] W kolejce do stacjonarnej 1
+
+[KLIENT 41194] PARAGON: [ Plyn do naczyn, Jogurt, Winogrono, Szynka, Ser zolty, Plyn do naczyn, Pizza, Banan ] SUMA: 120.00 zl
+
+[KLIENT 41195] PARAGON: [ Ziemniak, Kabanos, Wino, Piwo ] SUMA: 91.00 zl
+
+[KLIENT 41322] W kolejce do stacjonarnej 1
+
+[KLIENT 41196] PARAGON: [ Chleb, Chleb, Piwo ] SUMA: 13.00 zl
+
+[KLIENT 41323] W kolejce do stacjonarnej 1
+
+[KLIENT 41324] W kolejce do stacjonarnej 1
+
+[KLIENT 41198] PARAGON: [ Whisky, Wodka, Kielbasa, Whisky, Ziemniak ] SUMA: 230.00 zl
+
+[KLIENT 41330] W kolejce do stacjonarnej 1
+
+[KLIENT 41331] W kolejce do stacjonarnej 1
+
+[KLIENT 41197] PARAGON: [ Bagietka, Wino, Wino, Kielbasa, Winogrono, Mydlo, Proszek ] SUMA: 139.10 zl
+
+[KLIENT 41332] W kolejce do stacjonarnej 1
+
+[KLIENT 41199] PARAGON: [ Kabanos, Kabanos, Ogorek, Jablko ] SUMA: 119.50 zl
+
+[KLIENT 41200] PARAGON: [ Plyn do naczyn, Pomidor, Domestos, Bagietka, Banan ] SUMA: 35.90 zl
+
+[KLIENT 41333] W kolejce do stacjonarnej 1
+
+[KLIENT 41201] PARAGON: [ Warzywa na patelnie, Domestos ] SUMA: 19.50 zl
+
+[KLIENT 41203] PARAGON: [ Frytki, Wino ] SUMA: 42.00 zl
+
+[KLIENT 41334] W kolejce do stacjonarnej 1
+
+[KLIENT 41202] PARAGON: [ Winogrono ] SUMA: 9.90 zl
+
+[KLIENT 41335] W kolejce do stacjonarnej 1
+
+[KLIENT 41337] W kolejce do stacjonarnej 1
+
+[KLIENT 41204] PARAGON: [ Ogorek, Wodka, Domestos, Wodka, Kabanos ] SUMA: 153.00 zl
+
+[KLIENT 41336] W kolejce do stacjonarnej 1
+
+[KLIENT 41205] PARAGON: [ Piwo, Kabanos, Ser zolty, Proszek, Maslo, Domestos ] SUMA: 137.50 zl
+
+[KLIENT 41338] W kolejce do stacjonarnej 1
+
+[KLIENT 41339] W kolejce do stacjonarnej 1
+
+[KLIENT 41207] PARAGON: [ Ogorek, Wodka, Domestos, Wodka, Kabanos ] SUMA: 153.00 zl
+
+[KLIENT 41206] PARAGON: [ Piwo, Kabanos, Ser zolty, Proszek, Maslo, Domestos ] SUMA: 137.50 zl
+
+[KLIENT 41340] W kolejce do stacjonarnej 1
+
+[KLIENT 41341] W kolejce do stacjonarnej 1
+
+[KLIENT 41208] PARAGON: [ Whisky, Bulka, Ogorek, Ogorek, Domestos, Ser zolty, Kabanos, Mydlo ] SUMA: 187.90 zl
+
+[KLIENT 41210] PARAGON: [ Whisky, Ziemniak, Winogrono, Jablko, Piwo, Maslo ] SUMA: 105.90 zl
+
+[KLIENT 41209] PARAGON: [ Gruszka, Warzywa na patelnie, Ser zolty, Mydlo, Pomidor ] SUMA: 49.00 zl
+
+[KLIENT 41342] W kolejce do stacjonarnej 1
+
+[KLIENT 41343] W kolejce do stacjonarnej 1
+
+[KLIENT 41212] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 41211] PARAGON: [ Plyn do naczyn, Szynka, Paczek, Frytki, Ogorek, Pizza, Kabanos, Pizza ] SUMA: 165.50 zl
+
+[KLIENT 41344] W kolejce do stacjonarnej 1
+
+[KLIENT 41214] PARAGON: [ Maslo ] SUMA: 6.50 zl
+
+[KLIENT 41345] W kolejce do stacjonarnej 1
+
+[KLIENT 41346] W kolejce do stacjonarnej 1
+
+[KLIENT 41213] PARAGON: [ Warzywa na patelnie, Jablko, Kabanos, Ogorek, Szynka, Proszek, Kielbasa, Jablko, Ziemniak, Lody ] SUMA: 200.50 zl
+
+[KLIENT 41215] PARAGON: [ Jablko, Kielbasa, Jablko, Marchew ] SUMA: 37.50 zl
+
+[KLIENT 41348] W kolejce do stacjonarnej 1
+
+[KLIENT 41347] W kolejce do stacjonarnej 1
+
+[KLIENT 41216] PARAGON: [ Maslo, Jablko, Wodka, Marchew, Ser zolty, Marchew ] SUMA: 80.00 zl
+
+[KLIENT 41349] W kolejce do stacjonarnej 1
+
+[KLIENT 41217] PARAGON: [ Wodka, Plyn do naczyn ] SUMA: 48.00 zl
+
+[KLIENT 41218] PARAGON: [ Marchew, Jogurt, Winogrono, Lody, Wino, Winogrono, Lody ] SUMA: 84.20 zl
+
+[KLIENT 41350] W kolejce do stacjonarnej 1
+
+[KLIENT 41351] W kolejce do stacjonarnej 1
+
+[KLIENT 41352] W kolejce do stacjonarnej 1
+
+[KLIENT 41220] PARAGON: [ Boczek, Winogrono ] SUMA: 41.90 zl
+
+[KLIENT 41219] PARAGON: [ Szynka, Marchew, Whisky ] SUMA: 127.50 zl
+
+[KLIENT 41353] W kolejce do stacjonarnej 1
+
+[KLIENT 41354] W kolejce do stacjonarnej 1
+
+[KLIENT 41221] PARAGON: [ Kabanos, Ogorek, Kabanos, Bulka ] SUMA: 116.90 zl
+
+[KLIENT 41355] W kolejce do stacjonarnej 1
+
+[KLIENT 41222] PARAGON: [ Frytki, Bagietka, Wodka, Piwo, Proszek, Proszek, Paczek ] SUMA: 132.70 zl
+
+[KLIENT 41356] W kolejce do stacjonarnej 1
+
+[KLIENT 41223] PARAGON: [ Wodka, Ser zolty, Szynka, Szynka, Pizza ] SUMA: 173.00 zl
+
+[KLIENT 41224] PARAGON: [ Paczek, Wino, Kabanos, Frytki, Banan, Winogrono, Wodka ] SUMA: 154.60 zl
+
+[KLIENT 41357] W kolejce do stacjonarnej 1
+
+[KLIENT 41225] PARAGON: [ Proszek, Chleb, Szynka ] SUMA: 84.50 zl
+
+[KLIENT 41226] PARAGON: [ Piwo, Chleb, Frytki, Ser zolty, Banan, Wino, Ogorek, Boczek ] SUMA: 117.70 zl
+
+[KLIENT 41359] W kolejce do stacjonarnej 1
+
+[KLIENT 41358] W kolejce do stacjonarnej 1
+
+[KLIENT 41229] PARAGON: [ Ziemniak, Lody, Chleb, Mydlo, Pizza, Maslo, Domestos, Whisky, Chleb, Banan ] SUMA: 149.70 zl
+
+[KLIENT 41227] PARAGON: [ Pizza, Szynka, Marchew, Ziemniak, Ser zolty, Kielbasa, Ogorek, Mydlo, Chleb ] SUMA: 134.00 zl
+
+[KLIENT 41360] W kolejce do stacjonarnej 1
+
+[KLIENT 41361] W kolejce do stacjonarnej 1
+
+[KLIENT 41362] W kolejce do stacjonarnej 1
+
+[KLIENT 41228] PARAGON: [ Pomidor, Kabanos, Proszek, Wino, Maslo, Plyn do naczyn, Domestos, Whisky, Kabanos, Winogrono ] SUMA: 299.90 zl
+
+[KLIENT 41230] PARAGON: [ Kabanos, Domestos, Wino, Banan, Bulka, Marchew, Ogorek ] SUMA: 110.60 zl
+
+[KLIENT 41363] W kolejce do stacjonarnej 1
+
+[KLIENT 41232] PARAGON: [ Whisky, Ser zolty, Winogrono, Pomidor, Bagietka, Gruszka, Gruszka ] SUMA: 136.60 zl
+
+[KLIENT 41367] W kolejce do stacjonarnej 1
+
+[KLIENT 41364] W kolejce do stacjonarnej 1
+
+[KLIENT 41231] PARAGON: [ Gruszka, Jablko, Kielbasa, Marchew, Ser zolty, Winogrono, Kielbasa, Banan, Warzywa na patelnie ] SUMA: 113.60 zl
+
+[KLIENT 41234] PARAGON: [ Banan ] SUMA: 4.20 zl
+
+[KLIENT 41371] W kolejce do stacjonarnej 1
+
+[KLIENT 41233] PARAGON: [ Kabanos, Jablko, Jablko, Pomidor, Wodka, Mleko ] SUMA: 114.30 zl
+
+[KLIENT 41372] W kolejce do stacjonarnej 1
+
+[KLIENT 41240] PARAGON: [ Boczek, Bagietka, Mydlo, Boczek, Boczek, Kielbasa, Domestos, Ogorek, Winogrono, Banan ] SUMA: 162.30 zl
+
+[KLIENT 41373] W kolejce do stacjonarnej 1
+
+[KLIENT 41241] PARAGON: [ Paczek, Pizza, Piwo, Bulka, Ogorek, Maslo, Mleko, Chleb, Wodka, Jogurt ] SUMA: 89.10 zl
+
+[KLIENT 41374] W kolejce do stacjonarnej 1
+
+[KLIENT 41243] PARAGON: [ Warzywa na patelnie, Wodka ] SUMA: 47.50 zl
+
+[KLIENT 41375] W kolejce do stacjonarnej 1
+
+[KLIENT 41242] PARAGON: [ Frytki, Marchew, Winogrono, Mydlo ] SUMA: 27.40 zl
+
+[KLIENT 41376] W kolejce do stacjonarnej 1
+
+[KLIENT 41244] PARAGON: [ Chleb ] SUMA: 4.50 zl
+
+[KLIENT 41245] PARAGON: [ Kielbasa, Pizza ] SUMA: 46.00 zl
+
+[KLIENT 41377] W kolejce do stacjonarnej 1
+
+[KLIENT 41246] PARAGON: [ Wodka, Ser zolty, Ziemniak, Kielbasa, Jablko, Jablko ] SUMA: 102.00 zl
+
+[KLIENT 41378] W kolejce do stacjonarnej 1
+
+[KLIENT 41379] W kolejce do stacjonarnej 1
+
+[KLIENT 41247] PARAGON: [ Wodka, Ser zolty, Ziemniak, Kielbasa, Jablko, Jablko ] SUMA: 102.00 zl
+
+[KLIENT 41380] W kolejce do stacjonarnej 1
+
+[KLIENT 41248] PARAGON: [ Chleb, Pomidor, Bulka, Domestos, Domestos ] SUMA: 37.90 zl
+
+[KLIENT 41381] W kolejce do stacjonarnej 1
+
+[KLIENT 41249] PARAGON: [ Warzywa na patelnie, Plyn do naczyn, Wodka, Whisky ] SUMA: 135.50 zl
+
+[KLIENT 41250] PARAGON: [ Wodka ] SUMA: 40.00 zl
+
+[KLIENT 41382] W kolejce do stacjonarnej 1
+
+[KLIENT 41384] W kolejce do stacjonarnej 1
+
+[KLIENT 41251] PARAGON: [ Winogrono, Marchew, Wino, Ziemniak, Mydlo, Marchew ] SUMA: 49.90 zl
+
+[KLIENT 41383] W kolejce do stacjonarnej 1
+
+[KLIENT 41253] PARAGON: [ Domestos ] SUMA: 12.00 zl
+
+[KLIENT 41385] W kolejce do stacjonarnej 1
+
+[KLIENT 41386] W kolejce do stacjonarnej 1
+
+[KLIENT 41252] PARAGON: [ Pomidor, Wino, Bagietka, Lody ] SUMA: 56.70 zl
+
+[KLIENT 41254] PARAGON: [ Pizza, Marchew, Jogurt, Wodka, Ogorek, Ser zolty, Mydlo, Maslo ] SUMA: 102.90 zl
+
+[KLIENT 41255] PARAGON: [ Chleb, Mydlo, Ziemniak, Plyn do naczyn, Paczek, Piwo ] SUMA: 25.00 zl
+
+[KLIENT 41387] W kolejce do stacjonarnej 1
+
+[KLIENT 41257] PARAGON: [ Piwo, Chleb ] SUMA: 8.50 zl
+
+[KLIENT 41388] W kolejce do stacjonarnej 1
+
+[KLIENT 41256] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 41390] W kolejce do stacjonarnej 1
+
+[KLIENT 41389] W kolejce do stacjonarnej 1
+
+[KLIENT 41258] PARAGON: [ Marchew, Kielbasa, Jablko, Warzywa na patelnie, Banan, Proszek, Whisky, Ziemniak, Domestos ] SUMA: 174.70 zl
+
+[KLIENT 41392] W kolejce do stacjonarnej 1
+
+[KLIENT 41259] PARAGON: [ Marchew, Kielbasa, Paczek, Mydlo, Bagietka, Plyn do naczyn, Boczek ] SUMA: 80.20 zl
+
+[KLIENT 41391] W kolejce do stacjonarnej 1
+
+[KLIENT 41260] PARAGON: [ Pomidor, Piwo, Frytki, Chleb, Wodka, Chleb, Banan, Frytki, Wodka ] SUMA: 129.70 zl
+
+[KLIENT 41262] PARAGON: [ Wino, Piwo, Paczek, Wino, Bulka ] SUMA: 68.40 zl
+
+[KLIENT 41393] W kolejce do stacjonarnej 1
+
+[KLIENT 41261] PARAGON: [ Bulka, Maslo, Ziemniak, Paczek, Wodka ] SUMA: 52.90 zl
+
+[KLIENT 41394] W kolejce do stacjonarnej 1
+
+[KLIENT 41263] PARAGON: [ Frytki, Proszek, Pomidor, Pizza ] SUMA: 73.50 zl
+
+[KLIENT 41395] W kolejce do stacjonarnej 1
+
+[KLIENT 41264] PARAGON: [ Gruszka, Plyn do naczyn, Plyn do naczyn, Plyn do naczyn, Warzywa na patelnie, Plyn do naczyn, Kielbasa, Jablko, Ogorek ] SUMA: 82.00 zl
+
+[KLIENT 41397] W kolejce do stacjonarnej 1
+
+[KLIENT 41396] W kolejce do stacjonarnej 1
+
+[KLIENT 41265] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 41266] PARAGON: [ Ziemniak, Kabanos, Jogurt ] SUMA: 58.90 zl
+
+[KLIENT 41398] W kolejce do stacjonarnej 1
+
+[KLIENT 41267] PARAGON: [ Warzywa na patelnie, Ser zolty, Lody ] SUMA: 47.50 zl
+
+[KLIENT 41268] PARAGON: [ Banan, Piwo, Chleb, Maslo, Whisky, Marchew, Warzywa na patelnie, Ziemniak, Kabanos ] SUMA: 166.20 zl
+
+[KLIENT 41399] W kolejce do stacjonarnej 1
+
+[KLIENT 41400] W kolejce do stacjonarnej 1
+
+[KLIENT 41401] W kolejce do stacjonarnej 1
+
+[KLIENT 41269] PARAGON: [ Mydlo, Ogorek, Lody, Proszek, Wodka, Bagietka, Szynka, Proszek, Bagietka ] SUMA: 185.40 zl
+
+[KLIENT 41270] PARAGON: [ Boczek, Szynka, Bulka, Pizza, Maslo, Chleb, Boczek ] SUMA: 138.90 zl
+
+[KLIENT 41272] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41272] PARAGON: [ Boczek, Banan, Domestos, Jablko, Wino, Ogorek, Mydlo, Mydlo ] SUMA: 93.70 zl
+
+[KLIENT 41402] W kolejce do stacjonarnej 1
+
+[KLIENT 41271] PARAGON: [ Winogrono, Marchew, Kielbasa, Szynka ] SUMA: 85.40 zl
+
+[KLIENT 41403] W kolejce do stacjonarnej 1
+
+[KLIENT 41406] W kolejce do stacjonarnej 1
+
+[KLIENT 41275] PARAGON: [ Winogrono, Kabanos, Mydlo, Marchew, Gruszka ] SUMA: 75.40 zl
+
+[KLIENT 41404] W kolejce do stacjonarnej 1
+
+[KLIENT 41405] W kolejce do stacjonarnej 1
+
+[KLIENT 41274] PARAGON: [ Domestos, Ser zolty, Marchew, Ziemniak, Pizza, Pomidor, Gruszka, Wodka, Boczek, Bagietka ] SUMA: 148.20 zl
+
+[KLIENT 41273] PARAGON: [ Jablko, Bagietka, Gruszka ] SUMA: 11.70 zl
+
+[KLIENT 41407] W kolejce do stacjonarnej 1
+
+[KLIENT 41409] W kolejce do stacjonarnej 1
+
+[KLIENT 41276] PARAGON: [ Marchew, Jogurt, Piwo, Kielbasa, Plyn do naczyn, Ser zolty, Ogorek ] SUMA: 75.40 zl
+
+[KLIENT 41277] PARAGON: [ Plyn do naczyn, Kielbasa, Mydlo, Wino ] SUMA: 69.00 zl
+
+[KLIENT 41408] W kolejce do stacjonarnej 1
+
+[KLIENT 41278] PARAGON: [ Bulka, Piwo, Paczek, Marchew ] SUMA: 10.90 zl
+
+[KLIENT 41415] W kolejce do stacjonarnej 1
+
+[KLIENT 41279] PARAGON: [ Chleb ] SUMA: 4.50 zl
+
+[KLIENT 41417] W kolejce do stacjonarnej 1
+
+[KLIENT 41416] W kolejce do stacjonarnej 1
+
+[KLIENT 41280] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 41281] PARAGON: [ Szynka, Ser zolty, Mydlo, Lody, Ser zolty ] SUMA: 113.00 zl
+
+[KLIENT 41418] W kolejce do stacjonarnej 1
+
+[KLIENT 41288] PARAGON: [ Jogurt, Banan ] SUMA: 6.10 zl
+
+[KLIENT 41420] W kolejce do stacjonarnej 1
+
+[KLIENT 41419] W kolejce do stacjonarnej 1
+
+[KLIENT 41285] PARAGON: [ Jogurt, Banan ] SUMA: 6.10 zl
+
+[KLIENT 41421] W kolejce do stacjonarnej 1
+
+[KLIENT 41290] PARAGON: [ Maslo, Marchew, Pomidor, Wino, Boczek, Marchew, Bulka, Jogurt ] SUMA: 84.80 zl
+
+[KLIENT 41289] PARAGON: [ Jogurt, Mleko, Paczek, Paczek, Plyn do naczyn, Ser zolty, Jablko, Kabanos ] SUMA: 104.20 zl
+
+[KLIENT 41422] W kolejce do stacjonarnej 1
+
+[KLIENT 41291] PARAGON: [ Wino, Ser zolty, Domestos, Gruszka, Banan, Bulka, Winogrono, Mydlo, Proszek, Bagietka ] SUMA: 128.20 zl
+
+[KLIENT 41423] W kolejce do stacjonarnej 1
+
+[KLIENT 41292] PARAGON: [ Maslo, Warzywa na patelnie ] SUMA: 14.00 zl
+
+[KLIENT 41424] W kolejce do stacjonarnej 1
+
+[KLIENT 41425] W kolejce do stacjonarnej 1
+
+[KLIENT 41293] PARAGON: [ Frytki, Frytki, Ziemniak ] SUMA: 26.00 zl
+
+[KLIENT 41295] PARAGON: [ Jogurt, Banan ] SUMA: 6.10 zl
+
+[KLIENT 41426] W kolejce do stacjonarnej 1
+
+[KLIENT 41428] W kolejce do stacjonarnej 1
+
+[KLIENT 41294] PARAGON: [ Kabanos, Frytki, Pizza, Ogorek, Maslo, Winogrono, Banan ] SUMA: 111.60 zl
+
+[KLIENT 41427] W kolejce do stacjonarnej 1
+
+[KLIENT 41296] PARAGON: [ Pizza, Ser zolty, Jablko ] SUMA: 46.50 zl
+
+[KLIENT 41429] W kolejce do stacjonarnej 1
+
+[KLIENT 41297] PARAGON: [ Lody, Ogorek ] SUMA: 21.00 zl
+
+[KLIENT 41430] W kolejce do stacjonarnej 1
+
+[KLIENT 41298] PARAGON: [ Ogorek, Gruszka, Mleko, Bagietka, Maslo, Winogrono, Mleko ] SUMA: 38.20 zl
+
+[KLIENT 41299] PARAGON: [ Chleb, Proszek, Winogrono, Kielbasa, Gruszka, Ogorek, Warzywa na patelnie, Jablko, Whisky, Warzywa na patelnie ] SUMA: 186.90 zl
+
+[KLIENT 41301] PARAGON: [ Piwo, Maslo ] SUMA: 10.50 zl
+
+[KLIENT 41433] W kolejce do stacjonarnej 1
+
+[KLIENT 41431] W kolejce do stacjonarnej 1
+
+[KLIENT 41432] W kolejce do stacjonarnej 1
+
+[KLIENT 41300] PARAGON: [ Winogrono, Jablko, Pomidor, Ogorek, Marchew, Pizza, Pomidor ] SUMA: 56.90 zl
+
+[KLIENT 41434] W kolejce do stacjonarnej 1
+
+[KLIENT 41303] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[KLIENT 41302] PARAGON: [ Mleko ] SUMA: 3.80 zl
+
+[KLIENT 41436] W kolejce do stacjonarnej 1
+
+[KLIENT 41435] W kolejce do stacjonarnej 1
+
+[KLIENT 41304] PARAGON: [ Bagietka, Frytki, Marchew, Gruszka ] SUMA: 22.70 zl
+
+[KLIENT 41437] W kolejce do stacjonarnej 1
+
+[KLIENT 41305] PARAGON: [ Pizza ] SUMA: 18.00 zl
+
+[KLIENT 41306] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 41438] W kolejce do stacjonarnej 1
+
+[KLIENT 41439] W kolejce do stacjonarnej 1
+
+[KLIENT 41307] PARAGON: [ Lody, Bulka, Gruszka, Warzywa na patelnie, Wodka, Kielbasa, Banan ] SUMA: 100.60 zl
+
+[KLIENT 41440] W kolejce do stacjonarnej 1
+
+[KLIENT 41308] PARAGON: [ Szynka, Chleb, Boczek, Szynka, Kabanos, Szynka, Ser zolty, Maslo, Kielbasa ] SUMA: 286.00 zl
+
+[KLIENT 41441] W kolejce do stacjonarnej 1
+
+[KLIENT 41309] PARAGON: [ Pomidor, Piwo, Marchew, Marchew ] SUMA: 17.50 zl
+
+[KLIENT 41442] W kolejce do stacjonarnej 1
+
+[KLIENT 41310] PARAGON: [ Maslo, Ogorek, Boczek, Mydlo, Wodka, Wino, Ziemniak, Gruszka, Whisky ] SUMA: 204.50 zl
+
+[KLIENT 41311] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41444] W kolejce do stacjonarnej 1
+
+[KLIENT 41311] PARAGON: [ Pizza, Wodka, Piwo, Bulka, Domestos, Ziemniak, Winogrono ] SUMA: 86.80 zl
+
+[KLIENT 41443] W kolejce do stacjonarnej 1
+
+[KLIENT 41314] PARAGON: [ Boczek, Szynka ] SUMA: 77.00 zl
+
+[KLIENT 41445] W kolejce do stacjonarnej 1
+
+[KLIENT 41313] PARAGON: [ Kabanos ] SUMA: 55.00 zl
+
+[KLIENT 41312] PARAGON: [ Ser zolty, Kielbasa, Kielbasa, Szynka, Paczek, Banan ] SUMA: 133.70 zl
+
+[KLIENT 41446] W kolejce do stacjonarnej 1
+
+[KLIENT 41447] W kolejce do stacjonarnej 1
+
+[KLIENT 41316] PARAGON: [ Kielbasa ] SUMA: 28.00 zl
+
+[KLIENT 41315] PARAGON: [ Jablko, Bulka, Pomidor, Bulka, Banan ] SUMA: 18.00 zl
+
+[KLIENT 41448] W kolejce do stacjonarnej 1
+
+[KLIENT 41449] W kolejce do stacjonarnej 1
+
+[KLIENT 41317] PARAGON: [ Gruszka, Paczek ] SUMA: 8.50 zl
+
+[KLIENT 41318] PARAGON: [ Bagietka, Warzywa na patelnie, Ziemniak, Kabanos, Pizza, Frytki, Mleko, Jablko ] SUMA: 105.00 zl
+
+[KLIENT 41450] W kolejce do stacjonarnej 1
+
+[KLIENT 41319] PARAGON: [ Jablko, Maslo, Wodka ] SUMA: 50.00 zl
+
+[KLIENT 41455] W kolejce do stacjonarnej 1
+
+[KLIENT 41451] W kolejce do stacjonarnej 1
+
+[KLIENT 41321] PARAGON: [ Domestos, Piwo, Marchew, Frytki ] SUMA: 30.50 zl
+
+[KLIENT 41452] W kolejce do stacjonarnej 1
+
+[KLIENT 41320] PARAGON: [ Ogorek, Paczek, Whisky ] SUMA: 89.50 zl
+
+[KLIENT 41322] PARAGON: [ Kielbasa, Bagietka, Gruszka, Lody, Frytki, Domestos, Mydlo, Wodka ] SUMA: 118.20 zl
+
+[KLIENT 41323] PARAGON: [ Gruszka, Jablko ] SUMA: 8.50 zl
+
+[KLIENT 41460] W kolejce do stacjonarnej 1
+
+[KLIENT 41459] W kolejce do stacjonarnej 1
+
+[KLIENT 41462] W kolejce do stacjonarnej 1
+
+[KLIENT 41461] W kolejce do stacjonarnej 1
+
+[KLIENT 41324] PARAGON: [ Mydlo, Marchew, Szynka, Pomidor, Wodka, Szynka, Pomidor, Jogurt, Boczek ] SUMA: 186.40 zl
+
+[KLIENT 41330] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[KLIENT 41463] W kolejce do stacjonarnej 1
+
+[KLIENT 41331] PARAGON: [ Pizza, Gruszka, Paczek, Maslo, Warzywa na patelnie, Mleko, Jogurt, Paczek, Bulka ] SUMA: 50.60 zl
+
+[KLIENT 41464] W kolejce do stacjonarnej 1
+
+[KLIENT 41332] PARAGON: [ Ser zolty, Wodka, Ser zolty ] SUMA: 90.00 zl
+
+[KLIENT 41465] W kolejce do stacjonarnej 1
+
+[KLIENT 41333] PARAGON: [ Bagietka, Mydlo, Mleko, Bagietka ] SUMA: 13.20 zl
+
+[KLIENT 41466] W kolejce do stacjonarnej 1
+
+[KLIENT 41467] W kolejce do stacjonarnej 1
+
+[KLIENT 41334] PARAGON: [ Wodka, Wino, Jogurt, Ogorek ] SUMA: 77.90 zl
+
+[KLIENT 41335] PARAGON: [ Wodka, Wino, Jogurt, Ogorek ] SUMA: 77.90 zl
+
+[KLIENT 41469] W kolejce do stacjonarnej 1
+
+[KLIENT 41337] PARAGON: [ Winogrono ] SUMA: 9.90 zl
+
+[KLIENT 41468] W kolejce do stacjonarnej 1
+
+[KLIENT 41470] W kolejce do stacjonarnej 1
+
+[KLIENT 41336] PARAGON: [ Bulka, Szynka, Jablko, Winogrono, Szynka, Maslo, Ziemniak ] SUMA: 112.80 zl
+
+[KLIENT 41338] PARAGON: [ Kielbasa ] SUMA: 28.00 zl
+
+[KLIENT 41471] W kolejce do stacjonarnej 1
+
+[KLIENT 41339] PARAGON: [ Ogorek, Paczek, Warzywa na patelnie ] SUMA: 17.00 zl
+
+[KLIENT 41472] W kolejce do stacjonarnej 1
+
+[KLIENT 41340] PARAGON: [ Domestos, Marchew, Proszek ] SUMA: 49.50 zl
+
+[KLIENT 41473] W kolejce do stacjonarnej 1
+
+[KLIENT 41474] W kolejce do stacjonarnej 1
+
+[KLIENT 41341] PARAGON: [ Chleb, Banan, Jogurt, Jogurt, Ser zolty, Plyn do naczyn, Jablko, Banan ] SUMA: 53.20 zl
+
+[KLIENT 41342] PARAGON: [ Jogurt, Banan, Domestos, Pizza, Bagietka, Marchew, Kabanos, Wodka ] SUMA: 136.80 zl
+
+[KLIENT 41480] W kolejce do stacjonarnej 1
+
+[KLIENT 41343] PARAGON: [ Winogrono, Pomidor, Winogrono, Warzywa na patelnie, Ogorek ] SUMA: 41.80 zl
+
+[KLIENT 41481] W kolejce do stacjonarnej 1
+
+[KLIENT 41482] W kolejce do stacjonarnej 1
+
+[KLIENT 41344] PARAGON: [ Jablko, Bulka, Wodka, Lody, Warzywa na patelnie, Warzywa na patelnie, Whisky, Kielbasa ] SUMA: 182.40 zl
+
+[KLIENT 41345] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KLIENT 41346] PARAGON: [ Plyn do naczyn, Proszek, Bagietka, Whisky, Wino, Pizza, Winogrono, Mydlo, Boczek, Wodka ] SUMA: 259.10 zl
+
+[KLIENT 41483] W kolejce do stacjonarnej 1
+
+[KLIENT 41348] PARAGON: [ Frytki, Winogrono, Proszek, Ser zolty, Chleb, Mydlo, Mydlo, Jablko ] SUMA: 95.90 zl
+
+[KLIENT 41347] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41484] W kolejce do stacjonarnej 1
+
+[KLIENT 41347] PARAGON: [ Warzywa na patelnie, Wino, Pizza ] SUMA: 55.50 zl
+
+[KLIENT 41485] W kolejce do stacjonarnej 1
+
+[KLIENT 41349] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41349] PARAGON: [ Pizza, Proszek, Piwo, Bulka, Marchew ] SUMA: 60.40 zl
+
+[KLIENT 41491] W kolejce do stacjonarnej 1
+
+[KLIENT 41350] PARAGON: [ Mydlo ] SUMA: 3.00 zl
+
+[KLIENT 41492] W kolejce do stacjonarnej 1
+
+[KLIENT 41351] PARAGON: [ Bulka, Proszek, Banan, Wino, Paczek, Bagietka, Maslo, Boczek, Wino, Wino ] SUMA: 175.30 zl
+
+[KLIENT 41494] W kolejce do stacjonarnej 1
+
+[KLIENT 41352] PARAGON: [ Whisky, Ziemniak, Mleko, Proszek ] SUMA: 120.80 zl
+
+[KLIENT 41493] W kolejce do stacjonarnej 1
+
+[KLIENT 41353] PARAGON: [ Piwo, Gruszka, Boczek, Marchew, Winogrono ] SUMA: 53.40 zl
+
+[KLIENT 41495] W kolejce do stacjonarnej 1
+
+[KLIENT 41354] PARAGON: [ Domestos, Chleb, Ser zolty, Maslo ] SUMA: 48.00 zl
+
+[KLIENT 41497] W kolejce do stacjonarnej 1
+
+[KLIENT 41355] PARAGON: [ Boczek, Paczek ] SUMA: 35.50 zl
+
+[KLIENT 41496] W kolejce do stacjonarnej 1
+
+[KLIENT 41356] PARAGON: [ Bagietka, Chleb ] SUMA: 7.70 zl
+
+[KLIENT 41504] W kolejce do stacjonarnej 1
+
+[KLIENT 41498] W kolejce do stacjonarnej 1
+
+[KLIENT 41357] PARAGON: [ Ser zolty ] SUMA: 25.00 zl
+
+[KLIENT 41505] W kolejce do stacjonarnej 1
+
+[KLIENT 41359] PARAGON: [ Maslo, Piwo ] SUMA: 10.50 zl
+
+[KLIENT 41506] W kolejce do stacjonarnej 1
+
+[KLIENT 41358] PARAGON: [ Wodka, Bagietka, Jablko ] SUMA: 46.70 zl
+
+[KLIENT 41507] W kolejce do stacjonarnej 1
+
+[KLIENT 41360] PARAGON: [ Paczek, Mleko, Domestos, Proszek, Maslo, Chleb, Kielbasa, Marchew, Kabanos, Chleb ] SUMA: 155.30 zl
+
+[KLIENT 41361] PARAGON: [ Bulka, Piwo, Kielbasa, Ogorek, Piwo, Pizza, Winogrono, Piwo, Boczek, Lody ] SUMA: 121.80 zl
+
+[KLIENT 41508] W kolejce do stacjonarnej 1
+
+[KLIENT 41362] PARAGON: [ Winogrono, Pizza, Frytki, Proszek ] SUMA: 74.90 zl
+
+[KLIENT 41363] PARAGON: [ Maslo, Wodka, Bagietka ] SUMA: 49.70 zl
+
+[KLIENT 41509] W kolejce do stacjonarnej 1
+
+[KLIENT 41510] W kolejce do stacjonarnej 1
+
+[KLIENT 41367] PARAGON: [ Kielbasa, Wodka, Proszek, Gruszka ] SUMA: 108.00 zl
+
+[KLIENT 41511] W kolejce do stacjonarnej 1
+
+[KLIENT 41364] PARAGON: [ Gruszka, Proszek, Jogurt, Jogurt, Chleb, Wodka, Piwo, Jablko, Wodka ] SUMA: 135.80 zl
+
+[KLIENT 41517] W kolejce do stacjonarnej 1
+
+[KLIENT 41371] PARAGON: [ Warzywa na patelnie, Whisky, Warzywa na patelnie, Gruszka, Boczek, Boczek, Jogurt, Ogorek, Banan, Bagietka ] SUMA: 179.30 zl
+
+[KLIENT 41518] W kolejce do stacjonarnej 1
+
+[KLIENT 41519] W kolejce do stacjonarnej 1
+
+[KLIENT 41372] PARAGON: [ Domestos, Whisky, Frytki, Ogorek, Whisky ] SUMA: 190.00 zl
+
+[KLIENT 41373] PARAGON: [ Pizza, Kabanos, Plyn do naczyn, Proszek, Ziemniak ] SUMA: 118.00 zl
+
+[KLIENT 41521] W kolejce do stacjonarnej 1
+
+[KLIENT 41374] PARAGON: [ Piwo, Ogorek, Pomidor ] SUMA: 18.50 zl
+
+[KLIENT 41520] W kolejce do stacjonarnej 1
+
+[KLIENT 41522] W kolejce do stacjonarnej 1
+
+[KLIENT 41375] PARAGON: [ Wino, Kabanos, Szynka, Piwo, Lody ] SUMA: 149.00 zl
+
+[KLIENT 41376] PARAGON: [ Banan, Warzywa na patelnie, Bulka, Szynka, Bagietka, Bagietka, Gruszka, Mleko ] SUMA: 72.80 zl
+
+[KLIENT 41529] W kolejce do stacjonarnej 1
+
+[KLIENT 41523] W kolejce do stacjonarnej 1
+
+[KLIENT 41377] PARAGON: [ Bulka, Pomidor, Ser zolty ] SUMA: 34.40 zl
+
+[KLIENT 41530] W kolejce do stacjonarnej 1
+
+[KLIENT 41378] PARAGON: [ Proszek, Boczek, Warzywa na patelnie, Jablko, Szynka, Pomidor ] SUMA: 131.50 zl
+
+[KLIENT 41532] W kolejce do stacjonarnej 1
+
+[KLIENT 41531] W kolejce do stacjonarnej 1
+
+[KLIENT 41379] PARAGON: [ Banan, Warzywa na patelnie, Bulka, Szynka, Bagietka, Bagietka, Gruszka, Mleko ] SUMA: 72.80 zl
+
+[KLIENT 41533] W kolejce do stacjonarnej 1
+
+[KLIENT 41380] PARAGON: [ Jablko, Jogurt, Plyn do naczyn, Jogurt, Kielbasa, Maslo, Lody, Mydlo, Ser zolty ] SUMA: 92.80 zl
+
+[KLIENT 41381] PARAGON: [ Maslo, Domestos, Bulka ] SUMA: 19.40 zl
+
+[KLIENT 41535] W kolejce do stacjonarnej 1
+
+[KLIENT 41382] PARAGON: [ Gruszka, Pomidor, Boczek, Maslo, Kielbasa, Wino, Jablko, Plyn do naczyn ] SUMA: 121.50 zl
+
+[KLIENT 41534] W kolejce do stacjonarnej 1
+
+[KLIENT 41544] W kolejce do stacjonarnej 1
+
+[KLIENT 41384] PARAGON: [ Wodka, Kielbasa, Piwo, Banan ] SUMA: 76.20 zl
+
+[KLIENT 41383] PARAGON: [ Pomidor, Kabanos, Piwo, Proszek, Ogorek, Pomidor ] SUMA: 117.00 zl
+
+[KLIENT 41545] W kolejce do stacjonarnej 1
+
+[KLIENT 41385] PARAGON: [ Whisky, Pizza, Mydlo, Plyn do naczyn ] SUMA: 109.00 zl
+
+[KLIENT 41386] PARAGON: [ Whisky, Mydlo, Maslo, Mleko, Warzywa na patelnie, Domestos, Mleko, Ziemniak ] SUMA: 118.60 zl
+
+[KLIENT 41387] PARAGON: [ Pizza, Whisky, Gruszka, Kabanos ] SUMA: 158.00 zl
+
+[KLIENT 41547] W kolejce do stacjonarnej 1
+
+[KLIENT 41548] W kolejce do stacjonarnej 1
+
+[KLIENT 41546] W kolejce do stacjonarnej 1
+
+[KLIENT 41388] PARAGON: [ Maslo, Gruszka, Szynka, Mleko, Pomidor, Wino, Chleb, Domestos, Kabanos, Pizza ] SUMA: 188.30 zl
+
+[KLIENT 41549] W kolejce do stacjonarnej 1
+
+[KLIENT 41390] PARAGON: [ Mleko, Paczek, Maslo, Ser zolty, Kabanos, Chleb, Kielbasa, Chleb ] SUMA: 130.80 zl
+
+[KLIENT 41389] PARAGON: [ Lody, Pomidor, Ser zolty, Boczek, Pizza, Domestos, Kielbasa, Warzywa na patelnie, Lody ] SUMA: 161.00 zl
+
+[KLIENT 41550] W kolejce do stacjonarnej 1
+
+[KLIENT 41392] PARAGON: [ Winogrono, Kielbasa, Piwo, Pomidor, Pizza, Frytki, Lody ] SUMA: 95.40 zl
+
+[KLIENT 41551] W kolejce do stacjonarnej 1
+
+[KLIENT 41391] PARAGON: [ Bagietka, Plyn do naczyn, Szynka, Piwo, Lody, Frytki, Paczek, Pomidor, Marchew ] SUMA: 101.70 zl
+
+[KLIENT 41559] W kolejce do stacjonarnej 1
+
+[KLIENT 41393] PARAGON: [ Pizza, Ziemniak, Piwo, Whisky, Piwo, Mleko, Bulka, Wodka, Ser zolty ] SUMA: 177.70 zl
+
+[KLIENT 41557] W kolejce do stacjonarnej 1
+
+[KLIENT 41558] W kolejce do stacjonarnej 1
+
+[KLIENT 41394] PARAGON: [ Ziemniak, Pomidor, Jablko, Ogorek, Kielbasa, Gruszka, Wodka, Domestos ] SUMA: 105.00 zl
+
+[KLIENT 41395] PARAGON: [ Mleko, Szynka, Pomidor, Bagietka ] SUMA: 60.50 zl
+
+[KLIENT 41560] W kolejce do stacjonarnej 1
+
+[KLIENT 41562] W kolejce do stacjonarnej 1
+
+[KLIENT 41397] PARAGON: [ Maslo, Wodka, Lody ] SUMA: 61.50 zl
+
+[KLIENT 41561] W kolejce do stacjonarnej 1
+
+[KLIENT 41396] PARAGON: [ Pomidor, Proszek, Pizza, Ogorek, Marchew, Piwo, Mydlo, Pomidor, Mydlo ] SUMA: 88.50 zl
+
+[KLIENT 41398] PARAGON: [ Ogorek, Jablko ] SUMA: 9.50 zl
+
+[KLIENT 41563] W kolejce do stacjonarnej 1
+
+[KLIENT 41564] W kolejce do stacjonarnej 1
+
+[KLIENT 41399] PARAGON: [ Ser zolty, Piwo, Bagietka, Bagietka, Whisky, Winogrono, Pizza, Wino ] SUMA: 173.30 zl
+
+[KLIENT 41400] PARAGON: [ Ziemniak, Frytki ] SUMA: 14.00 zl
+
+[KLIENT 41570] W kolejce do stacjonarnej 1
+
+[KLIENT 41401] PARAGON: [ Kielbasa, Bulka, Paczek, Domestos, Jogurt, Jogurt, Ser zolty ] SUMA: 73.20 zl
+
+[KLIENT 41571] W kolejce do stacjonarnej 1
+
+[KLIENT 41402] PARAGON: [ Paczek, Jogurt, Marchew, Szynka, Ser zolty, Jablko, Banan, Maslo ] SUMA: 92.10 zl
+
+[KLIENT 41574] W kolejce do stacjonarnej 1
+
+[KLIENT 41573] W kolejce do stacjonarnej 1
+
+[KLIENT 41403] PARAGON: [ Plyn do naczyn, Kielbasa, Jogurt, Whisky, Maslo, Banan, Jablko, Wodka ] SUMA: 172.10 zl
+
+[KLIENT 41572] W kolejce do stacjonarnej 1
+
+[KLIENT 41406] PARAGON: [ Banan, Frytki, Domestos, Frytki, Boczek ] SUMA: 72.20 zl
+
+[KLIENT 41575] W kolejce do stacjonarnej 1
+
+[KLIENT 41404] PARAGON: [ Szynka, Maslo, Bulka, Kielbasa, Mydlo, Marchew, Ziemniak, Lody, Bulka, Proszek ] SUMA: 138.80 zl
+
+[KLIENT 41405] PARAGON: [ Kielbasa, Ziemniak ] SUMA: 30.00 zl
+
+[KLIENT 41576] W kolejce do stacjonarnej 1
+
+[KLIENT 41577] W kolejce do stacjonarnej 1
+
+[KLIENT 41407] PARAGON: [ Plyn do naczyn, Kabanos, Kabanos ] SUMA: 118.00 zl
+
+[KLIENT 41578] W kolejce do stacjonarnej 1
+
+[KLIENT 41409] PARAGON: [ Banan, Pomidor, Kielbasa, Paczek, Bulka, Lody ] SUMA: 60.10 zl
+
+[KLIENT 41408] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41579] W kolejce do stacjonarnej 1
+
+[KLIENT 41408] PARAGON: [ Piwo, Paczek, Plyn do naczyn, Whisky, Kabanos, Warzywa na patelnie ] SUMA: 158.00 zl
+
+[KLIENT 41580] W kolejce do stacjonarnej 1
+
+[KLIENT 41415] PARAGON: [ Maslo, Lody, Winogrono, Ogorek, Marchew, Szynka, Jablko, Paczek ] SUMA: 91.90 zl
+
+[KLIENT 41417] PARAGON: [ Lody ] SUMA: 15.00 zl
+
+[KLIENT 41581] W kolejce do stacjonarnej 1
+
+[KLIENT 41587] W kolejce do stacjonarnej 1
+
+[KLIENT 41416] PARAGON: [ Boczek, Proszek, Jablko, Ser zolty ] SUMA: 95.50 zl
+
+[KLIENT 41588] W kolejce do stacjonarnej 1
+
+[KLIENT 41418] PARAGON: [ Szynka, Warzywa na patelnie, Kielbasa, Wodka, Gruszka ] SUMA: 125.50 zl
+
+[KLIENT 41420] PARAGON: [ Kielbasa, Frytki, Warzywa na patelnie, Jogurt, Wodka, Bagietka, Bulka ] SUMA: 93.50 zl
+
+[KLIENT 41589] W kolejce do stacjonarnej 1
+
+[KLIENT 41590] W kolejce do stacjonarnej 1
+
+[KLIENT 41419] PARAGON: [ Boczek, Bulka, Mleko, Boczek, Chleb, Wodka, Plyn do naczyn, Bulka, Boczek ] SUMA: 154.10 zl
+
+[KLIENT 41591] W kolejce do stacjonarnej 1
+
+[KLIENT 41421] PARAGON: [ Kielbasa, Frytki, Warzywa na patelnie, Jogurt, Wodka, Bagietka, Bulka ] SUMA: 93.50 zl
+
+[KLIENT 41592] W kolejce do stacjonarnej 1
+
+[KLIENT 41422] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 41423] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41423] PARAGON: [ Whisky, Wodka, Wodka, Wino, Ogorek, Marchew, Maslo, Wino, Ziemniak ] SUMA: 237.00 zl
+
+[KLIENT 41598] W kolejce do stacjonarnej 1
+
+[KLIENT 41424] PARAGON: [ Szynka, Ser zolty, Maslo, Pizza ] SUMA: 94.50 zl
+
+[KLIENT 41599] W kolejce do stacjonarnej 1
+
+[KLIENT 41425] PARAGON: [ Bagietka, Ser zolty, Paczek ] SUMA: 31.70 zl
+
+[KLIENT 41600] W kolejce do stacjonarnej 1
+
+[KLIENT 41426] PARAGON: [ Domestos, Ser zolty ] SUMA: 37.00 zl
+
+[KLIENT 41601] W kolejce do stacjonarnej 1
+
+[KLIENT 41428] PARAGON: [ Mydlo, Bulka, Ser zolty ] SUMA: 28.90 zl
+
+[KLIENT 41602] W kolejce do stacjonarnej 1
+
+[KLIENT 41608] W kolejce do stacjonarnej 1
+
+[KLIENT 41609] W kolejce do stacjonarnej 1
+
+[KLIENT 41427] PARAGON: [ Kielbasa, Domestos, Bulka, Ogorek, Maslo, Piwo ] SUMA: 57.40 zl
+
+[KLIENT 41610] W kolejce do stacjonarnej 1
+
+[KLIENT 41429] PARAGON: [ Winogrono ] SUMA: 9.90 zl
+
+[KLIENT 41611] W kolejce do stacjonarnej 1
+
+[KLIENT 41430] PARAGON: [ Kielbasa ] SUMA: 28.00 zl
+
+[KLIENT 41617] W kolejce do stacjonarnej 1
+
+[KLIENT 41433] PARAGON: [ Boczek, Jablko, Kielbasa, Lody, Mleko, Chleb, Gruszka, Kielbasa, Szynka, Piwo ] SUMA: 168.80 zl
+
+[KLIENT 41431] PARAGON: [ Paczek, Kabanos, Bulka, Pizza, Kabanos, Ser zolty, Frytki, Wino, Szynka ] SUMA: 244.40 zl
+
+[KLIENT 41432] PARAGON: [ Marchew, Domestos, Ziemniak, Plyn do naczyn, Ziemniak, Warzywa na patelnie, Jogurt, Frytki, Ser zolty ] SUMA: 72.90 zl
+
+[KLIENT 41434] PARAGON: [ Proszek ] SUMA: 35.00 zl
+
+[KLIENT 41618] W kolejce do stacjonarnej 1
+
+[KLIENT 41619] W kolejce do stacjonarnej 1
+
+[KLIENT 41621] W kolejce do stacjonarnej 1
+
+[KLIENT 41436] PARAGON: [ Proszek, Ziemniak, Szynka, Bulka, Maslo ] SUMA: 89.40 zl
+
+[KLIENT 41620] W kolejce do stacjonarnej 1
+
+[KLIENT 41435] PARAGON: [ Mydlo, Banan, Ogorek, Lody, Whisky, Gruszka, Chleb, Banan ] SUMA: 121.90 zl
+
+[KLIENT 41437] PARAGON: [ Bagietka, Proszek ] SUMA: 38.20 zl
+
+[KLIENT 41628] W kolejce do stacjonarnej 1
+
+[KLIENT 41622] W kolejce do stacjonarnej 1
+
+[KLIENT 41438] PARAGON: [ Mleko, Pomidor, Wino, Kielbasa ] SUMA: 70.30 zl
+
+[KLIENT 41629] W kolejce do stacjonarnej 1
+
+[KLIENT 41439] PARAGON: [ Chleb ] SUMA: 4.50 zl
+
+[KLIENT 41631] W kolejce do stacjonarnej 1
+
+[KLIENT 41440] PARAGON: [ Kielbasa, Warzywa na patelnie ] SUMA: 35.50 zl
+
+[KLIENT 41632] W kolejce do stacjonarnej 1
+
+[KLIENT 41441] PARAGON: [ Chleb, Chleb, Bagietka, Banan, Warzywa na patelnie, Bagietka, Domestos, Kielbasa, Maslo ] SUMA: 73.60 zl
+
+[KLIENT 41442] PARAGON: [ Maslo, Frytki, Ziemniak, Pizza, Plyn do naczyn, Ser zolty, Frytki, Boczek ] SUMA: 115.50 zl
+
+[KLIENT 41633] W kolejce do stacjonarnej 1
+
+[KLIENT 41635] W kolejce do stacjonarnej 1
+
+[KLIENT 41634] W kolejce do stacjonarnej 1
+
+[KLIENT 41444] PARAGON: [ Kielbasa, Jogurt, Mleko, Ogorek, Gruszka, Lody, Szynka, Ogorek, Marchew ] SUMA: 113.20 zl
+
+[KLIENT 41443] PARAGON: [ Bulka, Mleko, Bagietka, Maslo ] SUMA: 14.40 zl
+
+[KLIENT 41445] PARAGON: [ Warzywa na patelnie, Jablko, Bagietka, Plyn do naczyn, Gruszka, Piwo, Mleko, Pomidor, Chleb ] SUMA: 48.00 zl
+
+[KLIENT 41636] W kolejce do stacjonarnej 1
+
+[KLIENT 41643] W kolejce do stacjonarnej 1
+
+[KLIENT 41446] PARAGON: [ Frytki, Warzywa na patelnie, Whisky, Wodka, Paczek, Pizza, Warzywa na patelnie, Domestos, Wodka, Frytki ] SUMA: 232.50 zl
+
+[KLIENT 41642] W kolejce do stacjonarnej 1
+
+[KLIENT 41447] PARAGON: [ Pizza, Ser zolty, Warzywa na patelnie, Chleb, Ser zolty, Pomidor, Ogorek, Plyn do naczyn ] SUMA: 102.50 zl
+
+[KLIENT 41448] PARAGON: [ Gruszka, Domestos, Plyn do naczyn, Kielbasa, Whisky, Maslo, Mydlo ] SUMA: 142.50 zl
+
+[KLIENT 41645] W kolejce do stacjonarnej 1
+
+[KLIENT 41644] W kolejce do stacjonarnej 1
+
+[KLIENT 41449] PARAGON: [ Szynka, Frytki, Chleb, Wino, Chleb, Ziemniak, Jablko, Mydlo, Pomidor, Banan ] SUMA: 117.20 zl
+
+[KLIENT 41450] PARAGON: [ Warzywa na patelnie, Mleko, Paczek, Chleb, Wodka, Boczek ] SUMA: 91.30 zl
+
+[KLIENT 41646] W kolejce do stacjonarnej 1
+
+[KLIENT 41455] PARAGON: [ Plyn do naczyn ] SUMA: 8.00 zl
+
+[KLIENT 41652] W kolejce do stacjonarnej 1
+
+[KLIENT 41451] PARAGON: [ Domestos, Jogurt, Kielbasa, Boczek ] SUMA: 73.90 zl
+
+[KLIENT 41654] W kolejce do stacjonarnej 1
+
+[KLIENT 41452] PARAGON: [ Bulka, Lody, Mydlo, Gruszka, Ser zolty, Piwo, Wino, Chleb, Boczek, Jogurt ] SUMA: 121.30 zl
+
+[KLIENT 41653] W kolejce do stacjonarnej 1
+
+[KLIENT 41460] PARAGON: [ Mleko, Kielbasa, Jogurt, Gruszka, Proszek, Mleko, Wino, Maslo, Maslo, Wino ] SUMA: 150.50 zl
+
+[KLIENT 41459] PARAGON: [ Boczek, Bagietka, Whisky, Wodka, Warzywa na patelnie, Jablko, Maslo, Mydlo ] SUMA: 175.70 zl
+
+[KLIENT 41657] W kolejce do stacjonarnej 1
+
+[KLIENT 41655] W kolejce do stacjonarnej 1
+
+[KLIENT 41462] PARAGON: [ Chleb, Wino, Proszek, Chleb, Ogorek, Boczek, Warzywa na patelnie, Jablko, Winogrono ] SUMA: 132.90 zl
+
+[KLIENT 41658] W kolejce do stacjonarnej 1
+
+[KLIENT 41656] W kolejce do stacjonarnej 1
+
+[KLIENT 41461] PARAGON: [ Pomidor, Gruszka ] SUMA: 13.50 zl
+
+[KLIENT 41463] PARAGON: [ Ser zolty, Domestos, Kielbasa, Jogurt, Lody, Lody ] SUMA: 96.90 zl
+
+[KLIENT 41664] W kolejce do stacjonarnej 1
+
+[KLIENT 41666] W kolejce do stacjonarnej 1
+
+[KLIENT 41464] PARAGON: [ Pizza, Ser zolty, Warzywa na patelnie, Chleb, Ser zolty, Pomidor, Ogorek, Plyn do naczyn ] SUMA: 102.50 zl
+
+[KLIENT 41465] PARAGON: [ Frytki, Warzywa na patelnie, Whisky, Wodka, Paczek, Pizza, Warzywa na patelnie, Domestos, Wodka, Frytki ] SUMA: 232.50 zl
+
+[KLIENT 41665] W kolejce do stacjonarnej 1
+
+[KLIENT 41667] W kolejce do stacjonarnej 1
+
+[KLIENT 41466] PARAGON: [ Warzywa na patelnie, Jablko, Bagietka, Plyn do naczyn, Gruszka, Piwo, Mleko, Pomidor, Chleb ] SUMA: 48.00 zl
+
+[KLIENT 41467] PARAGON: [ Kielbasa, Jogurt, Mleko, Ogorek, Gruszka, Lody, Szynka, Ogorek, Marchew ] SUMA: 113.20 zl
+
+[KLIENT 41668] W kolejce do stacjonarnej 1
+
+[KLIENT 41469] PARAGON: [ Maslo, Frytki, Ziemniak, Pizza, Plyn do naczyn, Ser zolty, Frytki, Boczek ] SUMA: 115.50 zl
+
+[KLIENT 41669] W kolejce do stacjonarnej 1
+
+[KLIENT 41468] PARAGON: [ Bulka, Mleko, Bagietka, Maslo ] SUMA: 14.40 zl
+
+[KLIENT 41670] W kolejce do stacjonarnej 1
+
+[KLIENT 41671] W kolejce do stacjonarnej 1
+
+[KLIENT 41470] PARAGON: [ Chleb, Chleb, Bagietka, Banan, Warzywa na patelnie, Bagietka, Domestos, Kielbasa, Maslo ] SUMA: 73.60 zl
+
+[KLIENT 41471] PARAGON: [ Kielbasa, Warzywa na patelnie ] SUMA: 35.50 zl
+
+[KLIENT 41677] W kolejce do stacjonarnej 1
+
+[KLIENT 41472] PARAGON: [ Warzywa na patelnie, Whisky ] SUMA: 87.50 zl
+
+[KLIENT 41678] W kolejce do stacjonarnej 1
+
+[KLIENT 41679] W kolejce do stacjonarnej 1
+
+[KLIENT 41473] PARAGON: [ Chleb, Paczek, Piwo ] SUMA: 12.00 zl
+
+[KLIENT 41474] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41681] W kolejce do stacjonarnej 1
+
+[KLIENT 41680] W kolejce do stacjonarnej 1
+
+[KLIENT 41474] PARAGON: [ Bulka, Plyn do naczyn, Ziemniak ] SUMA: 10.90 zl
+
+[KLIENT 41480] PARAGON: [ Lody, Proszek, Wodka, Bulka, Ziemniak, Gruszka ] SUMA: 97.90 zl
+
+[KLIENT 41481] PARAGON: [ Lody, Proszek, Wodka, Bulka, Ziemniak, Gruszka ] SUMA: 97.90 zl
+
+[KLIENT 41683] W kolejce do stacjonarnej 1
+
+[KLIENT 41682] W kolejce do stacjonarnej 1
+
+[KLIENT 41482] PARAGON: [ Plyn do naczyn, Pizza ] SUMA: 26.00 zl
+
+[KLIENT 41483] PARAGON: [ Ogorek, Proszek ] SUMA: 41.00 zl
+
+[KLIENT 41684] W kolejce do stacjonarnej 1
+
+[KLIENT 41484] PARAGON: [ Mleko, Paczek, Banan ] SUMA: 11.50 zl
+
+[KLIENT 41691] W kolejce do stacjonarnej 1
+
+[KLIENT 41690] W kolejce do stacjonarnej 1
+
+[KLIENT 41485] PARAGON: [ Ser zolty ] SUMA: 25.00 zl
+
+[KLIENT 41693] W kolejce do stacjonarnej 1
+
+[KLIENT 41491] PARAGON: [ Pomidor, Warzywa na patelnie, Kabanos, Mleko, Proszek, Bulka, Whisky, Wodka, Warzywa na patelnie ] SUMA: 238.20 zl
+
+[KLIENT 41692] W kolejce do stacjonarnej 1
+
+[KLIENT 41492] PARAGON: [ Pizza, Boczek, Frytki, Ziemniak, Pizza, Maslo ] SUMA: 88.50 zl
+
+[KLIENT 41494] PARAGON: [ Kabanos, Ziemniak, Plyn do naczyn, Chleb, Bagietka, Domestos, Jogurt ] SUMA: 86.60 zl
+
+[KLIENT 41694] W kolejce do stacjonarnej 1
+
+[KLIENT 41493] PARAGON: [ Plyn do naczyn, Proszek, Marchew, Wodka, Bagietka, Domestos, Plyn do naczyn, Ser zolty, Plyn do naczyn, Jogurt ] SUMA: 143.60 zl
+
+[KLIENT 41695] W kolejce do stacjonarnej 1
+
+[KLIENT 41701] W kolejce do stacjonarnej 1
+
+[KLIENT 41495] PARAGON: [ Pizza, Boczek, Frytki, Ziemniak, Pizza, Maslo ] SUMA: 88.50 zl
+
+[KLIENT 41702] W kolejce do stacjonarnej 1
+
+[KLIENT 41703] W kolejce do stacjonarnej 1
+
+[KLIENT 41497] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[KLIENT 41496] PARAGON: [ Jablko, Lody, Boczek, Kielbasa, Banan, Warzywa na patelnie, Pomidor, Marchew, Lody, Winogrono ] SUMA: 126.10 zl
+
+[KLIENT 41704] W kolejce do stacjonarnej 1
+
+[KLIENT 41504] PARAGON: [ Domestos, Warzywa na patelnie, Pomidor ] SUMA: 28.00 zl
+
+[KLIENT 41705] W kolejce do stacjonarnej 1
+
+[KLIENT 41498] PARAGON: [ Kabanos, Kielbasa, Mleko, Frytki, Kielbasa, Mleko, Frytki, Szynka ] SUMA: 187.60 zl
+
+[KLIENT 41505] PARAGON: [ Domestos, Warzywa na patelnie, Pomidor ] SUMA: 28.00 zl
+
+[KLIENT 41711] W kolejce do stacjonarnej 1
+
+[KLIENT 41506] PARAGON: [ Domestos, Maslo, Ziemniak ] SUMA: 20.50 zl
+
+[KLIENT 41712] W kolejce do stacjonarnej 1
+
+[KLIENT 41713] W kolejce do stacjonarnej 1
+
+[KLIENT 41714] W kolejce do stacjonarnej 1
+
+[KLIENT 41507] PARAGON: [ Kielbasa, Marchew, Piwo, Domestos, Boczek, Wino ] SUMA: 108.50 zl
+
+[KLIENT 41718] W kolejce do stacjonarnej 1
+
+[KLIENT 41508] PARAGON: [ Whisky, Banan, Banan, Szynka, Pizza, Ogorek, Szynka, Plyn do naczyn ] SUMA: 210.40 zl
+
+[KLIENT 41724] W kolejce do stacjonarnej 1
+
+[KLIENT 41509] PARAGON: [ Chleb, Bulka, Gruszka, Chleb, Gruszka, Boczek, Szynka, Mydlo, Whisky, Ziemniak ] SUMA: 181.90 zl
+
+[KLIENT 41510] PARAGON: [ Wino, Plyn do naczyn, Warzywa na patelnie, Bulka, Lody, Jablko, Piwo, Pizza, Domestos, Winogrono ] SUMA: 108.80 zl
+
+[KLIENT 41725] W kolejce do stacjonarnej 1
+
+[KLIENT 41511] PARAGON: [ Kielbasa, Pomidor, Marchew, Banan, Kielbasa, Wino, Ziemniak, Wodka ] SUMA: 143.20 zl
+
+[KLIENT 41728] W kolejce do stacjonarnej 1
+
+[KLIENT 41517] PARAGON: [ Kabanos, Mleko, Szynka, Winogrono, Banan, Boczek, Mydlo ] SUMA: 152.90 zl
+
+[KLIENT 41729] W kolejce do stacjonarnej 1
+
+[KLIENT 41518] PARAGON: [ Frytki, Chleb, Paczek, Ziemniak, Ser zolty ] SUMA: 47.00 zl
+
+[KLIENT 41519] PARAGON: [ Paczek, Ziemniak, Pomidor ] SUMA: 14.00 zl
+
+[KLIENT 41730] W kolejce do stacjonarnej 1
+
+[KLIENT 41732] W kolejce do stacjonarnej 1
+
+[KLIENT 41521] PARAGON: [ Kabanos, Whisky, Szynka ] SUMA: 180.00 zl
+
+[KLIENT 41731] W kolejce do stacjonarnej 1
+
+[KLIENT 41520] PARAGON: [ Ziemniak, Kielbasa ] SUMA: 30.00 zl
+
+[KLIENT 41738] W kolejce do stacjonarnej 1
+
+[KLIENT 41739] W kolejce do stacjonarnej 1
+
+[KLIENT 41522] PARAGON: [ Paczek, Ziemniak, Proszek, Kabanos, Mydlo, Lody ] SUMA: 113.50 zl
+
+[KLIENT 41529] PARAGON: [ Gruszka, Gruszka ] SUMA: 10.00 zl
+
+[KLIENT 41741] W kolejce do stacjonarnej 1
+
+[KLIENT 41523] PARAGON: [ Pomidor, Frytki ] SUMA: 20.50 zl
+
+[KLIENT 41740] W kolejce do stacjonarnej 1
+
+[KLIENT 41530] PARAGON: [ Gruszka, Proszek, Ziemniak, Marchew, Plyn do naczyn, Winogrono, Kielbasa, Ser zolty, Ziemniak ] SUMA: 117.40 zl
+
+[KLIENT 41532] PARAGON: [ Domestos, Pomidor ] SUMA: 20.50 zl
+
+[KLIENT 41743] W kolejce do stacjonarnej 1
+
+[KLIENT 41742] W kolejce do stacjonarnej 1
+
+[KLIENT 41531] PARAGON: [ Pizza, Banan, Frytki, Gruszka, Marchew ] SUMA: 41.70 zl
+
+[KLIENT 41533] PARAGON: [ Proszek, Szynka, Kabanos, Chleb, Mydlo ] SUMA: 142.50 zl
+
+[KLIENT 41744] W kolejce do stacjonarnej 1
+
+[KLIENT 41535] PARAGON: [ Jogurt, Kielbasa, Jogurt, Szynka, Mydlo, Mydlo, Jablko, Frytki ] SUMA: 98.30 zl
+
+[KLIENT 41751] W kolejce do stacjonarnej 1
+
+[KLIENT 41750] W kolejce do stacjonarnej 1
+
+[KLIENT 41534] PARAGON: [ Boczek, Paczek, Ziemniak, Chleb ] SUMA: 42.00 zl
+
+[KLIENT 41544] PARAGON: [ Wino, Gruszka, Lody, Warzywa na patelnie, Szynka, Whisky ] SUMA: 182.50 zl
+
+[KLIENT 41752] W kolejce do stacjonarnej 1
+
+[KLIENT 41545] PARAGON: [ Piwo, Pomidor, Maslo, Plyn do naczyn, Boczek, Banan, Marchew ] SUMA: 65.70 zl
+
+[KLIENT 41547] PARAGON: [ Jablko, Boczek, Warzywa na patelnie ] SUMA: 43.00 zl
+
+[KLIENT 41753] W kolejce do stacjonarnej 1
+
+[KLIENT 41754] W kolejce do stacjonarnej 1
+
+[KLIENT 41548] PARAGON: [ Warzywa na patelnie, Winogrono, Ziemniak, Bulka, Wodka, Kabanos ] SUMA: 115.30 zl
+
+[KLIENT 41756] W kolejce do stacjonarnej 1
+
+[KLIENT 41546] PARAGON: [ Pomidor, Marchew, Chleb, Boczek, Maslo, Ogorek ] SUMA: 60.00 zl
+
+[KLIENT 41757] W kolejce do stacjonarnej 1
+
+[KLIENT 41755] W kolejce do stacjonarnej 1
+
+[KLIENT 41549] PARAGON: [ Kielbasa, Jogurt, Bagietka, Pizza, Whisky, Lody, Pomidor, Plyn do naczyn ] SUMA: 162.60 zl
+
+[KLIENT 41550] PARAGON: [ Kabanos, Kielbasa, Bulka, Proszek ] SUMA: 118.90 zl
+
+[KLIENT 41763] W kolejce do stacjonarnej 1
+
+[KLIENT 41551] PARAGON: [ Gruszka, Wino, Marchew, Chleb ] SUMA: 42.00 zl
+
+[KLIENT 41765] W kolejce do stacjonarnej 1
+
+[KLIENT 41766] W kolejce do stacjonarnej 1
+
+[KLIENT 41559] PARAGON: [ Kielbasa, Gruszka, Piwo, Szynka, Bagietka ] SUMA: 85.20 zl
+
+[KLIENT 41764] W kolejce do stacjonarnej 1
+
+[KLIENT 41557] PARAGON: [ Ser zolty, Ziemniak, Wodka, Jablko ] SUMA: 70.50 zl
+
+[KLIENT 41768] W kolejce do stacjonarnej 1
+
+[KLIENT 41767] W kolejce do stacjonarnej 1
+
+[KLIENT 41558] PARAGON: [ Ser zolty, Gruszka, Frytki, Warzywa na patelnie, Chleb, Boczek ] SUMA: 86.00 zl
+
+[KLIENT 41560] PARAGON: [ Marchew, Whisky, Marchew, Wodka, Banan, Frytki, Plyn do naczyn, Pomidor, Bagietka, Pomidor ] SUMA: 169.40 zl
+
+[KLIENT 41774] W kolejce do stacjonarnej 1
+
+[KLIENT 41562] PARAGON: [ Banan, Ogorek, Kielbasa, Frytki, Lody, Marchew, Jablko ] SUMA: 71.20 zl
+
+[KLIENT 41775] W kolejce do stacjonarnej 1
+
+[KLIENT 41561] PARAGON: [ Ziemniak ] SUMA: 2.00 zl
+
+[KLIENT 41776] W kolejce do stacjonarnej 1
+
+[KLIENT 41563] PARAGON: [ Maslo, Maslo, Jogurt, Warzywa na patelnie, Pizza, Proszek, Szynka ] SUMA: 120.40 zl
+
+[KLIENT 41564] PARAGON: [ Kielbasa, Paczek, Domestos, Frytki, Plyn do naczyn, Marchew, Lody, Paczek ] SUMA: 84.50 zl
+
+[KLIENT 41777] W kolejce do stacjonarnej 1
+
+[KLIENT 41570] PARAGON: [ Winogrono, Boczek, Wodka, Kielbasa, Domestos, Ziemniak, Maslo ] SUMA: 130.40 zl
+
+[KLIENT 41778] W kolejce do stacjonarnej 1
+
+[KLIENT 41571] PARAGON: [ Mleko, Ogorek, Proszek, Warzywa na patelnie, Ogorek, Ziemniak ] SUMA: 60.30 zl
+
+[KLIENT 41784] W kolejce do stacjonarnej 1
+
+[KLIENT 41785] W kolejce do stacjonarnej 1
+
+[KLIENT 41574] PARAGON: [ Ogorek, Winogrono, Piwo, Mydlo, Proszek, Mydlo, Pizza, Kielbasa, Gruszka, Wino ] SUMA: 141.90 zl
+
+[KLIENT 41573] PARAGON: [ Jogurt, Boczek, Piwo, Jogurt, Gruszka, Gruszka, Frytki, Mleko, Piwo ] SUMA: 69.60 zl
+
+[KLIENT 41786] W kolejce do stacjonarnej 1
+
+[KLIENT 41787] W kolejce do stacjonarnej 1
+
+[KLIENT 41572] PARAGON: [ Mleko, Wodka, Mydlo, Domestos ] SUMA: 58.80 zl
+
+[KLIENT 41575] PARAGON: [ Warzywa na patelnie, Mydlo, Ziemniak, Gruszka, Jablko, Bagietka, Ogorek, Plyn do naczyn, Wino, Lody ] SUMA: 83.20 zl
+
+[KLIENT 41795] W kolejce do stacjonarnej 1
+
+[KLIENT 41788] W kolejce do stacjonarnej 1
+
+[KLIENT 41576] PARAGON: [ Mleko, Lody, Banan ] SUMA: 23.00 zl
+
+[KLIENT 41789] W kolejce do stacjonarnej 1
+
+[KLIENT 41796] W kolejce do stacjonarnej 1
+
+[KLIENT 41577] PARAGON: [ Plyn do naczyn, Plyn do naczyn, Jablko, Ogorek ] SUMA: 25.50 zl
+
+[KLIENT 41578] PARAGON: [ Piwo, Jogurt, Wino, Piwo, Pomidor, Kielbasa, Bagietka ] SUMA: 79.60 zl
+
+[KLIENT 41797] W kolejce do stacjonarnej 1
+
+[KLIENT 41579] PARAGON: [ Ogorek, Boczek, Pomidor, Gruszka, Piwo ] SUMA: 55.50 zl
+
+[KLIENT 41799] W kolejce do stacjonarnej 1
+
+[KLIENT 41580] PARAGON: [ Ogorek, Proszek, Mleko, Mleko, Ogorek, Ziemniak ] SUMA: 56.60 zl
+
+[KLIENT 41581] PARAGON: [ Winogrono, Boczek, Wodka, Kielbasa, Domestos, Ziemniak, Maslo ] SUMA: 130.40 zl
+
+[KLIENT 41798] W kolejce do stacjonarnej 1
+
+[KLIENT 41587] PARAGON: [ Boczek ] SUMA: 32.00 zl
+
+[KLIENT 41588] PARAGON: [ Proszek, Kabanos, Frytki, Mleko, Pizza, Wodka, Ziemniak ] SUMA: 165.80 zl
+
+[KLIENT 41800] W kolejce do stacjonarnej 1
+
+[KLIENT 41589] PARAGON: [ Ogorek, Paczek, Pomidor, Pizza, Kabanos, Ogorek, Whisky, Frytki, Proszek, Kielbasa ] SUMA: 252.00 zl
+
+[KLIENT 41590] PARAGON: [ Mleko, Paczek, Mleko, Bulka, Pizza, Chleb ] SUMA: 34.50 zl
+
+[KLIENT 41802] W kolejce do stacjonarnej 1
+
+[KLIENT 41803] W kolejce do stacjonarnej 1
+
+[KLIENT 41801] W kolejce do stacjonarnej 1
+
+[KLIENT 41591] PARAGON: [ Plyn do naczyn, Bulka, Whisky, Marchew, Szynka, Ziemniak, Chleb, Jablko, Maslo, Pizza ] SUMA: 170.90 zl
+
+[KLIENT 41809] W kolejce do stacjonarnej 1
+
+[KLIENT 41592] PARAGON: [ Wodka, Boczek, Whisky, Bagietka, Warzywa na patelnie, Wino, Winogrono, Warzywa na patelnie, Ser zolty, Banan ] SUMA: 239.30 zl
+
+[KLIENT 41810] W kolejce do stacjonarnej 1
+
+[KLIENT 41812] W kolejce do stacjonarnej 1
+
+[KLIENT 41598] PARAGON: [ Bagietka ] SUMA: 3.20 zl
+
+[KLIENT 41811] W kolejce do stacjonarnej 1
+
+[KLIENT 41813] W kolejce do stacjonarnej 1
+
+[KLIENT 41599] PARAGON: [ Jablko, Jablko, Boczek, Domestos, Plyn do naczyn, Domestos, Piwo, Pizza ] SUMA: 93.00 zl
+
+[KLIENT 41600] PARAGON: [ Maslo, Jablko, Jablko, Winogrono, Mydlo ] SUMA: 26.40 zl
+
+[KLIENT 41601] PARAGON: [ Plyn do naczyn, Whisky, Jogurt, Piwo, Wino, Maslo, Proszek, Whisky, Jablko, Gruszka ] SUMA: 253.90 zl
+
+[KLIENT 41819] W kolejce do stacjonarnej 1
+
+[KLIENT 41602] PARAGON: [ Wodka, Frytki, Wino ] SUMA: 82.00 zl
+
+[KLIENT 41821] W kolejce do stacjonarnej 1
+
+[KLIENT 41820] W kolejce do stacjonarnej 1
+
+[KLIENT 41608] PARAGON: [ Pomidor, Marchew, Ser zolty, Paczek ] SUMA: 39.50 zl
+
+[KLIENT 41822] W kolejce do stacjonarnej 1
+
+[KLIENT 41609] PARAGON: [ Winogrono ] SUMA: 9.90 zl
+
+[KLIENT 41823] W kolejce do stacjonarnej 1
+
+[KLIENT 41610] PARAGON: [ Mleko, Winogrono, Gruszka, Proszek, Pomidor, Frytki ] SUMA: 74.20 zl
+
+[KLIENT 41829] W kolejce do stacjonarnej 1
+
+[KLIENT 41830] W kolejce do stacjonarnej 1
+
+[KLIENT 41611] PARAGON: [ Maslo, Ogorek, Winogrono, Plyn do naczyn, Bagietka, Mydlo ] SUMA: 36.60 zl
+
+[KLIENT 41617] PARAGON: [ Frytki, Frytki, Gruszka, Pizza, Wodka, Mydlo, Pomidor ] SUMA: 98.50 zl
+
+[KLIENT 41831] W kolejce do stacjonarnej 1
+
+[KLIENT 41618] PARAGON: [ Whisky, Winogrono, Bulka, Szynka, Boczek, Piwo, Piwo, Paczek ] SUMA: 179.30 zl
+
+[KLIENT 41832] W kolejce do stacjonarnej 1
+
+[KLIENT 41833] W kolejce do stacjonarnej 1
+
+[KLIENT 41619] PARAGON: [ Jogurt, Bulka, Wodka, Marchew, Marchew, Ziemniak, Banan, Pizza ] SUMA: 72.00 zl
+
+[KLIENT 41621] PARAGON: [ Ogorek, Plyn do naczyn, Szynka, Jablko, Wino, Paczek, Szynka ] SUMA: 141.00 zl
+
+[KLIENT 41620] PARAGON: [ Lody, Wodka, Jogurt, Ser zolty, Boczek ] SUMA: 113.90 zl
+
+[KLIENT 41834] W kolejce do stacjonarnej 1
+
+[KLIENT 41841] W kolejce do stacjonarnej 1
+
+[KLIENT 41628] PARAGON: [ Banan, Kielbasa, Paczek, Ser zolty, Proszek, Gruszka, Gruszka ] SUMA: 105.70 zl
+
+[KLIENT 41835] W kolejce do stacjonarnej 1
+
+[KLIENT 41842] W kolejce do stacjonarnej 1
+
+[KLIENT 41622] PARAGON: [ Marchew, Jablko, Marchew, Kielbasa, Boczek, Kabanos, Bagietka ] SUMA: 126.70 zl
+
+[KLIENT 41843] W kolejce do stacjonarnej 1
+
+[KLIENT 41629] PARAGON: [ Pomidor, Banan, Szynka ] SUMA: 57.70 zl
+
+[KLIENT 41631] PARAGON: [ Ogorek ] SUMA: 6.00 zl
+
+[KLIENT 41844] W kolejce do stacjonarnej 1
+
+[KLIENT 41632] PARAGON: [ Winogrono, Chleb, Pomidor, Marchew, Chleb, Bulka, Jogurt, Whisky, Ser zolty ] SUMA: 137.70 zl
+
+[KLIENT 41845] W kolejce do stacjonarnej 1
+
+[KLIENT 41633] PARAGON: [ Whisky, Mleko, Domestos, Wino, Piwo, Frytki, Paczek ] SUMA: 145.30 zl
+
+[KLIENT 41846] W kolejce do stacjonarnej 1
+
+[KLIENT 41847] W kolejce do stacjonarnej 1
+
+[KLIENT 41635] PARAGON: [ Piwo, Mydlo, Kielbasa, Gruszka, Jablko, Ogorek, Lody, Ogorek, Maslo, Ser zolty ] SUMA: 102.00 zl
+
+[KLIENT 41634] PARAGON: [ Marchew, Lody, Proszek, Plyn do naczyn, Wino, Ogorek, Piwo, Szynka, Jablko ] SUMA: 149.00 zl
+
+[KLIENT 41853] W kolejce do stacjonarnej 1
+
+[KLIENT 41636] PARAGON: [ Maslo, Szynka, Jablko, Bulka, Domestos, Gruszka, Piwo, Domestos, Kabanos, Jogurt ] SUMA: 145.80 zl
+
+[KLIENT 41643] PARAGON: [ Banan, Kabanos ] SUMA: 59.20 zl
+
+[KLIENT 41855] W kolejce do stacjonarnej 1
+
+[KLIENT 41854] W kolejce do stacjonarnej 1
+
+[KLIENT 41642] PARAGON: [ Warzywa na patelnie, Ziemniak, Wino, Bulka, Jogurt, Chleb, Maslo ] SUMA: 53.30 zl
+
+[KLIENT 41645] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 41857] W kolejce do stacjonarnej 1
+
+[KLIENT 41856] W kolejce do stacjonarnej 1
+
+[KLIENT 41644] PARAGON: [ Ogorek, Kabanos, Proszek, Pomidor, Paczek ] SUMA: 108.00 zl
+
+[KLIENT 41646] PARAGON: [ Jogurt, Maslo ] SUMA: 8.40 zl
+
+[KLIENT 41864] W kolejce do stacjonarnej 1
+
+[KLIENT 41858] W kolejce do stacjonarnej 1
+
+[KLIENT 41652] PARAGON: [ Kabanos, Bulka ] SUMA: 55.90 zl
+
+[KLIENT 41866] W kolejce do stacjonarnej 1
+
+[KLIENT 41654] PARAGON: [ Banan, Lody, Paczek, Ogorek, Lody, Bagietka, Lody ] SUMA: 61.90 zl
+
+[KLIENT 41865] W kolejce do stacjonarnej 1
+
+[KLIENT 41653] PARAGON: [ Mleko, Wino, Ziemniak, Boczek, Mleko, Warzywa na patelnie, Kabanos, Paczek, Ziemniak, Marchew ] SUMA: 142.10 zl
+
+[KLIENT 41867] W kolejce do stacjonarnej 1
+
+[KLIENT 41657] PARAGON: [ Piwo, Ziemniak, Lody, Piwo, Whisky ] SUMA: 105.00 zl
+
+[KLIENT 41869] W kolejce do stacjonarnej 1
+
+[KLIENT 41655] PARAGON: [ Kabanos, Bagietka, Kielbasa, Banan, Proszek ] SUMA: 125.40 zl
+
+[KLIENT 41868] W kolejce do stacjonarnej 1
+
+[KLIENT 41658] PARAGON: [ Bulka, Ziemniak ] SUMA: 2.90 zl
+
+[KLIENT 41870] W kolejce do stacjonarnej 1
+
+[KLIENT 41656] PARAGON: [ Mleko, Plyn do naczyn, Mleko ] SUMA: 15.60 zl
+
+[KLIENT 41877] W kolejce do stacjonarnej 1
+
+[KLIENT 41876] W kolejce do stacjonarnej 1
+
+[KLIENT 41664] PARAGON: [ Mydlo, Gruszka, Proszek ] SUMA: 43.00 zl
+
+[KLIENT 41666] PARAGON: [ Banan ] SUMA: 4.20 zl
+
+[KLIENT 41878] W kolejce do stacjonarnej 1
+
+[KLIENT 41665] PARAGON: [ Proszek, Mleko, Mleko, Piwo, Chleb, Pomidor, Proszek, Bulka, Ogorek ] SUMA: 101.50 zl
+
+[KLIENT 41880] W kolejce do stacjonarnej 1
+
+[KLIENT 41879] W kolejce do stacjonarnej 1
+
+[KLIENT 41667] PARAGON: [ Marchew, Piwo, Bulka, Kielbasa ] SUMA: 35.40 zl
+
+[KLIENT 41881] W kolejce do stacjonarnej 1
+
+[KLIENT 41668] PARAGON: [ Ser zolty, Kielbasa, Warzywa na patelnie, Kabanos, Marchew, Paczek, Kabanos, Piwo, Whisky ] SUMA: 260.50 zl
+
+[KLIENT 41669] PARAGON: [ Wino, Warzywa na patelnie, Piwo ] SUMA: 41.50 zl
+
+[KLIENT 41882] W kolejce do stacjonarnej 1
+
+[KLIENT 41670] PARAGON: [ Bagietka, Kielbasa ] SUMA: 31.20 zl
+
+[KLIENT 41671] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41883] W kolejce do stacjonarnej 1
+
+[KLIENT 41671] PARAGON: [ Bulka, Jablko, Mleko, Boczek, Frytki, Banan, Paczek ] SUMA: 59.90 zl
+
+[KLIENT 41677] PARAGON: [ Boczek, Ogorek, Plyn do naczyn, Mleko, Proszek, Pizza ] SUMA: 102.80 zl
+
+[KLIENT 41884] W kolejce do stacjonarnej 1
+
+[KLIENT 41678] PARAGON: [ Domestos ] SUMA: 12.00 zl
+
+[KLIENT 41885] W kolejce do stacjonarnej 1
+
+[KLIENT 41891] W kolejce do stacjonarnej 1
+
+[KLIENT 41679] PARAGON: [ Boczek, Gruszka, Mydlo, Bagietka, Ziemniak, Proszek, Lody, Warzywa na patelnie ] SUMA: 102.70 zl
+
+[KLIENT 41892] W kolejce do stacjonarnej 1
+
+[KLIENT 41681] PARAGON: [ Ser zolty ] SUMA: 25.00 zl
+
+[KLIENT 41893] W kolejce do stacjonarnej 1
+
+[KLIENT 41680] PARAGON: [ Jogurt, Mydlo, Pomidor ] SUMA: 13.40 zl
+
+[KLIENT 41895] W kolejce do stacjonarnej 1
+
+[KLIENT 41683] PARAGON: [ Jogurt, Mydlo, Pomidor ] SUMA: 13.40 zl
+
+[KLIENT 41682] PARAGON: [ Warzywa na patelnie ] SUMA: 7.50 zl
+
+[KLIENT 41900] W kolejce do stacjonarnej 1
+
+[KLIENT 41684] PARAGON: [ Proszek, Chleb, Pomidor, Jogurt, Boczek, Whisky ] SUMA: 161.90 zl
+
+[KLIENT 41906] W kolejce do stacjonarnej 1
+
+[KLIENT 41691] PARAGON: [ Ser zolty, Jablko, Maslo, Bagietka, Warzywa na patelnie, Kabanos, Whisky, Paczek, Ogorek ] SUMA: 190.20 zl
+
+[KLIENT 41690] PARAGON: [ Bagietka, Kielbasa, Piwo, Wino, Wino, Ogorek, Wodka, Mydlo ] SUMA: 144.20 zl
+
+[KLIENT 41907] W kolejce do stacjonarnej 1
+
+[KLIENT 41908] W kolejce do stacjonarnej 1
+
+[KLIENT 41693] PARAGON: [ Kielbasa, Bulka, Ziemniak, Frytki, Jogurt ] SUMA: 44.80 zl
+
+[KLIENT 41910] W kolejce do stacjonarnej 1
+
+[KLIENT 41909] W kolejce do stacjonarnej 1
+
+[KLIENT 41692] PARAGON: [ Ogorek, Plyn do naczyn, Proszek, Warzywa na patelnie, Domestos, Kielbasa, Wino, Banan, Gruszka ] SUMA: 135.70 zl
+
+[KLIENT 41694] PARAGON: [ Marchew, Wino, Mydlo, Pomidor ] SUMA: 44.00 zl
+
+[KLIENT 41916] W kolejce do stacjonarnej 1
+
+[KLIENT 41918] W kolejce do stacjonarnej 1
+
+[KLIENT 41695] PARAGON: [ Gruszka, Gruszka, Boczek, Paczek, Proszek, Jablko, Mleko, Frytki ] SUMA: 99.80 zl
+
+[KLIENT 41917] W kolejce do stacjonarnej 1
+
+[KLIENT 41919] W kolejce do stacjonarnej 1
+
+[KLIENT 41701] PARAGON: [ Kielbasa, Lody, Kielbasa, Kabanos, Winogrono ] SUMA: 135.90 zl
+
+[KLIENT 41920] W kolejce do stacjonarnej 1
+
+[KLIENT 41702] PARAGON: [ Boczek, Kabanos, Kielbasa, Wodka ] SUMA: 155.00 zl
+
+[KLIENT 41921] W kolejce do stacjonarnej 1
+
+[KLIENT 41703] PARAGON: [ Pomidor, Ziemniak ] SUMA: 10.50 zl
+
+[KLIENT 41704] PARAGON: [ Wodka, Wodka, Ziemniak, Wodka, Paczek, Lody, Piwo, Marchew ] SUMA: 147.00 zl
+
+[KLIENT 41705] PARAGON: [ Frytki, Mydlo, Gruszka, Banan, Banan, Jogurt ] SUMA: 30.30 zl
+
+[KLIENT 41922] W kolejce do stacjonarnej 1
+
+[KLIENT 41711] PARAGON: [ Wodka, Wodka, Ziemniak, Wodka, Paczek, Lody, Piwo, Marchew ] SUMA: 147.00 zl
+
+[KLIENT 41923] W kolejce do stacjonarnej 1
+
+[KLIENT 41712] PARAGON: [ Ogorek, Banan ] SUMA: 10.20 zl
+
+[KLIENT 41924] W kolejce do stacjonarnej 1
+
+[KLIENT 41713] PARAGON: [ Maslo, Domestos, Bulka, Kielbasa ] SUMA: 47.40 zl
+
+[KLIENT 41926] W kolejce do stacjonarnej 1
+
+[KLIENT 41714] PARAGON: [ Szynka, Kielbasa, Ser zolty, Maslo, Ogorek, Winogrono ] SUMA: 120.40 zl
+
+[KLIENT 41925] W kolejce do stacjonarnej 1
+
+[KLIENT 41718] PARAGON: [ Warzywa na patelnie, Jablko, Bulka, Warzywa na patelnie, Mleko, Ogorek, Jablko ] SUMA: 32.70 zl
+
+[KLIENT 41927] W kolejce do stacjonarnej 1
+
+[KLIENT 41724] PARAGON: [ Proszek, Plyn do naczyn, Szynka ] SUMA: 88.00 zl
+
+[KLIENT 41933] W kolejce do stacjonarnej 1
+
+[KLIENT 41935] W kolejce do stacjonarnej 1
+
+[KLIENT 41725] PARAGON: [ Gruszka, Whisky, Marchew, Kielbasa, Kielbasa ] SUMA: 143.50 zl
+
+[KLIENT 41936] W kolejce do stacjonarnej 1
+
+[KLIENT 41728] PARAGON: [ Jablko, Wino, Kabanos, Plyn do naczyn, Proszek, Ogorek ] SUMA: 137.50 zl
+
+[KLIENT 41937] W kolejce do stacjonarnej 1
+
+[KLIENT 41729] PARAGON: [ Jogurt, Ziemniak, Marchew, Jablko ] SUMA: 9.90 zl
+
+[KLIENT 41938] W kolejce do stacjonarnej 1
+
+[KLIENT 41730] PARAGON: [ Jogurt, Ziemniak, Marchew, Jablko ] SUMA: 9.90 zl
+
+[KLIENT 41939] W kolejce do stacjonarnej 1
+
+[KLIENT 41732] PARAGON: [ Kielbasa, Bulka, Frytki ] SUMA: 40.90 zl
+
+[KLIENT 41731] PARAGON: [ Jablko, Wino, Kabanos, Plyn do naczyn, Proszek, Ogorek ] SUMA: 137.50 zl
+
+[KLIENT 41946] W kolejce do stacjonarnej 1
+
+[KLIENT 41940] W kolejce do stacjonarnej 1
+
+[KLIENT 41738] PARAGON: [ Pizza, Boczek, Paczek, Lody, Wino, Marchew ] SUMA: 101.00 zl
+
+[KLIENT 41947] W kolejce do stacjonarnej 1
+
+[KLIENT 41739] PARAGON: [ Ziemniak, Lody, Wino, Ogorek, Winogrono ] SUMA: 62.90 zl
+
+[KLIENT 41741] PARAGON: [ Kabanos ] SUMA: 55.00 zl
+
+[KLIENT 41950] W kolejce do stacjonarnej 1
+
+[KLIENT 41948] W kolejce do stacjonarnej 1
+
+[KLIENT 41740] PARAGON: [ Szynka, Ogorek, Mydlo, Bagietka, Lody, Jogurt ] SUMA: 74.10 zl
+
+[KLIENT 41949] W kolejce do stacjonarnej 1
+
+[KLIENT 41743] PARAGON: [ Warzywa na patelnie, Wodka, Whisky, Pomidor, Jogurt, Ser zolty ] SUMA: 162.90 zl
+
+[KLIENT 41951] W kolejce do stacjonarnej 1
+
+[KLIENT 41742] PARAGON: [ Lody, Plyn do naczyn, Pizza, Domestos, Domestos, Mydlo, Lody ] SUMA: 83.00 zl
+
+[KLIENT 41957] W kolejce do stacjonarnej 1
+
+[KLIENT 41744] PARAGON: [ Bagietka, Ziemniak, Wodka ] SUMA: 45.20 zl
+
+[KLIENT 41959] W kolejce do stacjonarnej 1
+
+[KLIENT 41751] PARAGON: [ Mleko ] SUMA: 3.80 zl
+
+[KLIENT 41958] W kolejce do stacjonarnej 1
+
+[KLIENT 41750] PARAGON: [ Ogorek, Boczek, Lody, Ser zolty, Jogurt, Kabanos ] SUMA: 134.90 zl
+
+[KLIENT 41960] W kolejce do stacjonarnej 1
+
+[KLIENT 41752] PARAGON: [ Jablko, Bagietka, Banan, Gruszka, Maslo, Wino ] SUMA: 52.40 zl
+
+[KLIENT 41961] W kolejce do stacjonarnej 1
+
+[KLIENT 41967] W kolejce do stacjonarnej 1
+
+[KLIENT 41753] PARAGON: [ Jogurt, Plyn do naczyn, Chleb, Pizza, Kielbasa, Mleko ] SUMA: 64.20 zl
+
+[KLIENT 41754] PARAGON: [ Lody, Winogrono, Jablko, Ser zolty ] SUMA: 53.40 zl
+
+[KLIENT 41968] W kolejce do stacjonarnej 1
+
+[KLIENT 41756] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[KLIENT 41969] W kolejce do stacjonarnej 1
+
+[KLIENT 41757] PARAGON: [ Marchew, Ogorek, Proszek ] SUMA: 43.50 zl
+
+[KLIENT 41971] W kolejce do stacjonarnej 1
+
+[KLIENT 41970] W kolejce do stacjonarnej 1
+
+[KLIENT 41755] PARAGON: [ Chleb, Jablko, Proszek, Piwo, Paczek, Banan, Frytki, Warzywa na patelnie, Ogorek ] SUMA: 80.20 zl
+
+[KLIENT 41763] PARAGON: [ Gruszka, Ogorek, Wino, Frytki, Mydlo, Maslo, Pomidor, Domestos ] SUMA: 83.00 zl
+
+[KLIENT 41972] W kolejce do stacjonarnej 1
+
+[KLIENT 41765] PARAGON: [ Wino, Chleb, Wodka, Jablko ] SUMA: 78.00 zl
+
+[KLIENT 41766] PARAGON: [ Plyn do naczyn, Pizza, Ziemniak, Pomidor, Kabanos ] SUMA: 91.50 zl
+
+[KLIENT 41973] W kolejce do stacjonarnej 1
+
+[KLIENT 41764] PARAGON: [ Plyn do naczyn, Mleko, Pomidor, Pomidor, Jogurt, Jablko, Maslo, Ser zolty, Jablko ] SUMA: 69.20 zl
+
+[KLIENT 41980] W kolejce do stacjonarnej 1
+
+[KLIENT 41974] W kolejce do stacjonarnej 1
+
+[KLIENT 41981] W kolejce do stacjonarnej 1
+
+[KLIENT 41768] PARAGON: [ Jablko, Plyn do naczyn, Frytki, Ser zolty, Gruszka, Szynka, Frytki, Kielbasa, Maslo, Ogorek ] SUMA: 151.00 zl
+
+[KLIENT 41767] PARAGON: [ Kielbasa, Pomidor, Winogrono, Wino ] SUMA: 76.40 zl
+
+[KLIENT 41982] W kolejce do stacjonarnej 1
+
+[KLIENT 41774] PARAGON: [ Jogurt, Bagietka, Pizza, Maslo, Paczek, Pomidor, Chleb, Gruszka, Ziemniak, Proszek ] SUMA: 88.10 zl
+
+[KLIENT 41983] W kolejce do stacjonarnej 1
+
+[KLIENT 41775] PARAGON: [ Ziemniak, Marchew, Szynka, Chleb, Domestos ] SUMA: 66.00 zl
+
+[KLIENT 41984] W kolejce do stacjonarnej 1
+
+[KLIENT 41776] PARAGON: [ Jogurt, Domestos, Domestos, Mleko, Mydlo, Marchew, Wodka, Kielbasa ] SUMA: 103.20 zl
+
+[KLIENT 41777] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41986] W kolejce do stacjonarnej 1
+
+[KLIENT 41777] PARAGON: [ Kielbasa, Warzywa na patelnie, Paczek, Plyn do naczyn, Plyn do naczyn, Ziemniak ] SUMA: 57.00 zl
+
+[KLIENT 41778] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 41985] W kolejce do stacjonarnej 1
+
+[KLIENT 41987] W kolejce do stacjonarnej 1
+
+[KLIENT 41778] PARAGON: [ Kielbasa, Warzywa na patelnie, Paczek, Plyn do naczyn, Plyn do naczyn, Ziemniak ] SUMA: 57.00 zl
+
+[KLIENT 41784] PARAGON: [ Szynka, Ser zolty, Boczek, Kabanos, Wino ] SUMA: 187.00 zl
+
+[KLIENT 41993] W kolejce do stacjonarnej 1
+
+[KLIENT 41785] PARAGON: [ Paczek, Plyn do naczyn, Chleb, Ogorek, Lody ] SUMA: 37.00 zl
+
+[KLIENT 41786] PARAGON: [ Marchew, Warzywa na patelnie, Ogorek, Frytki, Szynka, Whisky, Mydlo, Pizza ] SUMA: 174.00 zl
+
+[KLIENT 41994] W kolejce do stacjonarnej 1
+
+[KLIENT 41787] PARAGON: [ Mydlo, Piwo, Pomidor ] SUMA: 15.50 zl
+
+[KLIENT 41995] W kolejce do stacjonarnej 1
+
+[KLIENT 41795] PARAGON: [ Banan, Proszek, Mleko, Paczek ] SUMA: 46.50 zl
+
+[KLIENT 41996] W kolejce do stacjonarnej 1
+
+[KLIENT 41998] W kolejce do stacjonarnej 1
+
+[KLIENT 41997] W kolejce do stacjonarnej 1
+
+[KLIENT 41788] PARAGON: [ Plyn do naczyn, Szynka, Szynka, Warzywa na patelnie ] SUMA: 105.50 zl
+
+[KLIENT 41789] PARAGON: [ Plyn do naczyn, Szynka, Szynka, Warzywa na patelnie ] SUMA: 105.50 zl
+
+[KLIENT 42004] W kolejce do stacjonarnej 1
+
+[KLIENT 41796] PARAGON: [ Lody, Proszek, Kielbasa ] SUMA: 78.00 zl
+
+[KLIENT 41797] PARAGON: [ Whisky, Bagietka, Bulka, Wino, Gruszka, Chleb, Warzywa na patelnie, Ogorek, Bagietka, Jogurt ] SUMA: 142.20 zl
+
+[KLIENT 42005] W kolejce do stacjonarnej 1
+
+[KLIENT 41799] PARAGON: [ Wodka, Plyn do naczyn ] SUMA: 48.00 zl
+
+[KLIENT 42006] W kolejce do stacjonarnej 1
+
+[KLIENT 42007] W kolejce do stacjonarnej 1
+
+[KLIENT 41798] PARAGON: [ Lody, Jablko ] SUMA: 18.50 zl
+
+[KLIENT 41800] PARAGON: [ Pizza, Jablko, Whisky ] SUMA: 101.50 zl
+
+[KLIENT 42009] W kolejce do stacjonarnej 1
+
+[KLIENT 42008] W kolejce do stacjonarnej 1
+
+[KLIENT 42010] W kolejce do stacjonarnej 1
+
+[KLIENT 41802] PARAGON: [ Boczek ] SUMA: 32.00 zl
+
+[KLIENT 42016] W kolejce do stacjonarnej 1
+
+[KLIENT 41803] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KLIENT 41801] PARAGON: [ Bagietka, Jogurt, Lody, Banan, Pizza, Ziemniak, Mydlo, Kielbasa, Ogorek ] SUMA: 81.30 zl
+
+[KLIENT 41809] PARAGON: [ Marchew, Ser zolty, Pomidor, Warzywa na patelnie, Chleb ] SUMA: 48.00 zl
+
+[KLIENT 42017] W kolejce do stacjonarnej 1
+
+[KLIENT 41810] PARAGON: [ Banan, Piwo, Kabanos, Mleko, Kabanos, Wino, Pomidor, Banan, Warzywa na patelnie ] SUMA: 172.20 zl
+
+[KLIENT 42019] W kolejce do stacjonarnej 1
+
+[KLIENT 42018] W kolejce do stacjonarnej 1
+
+[KLIENT 41812] PARAGON: [ Bagietka, Banan, Banan, Bulka, Gruszka, Ogorek ] SUMA: 23.50 zl
+
+[KLIENT 42020] W kolejce do stacjonarnej 1
+
+[KLIENT 41811] PARAGON: [ Ser zolty ] SUMA: 25.00 zl
+
+[KLIENT 41813] PARAGON: [ Bagietka, Banan, Banan, Bulka, Gruszka, Ogorek ] SUMA: 23.50 zl
+
+[KLIENT 41819] PARAGON: [ Maslo, Proszek, Domestos, Maslo, Domestos, Chleb ] SUMA: 76.50 zl
+
+[KLIENT 42021] W kolejce do stacjonarnej 1
+
+[KLIENT 42027] W kolejce do stacjonarnej 1
+
+[KLIENT 41821] PARAGON: [ Bulka, Banan, Proszek, Ser zolty, Lody, Kielbasa, Ogorek, Plyn do naczyn ] SUMA: 122.10 zl
+
+[KLIENT 42028] W kolejce do stacjonarnej 1
+
+[KLIENT 41820] PARAGON: [ Szynka ] SUMA: 45.00 zl
+
+[KLIENT 42030] W kolejce do stacjonarnej 1
+
+[KLIENT 41822] PARAGON: [ Domestos, Boczek, Maslo, Boczek, Bulka, Pizza ] SUMA: 101.40 zl
+
+[KLIENT 42029] W kolejce do stacjonarnej 1
+
+[KLIENT 41823] PARAGON: [ Whisky, Maslo, Pomidor, Piwo, Marchew, Mydlo, Winogrono, Proszek ] SUMA: 149.40 zl
+
+[KLIENT 42031] W kolejce do stacjonarnej 1
+
+[KLIENT 42032] W kolejce do stacjonarnej 1
+
+[KLIENT 41829] PARAGON: [ Whisky, Kielbasa, Winogrono, Boczek, Wino, Chleb ] SUMA: 184.40 zl
+
+[KLIENT 42033] W kolejce do stacjonarnej 1
+
+[KLIENT 41830] PARAGON: [ Whisky, Marchew, Domestos, Warzywa na patelnie, Boczek, Jogurt ] SUMA: 135.90 zl
+
+[KLIENT 42034] W kolejce do stacjonarnej 1
+
+[KLIENT 41831] PARAGON: [ Marchew, Wino ] SUMA: 32.50 zl
+
+[KLIENT 42040] W kolejce do stacjonarnej 1
+
+[KLIENT 41832] PARAGON: [ Ogorek, Maslo, Winogrono, Wino, Winogrono ] SUMA: 62.30 zl
+
+[KLIENT 42042] W kolejce do stacjonarnej 1
+
+[KLIENT 41833] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KLIENT 42041] W kolejce do stacjonarnej 1
+
+[KLIENT 41834] PARAGON: [ Domestos, Mydlo, Jablko ] SUMA: 18.50 zl
+
+[KLIENT 42043] W kolejce do stacjonarnej 1
+
+[KLIENT 41841] PARAGON: [ Gruszka ] SUMA: 5.00 zl
+
+[KLIENT 41835] PARAGON: [ Maslo, Winogrono, Kabanos, Gruszka ] SUMA: 76.40 zl
+
+[KLIENT 42044] W kolejce do stacjonarnej 1
+
+[KLIENT 42045] W kolejce do stacjonarnej 1
+
+[KLIENT 41842] PARAGON: [ Chleb, Bagietka, Maslo ] SUMA: 14.20 zl
+
+[KLIENT 42046] W kolejce do stacjonarnej 1
+
+[KLIENT 41843] PARAGON: [ Ziemniak, Piwo, Jogurt, Maslo, Jablko, Jablko, Chleb, Marchew, Proszek ] SUMA: 63.40 zl
+
+[KLIENT 42052] W kolejce do stacjonarnej 1
+
+[KLIENT 42053] W kolejce do stacjonarnej 1
+
+[KLIENT 41844] PARAGON: [ Jablko ] SUMA: 3.50 zl
+
+[KLIENT 41845] PARAGON: [ Winogrono, Wodka, Domestos, Proszek, Boczek, Ogorek, Pomidor, Ogorek, Paczek, Ogorek ] SUMA: 158.90 zl
+
+[KLIENT 41846] PARAGON: [ Domestos, Bagietka, Kielbasa, Wodka, Frytki, Whisky, Wodka, Maslo, Maslo, Frytki ] SUMA: 240.20 zl
+
+[KLIENT 42054] W kolejce do stacjonarnej 1
+
+[KLIENT 41847] PARAGON: [ Marchew ] SUMA: 2.50 zl
+
+[KLIENT 42055] W kolejce do stacjonarnej 1
+
+[KLIENT 41853] PARAGON: [ Piwo, Wino, Warzywa na patelnie, Bulka, Ziemniak ] SUMA: 44.40 zl
+
+[KLIENT 42056] W kolejce do stacjonarnej 1
+
+[KLIENT 41855] PARAGON: [ Paczek, Ziemniak, Piwo ] SUMA: 9.50 zl
+
+[KLIENT 42057] W kolejce do stacjonarnej 1
+
+[KLIENT 41854] PARAGON: [ Wino, Gruszka, Jablko, Gruszka, Ogorek, Chleb, Ziemniak, Proszek, Ser zolty, Proszek ] SUMA: 151.00 zl
+
+[KLIENT 42063] W kolejce do stacjonarnej 1
+
+[KLIENT 41857] PARAGON: [ Whisky, Jogurt, Wodka, Mydlo, Whisky, Domestos, Warzywa na patelnie, Szynka, Pizza, Whisky ] SUMA: 367.40 zl
+
+[KLIENT 42064] W kolejce do stacjonarnej 1
+
+[KLIENT 42065] W kolejce do stacjonarnej 1
+
+[KLIENT 41856] PARAGON: [ Kielbasa, Domestos, Piwo, Maslo, Paczek ] SUMA: 54.00 zl
+
+[KLIENT 42066] W kolejce do stacjonarnej 1
+
+[KLIENT 41864] PARAGON: [ Kabanos, Maslo ] SUMA: 61.50 zl
+
+[KLIENT 41858] PARAGON: [ Ziemniak, Whisky, Proszek, Warzywa na patelnie, Szynka, Wodka ] SUMA: 209.50 zl
+
+[KLIENT 42067] W kolejce do stacjonarnej 1
+
+[KLIENT 41866] PARAGON: [ Ser zolty ] SUMA: 25.00 zl
+
+[KLIENT 41865] PARAGON: [ Frytki, Proszek, Mleko, Ser zolty, Maslo, Wino, Wodka, Domestos ] SUMA: 164.30 zl
+
+[KLIENT 42068] W kolejce do stacjonarnej 1
+
+[KLIENT 41867] PARAGON: [ Ser zolty, Ogorek, Piwo, Bulka, Chleb, Bulka, Plyn do naczyn, Pizza, Ser zolty ] SUMA: 92.30 zl
+
+[KLIENT 42076] W kolejce do stacjonarnej 1
+
+[KLIENT 42074] W kolejce do stacjonarnej 1
+
+[KLIENT 41869] PARAGON: [ Ziemniak, Boczek, Lody, Ser zolty, Warzywa na patelnie, Bagietka, Boczek, Wodka, Domestos ] SUMA: 168.70 zl
+
+[KLIENT 42075] W kolejce do stacjonarnej 1
+
+[KLIENT 41868] PARAGON: [ Warzywa na patelnie, Lody, Kielbasa, Wino, Gruszka ] SUMA: 85.50 zl
+
+[KLIENT 42077] W kolejce do stacjonarnej 1
+
+[KLIENT 42081] W kolejce do stacjonarnej 1
+
+[KLIENT 41870] PARAGON: [ Plyn do naczyn, Warzywa na patelnie, Proszek, Banan, Paczek, Szynka ] SUMA: 103.20 zl
+
+[KLIENT 42082] W kolejce do stacjonarnej 1
+
+[KLIENT 41877] PARAGON: [ Frytki, Frytki, Ogorek, Lody, Lody ] SUMA: 60.00 zl
+
+[KLIENT 42083] W kolejce do stacjonarnej 1
+
+[KLIENT 41876] PARAGON: [ Kabanos, Marchew, Paczek, Winogrono, Bagietka, Domestos, Szynka, Pomidor, Boczek, Piwo ] SUMA: 175.60 zl
+
+[KLIENT 41878] PARAGON: [ Ser zolty, Pizza, Kabanos, Wino, Mleko, Chleb, Mydlo ] SUMA: 139.30 zl
+
+[KLIENT 42089] W kolejce do stacjonarnej 1
+
+[KLIENT 41880] PARAGON: [ Kabanos, Szynka, Warzywa na patelnie, Marchew, Piwo, Plyn do naczyn, Warzywa na patelnie ] SUMA: 129.50 zl
+
+[KLIENT 42090] W kolejce do stacjonarnej 1
+
+[KLIENT 41879] PARAGON: [ Wodka, Warzywa na patelnie ] SUMA: 47.50 zl
+
+[KLIENT 42091] W kolejce do stacjonarnej 1
+
+[KLIENT 41881] PARAGON: [ Plyn do naczyn, Kielbasa, Proszek, Chleb, Ogorek, Szynka, Mydlo ] SUMA: 129.50 zl
+
+[KLIENT 41882] PARAGON: [ Gruszka, Proszek, Frytki, Bagietka, Frytki ] SUMA: 67.20 zl
+
+[KLIENT 42092] W kolejce do stacjonarnej 1
+
+[KLIENT 41883] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 42093] W kolejce do stacjonarnej 1
+
+[KLIENT 41883] PARAGON: [ Banan ] SUMA: 4.20 zl
+
+[KLIENT 42094] W kolejce do stacjonarnej 1
+
+[KLIENT 41884] PARAGON: [ Pomidor, Bagietka, Proszek ] SUMA: 46.70 zl
+
+[KLIENT 42100] W kolejce do stacjonarnej 1
+
+[KLIENT 41885] PARAGON: [ Paczek, Paczek ] SUMA: 7.00 zl
+
+[KLIENT 42102] W kolejce do stacjonarnej 1
+
+[KLIENT 42101] W kolejce do stacjonarnej 1
+
+[KLIENT 42103] W kolejce do stacjonarnej 1
+
+[KLIENT 41891] PARAGON: [ Wino ] SUMA: 30.00 zl
+
+[KLIENT 41892] PARAGON: [ Domestos, Plyn do naczyn, Domestos ] SUMA: 32.00 zl
+
+[KLIENT 42104] W kolejce do stacjonarnej 1
+
+[KLIENT 41893] PARAGON: [ Frytki, Ogorek, Proszek, Domestos, Pizza, Paczek ] SUMA: 86.50 zl
+
+[KLIENT 41895] PARAGON: [ Pizza, Wino, Frytki, Banan ] SUMA: 64.20 zl
+
+[KLIENT 42112] W kolejce do stacjonarnej 1
+
+[KLIENT 42110] W kolejce do stacjonarnej 1
+
+[KLIENT 41900] PARAGON: [ Winogrono, Boczek, Bagietka, Winogrono, Pomidor ] SUMA: 63.50 zl
+
+[KLIENT 42111] W kolejce do stacjonarnej 1
+
+[KLIENT 42113] W kolejce do stacjonarnej 1
+
+[KLIENT 41906] PARAGON: [ Ser zolty, Paczek ] SUMA: 28.50 zl
+
+[KLIENT 41907] PARAGON: [ Boczek, Ogorek, Mydlo, Marchew, Proszek, Plyn do naczyn, Maslo, Wino, Pizza, Piwo ] SUMA: 145.00 zl
+
+[KLIENT 41908] PARAGON: [ Paczek, Paczek, Pomidor, Chleb, Kielbasa, Paczek, Chleb, Banan, Wodka ] SUMA: 100.20 zl
+
+[KLIENT 42114] W kolejce do stacjonarnej 1
+
+[KLIENT 42121] W kolejce do stacjonarnej 1
+
+[KLIENT 42120] W kolejce do stacjonarnej 1
+
+[KLIENT 41910] PARAGON: [ Jogurt, Winogrono, Banan, Wodka, Jogurt, Paczek ] SUMA: 61.40 zl
+
+[KLIENT 41909] PARAGON: [ Paczek, Paczek, Pomidor, Chleb, Kielbasa, Paczek, Chleb, Banan, Wodka ] SUMA: 100.20 zl
+
+[KLIENT 41916] PARAGON: [ Paczek ] SUMA: 3.50 zl
+
+[KLIENT 42122] W kolejce do stacjonarnej 1
+
+[KLIENT 41918] PARAGON: [ Boczek, Lody, Domestos, Maslo, Banan, Kielbasa, Proszek ] SUMA: 132.70 zl
+
+[KLIENT 42123] W kolejce do stacjonarnej 1
+
+[KLIENT 41917] PARAGON: [ Kabanos, Pomidor, Jablko, Warzywa na patelnie, Ziemniak, Marchew, Bagietka, Proszek, Pizza ] SUMA: 135.20 zl
+
+[KLIENT 41919] PARAGON: [ Ogorek, Ser zolty, Szynka, Pomidor, Lody, Wino, Whisky, Pizza, Pizza, Ser zolty ] SUMA: 270.50 zl
+
+[KLIENT 42125] W kolejce do stacjonarnej 1
+
+[KLIENT 42124] W kolejce do stacjonarnej 1
+
+[KLIENT 42126] W kolejce do stacjonarnej 1
+
+[KLIENT 41920] PARAGON: [ Ziemniak, Wodka ] SUMA: 42.00 zl
+
+[KLIENT 41921] PARAGON: [ Proszek, Bagietka, Pomidor ] SUMA: 46.70 zl
+
+[KLIENT 42128] W kolejce do stacjonarnej 1
+
+[KLIENT 42127] W kolejce do stacjonarnej 1
+
+[KLIENT 42135] W kolejce do stacjonarnej 1
+
+[KLIENT 41922] PARAGON: [ Banan, Ser zolty, Ser zolty, Chleb ] SUMA: 58.70 zl
+
+[KLIENT 41923] PARAGON: [ Marchew, Jogurt, Banan, Proszek, Ser zolty, Domestos, Szynka ] SUMA: 125.60 zl
+
+[KLIENT 41924] PARAGON: [ Bagietka, Bulka, Bulka ] SUMA: 5.00 zl
+
+[KLIENT 42137] W kolejce do stacjonarnej 1
+
+[KLIENT 42136] W kolejce do stacjonarnej 1
+
+[KLIENT 41926] PARAGON: [ Paczek ] SUMA: 3.50 zl
+
+[KLIENT 42144] W kolejce do stacjonarnej 1
+
+[KLIENT 41925] PARAGON: [ Pizza, Pomidor, Pizza, Jablko, Paczek, Ogorek, Marchew, Jogurt ] SUMA: 61.90 zl
+
+[KLIENT 42138] W kolejce do stacjonarnej 1
+
+[KLIENT 41927] PARAGON: [ Piwo, Marchew, Wino, Mydlo, Jogurt, Bulka, Marchew, Wino, Mydlo, Banan ] SUMA: 82.00 zl
+
+[KLIENT 41933] PARAGON: [ Szynka, Wodka, Bagietka, Wodka, Chleb, Ziemniak, Pomidor, Ziemniak, Pomidor ] SUMA: 153.70 zl
+
+[KLIENT 42145] W kolejce do stacjonarnej 1
+
+[KLIENT 42147] W kolejce do stacjonarnej 1
+
+[KLIENT 41935] PARAGON: [ Paczek, Kielbasa, Ogorek, Proszek, Winogrono, Boczek, Pomidor ] SUMA: 122.90 zl
+
+[KLIENT 42148] W kolejce do stacjonarnej 1
+
+[KLIENT 42146] W kolejce do stacjonarnej 1
+
+[KLIENT 41936] PARAGON: [ Plyn do naczyn, Mydlo, Whisky ] SUMA: 91.00 zl
+
+[KLIENT 42149] W kolejce do stacjonarnej 1
+
+[KLIENT 41937] PARAGON: [ Bagietka, Gruszka, Frytki, Jogurt, Domestos, Szynka, Domestos, Chleb ] SUMA: 95.60 zl
+
+[KLIENT 41938] PARAGON: [ Domestos, Bagietka, Gruszka, Jablko, Frytki, Warzywa na patelnie, Kabanos, Winogrono, Pizza, Maslo ] SUMA: 132.60 zl
+
+[KLIENT 42150] W kolejce do stacjonarnej 1
+
+[KLIENT 41939] PARAGON: [ Domestos, Bagietka, Gruszka, Jablko, Frytki, Warzywa na patelnie, Kabanos, Winogrono, Pizza, Maslo ] SUMA: 132.60 zl
+
+[KLIENT 42156] W kolejce do stacjonarnej 1
+
+[KLIENT 41946] PARAGON: [ Mydlo, Bulka, Ser zolty, Pomidor, Banan, Jogurt, Bulka ] SUMA: 44.40 zl
+
+[KLIENT 42157] W kolejce do stacjonarnej 1
+
+[KLIENT 41940] PARAGON: [ Szynka, Jablko, Chleb, Gruszka, Ziemniak, Maslo, Ziemniak, Ziemniak, Piwo, Plyn do naczyn ] SUMA: 82.50 zl
+
+[KLIENT 41947] PARAGON: [ Pizza, Kabanos, Warzywa na patelnie, Gruszka, Proszek, Mydlo, Mydlo, Bagietka ] SUMA: 129.70 zl
+
+[KLIENT 41950] PARAGON: [ Boczek, Wino, Frytki ] SUMA: 74.00 zl
+
+[KLIENT 42158] W kolejce do stacjonarnej 1
+
+[KLIENT 41948] PARAGON: [ Jablko, Ziemniak, Proszek, Bagietka, Piwo, Whisky, Maslo, Winogrono, Pizza ] SUMA: 162.10 zl
+
+[KLIENT 42160] W kolejce do stacjonarnej 1
+
+[KLIENT 42159] W kolejce do stacjonarnej 1
+
+[KLIENT 41949] PARAGON: [ Piwo ] SUMA: 4.00 zl
+
+[KLIENT 42161] W kolejce do stacjonarnej 1
+
+[KLIENT 41951] PARAGON: [ Bagietka, Gruszka, Frytki, Jogurt, Domestos, Szynka, Domestos, Chleb ] SUMA: 95.60 zl
+
+[KLIENT 42163] W kolejce do stacjonarnej 1
+
+[KLIENT 42162] W kolejce do stacjonarnej 1
+
+[KLIENT 41957] PARAGON: [ Ogorek, Piwo, Gruszka, Jablko, Maslo ] SUMA: 25.00 zl
+
+[KLIENT 42170] W kolejce do stacjonarnej 1
+
+[KLIENT 41959] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 41958] PARAGON: [ Kielbasa, Plyn do naczyn, Ziemniak, Gruszka, Marchew, Mleko, Bagietka, Mleko ] SUMA: 56.30 zl
+
+[KLIENT 42164] W kolejce do stacjonarnej 1
+
+[KLIENT 42171] W kolejce do stacjonarnej 1
+
+[KLIENT 41960] PARAGON: [ Ser zolty, Proszek, Jogurt, Kabanos, Szynka, Banan, Ser zolty, Kabanos ] SUMA: 246.10 zl
+
+[KLIENT 42172] W kolejce do stacjonarnej 1
+
+[KLIENT 41961] PARAGON: [ Ser zolty, Proszek, Jogurt, Kabanos, Szynka, Banan, Ser zolty, Kabanos ] SUMA: 246.10 zl
+
+[KLIENT 42173] W kolejce do stacjonarnej 1
+
+[KLIENT 41967] PARAGON: [ Marchew, Jogurt, Lody ] SUMA: 19.40 zl
+
+[KLIENT 42174] W kolejce do stacjonarnej 1
+
+[KLIENT 41968] PARAGON: [ Plyn do naczyn, Warzywa na patelnie, Domestos, Boczek, Ogorek, Marchew, Maslo, Kielbasa ] SUMA: 102.50 zl
+
+[KLIENT 42180] W kolejce do stacjonarnej 1
+
+[KLIENT 41969] PARAGON: [ Boczek ] SUMA: 32.00 zl
+
+[KLIENT 42181] W kolejce do stacjonarnej 1
+
+[KLIENT 41971] PARAGON: [ Bulka, Kielbasa ] SUMA: 28.90 zl
+
+[KLIENT 41970] PARAGON: [ Ogorek, Jogurt, Proszek, Whisky, Proszek, Mleko, Proszek, Mleko, Boczek ] SUMA: 232.50 zl
+
+[KLIENT 41972] PARAGON: [ Jablko, Bulka, Ser zolty ] SUMA: 29.40 zl
+
+[KLIENT 41973] PARAGON: [ Winogrono ] SUMA: 9.90 zl
+
+[KLIENT 41980] PARAGON: [ Kabanos, Ziemniak, Chleb, Banan, Jogurt ] SUMA: 67.60 zl
+
+[KLIENT 41974] PARAGON: [ Mleko, Gruszka, Pizza, Frytki, Proszek, Bagietka, Pizza, Chleb, Bagietka, Domestos ] SUMA: 114.70 zl
+
+[KLIENT 41981] PARAGON: [ Mleko, Proszek, Maslo, Bagietka, Wodka, Kielbasa ] SUMA: 116.50 zl
+
+[KLIENT 41982] PARAGON: [ Lody, Kabanos, Mleko, Plyn do naczyn, Bagietka, Ogorek, Pizza, Chleb, Paczek ] SUMA: 117.00 zl
+
+[KLIENT 41983] PARAGON: [ Pomidor, Pomidor, Boczek, Frytki ] SUMA: 61.00 zl
+
+[KLIENT 41984] PARAGON: [ Wino, Ser zolty, Pizza, Pizza, Ogorek ] SUMA: 97.00 zl
+
+[KLIENT 41986] PARAGON: [ Winogrono, Bulka ] SUMA: 10.80 zl
+
+[KLIENT 41985] PARAGON: [ Jablko, Paczek, Kabanos, Whisky, Mleko, Jablko, Bagietka, Warzywa na patelnie, Whisky, Piwo ] SUMA: 244.00 zl
+
+[KLIENT 41987] PARAGON: [ Marchew, Warzywa na patelnie, Piwo, Pomidor, Pizza, Paczek ] SUMA: 44.00 zl
+
+[KLIENT 41993] PARAGON: [ Plyn do naczyn, Maslo, Warzywa na patelnie, Frytki, Mleko, Wodka, Ziemniak, Bagietka, Ogorek, Warzywa na patelnie ] SUMA: 96.50 zl
+
+[KLIENT 41994] PARAGON: [ Lody, Ziemniak, Bagietka, Ogorek, Jablko ] SUMA: 29.70 zl
+
+[KLIENT 41995] PARAGON: [ Frytki, Marchew, Ogorek, Mydlo, Bulka, Jablko ] SUMA: 27.90 zl
+
+[KLIENT 41996] PARAGON: [ Frytki, Pomidor, Kabanos, Ziemniak, Whisky, Boczek ] SUMA: 189.50 zl
+
+[KLIENT 41998] PARAGON: [ Plyn do naczyn, Maslo, Warzywa na patelnie, Frytki, Mleko, Wodka, Ziemniak, Bagietka, Ogorek, Warzywa na patelnie ] SUMA: 96.50 zl
+
+[KLIENT 41997] PARAGON: [ Lody, Ziemniak, Bagietka, Ogorek, Jablko ] SUMA: 29.70 zl
+
+[KLIENT 42004] PARAGON: [ Wino, Bulka, Wodka, Chleb ] SUMA: 75.40 zl
+
+[KLIENT 42005] PARAGON: [ Szynka, Bulka, Pomidor ] SUMA: 54.40 zl
+
+[KLIENT 42006] PARAGON: [ Ogorek ] SUMA: 6.00 zl
+
+[KLIENT 42007] PARAGON: [ Warzywa na patelnie, Bagietka, Piwo, Paczek ] SUMA: 18.20 zl
+
+[KLIENT 42009] PARAGON: [ Mydlo, Jogurt ] SUMA: 4.90 zl
+
+[KLIENT 42008] PARAGON: [ Piwo, Chleb, Kielbasa, Winogrono, Wodka ] SUMA: 86.40 zl
+
+[KLIENT 42010] PARAGON: [ Maslo, Wodka, Ziemniak, Ogorek, Banan, Szynka ] SUMA: 103.70 zl
+
+[KLIENT 42016] PARAGON: [ Plyn do naczyn ] SUMA: 8.00 zl
+
+[KLIENT 42017] PARAGON: [ Maslo, Plyn do naczyn ] SUMA: 14.50 zl
+
+[KLIENT 42019] PARAGON: [ Mydlo, Szynka, Gruszka, Whisky, Pizza, Gruszka, Marchew, Bulka ] SUMA: 159.40 zl
+
+[KLIENT 42018] PARAGON: [ Gruszka, Winogrono ] SUMA: 14.90 zl
+
+[KLIENT 42020] PARAGON: [ Domestos, Boczek, Mleko, Ziemniak, Mydlo, Whisky, Mleko, Lody ] SUMA: 151.60 zl
+
+[KLIENT 42021] PARAGON: [ Pomidor, Banan, Chleb, Gruszka, Whisky, Paczek, Wino ] SUMA: 135.70 zl
+
+[KLIENT 42027] PARAGON: [ Banan, Pomidor, Jogurt, Boczek, Ogorek, Szynka, Winogrono, Bulka, Pomidor, Gruszka ] SUMA: 121.90 zl
+
+[KLIENT 42028] PARAGON: [ Piwo, Plyn do naczyn, Bulka, Lody, Mleko, Paczek, Frytki, Frytki ] SUMA: 59.20 zl
+
+[KLIENT 42030] PARAGON: [ Gruszka, Boczek, Plyn do naczyn, Ogorek, Banan, Piwo, Wino, Wodka ] SUMA: 129.20 zl
+
+[KLIENT 42029] PARAGON: [ Banan, Domestos, Banan, Frytki, Jablko, Wino, Mleko, Boczek ] SUMA: 101.70 zl
+
+[KLIENT 42031] PARAGON: [ Winogrono, Warzywa na patelnie ] SUMA: 17.40 zl
+
+[KLIENT 42032] PARAGON: [ Plyn do naczyn, Winogrono, Jogurt ] SUMA: 19.80 zl
+
+[KLIENT 42033] PARAGON: [ Warzywa na patelnie, Whisky, Piwo, Lody, Bulka, Domestos, Szynka, Paczek, Mleko ] SUMA: 171.70 zl
+
+[KLIENT 42034] PARAGON: [ Bagietka, Kabanos ] SUMA: 58.20 zl
+
+[KLIENT 42040] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 42040] PARAGON: [ Paczek, Paczek, Chleb, Jablko, Piwo, Bulka, Proszek, Ziemniak ] SUMA: 56.90 zl
+
+[KLIENT 42042] PARAGON: [ Bagietka, Whisky, Maslo, Mydlo, Plyn do naczyn ] SUMA: 100.70 zl
+
+[KLIENT 42041] PARAGON: [ Marchew, Gruszka, Frytki, Mydlo, Maslo, Chleb ] SUMA: 33.50 zl
+
+[KLIENT 42043] PARAGON: [ Szynka, Marchew ] SUMA: 47.50 zl
+
+[KLIENT 42044] PARAGON: [ Marchew, Pomidor, Warzywa na patelnie, Warzywa na patelnie, Whisky, Proszek, Paczek ] SUMA: 144.50 zl
+
+[KLIENT 42045] PARAGON: [ Szynka ] SUMA: 45.00 zl
+
+[KLIENT 42046] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 42046] PARAGON: [ Warzywa na patelnie, Frytki ] SUMA: 19.50 zl
+
+[KLIENT 42052] PARAGON: [ Szynka, Marchew ] SUMA: 47.50 zl
+
+[KLIENT 42053] PARAGON: [ Bagietka, Whisky, Maslo, Mydlo, Plyn do naczyn ] SUMA: 100.70 zl
+
+[KLIENT 42054] PARAGON: [ Marchew, Gruszka, Frytki, Mydlo, Maslo, Chleb ] SUMA: 33.50 zl
+
+[KLIENT 42055] PARAGON: [ Marchew, Gruszka, Frytki, Mydlo, Maslo, Chleb ] SUMA: 33.50 zl
+
+[KLIENT 42056] PARAGON: [ Marchew, Pizza, Piwo, Kielbasa, Warzywa na patelnie, Winogrono, Bagietka, Wino, Kielbasa ] SUMA: 131.10 zl
+
+[KLIENT 42057] PARAGON: [ Banan, Wino, Kabanos, Piwo, Paczek, Frytki, Kabanos, Mydlo, Banan, Warzywa na patelnie ] SUMA: 178.40 zl
+
+[KLIENT 42063] PARAGON: [ Warzywa na patelnie, Whisky, Piwo, Lody, Bulka, Domestos, Szynka, Paczek, Mleko ] SUMA: 171.70 zl
+
+[KLIENT 42064] PARAGON: [ Winogrono, Warzywa na patelnie ] SUMA: 17.40 zl
+
+[KLIENT 42065] PARAGON: [ Gruszka, Boczek, Plyn do naczyn, Ogorek, Banan, Piwo, Wino, Wodka ] SUMA: 129.20 zl
+
+[KLIENT 42066] PARAGON: [ Gruszka, Boczek, Plyn do naczyn, Ogorek, Banan, Piwo, Wino, Wodka ] SUMA: 129.20 zl
+
+[KLIENT 42067] PARAGON: [ Winogrono, Warzywa na patelnie ] SUMA: 17.40 zl
+
+[KLIENT 42068] PARAGON: [ Pomidor, Kabanos, Jogurt, Gruszka, Jogurt, Boczek ] SUMA: 104.30 zl
+
+[KLIENT 42076] PARAGON: [ Mydlo, Szynka, Gruszka, Whisky, Pizza, Gruszka, Marchew, Bulka ] SUMA: 159.40 zl
+
+[KLIENT 42074] PARAGON: [ Jogurt, Maslo, Ser zolty, Bulka ] SUMA: 34.30 zl
+
+[KLIENT 42075] PARAGON: [ Paczek, Kielbasa, Mydlo, Lody, Wino, Szynka, Winogrono, Szynka, Paczek, Chleb ] SUMA: 187.40 zl
+
+[KLIENT 42077] PARAGON: [ Gruszka, Winogrono ] SUMA: 14.90 zl
+
+[KLIENT 42081] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 42081] PARAGON: [ Whisky, Lody, Warzywa na patelnie, Boczek ] SUMA: 134.50 zl
+
+[KLIENT 42082] PARAGON: [ Lody, Boczek, Bagietka, Lody, Jogurt, Proszek, Frytki, Chleb, Lody ] SUMA: 133.60 zl
+
+[KLIENT 42083] PARAGON: [ Chleb, Lody, Pomidor, Banan, Whisky, Piwo, Mleko, Marchew ] SUMA: 122.50 zl
+
+[KLIENT 42089] PARAGON: [ Ogorek ] SUMA: 6.00 zl
+
+[KLIENT 42090] PARAGON: [ Szynka, Bulka, Pomidor ] SUMA: 54.40 zl
+
+[KLIENT 42091] PARAGON: [ Wino, Bulka, Wodka, Chleb ] SUMA: 75.40 zl
+
+[KLIENT 42092] PARAGON: [ Bulka, Lody, Pomidor, Piwo, Winogrono, Pizza, Proszek ] SUMA: 91.30 zl
+
+[KLIENT 42093] PARAGON: [ Szynka, Bulka, Pomidor ] SUMA: 54.40 zl
+
+[KLIENT 42094] PARAGON: [ Ogorek ] SUMA: 6.00 zl
+
+[KLIENT 42100] PARAGON: [ Frytki, Marchew, Ogorek, Mydlo, Bulka, Jablko ] SUMA: 27.90 zl
+
+[KLIENT 42102] PARAGON: [ Plyn do naczyn, Maslo, Warzywa na patelnie, Frytki, Mleko, Wodka, Ziemniak, Bagietka, Ogorek, Warzywa na patelnie ] SUMA: 96.50 zl
+
+[KLIENT 42101] PARAGON: [ Lody, Ziemniak, Bagietka, Ogorek, Jablko ] SUMA: 29.70 zl
+
+[KLIENT 42103] PARAGON: [ Plyn do naczyn, Maslo, Warzywa na patelnie, Frytki, Mleko, Wodka, Ziemniak, Bagietka, Ogorek, Warzywa na patelnie ] SUMA: 96.50 zl
+
+[KLIENT 42104] PARAGON: [ Kabanos, Gruszka, Pizza, Banan, Bulka, Chleb, Kabanos ] SUMA: 142.60 zl
+
+[KLIENT 42112] PARAGON: [ Pizza, Pomidor, Ziemniak, Lody, Warzywa na patelnie, Warzywa na patelnie ] SUMA: 58.50 zl
+
+[KLIENT 42110] PARAGON: [ Jablko, Paczek, Kabanos, Whisky, Mleko, Jablko, Bagietka, Warzywa na patelnie, Whisky, Piwo ] SUMA: 244.00 zl
+
+[KLIENT 42111] PARAGON: [ Wino, Ser zolty, Pizza, Pizza, Ogorek ] SUMA: 97.00 zl
+
+[KLIENT 42113] PARAGON: [ Kabanos, Kabanos, Gruszka ] SUMA: 115.00 zl
+
+[KLIENT 42114] PARAGON: [ Wodka, Warzywa na patelnie, Gruszka ] SUMA: 52.50 zl
+
+[KLIENT 42121] PARAGON: [ Wino, Mleko, Whisky, Lody ] SUMA: 128.80 zl
+
+[KLIENT 42120] PARAGON: [ Domestos, Ogorek, Domestos, Ziemniak, Paczek, Mleko, Warzywa na patelnie, Lody, Jablko ] SUMA: 65.30 zl
+
+[KLIENT 42122] PARAGON: [ Mydlo, Pomidor, Piwo, Whisky ] SUMA: 95.50 zl
+
+[KLIENT 42123] PARAGON: [ Mydlo, Pomidor, Piwo, Whisky ] SUMA: 95.50 zl
+
+[KLIENT 42125] PARAGON: [ Ziemniak, Pizza, Piwo, Bagietka, Wino, Mydlo, Warzywa na patelnie, Wodka, Boczek, Szynka ] SUMA: 184.70 zl
+
+[KLIENT 42124] PARAGON: [ Paczek, Kabanos, Mydlo, Kabanos, Bagietka, Jogurt ] SUMA: 121.60 zl
+
+[KLIENT 42126] PARAGON: [ Ogorek, Ziemniak, Ser zolty, Ser zolty, Ogorek, Jogurt, Winogrono, Maslo, Winogrono, Bulka ] SUMA: 93.10 zl
+
+[KLIENT 42128] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 42128] PARAGON: [ Proszek, Mydlo ] SUMA: 38.00 zl
+
+[KLIENT 42127] PARAGON: [ Kabanos, Gruszka, Warzywa na patelnie, Ziemniak, Gruszka, Marchew, Pomidor ] SUMA: 85.50 zl
+
+[KLIENT 42135] Kasjer odmowil sprzedazy alkoholu! Oddaje na polke.
+
+[KLIENT 42135] PARAGON: [ Szynka, Mydlo, Maslo ] SUMA: 54.50 zl
+
+[KLIENT 42137] PARAGON: [ Kabanos, Boczek, Bulka ] SUMA: 87.90 zl
+
+[KLIENT 42136] PARAGON: [ Paczek, Kielbasa, Paczek, Plyn do naczyn, Bulka, Paczek, Chleb, Gruszka, Kielbasa, Boczek ] SUMA: 116.90 zl
+
+[KLIENT 42144] PARAGON: [ Kabanos, Jablko, Gruszka ] SUMA: 63.50 zl
+
+[KLIENT 42138] PARAGON: [ Ogorek, Mleko, Ogorek, Winogrono, Frytki, Kielbasa, Kielbasa, Lody, Banan, Plyn do naczyn ] SUMA: 120.90 zl
+
+[KLIENT 42145] PARAGON: [ Boczek ] SUMA: 32.00 zl
+
+[KLIENT 42147] PARAGON: [ Frytki, Domestos, Chleb, Proszek, Whisky ] SUMA: 143.50 zl
+
+[KLIENT 42148] PARAGON: [ Mydlo ] SUMA: 3.00 zl
+
+[KLIENT 42146] PARAGON: [ Ziemniak, Marchew, Boczek, Jablko, Frytki, Paczek ] SUMA: 55.50 zl
+
+[KLIENT 42149] PARAGON: [ Mydlo ] SUMA: 3.00 zl
+
+[KLIENT 42150] PARAGON: [ Szynka, Marchew, Wino ] SUMA: 77.50 zl
+
+[KLIENT 42156] PARAGON: [ Winogrono, Mleko, Szynka, Wodka, Mydlo, Piwo ] SUMA: 105.70 zl
+
+[KLIENT 42157] PARAGON: [ Jablko, Bulka, Paczek, Ziemniak ] SUMA: 9.90 zl
+
+[KLIENT 42158] PARAGON: [ Jablko, Mydlo, Mydlo, Chleb, Whisky, Pizza, Bagietka, Whisky, Marchew ] SUMA: 197.70 zl
+
+[KLIENT 42160] PARAGON: [ Paczek, Domestos ] SUMA: 15.50 zl
+
+[KLIENT 42159] PARAGON: [ Maslo, Bulka, Mleko, Jablko, Warzywa na patelnie, Bagietka, Mydlo, Maslo, Plyn do naczyn ] SUMA: 42.90 zl
+
+[KLIENT 42161] PARAGON: [ Pomidor, Jogurt ] SUMA: 10.40 zl
+
+[KLIENT 42163] PARAGON: [ Paczek, Domestos ] SUMA: 15.50 zl
+
+[KLIENT 42162] PARAGON: [ Mleko ] SUMA: 3.80 zl
+
+[KLIENT 42170] PARAGON: [ Frytki ] SUMA: 12.00 zl
+
+[KLIENT 42164] PARAGON: [ Lody, Maslo, Pizza, Warzywa na patelnie, Pizza, Lody, Whisky ] SUMA: 160.00 zl
+
+[KLIENT 42171] PARAGON: [ Pomidor ] SUMA: 8.50 zl
+
+[KLIENT 42172] PARAGON: [ Jogurt, Jogurt ] SUMA: 3.80 zl
+
+[KLIENT 42173] PARAGON: [ Jogurt, Jogurt ] SUMA: 3.80 zl
+
+[KLIENT 42174] PARAGON: [ Marchew, Domestos, Wodka, Plyn do naczyn, Domestos, Winogrono, Ziemniak, Boczek ] SUMA: 118.40 zl
+
+[KLIENT 42180] PARAGON: [ Paczek, Frytki, Frytki, Kabanos, Proszek, Wodka ] SUMA: 157.50 zl
+
+[KLIENT 42181] PARAGON: [ Maslo, Lody, Banan, Kabanos, Jogurt ] SUMA: 82.60 zl
+

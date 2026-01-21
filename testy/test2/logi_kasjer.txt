@@ -1,0 +1,6541 @@
+[KASJER 1] zaczyna prace (typ nasluchu: 100)
+
+[KASJER 2] zaczyna prace (typ nasluchu: 101)
+
+[KASJER 1] Wolam klienta 40747 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40747 na: 38.50 zl
+
+[KASJER 1] obsluzylem klienta 40747
+
+[KASJER 1] Wolam klienta 40759 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40759 na: 104.00 zl
+
+[KASJER 1] obsluzylem klienta 40759
+
+[KASJER 1] Wolam klienta 40753 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40753 na: 96.80 zl
+
+[KASJER 1] obsluzylem klienta 40753
+
+[KASJER 1] Wolam klienta 40766 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40766 na: 14.70 zl
+
+[KASJER 1] obsluzylem klienta 40766
+
+[KASJER 1] Wolam klienta 40772 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40772 na: 76.00 zl
+
+[KASJER 1] obsluzylem klienta 40772
+
+[KASJER 1] Wolam klienta 40765 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40765 na: 65.80 zl
+
+[KASJER 1] obsluzylem klienta 40765
+
+[KASJER 1] Wolam klienta 40778 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40778 na: 75.50 zl
+
+[KASJER 1] obsluzylem klienta 40778
+
+[KASJER 1] Wolam klienta 40784 do kasy.
+
+[KASJER 1] Klient 40784 jest nieletni (16 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40784 skorygowal zakupy. Nowa kwota: 47.50
+[KASJER 1] Zakupy od Klienta 40784 na: 47.50 zl
+
+[KASJER 1] obsluzylem klienta 40784
+
+[KASJER 1] Wolam klienta 40790 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40790 na: 92.20 zl
+
+[KASJER 1] obsluzylem klienta 40790
+
+[KASJER 1] Wolam klienta 40791 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40791 na: 16.00 zl
+
+[KASJER 1] obsluzylem klienta 40791
+
+[KASJER 1] Wolam klienta 40792 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40792 na: 15.50 zl
+
+[KASJER 1] obsluzylem klienta 40792
+
+[KASJER 1] Wolam klienta 40798 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40798 na: 208.50 zl
+
+[KASJER 1] obsluzylem klienta 40798
+
+[KASJER 1] Wolam klienta 40800 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40800 na: 82.40 zl
+
+[KASJER 1] obsluzylem klienta 40800
+
+[KASJER 1] Wolam klienta 40816 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40816 na: 88.00 zl
+
+[KASJER 1] obsluzylem klienta 40816
+
+[KASJER 1] Wolam klienta 40801 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40801 na: 79.60 zl
+
+[KASJER 1] obsluzylem klienta 40801
+
+[KASJER 1] Wolam klienta 40810 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40810 na: 70.50 zl
+
+[KASJER 1] obsluzylem klienta 40810
+
+[KASJER 1] Wolam klienta 40812 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40812 na: 127.20 zl
+
+[KASJER 1] obsluzylem klienta 40812
+
+[KASJER 1] Wolam klienta 40824 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40824 na: 11.30 zl
+
+[KASJER 1] obsluzylem klienta 40824
+
+[KASJER 1] Wolam klienta 40807 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40807 na: 39.00 zl
+
+[KASJER 1] obsluzylem klienta 40807
+
+[KASJER 1] Wolam klienta 40821 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40821 na: 137.80 zl
+
+[KASJER 1] obsluzylem klienta 40821
+
+[KASJER 1] Wolam klienta 40832 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40832 na: 119.00 zl
+
+[KASJER 1] obsluzylem klienta 40832
+
+[KASJER 1] Wolam klienta 40826 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40826 na: 124.30 zl
+
+[KASJER 1] obsluzylem klienta 40826
+
+[KASJER 1] Wolam klienta 40831 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40831 na: 210.90 zl
+
+[KASJER 1] obsluzylem klienta 40831
+
+[KASJER 1] Wolam klienta 40828 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40828 na: 51.70 zl
+
+[KASJER 1] obsluzylem klienta 40828
+
+[KASJER 1] Wolam klienta 40830 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40830 na: 133.50 zl
+
+[KASJER 1] obsluzylem klienta 40830
+
+[KASJER 1] Wolam klienta 40834 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (49 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40834 na: 83.20 zl
+
+[KASJER 1] obsluzylem klienta 40834
+
+[KASJER 1] Wolam klienta 40827 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40827 na: 203.80 zl
+
+[KASJER 1] obsluzylem klienta 40827
+
+[KASJER 1] Wolam klienta 40855 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40855 na: 67.00 zl
+
+[KASJER 1] obsluzylem klienta 40855
+
+[KASJER 1] Wolam klienta 40804 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (35 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40804 na: 3.20 zl
+
+[KASJER 1] obsluzylem klienta 40804
+
+[KASJER 1] Wolam klienta 40809 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40809 na: 80.00 zl
+
+[KASJER 1] obsluzylem klienta 40809
+
+[KASJER 1] Wolam klienta 40802 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40802 na: 48.00 zl
+
+[KASJER 1] obsluzylem klienta 40802
+
+[KASJER 1] Wolam klienta 40806 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40806 na: 67.90 zl
+
+[KASJER 1] obsluzylem klienta 40806
+
+[KASJER 1] Wolam klienta 40808 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40808 na: 6.50 zl
+
+[KASJER 1] obsluzylem klienta 40808
+
+[KASJER 1] Wolam klienta 40814 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40814 na: 104.80 zl
+
+[KASJER 1] obsluzylem klienta 40814
+
+[KASJER 1] Wolam klienta 40799 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40799 na: 151.80 zl
+
+[KASJER 1] obsluzylem klienta 40799
+
+[KASJER 1] Wolam klienta 40854 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (45 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40854 na: 146.40 zl
+
+[KASJER 1] obsluzylem klienta 40854
+
+[KASJER 1] Wolam klienta 40825 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40825 na: 144.50 zl
+
+[KASJER 1] obsluzylem klienta 40825
+
+[KASJER 1] Wolam klienta 40871 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40871 na: 3.00 zl
+
+[KASJER 1] obsluzylem klienta 40871
+
+[KASJER 1] Wolam klienta 40867 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40867 na: 35.00 zl
+
+[KASJER 1] obsluzylem klienta 40867
+
+[KASJER 1] Wolam klienta 40862 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40862 na: 21.70 zl
+
+[KASJER 1] obsluzylem klienta 40862
+
+[KASJER 1] Wolam klienta 40819 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40819 na: 31.40 zl
+
+[KASJER 1] obsluzylem klienta 40819
+
+[KASJER 1] Wolam klienta 40822 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40822 na: 104.80 zl
+
+[KASJER 1] obsluzylem klienta 40822
+
+[KASJER 1] Wolam klienta 40866 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40866 na: 23.90 zl
+
+[KASJER 1] obsluzylem klienta 40866
+
+[KASJER 1] Wolam klienta 40835 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40835 na: 54.50 zl
+
+[KASJER 1] obsluzylem klienta 40835
+
+[KASJER 1] Wolam klienta 40805 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (67 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40805 na: 140.20 zl
+
+[KASJER 1] obsluzylem klienta 40805
+
+[KASJER 1] Wolam klienta 40853 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40853 na: 81.70 zl
+
+[KASJER 1] obsluzylem klienta 40853
+
+[KASJER 1] Wolam klienta 40859 do kasy.
+
+[KASJER 1] Klient 40859 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40859 skorygowal zakupy. Nowa kwota: 68.10
+[KASJER 1] Zakupy od Klienta 40859 na: 68.10 zl
+
+[KASJER 1] obsluzylem klienta 40859
+
+[KASJER 1] Wolam klienta 40823 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40823 na: 27.40 zl
+
+[KASJER 1] obsluzylem klienta 40823
+
+[KASJER 1] Wolam klienta 40811 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40811 na: 104.10 zl
+
+[KASJER 1] obsluzylem klienta 40811
+
+[KASJER 1] Wolam klienta 40857 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40857 na: 117.90 zl
+
+[KASJER 1] obsluzylem klienta 40857
+
+[KASJER 1] Wolam klienta 40817 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40817 na: 41.00 zl
+
+[KASJER 1] obsluzylem klienta 40817
+
+[KASJER 1] Wolam klienta 40863 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40863 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 40863
+
+[KASJER 1] Wolam klienta 40869 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (43 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40869 na: 42.20 zl
+
+[KASJER 1] obsluzylem klienta 40869
+
+[KASJER 1] Wolam klienta 40815 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40815 na: 222.80 zl
+
+[KASJER 1] obsluzylem klienta 40815
+
+[KASJER 1] Wolam klienta 40820 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40820 na: 21.00 zl
+
+[KASJER 1] obsluzylem klienta 40820
+
+[KASJER 1] Wolam klienta 40849 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (43 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40849 na: 62.70 zl
+
+[KASJER 1] obsluzylem klienta 40849
+
+[KASJER 1] Wolam klienta 40858 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40858 na: 61.50 zl
+
+[KASJER 1] obsluzylem klienta 40858
+
+[KASJER 1] Wolam klienta 40813 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40813 na: 60.00 zl
+
+[KASJER 1] obsluzylem klienta 40813
+
+[KASJER 1] Wolam klienta 40829 do kasy.
+
+[KASJER 1] Klient 40829 jest nieletni (17 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40829 skorygowal zakupy. Nowa kwota: 12.00
+[KASJER 1] Zakupy od Klienta 40829 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 40829
+
+[KASJER 1] Wolam klienta 40803 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40803 na: 59.00 zl
+
+[KASJER 1] obsluzylem klienta 40803
+
+[KASJER 1] Wolam klienta 40891 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40891 na: 76.00 zl
+
+[KASJER 1] obsluzylem klienta 40891
+
+[KASJER 1] Wolam klienta 40870 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40870 na: 30.00 zl
+
+[KASJER 1] obsluzylem klienta 40870
+
+[KASJER 1] Wolam klienta 40850 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40850 na: 65.20 zl
+
+[KASJER 1] obsluzylem klienta 40850
+
+[KASJER 1] Wolam klienta 40818 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40818 na: 113.40 zl
+
+[KASJER 1] obsluzylem klienta 40818
+
+[KASJER 1] Wolam klienta 40878 do kasy.
+
+[KASJER 1] Klient 40878 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40878 skorygowal zakupy. Nowa kwota: 142.00
+[KASJER 1] Zakupy od Klienta 40878 na: 142.00 zl
+
+[KASJER 1] obsluzylem klienta 40878
+
+[KASJER 1] Wolam klienta 40886 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40886 na: 75.50 zl
+
+[KASJER 1] obsluzylem klienta 40886
+
+[KASJER 1] Wolam klienta 40896 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40896 na: 38.40 zl
+
+[KASJER 1] obsluzylem klienta 40896
+
+[KASJER 1] Wolam klienta 40875 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40875 na: 92.20 zl
+
+[KASJER 1] obsluzylem klienta 40875
+
+[KASJER 1] Wolam klienta 40873 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40873 na: 59.40 zl
+
+[KASJER 1] obsluzylem klienta 40873
+
+[KASJER 1] Wolam klienta 40894 do kasy.
+
+[KASJER 1] Klient 40894 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40894 skorygowal zakupy. Nowa kwota: 75.70
+[KASJER 1] Zakupy od Klienta 40894 na: 75.70 zl
+
+[KASJER 1] obsluzylem klienta 40894
+
+[KASJER 1] Wolam klienta 40842 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40842 na: 132.30 zl
+
+[KASJER 1] obsluzylem klienta 40842
+
+[KASJER 1] Wolam klienta 40833 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40833 na: 153.50 zl
+
+[KASJER 1] obsluzylem klienta 40833
+
+[KASJER 1] Wolam klienta 40889 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40889 na: 54.20 zl
+
+[KASJER 1] obsluzylem klienta 40889
+
+[KASJER 1] Wolam klienta 40846 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40846 na: 106.90 zl
+
+[KASJER 1] obsluzylem klienta 40846
+
+[KASJER 1] Wolam klienta 40860 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40860 na: 184.60 zl
+
+[KASJER 1] obsluzylem klienta 40860
+
+[KASJER 1] Wolam klienta 40864 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40864 na: 6.00 zl
+
+[KASJER 1] obsluzylem klienta 40864
+
+[KASJER 1] Wolam klienta 40843 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40843 na: 144.00 zl
+
+[KASJER 1] obsluzylem klienta 40843
+
+[KASJER 1] Wolam klienta 40874 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40874 na: 166.70 zl
+
+[KASJER 1] obsluzylem klienta 40874
+
+[KASJER 1] Wolam klienta 40844 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (67 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40844 na: 250.80 zl
+
+[KASJER 1] obsluzylem klienta 40844
+
+[KASJER 1] Wolam klienta 40865 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40865 na: 37.20 zl
+
+[KASJER 1] obsluzylem klienta 40865
+
+[KASJER 1] Wolam klienta 40900 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40900 na: 209.50 zl
+
+[KASJER 1] obsluzylem klienta 40900
+
+[KASJER 1] Wolam klienta 40910 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40910 na: 92.60 zl
+
+[KASJER 1] obsluzylem klienta 40910
+
+[KASJER 1] Wolam klienta 40861 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40861 na: 99.80 zl
+
+[KASJER 1] obsluzylem klienta 40861
+
+[KASJER 1] Wolam klienta 40841 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40841 na: 22.70 zl
+
+[KASJER 1] obsluzylem klienta 40841
+
+[KASJER 1] Wolam klienta 40847 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40847 na: 184.90 zl
+
+[KASJER 1] obsluzylem klienta 40847
+
+[KASJER 1] Wolam klienta 40852 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (56 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40852 na: 73.50 zl
+
+[KASJER 1] obsluzylem klienta 40852
+
+[KASJER 1] Wolam klienta 40887 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40887 na: 134.50 zl
+
+[KASJER 1] obsluzylem klienta 40887
+
+[KASJER 1] Wolam klienta 40877 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40877 na: 104.10 zl
+
+[KASJER 1] obsluzylem klienta 40877
+
+[KASJER 1] Wolam klienta 40845 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40845 na: 12.50 zl
+
+[KASJER 1] obsluzylem klienta 40845
+
+[KASJER 1] Wolam klienta 40876 do kasy.
+
+[KASJER 1] Klient 40876 jest nieletni (16 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40876 skorygowal zakupy. Nowa kwota: 47.50
+[KASJER 1] Zakupy od Klienta 40876 na: 47.50 zl
+
+[KASJER 1] obsluzylem klienta 40876
+
+[KASJER 1] Wolam klienta 40879 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40879 na: 43.50 zl
+
+[KASJER 1] obsluzylem klienta 40879
+
+[KASJER 1] Wolam klienta 40848 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40848 na: 104.90 zl
+
+[KASJER 1] obsluzylem klienta 40848
+
+[KASJER 1] Wolam klienta 40897 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40897 na: 14.70 zl
+
+[KASJER 1] obsluzylem klienta 40897
+
+[KASJER 1] Wolam klienta 40851 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40851 na: 104.90 zl
+
+[KASJER 1] obsluzylem klienta 40851
+
+[KASJER 1] Wolam klienta 40885 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40885 na: 46.40 zl
+
+[KASJER 1] obsluzylem klienta 40885
+
+[KASJER 1] Wolam klienta 40856 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40856 na: 74.40 zl
+
+[KASJER 1] obsluzylem klienta 40856
+
+[KASJER 1] Wolam klienta 40909 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40909 na: 302.90 zl
+
+[KASJER 1] obsluzylem klienta 40909
+
+[KASJER 1] Wolam klienta 40912 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40912 na: 78.60 zl
+
+[KASJER 1] obsluzylem klienta 40912
+
+[KASJER 1] Wolam klienta 40872 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40872 na: 21.20 zl
+
+[KASJER 1] obsluzylem klienta 40872
+
+[KASJER 1] Wolam klienta 40903 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40903 na: 0.90 zl
+
+[KASJER 1] obsluzylem klienta 40903
+
+[KASJER 1] Wolam klienta 40868 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40868 na: 115.20 zl
+
+[KASJER 1] obsluzylem klienta 40868
+
+[KASJER 1] Wolam klienta 40911 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40911 na: 104.00 zl
+
+[KASJER 1] obsluzylem klienta 40911
+
+[KASJER 1] Wolam klienta 40890 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40890 na: 40.00 zl
+
+[KASJER 1] obsluzylem klienta 40890
+
+[KASJER 1] Wolam klienta 40907 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40907 na: 40.90 zl
+
+[KASJER 1] obsluzylem klienta 40907
+
+[KASJER 1] Wolam klienta 40902 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40902 na: 121.40 zl
+
+[KASJER 1] obsluzylem klienta 40902
+
+[KASJER 1] Wolam klienta 40898 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40898 na: 49.50 zl
+
+[KASJER 1] obsluzylem klienta 40898
+
+[KASJER 1] Wolam klienta 40906 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40906 na: 19.80 zl
+
+[KASJER 1] obsluzylem klienta 40906
+
+[KASJER 1] Wolam klienta 40899 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40899 na: 178.40 zl
+
+[KASJER 1] obsluzylem klienta 40899
+
+[KASJER 1] Wolam klienta 40913 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40913 na: 38.50 zl
+
+[KASJER 1] obsluzylem klienta 40913
+
+[KASJER 1] Wolam klienta 40888 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40888 na: 189.60 zl
+
+[KASJER 1] obsluzylem klienta 40888
+
+[KASJER 1] Wolam klienta 40924 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40924 na: 135.50 zl
+
+[KASJER 1] obsluzylem klienta 40924
+
+[KASJER 1] Wolam klienta 40917 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40917 na: 30.00 zl
+
+[KASJER 1] obsluzylem klienta 40917
+
+[KASJER 1] Wolam klienta 40908 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40908 na: 117.50 zl
+
+[KASJER 1] obsluzylem klienta 40908
+
+[KASJER 1] Wolam klienta 40895 do kasy.
+
+[KASJER 1] Klient 40895 jest nieletni (17 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40895 skorygowal zakupy. Nowa kwota: 88.90
+[KASJER 1] Zakupy od Klienta 40895 na: 88.90 zl
+
+[KASJER 1] obsluzylem klienta 40895
+
+[KASJER 1] Wolam klienta 40893 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40893 na: 26.50 zl
+
+[KASJER 1] obsluzylem klienta 40893
+
+[KASJER 1] Wolam klienta 40905 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40905 na: 81.00 zl
+
+[KASJER 1] obsluzylem klienta 40905
+
+[KASJER 1] Wolam klienta 40901 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40901 na: 65.80 zl
+
+[KASJER 1] obsluzylem klienta 40901
+
+[KASJER 1] Wolam klienta 40914 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40914 na: 62.40 zl
+
+[KASJER 1] obsluzylem klienta 40914
+
+[KASJER 1] Wolam klienta 40892 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40892 na: 212.50 zl
+
+[KASJER 1] obsluzylem klienta 40892
+
+[KASJER 1] Wolam klienta 40925 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40925 na: 37.10 zl
+
+[KASJER 1] obsluzylem klienta 40925
+
+[KASJER 1] Wolam klienta 40904 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40904 na: 96.80 zl
+
+[KASJER 1] obsluzylem klienta 40904
+
+[KASJER 1] Wolam klienta 40916 do kasy.
+
+[KASJER 1] Klient 40916 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40916 skorygowal zakupy. Nowa kwota: 54.80
+[KASJER 1] Zakupy od Klienta 40916 na: 54.80 zl
+
+[KASJER 1] obsluzylem klienta 40916
+
+[KASJER 1] Wolam klienta 40915 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40915 na: 138.80 zl
+
+[KASJER 1] obsluzylem klienta 40915
+
+[KASJER 1] Wolam klienta 40923 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40923 na: 43.90 zl
+
+[KASJER 1] obsluzylem klienta 40923
+
+[KASJER 1] Wolam klienta 40926 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40926 na: 60.40 zl
+
+[KASJER 1] obsluzylem klienta 40926
+
+[KASJER 1] Wolam klienta 40927 do kasy.
+
+[KASJER 1] Klient 40927 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40927 skorygowal zakupy. Nowa kwota: 83.90
+[KASJER 1] Zakupy od Klienta 40927 na: 83.90 zl
+
+[KASJER 1] obsluzylem klienta 40927
+
+[KASJER 1] Wolam klienta 40930 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40930 na: 157.50 zl
+
+[KASJER 1] obsluzylem klienta 40930
+
+[KASJER 1] Wolam klienta 40928 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40928 na: 103.30 zl
+
+[KASJER 1] obsluzylem klienta 40928
+
+[KASJER 1] Wolam klienta 40929 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40929 na: 47.00 zl
+
+[KASJER 1] obsluzylem klienta 40929
+
+[KASJER 1] Wolam klienta 40931 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40931 na: 116.40 zl
+
+[KASJER 1] obsluzylem klienta 40931
+
+[KASJER 1] Wolam klienta 40932 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40932 na: 200.40 zl
+
+[KASJER 1] obsluzylem klienta 40932
+
+[KASJER 1] Wolam klienta 40934 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40934 na: 47.00 zl
+
+[KASJER 1] obsluzylem klienta 40934
+
+[KASJER 1] Wolam klienta 40933 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40933 na: 218.00 zl
+
+[KASJER 1] obsluzylem klienta 40933
+
+[KASJER 1] Wolam klienta 40937 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40937 na: 19.90 zl
+
+[KASJER 1] obsluzylem klienta 40937
+
+[KASJER 1] Wolam klienta 40936 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40936 na: 24.50 zl
+
+[KASJER 1] obsluzylem klienta 40936
+
+[KASJER 1] Wolam klienta 40935 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40935 na: 103.30 zl
+
+[KASJER 1] obsluzylem klienta 40935
+
+[KASJER 1] Wolam klienta 40939 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40939 na: 2.00 zl
+
+[KASJER 1] obsluzylem klienta 40939
+
+[KASJER 1] Wolam klienta 40938 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40938 na: 177.80 zl
+
+[KASJER 1] obsluzylem klienta 40938
+
+[KASJER 1] Wolam klienta 40941 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40941 na: 48.70 zl
+
+[KASJER 1] obsluzylem klienta 40941
+
+[KASJER 1] Wolam klienta 40940 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40940 na: 80.40 zl
+
+[KASJER 1] obsluzylem klienta 40940
+
+[KASJER 1] Wolam klienta 40942 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40942 na: 38.00 zl
+
+[KASJER 1] obsluzylem klienta 40942
+
+[KASJER 1] Wolam klienta 40943 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40943 na: 32.90 zl
+
+[KASJER 1] obsluzylem klienta 40943
+
+[KASJER 1] Wolam klienta 40945 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40945 na: 84.80 zl
+
+[KASJER 1] obsluzylem klienta 40945
+
+[KASJER 1] Wolam klienta 40944 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40944 na: 120.40 zl
+
+[KASJER 1] obsluzylem klienta 40944
+
+[KASJER 1] Wolam klienta 40947 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40947 na: 3.00 zl
+
+[KASJER 1] obsluzylem klienta 40947
+
+[KASJER 1] Wolam klienta 40946 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40946 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 40946
+
+[KASJER 1] Wolam klienta 40948 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40948 na: 11.10 zl
+
+[KASJER 1] obsluzylem klienta 40948
+
+[KASJER 1] Wolam klienta 40949 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40949 na: 71.50 zl
+
+[KASJER 1] obsluzylem klienta 40949
+
+[KASJER 1] Wolam klienta 40951 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40951 na: 116.30 zl
+
+[KASJER 1] obsluzylem klienta 40951
+
+[KASJER 1] Wolam klienta 40950 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40950 na: 45.40 zl
+
+[KASJER 1] obsluzylem klienta 40950
+
+[KASJER 1] Wolam klienta 40952 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40952 na: 153.00 zl
+
+[KASJER 1] obsluzylem klienta 40952
+
+[KASJER 1] Wolam klienta 40953 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40953 na: 143.00 zl
+
+[KASJER 1] obsluzylem klienta 40953
+
+[KASJER 1] Wolam klienta 40954 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40954 na: 99.40 zl
+
+[KASJER 1] obsluzylem klienta 40954
+
+[KASJER 1] Wolam klienta 40956 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40956 na: 9.50 zl
+
+[KASJER 1] obsluzylem klienta 40956
+
+[KASJER 1] Wolam klienta 40955 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40955 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 40955
+
+[KASJER 1] Wolam klienta 40957 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40957 na: 65.30 zl
+
+[KASJER 1] obsluzylem klienta 40957
+
+[KASJER 1] Wolam klienta 40959 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40959 na: 58.00 zl
+
+[KASJER 1] obsluzylem klienta 40959
+
+[KASJER 1] Wolam klienta 40960 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40960 na: 38.00 zl
+
+[KASJER 1] obsluzylem klienta 40960
+
+[KASJER 1] Wolam klienta 40958 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40958 na: 199.00 zl
+
+[KASJER 1] obsluzylem klienta 40958
+
+[KASJER 1] Wolam klienta 40966 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40966 na: 20.90 zl
+
+[KASJER 1] obsluzylem klienta 40966
+
+[KASJER 1] Wolam klienta 40961 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40961 na: 37.20 zl
+
+[KASJER 1] obsluzylem klienta 40961
+
+[KASJER 1] Wolam klienta 40968 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40968 na: 26.40 zl
+
+[KASJER 1] obsluzylem klienta 40968
+
+[KASJER 1] Wolam klienta 40969 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (43 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40969 na: 67.80 zl
+
+[KASJER 1] obsluzylem klienta 40969
+
+[KASJER 1] Wolam klienta 40970 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40970 na: 50.00 zl
+
+[KASJER 1] obsluzylem klienta 40970
+
+[KASJER 1] Wolam klienta 40971 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40971 na: 91.90 zl
+
+[KASJER 1] obsluzylem klienta 40971
+
+[KASJER 1] Wolam klienta 40972 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40972 na: 63.60 zl
+
+[KASJER 1] obsluzylem klienta 40972
+
+[KASJER 1] Wolam klienta 40973 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40973 na: 105.10 zl
+
+[KASJER 1] obsluzylem klienta 40973
+
+[KASJER 1] Wolam klienta 40975 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40975 na: 28.00 zl
+
+[KASJER 1] obsluzylem klienta 40975
+
+[KASJER 1] Wolam klienta 40974 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (29 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40974 na: 164.00 zl
+
+[KASJER 1] obsluzylem klienta 40974
+
+[KASJER 1] Wolam klienta 40976 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40976 na: 41.10 zl
+
+[KASJER 1] obsluzylem klienta 40976
+
+[KASJER 1] Wolam klienta 40977 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40977 na: 65.40 zl
+
+[KASJER 1] obsluzylem klienta 40977
+
+[KASJER 1] Wolam klienta 40978 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40978 na: 83.30 zl
+
+[KASJER 1] obsluzylem klienta 40978
+
+[KASJER 1] Wolam klienta 40979 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40979 na: 27.20 zl
+
+[KASJER 1] obsluzylem klienta 40979
+
+[KASJER 1] Wolam klienta 40982 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (45 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40982 na: 58.40 zl
+
+[KASJER 1] obsluzylem klienta 40982
+
+[KASJER 1] Wolam klienta 40980 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40980 na: 141.80 zl
+
+[KASJER 1] obsluzylem klienta 40980
+
+[KASJER 1] Wolam klienta 40981 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40981 na: 35.00 zl
+
+[KASJER 1] obsluzylem klienta 40981
+
+[KASJER 1] Wolam klienta 40984 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (48 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40984 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 40984
+
+[KASJER 1] Wolam klienta 40983 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40983 na: 103.90 zl
+
+[KASJER 1] obsluzylem klienta 40983
+
+[KASJER 1] Wolam klienta 40985 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40985 na: 242.00 zl
+
+[KASJER 1] obsluzylem klienta 40985
+
+[KASJER 1] Wolam klienta 40986 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40986 na: 131.50 zl
+
+[KASJER 1] obsluzylem klienta 40986
+
+[KASJER 1] Wolam klienta 40987 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40987 na: 33.70 zl
+
+[KASJER 1] obsluzylem klienta 40987
+
+[KASJER 1] Wolam klienta 40989 do kasy.
+
+[KASJER 1] Klient 40989 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40989 skorygowal zakupy. Nowa kwota: 56.00
+[KASJER 1] Zakupy od Klienta 40989 na: 56.00 zl
+
+[KASJER 1] obsluzylem klienta 40989
+
+[KASJER 1] Wolam klienta 40988 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40988 na: 341.70 zl
+
+[KASJER 1] obsluzylem klienta 40988
+
+[KASJER 1] Wolam klienta 40991 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40991 na: 7.00 zl
+
+[KASJER 1] obsluzylem klienta 40991
+
+[KASJER 1] Wolam klienta 40990 do kasy.
+
+[KASJER 1] Klient 40990 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40990 skorygowal zakupy. Nowa kwota: 54.10
+[KASJER 1] Zakupy od Klienta 40990 na: 54.10 zl
+
+[KASJER 1] obsluzylem klienta 40990
+
+[KASJER 1] Wolam klienta 40992 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40992 na: 79.40 zl
+
+[KASJER 1] obsluzylem klienta 40992
+
+[KASJER 1] Wolam klienta 40993 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40993 na: 118.50 zl
+
+[KASJER 1] obsluzylem klienta 40993
+
+[KASJER 1] Wolam klienta 40995 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (21 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40995 na: 78.70 zl
+
+[KASJER 1] obsluzylem klienta 40995
+
+[KASJER 1] Wolam klienta 40994 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40994 na: 176.70 zl
+
+[KASJER 1] obsluzylem klienta 40994
+
+[KASJER 1] Wolam klienta 40997 do kasy.
+
+[KASJER 1] Klient 40997 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 40997 skorygowal zakupy. Nowa kwota: 95.70
+[KASJER 1] Zakupy od Klienta 40997 na: 95.70 zl
+
+[KASJER 1] obsluzylem klienta 40997
+
+[KASJER 1] Wolam klienta 40996 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (67 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40996 na: 5.00 zl
+
+[KASJER 1] obsluzylem klienta 40996
+
+[KASJER 1] Wolam klienta 40998 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 40998 na: 77.90 zl
+
+[KASJER 1] obsluzylem klienta 40998
+
+[KASJER 1] Wolam klienta 40999 do kasy.
+
+[KASJER 1] Zakupy od Klienta 40999 na: 38.50 zl
+
+[KASJER 1] obsluzylem klienta 40999
+
+[KASJER 1] Wolam klienta 41000 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41000 na: 107.00 zl
+
+[KASJER 1] obsluzylem klienta 41000
+
+[KASJER 1] Wolam klienta 41001 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41001 na: 162.80 zl
+
+[KASJER 1] obsluzylem klienta 41001
+
+[KASJER 1] Wolam klienta 41002 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41002 na: 11.40 zl
+
+[KASJER 1] obsluzylem klienta 41002
+
+[KASJER 1] Wolam klienta 41003 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41003 na: 16.50 zl
+
+[KASJER 1] obsluzylem klienta 41003
+
+[KASJER 1] Wolam klienta 41009 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41009 na: 145.90 zl
+
+[KASJER 1] obsluzylem klienta 41009
+
+[KASJER 1] Wolam klienta 41012 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41012 na: 107.00 zl
+
+[KASJER 1] obsluzylem klienta 41012
+
+[KASJER 1] Wolam klienta 41010 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41010 na: 235.30 zl
+
+[KASJER 1] obsluzylem klienta 41010
+
+[KASJER 1] Wolam klienta 41011 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41011 na: 34.00 zl
+
+[KASJER 1] obsluzylem klienta 41011
+
+[KASJER 1] Wolam klienta 41013 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41013 na: 6.50 zl
+
+[KASJER 1] obsluzylem klienta 41013
+
+[KASJER 1] Wolam klienta 41014 do kasy.
+
+[KASJER 1] Klient 41014 jest nieletni (16 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41014 skorygowal zakupy. Nowa kwota: 147.30
+[KASJER 1] Zakupy od Klienta 41014 na: 147.30 zl
+
+[KASJER 1] obsluzylem klienta 41014
+
+[KASJER 1] Wolam klienta 41015 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41015 na: 192.00 zl
+
+[KASJER 1] obsluzylem klienta 41015
+
+[KASJER 1] Wolam klienta 41017 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41017 na: 4.70 zl
+
+[KASJER 1] obsluzylem klienta 41017
+
+[KASJER 1] Wolam klienta 41016 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41016 na: 120.70 zl
+
+[KASJER 1] obsluzylem klienta 41016
+
+[KASJER 1] Wolam klienta 41018 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41018 na: 4.70 zl
+
+[KASJER 1] obsluzylem klienta 41018
+
+[KASJER 1] Wolam klienta 41019 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41019 na: 120.70 zl
+
+[KASJER 1] obsluzylem klienta 41019
+
+[KASJER 1] Wolam klienta 41020 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41020 na: 213.10 zl
+
+[KASJER 1] obsluzylem klienta 41020
+
+[KASJER 1] Wolam klienta 41021 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41021 na: 45.00 zl
+
+[KASJER 1] obsluzylem klienta 41021
+
+[KASJER 1] Wolam klienta 41023 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41023 na: 98.20 zl
+
+[KASJER 1] obsluzylem klienta 41023
+
+[KASJER 1] Wolam klienta 41022 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41022 na: 159.40 zl
+
+[KASJER 1] obsluzylem klienta 41022
+
+[KASJER 1] Wolam klienta 41024 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41024 na: 53.50 zl
+
+[KASJER 1] obsluzylem klienta 41024
+
+[KASJER 1] Wolam klienta 41025 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41025 na: 93.50 zl
+
+[KASJER 1] obsluzylem klienta 41025
+
+[KASJER 1] Wolam klienta 41026 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41026 na: 31.80 zl
+
+[KASJER 1] obsluzylem klienta 41026
+
+[KASJER 1] Wolam klienta 41027 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41027 na: 243.40 zl
+
+[KASJER 1] obsluzylem klienta 41027
+
+[KASJER 1] Wolam klienta 41028 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41028 na: 26.00 zl
+
+[KASJER 1] obsluzylem klienta 41028
+
+[KASJER 1] Wolam klienta 41029 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41029 na: 127.50 zl
+
+[KASJER 1] obsluzylem klienta 41029
+
+[KASJER 1] Wolam klienta 41030 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41030 na: 47.20 zl
+
+[KASJER 1] obsluzylem klienta 41030
+
+[KASJER 1] Wolam klienta 41032 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41032 na: 97.20 zl
+
+[KASJER 1] obsluzylem klienta 41032
+
+[KASJER 1] Wolam klienta 41031 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41031 na: 44.70 zl
+
+[KASJER 1] obsluzylem klienta 41031
+
+[KASJER 1] Wolam klienta 41033 do kasy.
+
+[KASJER 1] Klient 41033 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41033 skorygowal zakupy. Nowa kwota: 58.80
+[KASJER 1] Zakupy od Klienta 41033 na: 58.80 zl
+
+[KASJER 1] obsluzylem klienta 41033
+
+[KASJER 1] Wolam klienta 41035 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41035 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 41035
+
+[KASJER 1] Wolam klienta 41034 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41034 na: 48.40 zl
+
+[KASJER 1] obsluzylem klienta 41034
+
+[KASJER 1] Wolam klienta 41036 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41036 na: 4.20 zl
+
+[KASJER 1] obsluzylem klienta 41036
+
+[KASJER 1] Wolam klienta 41037 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (21 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41037 na: 65.80 zl
+
+[KASJER 1] obsluzylem klienta 41037
+
+[KASJER 1] Wolam klienta 41038 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41038 na: 4.50 zl
+
+[KASJER 1] obsluzylem klienta 41038
+
+[KASJER 1] Wolam klienta 41040 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41040 na: 132.00 zl
+
+[KASJER 1] obsluzylem klienta 41040
+
+[KASJER 1] Wolam klienta 41039 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41039 na: 50.70 zl
+
+[KASJER 1] obsluzylem klienta 41039
+
+[KASJER 1] Wolam klienta 41041 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41041 na: 61.00 zl
+
+[KASJER 1] obsluzylem klienta 41041
+
+[KASJER 1] Wolam klienta 41042 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41042 na: 103.90 zl
+
+[KASJER 1] obsluzylem klienta 41042
+
+[KASJER 1] Wolam klienta 41043 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41043 na: 35.70 zl
+
+[KASJER 1] obsluzylem klienta 41043
+
+[KASJER 1] Wolam klienta 41047 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41047 na: 90.90 zl
+
+[KASJER 1] obsluzylem klienta 41047
+
+[KASJER 1] Wolam klienta 41046 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41046 na: 95.30 zl
+
+[KASJER 1] obsluzylem klienta 41046
+
+[KASJER 1] Wolam klienta 41048 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41048 na: 108.40 zl
+
+[KASJER 1] obsluzylem klienta 41048
+
+[KASJER 1] Wolam klienta 41049 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41049 na: 60.10 zl
+
+[KASJER 1] obsluzylem klienta 41049
+
+[KASJER 1] Wolam klienta 41053 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41053 na: 86.40 zl
+
+[KASJER 1] obsluzylem klienta 41053
+
+[KASJER 1] Wolam klienta 41056 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41056 na: 82.60 zl
+
+[KASJER 1] obsluzylem klienta 41056
+
+[KASJER 1] Wolam klienta 41057 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41057 na: 8.70 zl
+
+[KASJER 1] obsluzylem klienta 41057
+
+[KASJER 1] Wolam klienta 41059 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41059 na: 126.40 zl
+
+[KASJER 1] obsluzylem klienta 41059
+
+[KASJER 1] Wolam klienta 41058 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41058 na: 132.00 zl
+
+[KASJER 1] obsluzylem klienta 41058
+
+[KASJER 1] Wolam klienta 41060 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41060 na: 29.00 zl
+
+[KASJER 1] obsluzylem klienta 41060
+
+[KASJER 1] Wolam klienta 41061 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41061 na: 97.30 zl
+
+[KASJER 1] obsluzylem klienta 41061
+
+[KASJER 1] Wolam klienta 41062 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (49 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41062 na: 71.50 zl
+
+[KASJER 1] obsluzylem klienta 41062
+
+[KASJER 1] Wolam klienta 41066 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41066 na: 73.60 zl
+
+[KASJER 1] obsluzylem klienta 41066
+
+[KASJER 1] Wolam klienta 41067 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41067 na: 163.00 zl
+
+[KASJER 1] obsluzylem klienta 41067
+
+[KASJER 1] Wolam klienta 41068 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41068 na: 117.70 zl
+
+[KASJER 1] obsluzylem klienta 41068
+
+[KASJER 1] Wolam klienta 41069 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (50 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41069 na: 135.10 zl
+
+[KASJER 1] obsluzylem klienta 41069
+
+[KASJER 1] Wolam klienta 41070 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41070 na: 58.40 zl
+
+[KASJER 1] obsluzylem klienta 41070
+
+[KASJER 1] Wolam klienta 41071 do kasy.
+
+[KASJER 1] Klient 41071 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41071 skorygowal zakupy. Nowa kwota: 31.50
+[KASJER 1] Zakupy od Klienta 41071 na: 31.50 zl
+
+[KASJER 1] obsluzylem klienta 41071
+
+[KASJER 1] Wolam klienta 41072 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41072 na: 90.60 zl
+
+[KASJER 1] obsluzylem klienta 41072
+
+[KASJER 1] Wolam klienta 41074 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41074 na: 101.10 zl
+
+[KASJER 1] obsluzylem klienta 41074
+
+[KASJER 1] Wolam klienta 41075 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41075 na: 75.50 zl
+
+[KASJER 1] obsluzylem klienta 41075
+
+[KASJER 1] Wolam klienta 41076 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41076 na: 128.40 zl
+
+[KASJER 1] obsluzylem klienta 41076
+
+[KASJER 1] Wolam klienta 41078 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41078 na: 95.00 zl
+
+[KASJER 1] obsluzylem klienta 41078
+
+[KASJER 1] Wolam klienta 41077 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (49 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41077 na: 61.40 zl
+
+[KASJER 1] obsluzylem klienta 41077
+
+[KASJER 1] Wolam klienta 41079 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41079 na: 36.40 zl
+
+[KASJER 1] obsluzylem klienta 41079
+
+[KASJER 1] Wolam klienta 41080 do kasy.
+
+[KASJER 1] Klient 41080 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41080 skorygowal zakupy. Nowa kwota: 125.80
+[KASJER 1] Zakupy od Klienta 41080 na: 125.80 zl
+
+[KASJER 1] obsluzylem klienta 41080
+
+[KASJER 1] Wolam klienta 41081 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41081 na: 32.00 zl
+
+[KASJER 1] obsluzylem klienta 41081
+
+[KASJER 1] Wolam klienta 41082 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41082 na: 24.20 zl
+
+[KASJER 1] obsluzylem klienta 41082
+
+[KASJER 1] Wolam klienta 41083 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41083 na: 157.10 zl
+
+[KASJER 1] obsluzylem klienta 41083
+
+[KASJER 1] Wolam klienta 41084 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41084 na: 79.20 zl
+
+[KASJER 1] obsluzylem klienta 41084
+
+[KASJER 1] Wolam klienta 41085 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41085 na: 155.40 zl
+
+[KASJER 1] obsluzylem klienta 41085
+
+[KASJER 1] Wolam klienta 41086 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41086 na: 63.40 zl
+
+[KASJER 1] obsluzylem klienta 41086
+
+[KASJER 1] Wolam klienta 41087 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41087 na: 122.50 zl
+
+[KASJER 1] obsluzylem klienta 41087
+
+[KASJER 1] Wolam klienta 41089 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41089 na: 269.50 zl
+
+[KASJER 1] obsluzylem klienta 41089
+
+[KASJER 1] Wolam klienta 41088 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41088 na: 158.90 zl
+
+[KASJER 1] obsluzylem klienta 41088
+
+[KASJER 1] Wolam klienta 41090 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41090 na: 33.00 zl
+
+[KASJER 1] obsluzylem klienta 41090
+
+[KASJER 1] Wolam klienta 41091 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41091 na: 37.60 zl
+
+[KASJER 1] obsluzylem klienta 41091
+
+[KASJER 1] Wolam klienta 41092 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41092 na: 0.90 zl
+
+[KASJER 1] obsluzylem klienta 41092
+
+[KASJER 1] Wolam klienta 41093 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41093 na: 73.50 zl
+
+[KASJER 1] obsluzylem klienta 41093
+
+[KASJER 1] Wolam klienta 41094 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41094 na: 56.40 zl
+
+[KASJER 1] obsluzylem klienta 41094
+
+[KASJER 1] Wolam klienta 41096 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41096 na: 137.50 zl
+
+[KASJER 1] obsluzylem klienta 41096
+
+[KASJER 1] Wolam klienta 41095 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41095 na: 103.00 zl
+
+[KASJER 1] obsluzylem klienta 41095
+
+[KASJER 1] Wolam klienta 41097 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41097 na: 84.40 zl
+
+[KASJER 1] obsluzylem klienta 41097
+
+[KASJER 1] Wolam klienta 41098 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41098 na: 3.50 zl
+
+[KASJER 1] obsluzylem klienta 41098
+
+[KASJER 1] Wolam klienta 41099 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41099 na: 0.90 zl
+
+[KASJER 1] obsluzylem klienta 41099
+
+[KASJER 1] Wolam klienta 41106 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41106 na: 42.80 zl
+
+[KASJER 1] obsluzylem klienta 41106
+
+[KASJER 1] Wolam klienta 41101 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41101 na: 30.50 zl
+
+[KASJER 1] obsluzylem klienta 41101
+
+[KASJER 1] Wolam klienta 41108 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41108 na: 148.90 zl
+
+[KASJER 1] obsluzylem klienta 41108
+
+[KASJER 1] Wolam klienta 41107 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41107 na: 119.80 zl
+
+[KASJER 1] obsluzylem klienta 41107
+
+[KASJER 1] Wolam klienta 41110 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41110 na: 31.00 zl
+
+[KASJER 1] obsluzylem klienta 41110
+
+[KASJER 1] Wolam klienta 41109 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41109 na: 211.00 zl
+
+[KASJER 1] obsluzylem klienta 41109
+
+[KASJER 1] Wolam klienta 41111 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41111 na: 198.20 zl
+
+[KASJER 1] obsluzylem klienta 41111
+
+[KASJER 1] Wolam klienta 41112 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41112 na: 133.00 zl
+
+[KASJER 1] obsluzylem klienta 41112
+
+[KASJER 1] Wolam klienta 41113 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41113 na: 69.60 zl
+
+[KASJER 1] obsluzylem klienta 41113
+
+[KASJER 1] Wolam klienta 41114 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41114 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41114
+
+[KASJER 1] Wolam klienta 41115 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41115 na: 92.00 zl
+
+[KASJER 1] obsluzylem klienta 41115
+
+[KASJER 1] Wolam klienta 41116 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41116 na: 186.00 zl
+
+[KASJER 1] obsluzylem klienta 41116
+
+[KASJER 1] Wolam klienta 41117 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41117 na: 42.80 zl
+
+[KASJER 1] obsluzylem klienta 41117
+
+[KASJER 1] Wolam klienta 41119 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41119 na: 195.40 zl
+
+[KASJER 1] obsluzylem klienta 41119
+
+[KASJER 1] Wolam klienta 41118 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41118 na: 111.40 zl
+
+[KASJER 1] obsluzylem klienta 41118
+
+[KASJER 1] Wolam klienta 41120 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41120 na: 30.00 zl
+
+[KASJER 1] obsluzylem klienta 41120
+
+[KASJER 1] Wolam klienta 41121 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41121 na: 20.00 zl
+
+[KASJER 1] obsluzylem klienta 41121
+
+[KASJER 1] Wolam klienta 41122 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41122 na: 161.70 zl
+
+[KASJER 1] obsluzylem klienta 41122
+
+[KASJER 1] Wolam klienta 41124 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41124 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 41124
+
+[KASJER 1] Wolam klienta 41123 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41123 na: 21.20 zl
+
+[KASJER 1] obsluzylem klienta 41123
+
+[KASJER 1] Wolam klienta 41125 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41125 na: 28.90 zl
+
+[KASJER 1] obsluzylem klienta 41125
+
+[KASJER 1] Wolam klienta 41126 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41126 na: 89.10 zl
+
+[KASJER 1] obsluzylem klienta 41126
+
+[KASJER 1] Wolam klienta 41128 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41128 na: 284.40 zl
+
+[KASJER 1] obsluzylem klienta 41128
+
+[KASJER 1] Wolam klienta 41127 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41127 na: 84.50 zl
+
+[KASJER 1] obsluzylem klienta 41127
+
+[KASJER 1] Wolam klienta 41130 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (49 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41130 na: 130.40 zl
+
+[KASJER 1] obsluzylem klienta 41130
+
+[KASJER 1] Wolam klienta 41129 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41129 na: 70.40 zl
+
+[KASJER 1] obsluzylem klienta 41129
+
+[KASJER 1] Wolam klienta 41131 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41131 na: 118.00 zl
+
+[KASJER 1] obsluzylem klienta 41131
+
+[KASJER 1] Wolam klienta 41132 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41132 na: 85.00 zl
+
+[KASJER 1] obsluzylem klienta 41132
+
+[KASJER 1] Wolam klienta 41133 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41133 na: 6.50 zl
+
+[KASJER 1] obsluzylem klienta 41133
+
+[KASJER 1] Wolam klienta 41134 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41134 na: 126.50 zl
+
+[KASJER 1] obsluzylem klienta 41134
+
+[KASJER 1] Wolam klienta 41135 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41135 na: 128.90 zl
+
+[KASJER 1] obsluzylem klienta 41135
+
+[KASJER 1] Wolam klienta 41137 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41137 na: 162.50 zl
+
+[KASJER 1] obsluzylem klienta 41137
+
+[KASJER 1] Wolam klienta 41136 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41136 na: 148.00 zl
+
+[KASJER 1] obsluzylem klienta 41136
+
+[KASJER 1] Wolam klienta 41138 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41138 na: 88.40 zl
+
+[KASJER 1] obsluzylem klienta 41138
+
+[KASJER 1] Wolam klienta 41139 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41139 na: 30.00 zl
+
+[KASJER 1] obsluzylem klienta 41139
+
+[KASJER 1] Wolam klienta 41140 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41140 na: 133.20 zl
+
+[KASJER 1] obsluzylem klienta 41140
+
+[KASJER 1] Wolam klienta 41141 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41141 na: 33.80 zl
+
+[KASJER 1] obsluzylem klienta 41141
+
+[KASJER 1] Wolam klienta 41143 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41143 na: 38.10 zl
+
+[KASJER 1] obsluzylem klienta 41143
+
+[KASJER 1] Wolam klienta 41142 do kasy.
+
+[KASJER 1] Klient 41142 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41142 skorygowal zakupy. Nowa kwota: 64.40
+[KASJER 1] Zakupy od Klienta 41142 na: 64.40 zl
+
+[KASJER 1] obsluzylem klienta 41142
+
+[KASJER 1] Wolam klienta 41150 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41150 na: 76.00 zl
+
+[KASJER 1] obsluzylem klienta 41150
+
+[KASJER 1] Wolam klienta 41144 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41144 na: 88.20 zl
+
+[KASJER 1] obsluzylem klienta 41144
+
+[KASJER 1] Wolam klienta 41151 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41151 na: 193.00 zl
+
+[KASJER 1] obsluzylem klienta 41151
+
+[KASJER 1] Wolam klienta 41152 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41152 na: 74.30 zl
+
+[KASJER 1] obsluzylem klienta 41152
+
+[KASJER 1] Wolam klienta 41153 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41153 na: 72.80 zl
+
+[KASJER 1] obsluzylem klienta 41153
+
+[KASJER 1] Wolam klienta 41155 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41155 na: 7.30 zl
+
+[KASJER 1] obsluzylem klienta 41155
+
+[KASJER 1] Wolam klienta 41154 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41154 na: 54.00 zl
+
+[KASJER 1] obsluzylem klienta 41154
+
+[KASJER 1] Wolam klienta 41156 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41156 na: 100.40 zl
+
+[KASJER 1] obsluzylem klienta 41156
+
+[KASJER 1] Wolam klienta 41157 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41157 na: 100.40 zl
+
+[KASJER 1] obsluzylem klienta 41157
+
+[KASJER 1] Wolam klienta 41158 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41158 na: 78.20 zl
+
+[KASJER 1] obsluzylem klienta 41158
+
+[KASJER 1] Wolam klienta 41159 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41159 na: 245.20 zl
+
+[KASJER 1] obsluzylem klienta 41159
+
+[KASJER 1] Wolam klienta 41160 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41160 na: 121.80 zl
+
+[KASJER 1] obsluzylem klienta 41160
+
+[KASJER 1] Wolam klienta 41162 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41162 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41162
+
+[KASJER 1] Wolam klienta 41161 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41161 na: 56.00 zl
+
+[KASJER 1] obsluzylem klienta 41161
+
+[KASJER 1] Wolam klienta 41164 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41164 na: 40.00 zl
+
+[KASJER 1] obsluzylem klienta 41164
+
+[KASJER 1] Wolam klienta 41163 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41163 na: 20.00 zl
+
+[KASJER 1] obsluzylem klienta 41163
+
+[KASJER 1] Wolam klienta 41165 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41165 na: 126.50 zl
+
+[KASJER 1] obsluzylem klienta 41165
+
+[KASJER 1] Wolam klienta 41167 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41167 na: 80.20 zl
+
+[KASJER 1] obsluzylem klienta 41167
+
+[KASJER 1] Wolam klienta 41166 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41166 na: 104.30 zl
+
+[KASJER 1] obsluzylem klienta 41166
+
+[KASJER 1] Wolam klienta 41168 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41168 na: 24.00 zl
+
+[KASJER 1] obsluzylem klienta 41168
+
+[KASJER 1] Wolam klienta 41169 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41169 na: 43.30 zl
+
+[KASJER 1] obsluzylem klienta 41169
+
+[KASJER 1] Wolam klienta 41170 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41170 na: 2.50 zl
+
+[KASJER 1] obsluzylem klienta 41170
+
+[KASJER 1] Wolam klienta 41171 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41171 na: 108.00 zl
+
+[KASJER 1] obsluzylem klienta 41171
+
+[KASJER 1] Wolam klienta 41172 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41172 na: 64.40 zl
+
+[KASJER 1] obsluzylem klienta 41172
+
+[KASJER 1] Wolam klienta 41173 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41173 na: 136.80 zl
+
+[KASJER 1] obsluzylem klienta 41173
+
+[KASJER 1] Wolam klienta 41175 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41175 na: 93.90 zl
+
+[KASJER 1] obsluzylem klienta 41175
+
+[KASJER 1] Wolam klienta 41174 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (56 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41174 na: 48.50 zl
+
+[KASJER 1] obsluzylem klienta 41174
+
+[KASJER 1] Wolam klienta 41176 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41176 na: 149.30 zl
+
+[KASJER 1] obsluzylem klienta 41176
+
+[KASJER 1] Wolam klienta 41177 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41177 na: 208.50 zl
+
+[KASJER 1] obsluzylem klienta 41177
+
+[KASJER 1] Wolam klienta 41178 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41178 na: 29.10 zl
+
+[KASJER 1] obsluzylem klienta 41178
+
+[KASJER 1] Wolam klienta 41179 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41179 na: 55.00 zl
+
+[KASJER 1] obsluzylem klienta 41179
+
+[KASJER 1] Wolam klienta 41180 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41180 na: 134.30 zl
+
+[KASJER 1] obsluzylem klienta 41180
+
+[KASJER 1] Wolam klienta 41181 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41181 na: 151.40 zl
+
+[KASJER 1] obsluzylem klienta 41181
+
+[KASJER 1] Wolam klienta 41183 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41183 na: 128.50 zl
+
+[KASJER 1] obsluzylem klienta 41183
+
+[KASJER 1] Wolam klienta 41182 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41182 na: 148.90 zl
+
+[KASJER 1] obsluzylem klienta 41182
+
+[KASJER 1] Wolam klienta 41184 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41184 na: 19.70 zl
+
+[KASJER 1] obsluzylem klienta 41184
+
+[KASJER 1] Wolam klienta 41185 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41185 na: 127.40 zl
+
+[KASJER 1] obsluzylem klienta 41185
+
+[KASJER 1] Wolam klienta 41186 do kasy.
+
+[KASJER 1] Klient 41186 jest nieletni (17 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41186 skorygowal zakupy. Nowa kwota: 36.70
+[KASJER 1] Zakupy od Klienta 41186 na: 36.70 zl
+
+[KASJER 1] obsluzylem klienta 41186
+
+[KASJER 1] Wolam klienta 41192 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41192 na: 138.70 zl
+
+[KASJER 1] obsluzylem klienta 41192
+
+[KASJER 1] Wolam klienta 41187 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41187 na: 97.80 zl
+
+[KASJER 1] obsluzylem klienta 41187
+
+[KASJER 1] Wolam klienta 41194 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (35 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41194 na: 120.00 zl
+
+[KASJER 1] obsluzylem klienta 41194
+
+[KASJER 1] Wolam klienta 41195 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41195 na: 91.00 zl
+
+[KASJER 1] obsluzylem klienta 41195
+
+[KASJER 1] Wolam klienta 41196 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41196 na: 13.00 zl
+
+[KASJER 1] obsluzylem klienta 41196
+
+[KASJER 1] Wolam klienta 41198 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41198 na: 230.00 zl
+
+[KASJER 1] obsluzylem klienta 41198
+
+[KASJER 1] Wolam klienta 41197 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41197 na: 139.10 zl
+
+[KASJER 1] obsluzylem klienta 41197
+
+[KASJER 1] Wolam klienta 41199 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41199 na: 119.50 zl
+
+[KASJER 1] obsluzylem klienta 41199
+
+[KASJER 1] Wolam klienta 41200 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41200 na: 35.90 zl
+
+[KASJER 1] obsluzylem klienta 41200
+
+[KASJER 1] Wolam klienta 41201 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41201 na: 19.50 zl
+
+[KASJER 1] obsluzylem klienta 41201
+
+[KASJER 1] Wolam klienta 41203 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41203 na: 42.00 zl
+
+[KASJER 1] obsluzylem klienta 41203
+
+[KASJER 1] Wolam klienta 41202 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41202 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 41202
+
+[KASJER 1] Wolam klienta 41204 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41204 na: 153.00 zl
+
+[KASJER 1] obsluzylem klienta 41204
+
+[KASJER 1] Wolam klienta 41205 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41205 na: 137.50 zl
+
+[KASJER 1] obsluzylem klienta 41205
+
+[KASJER 1] Wolam klienta 41207 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41207 na: 153.00 zl
+
+[KASJER 1] obsluzylem klienta 41207
+
+[KASJER 1] Wolam klienta 41206 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41206 na: 137.50 zl
+
+[KASJER 1] obsluzylem klienta 41206
+
+[KASJER 1] Wolam klienta 41208 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41208 na: 187.90 zl
+
+[KASJER 1] obsluzylem klienta 41208
+
+[KASJER 1] Wolam klienta 41210 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41210 na: 105.90 zl
+
+[KASJER 1] obsluzylem klienta 41210
+
+[KASJER 1] Wolam klienta 41209 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41209 na: 49.00 zl
+
+[KASJER 1] obsluzylem klienta 41209
+
+[KASJER 1] Wolam klienta 41212 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41212 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41212
+
+[KASJER 1] Wolam klienta 41211 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41211 na: 165.50 zl
+
+[KASJER 1] obsluzylem klienta 41211
+
+[KASJER 1] Wolam klienta 41214 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41214 na: 6.50 zl
+
+[KASJER 1] obsluzylem klienta 41214
+
+[KASJER 1] Wolam klienta 41213 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41213 na: 200.50 zl
+
+[KASJER 1] obsluzylem klienta 41213
+
+[KASJER 1] Wolam klienta 41215 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41215 na: 37.50 zl
+
+[KASJER 1] obsluzylem klienta 41215
+
+[KASJER 1] Wolam klienta 41216 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41216 na: 80.00 zl
+
+[KASJER 1] obsluzylem klienta 41216
+
+[KASJER 1] Wolam klienta 41217 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41217 na: 48.00 zl
+
+[KASJER 1] obsluzylem klienta 41217
+
+[KASJER 1] Wolam klienta 41218 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (50 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41218 na: 84.20 zl
+
+[KASJER 1] obsluzylem klienta 41218
+
+[KASJER 1] Wolam klienta 41220 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41220 na: 41.90 zl
+
+[KASJER 1] obsluzylem klienta 41220
+
+[KASJER 1] Wolam klienta 41219 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41219 na: 127.50 zl
+
+[KASJER 1] obsluzylem klienta 41219
+
+[KASJER 1] Wolam klienta 41221 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41221 na: 116.90 zl
+
+[KASJER 1] obsluzylem klienta 41221
+
+[KASJER 1] Wolam klienta 41222 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41222 na: 132.70 zl
+
+[KASJER 1] obsluzylem klienta 41222
+
+[KASJER 1] Wolam klienta 41223 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41223 na: 173.00 zl
+
+[KASJER 1] obsluzylem klienta 41223
+
+[KASJER 1] Wolam klienta 41224 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41224 na: 154.60 zl
+
+[KASJER 1] obsluzylem klienta 41224
+
+[KASJER 1] Wolam klienta 41225 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41225 na: 84.50 zl
+
+[KASJER 1] obsluzylem klienta 41225
+
+[KASJER 1] Wolam klienta 41226 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41226 na: 117.70 zl
+
+[KASJER 1] obsluzylem klienta 41226
+
+[KASJER 1] Wolam klienta 41229 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41229 na: 149.70 zl
+
+[KASJER 1] obsluzylem klienta 41229
+
+[KASJER 1] Wolam klienta 41227 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41227 na: 134.00 zl
+
+[KASJER 1] obsluzylem klienta 41227
+
+[KASJER 1] Wolam klienta 41228 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (29 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41228 na: 299.90 zl
+
+[KASJER 1] obsluzylem klienta 41228
+
+[KASJER 1] Wolam klienta 41230 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41230 na: 110.60 zl
+
+[KASJER 1] obsluzylem klienta 41230
+
+[KASJER 1] Wolam klienta 41232 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41232 na: 136.60 zl
+
+[KASJER 1] obsluzylem klienta 41232
+
+[KASJER 1] Wolam klienta 41231 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41231 na: 113.60 zl
+
+[KASJER 1] obsluzylem klienta 41231
+
+[KASJER 1] Wolam klienta 41234 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41234 na: 4.20 zl
+
+[KASJER 1] obsluzylem klienta 41234
+
+[KASJER 1] Wolam klienta 41233 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41233 na: 114.30 zl
+
+[KASJER 1] obsluzylem klienta 41233
+
+[KASJER 1] Wolam klienta 41240 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41240 na: 162.30 zl
+
+[KASJER 1] obsluzylem klienta 41240
+
+[KASJER 1] Wolam klienta 41241 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41241 na: 89.10 zl
+
+[KASJER 1] obsluzylem klienta 41241
+
+[KASJER 1] Wolam klienta 41243 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41243 na: 47.50 zl
+
+[KASJER 1] obsluzylem klienta 41243
+
+[KASJER 1] Wolam klienta 41242 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41242 na: 27.40 zl
+
+[KASJER 1] obsluzylem klienta 41242
+
+[KASJER 1] Wolam klienta 41244 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41244 na: 4.50 zl
+
+[KASJER 1] obsluzylem klienta 41244
+
+[KASJER 1] Wolam klienta 41245 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41245 na: 46.00 zl
+
+[KASJER 1] obsluzylem klienta 41245
+
+[KASJER 1] Wolam klienta 41246 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41246 na: 102.00 zl
+
+[KASJER 1] obsluzylem klienta 41246
+
+[KASJER 1] Wolam klienta 41247 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41247 na: 102.00 zl
+
+[KASJER 1] obsluzylem klienta 41247
+
+[KASJER 1] Wolam klienta 41248 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41248 na: 37.90 zl
+
+[KASJER 1] obsluzylem klienta 41248
+
+[KASJER 1] Wolam klienta 41249 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41249 na: 135.50 zl
+
+[KASJER 1] obsluzylem klienta 41249
+
+[KASJER 1] Wolam klienta 41250 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41250 na: 40.00 zl
+
+[KASJER 1] obsluzylem klienta 41250
+
+[KASJER 1] Wolam klienta 41251 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41251 na: 49.90 zl
+
+[KASJER 1] obsluzylem klienta 41251
+
+[KASJER 1] Wolam klienta 41253 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41253 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 41253
+
+[KASJER 1] Wolam klienta 41252 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41252 na: 56.70 zl
+
+[KASJER 1] obsluzylem klienta 41252
+
+[KASJER 1] Wolam klienta 41254 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41254 na: 102.90 zl
+
+[KASJER 1] obsluzylem klienta 41254
+
+[KASJER 1] Wolam klienta 41255 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41255 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41255
+
+[KASJER 1] Wolam klienta 41257 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41257 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41257
+
+[KASJER 1] Wolam klienta 41256 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41256 na: 35.00 zl
+
+[KASJER 1] obsluzylem klienta 41256
+
+[KASJER 1] Wolam klienta 41258 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41258 na: 174.70 zl
+
+[KASJER 1] obsluzylem klienta 41258
+
+[KASJER 1] Wolam klienta 41259 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41259 na: 80.20 zl
+
+[KASJER 1] obsluzylem klienta 41259
+
+[KASJER 1] Wolam klienta 41260 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41260 na: 129.70 zl
+
+[KASJER 1] obsluzylem klienta 41260
+
+[KASJER 1] Wolam klienta 41262 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41262 na: 68.40 zl
+
+[KASJER 1] obsluzylem klienta 41262
+
+[KASJER 1] Wolam klienta 41261 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41261 na: 52.90 zl
+
+[KASJER 1] obsluzylem klienta 41261
+
+[KASJER 1] Wolam klienta 41263 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41263 na: 73.50 zl
+
+[KASJER 1] obsluzylem klienta 41263
+
+[KASJER 1] Wolam klienta 41264 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41264 na: 82.00 zl
+
+[KASJER 1] obsluzylem klienta 41264
+
+[KASJER 1] Wolam klienta 41265 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41265 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41265
+
+[KASJER 1] Wolam klienta 41266 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41266 na: 58.90 zl
+
+[KASJER 1] obsluzylem klienta 41266
+
+[KASJER 1] Wolam klienta 41267 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41267 na: 47.50 zl
+
+[KASJER 1] obsluzylem klienta 41267
+
+[KASJER 1] Wolam klienta 41268 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41268 na: 166.20 zl
+
+[KASJER 1] obsluzylem klienta 41268
+
+[KASJER 1] Wolam klienta 41269 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (45 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41269 na: 185.40 zl
+
+[KASJER 1] obsluzylem klienta 41269
+
+[KASJER 1] Wolam klienta 41270 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41270 na: 138.90 zl
+
+[KASJER 1] obsluzylem klienta 41270
+
+[KASJER 1] Wolam klienta 41272 do kasy.
+
+[KASJER 1] Klient 41272 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41272 skorygowal zakupy. Nowa kwota: 93.70
+[KASJER 1] Zakupy od Klienta 41272 na: 93.70 zl
+
+[KASJER 1] obsluzylem klienta 41272
+
+[KASJER 1] Wolam klienta 41271 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41271 na: 85.40 zl
+
+[KASJER 1] obsluzylem klienta 41271
+
+[KASJER 1] Wolam klienta 41275 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41275 na: 75.40 zl
+
+[KASJER 1] obsluzylem klienta 41275
+
+[KASJER 1] Wolam klienta 41274 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41274 na: 148.20 zl
+
+[KASJER 1] obsluzylem klienta 41274
+
+[KASJER 1] Wolam klienta 41273 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41273 na: 11.70 zl
+
+[KASJER 1] obsluzylem klienta 41273
+
+[KASJER 1] Wolam klienta 41276 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41276 na: 75.40 zl
+
+[KASJER 1] obsluzylem klienta 41276
+
+[KASJER 1] Wolam klienta 41277 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41277 na: 69.00 zl
+
+[KASJER 1] obsluzylem klienta 41277
+
+[KASJER 1] Wolam klienta 41278 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41278 na: 10.90 zl
+
+[KASJER 1] obsluzylem klienta 41278
+
+[KASJER 1] Wolam klienta 41279 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41279 na: 4.50 zl
+
+[KASJER 1] obsluzylem klienta 41279
+
+[KASJER 1] Wolam klienta 41280 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41280 na: 35.00 zl
+
+[KASJER 1] obsluzylem klienta 41280
+
+[KASJER 1] Wolam klienta 41281 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41281 na: 113.00 zl
+
+[KASJER 1] obsluzylem klienta 41281
+
+[KASJER 1] Wolam klienta 41288 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41288 na: 6.10 zl
+
+[KASJER 1] obsluzylem klienta 41288
+
+[KASJER 1] Wolam klienta 41285 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (56 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41285 na: 6.10 zl
+
+[KASJER 1] obsluzylem klienta 41285
+
+[KASJER 1] Wolam klienta 41290 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41290 na: 84.80 zl
+
+[KASJER 1] obsluzylem klienta 41290
+
+[KASJER 1] Wolam klienta 41289 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41289 na: 104.20 zl
+
+[KASJER 1] obsluzylem klienta 41289
+
+[KASJER 1] Wolam klienta 41291 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41291 na: 128.20 zl
+
+[KASJER 1] obsluzylem klienta 41291
+
+[KASJER 1] Wolam klienta 41292 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41292 na: 14.00 zl
+
+[KASJER 1] obsluzylem klienta 41292
+
+[KASJER 1] Wolam klienta 41293 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41293 na: 26.00 zl
+
+[KASJER 1] obsluzylem klienta 41293
+
+[KASJER 1] Wolam klienta 41295 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41295 na: 6.10 zl
+
+[KASJER 1] obsluzylem klienta 41295
+
+[KASJER 1] Wolam klienta 41294 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41294 na: 111.60 zl
+
+[KASJER 1] obsluzylem klienta 41294
+
+[KASJER 1] Wolam klienta 41296 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41296 na: 46.50 zl
+
+[KASJER 1] obsluzylem klienta 41296
+
+[KASJER 1] Wolam klienta 41297 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41297 na: 21.00 zl
+
+[KASJER 1] obsluzylem klienta 41297
+
+[KASJER 1] Wolam klienta 41298 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (29 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41298 na: 38.20 zl
+
+[KASJER 1] obsluzylem klienta 41298
+
+[KASJER 1] Wolam klienta 41299 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41299 na: 186.90 zl
+
+[KASJER 1] obsluzylem klienta 41299
+
+[KASJER 1] Wolam klienta 41301 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41301 na: 10.50 zl
+
+[KASJER 1] obsluzylem klienta 41301
+
+[KASJER 1] Wolam klienta 41300 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41300 na: 56.90 zl
+
+[KASJER 1] obsluzylem klienta 41300
+
+[KASJER 1] Wolam klienta 41303 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41303 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 41303
+
+[KASJER 1] Wolam klienta 41302 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41302 na: 3.80 zl
+
+[KASJER 1] obsluzylem klienta 41302
+
+[KASJER 1] Wolam klienta 41304 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41304 na: 22.70 zl
+
+[KASJER 1] obsluzylem klienta 41304
+
+[KASJER 1] Wolam klienta 41305 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41305 na: 18.00 zl
+
+[KASJER 1] obsluzylem klienta 41305
+
+[KASJER 1] Wolam klienta 41306 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41306 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41306
+
+[KASJER 1] Wolam klienta 41307 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41307 na: 100.60 zl
+
+[KASJER 1] obsluzylem klienta 41307
+
+[KASJER 1] Wolam klienta 41308 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41308 na: 286.00 zl
+
+[KASJER 1] obsluzylem klienta 41308
+
+[KASJER 1] Wolam klienta 41309 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41309 na: 17.50 zl
+
+[KASJER 1] obsluzylem klienta 41309
+
+[KASJER 1] Wolam klienta 41310 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41310 na: 204.50 zl
+
+[KASJER 1] obsluzylem klienta 41310
+
+[KASJER 1] Wolam klienta 41311 do kasy.
+
+[KASJER 1] Klient 41311 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41311 skorygowal zakupy. Nowa kwota: 86.80
+[KASJER 1] Zakupy od Klienta 41311 na: 86.80 zl
+
+[KASJER 1] obsluzylem klienta 41311
+
+[KASJER 1] Wolam klienta 41314 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41314 na: 77.00 zl
+
+[KASJER 1] obsluzylem klienta 41314
+
+[KASJER 1] Wolam klienta 41313 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41313 na: 55.00 zl
+
+[KASJER 1] obsluzylem klienta 41313
+
+[KASJER 1] Wolam klienta 41312 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41312 na: 133.70 zl
+
+[KASJER 1] obsluzylem klienta 41312
+
+[KASJER 1] Wolam klienta 41316 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41316 na: 28.00 zl
+
+[KASJER 1] obsluzylem klienta 41316
+
+[KASJER 1] Wolam klienta 41315 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41315 na: 18.00 zl
+
+[KASJER 1] obsluzylem klienta 41315
+
+[KASJER 1] Wolam klienta 41317 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41317 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41317
+
+[KASJER 1] Wolam klienta 41318 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41318 na: 105.00 zl
+
+[KASJER 1] obsluzylem klienta 41318
+
+[KASJER 1] Wolam klienta 41319 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41319 na: 50.00 zl
+
+[KASJER 1] obsluzylem klienta 41319
+
+[KASJER 1] Wolam klienta 41321 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41321 na: 30.50 zl
+
+[KASJER 1] obsluzylem klienta 41321
+
+[KASJER 1] Wolam klienta 41320 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41320 na: 89.50 zl
+
+[KASJER 1] obsluzylem klienta 41320
+
+[KASJER 1] Wolam klienta 41322 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41322 na: 118.20 zl
+
+[KASJER 1] obsluzylem klienta 41322
+
+[KASJER 1] Wolam klienta 41323 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (27 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41323 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41323
+
+[KASJER 1] Wolam klienta 41324 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (23 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41324 na: 186.40 zl
+
+[KASJER 1] obsluzylem klienta 41324
+
+[KASJER 1] Wolam klienta 41330 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41330 na: 3.50 zl
+
+[KASJER 1] obsluzylem klienta 41330
+
+[KASJER 1] Wolam klienta 41331 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41331 na: 50.60 zl
+
+[KASJER 1] obsluzylem klienta 41331
+
+[KASJER 1] Wolam klienta 41332 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41332 na: 90.00 zl
+
+[KASJER 1] obsluzylem klienta 41332
+
+[KASJER 1] Wolam klienta 41333 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (23 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41333 na: 13.20 zl
+
+[KASJER 1] obsluzylem klienta 41333
+
+[KASJER 1] Wolam klienta 41334 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41334 na: 77.90 zl
+
+[KASJER 1] obsluzylem klienta 41334
+
+[KASJER 1] Wolam klienta 41335 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41335 na: 77.90 zl
+
+[KASJER 1] obsluzylem klienta 41335
+
+[KASJER 1] Wolam klienta 41337 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41337 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 41337
+
+[KASJER 1] Wolam klienta 41336 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41336 na: 112.80 zl
+
+[KASJER 1] obsluzylem klienta 41336
+
+[KASJER 1] Wolam klienta 41338 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41338 na: 28.00 zl
+
+[KASJER 1] obsluzylem klienta 41338
+
+[KASJER 1] Wolam klienta 41339 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41339 na: 17.00 zl
+
+[KASJER 1] obsluzylem klienta 41339
+
+[KASJER 1] Wolam klienta 41340 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41340 na: 49.50 zl
+
+[KASJER 1] obsluzylem klienta 41340
+
+[KASJER 1] Wolam klienta 41341 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41341 na: 53.20 zl
+
+[KASJER 1] obsluzylem klienta 41341
+
+[KASJER 1] Wolam klienta 41342 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41342 na: 136.80 zl
+
+[KASJER 1] obsluzylem klienta 41342
+
+[KASJER 1] Wolam klienta 41343 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41343 na: 41.80 zl
+
+[KASJER 1] obsluzylem klienta 41343
+
+[KASJER 1] Wolam klienta 41344 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41344 na: 182.40 zl
+
+[KASJER 1] obsluzylem klienta 41344
+
+[KASJER 1] Wolam klienta 41345 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41345 na: 2.50 zl
+
+[KASJER 1] obsluzylem klienta 41345
+
+[KASJER 1] Wolam klienta 41346 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (56 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41346 na: 259.10 zl
+
+[KASJER 1] obsluzylem klienta 41346
+
+[KASJER 1] Wolam klienta 41348 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41348 na: 95.90 zl
+
+[KASJER 1] obsluzylem klienta 41348
+
+[KASJER 1] Wolam klienta 41347 do kasy.
+
+[KASJER 1] Klient 41347 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41347 skorygowal zakupy. Nowa kwota: 55.50
+[KASJER 1] Zakupy od Klienta 41347 na: 55.50 zl
+
+[KASJER 1] obsluzylem klienta 41347
+
+[KASJER 1] Wolam klienta 41349 do kasy.
+
+[KASJER 1] Klient 41349 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41349 skorygowal zakupy. Nowa kwota: 60.40
+[KASJER 1] Zakupy od Klienta 41349 na: 60.40 zl
+
+[KASJER 1] obsluzylem klienta 41349
+
+[KASJER 1] Wolam klienta 41350 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41350 na: 3.00 zl
+
+[KASJER 1] obsluzylem klienta 41350
+
+[KASJER 1] Wolam klienta 41351 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41351 na: 175.30 zl
+
+[KASJER 1] obsluzylem klienta 41351
+
+[KASJER 1] Wolam klienta 41352 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41352 na: 120.80 zl
+
+[KASJER 1] obsluzylem klienta 41352
+
+[KASJER 1] Wolam klienta 41353 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (45 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41353 na: 53.40 zl
+
+[KASJER 1] obsluzylem klienta 41353
+
+[KASJER 1] Wolam klienta 41354 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41354 na: 48.00 zl
+
+[KASJER 1] obsluzylem klienta 41354
+
+[KASJER 1] Wolam klienta 41355 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41355 na: 35.50 zl
+
+[KASJER 1] obsluzylem klienta 41355
+
+[KASJER 1] Wolam klienta 41356 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41356 na: 7.70 zl
+
+[KASJER 1] obsluzylem klienta 41356
+
+[KASJER 1] Wolam klienta 41357 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41357 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41357
+
+[KASJER 1] Wolam klienta 41359 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41359 na: 10.50 zl
+
+[KASJER 1] obsluzylem klienta 41359
+
+[KASJER 1] Wolam klienta 41358 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41358 na: 46.70 zl
+
+[KASJER 1] obsluzylem klienta 41358
+
+[KASJER 1] Wolam klienta 41360 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41360 na: 155.30 zl
+
+[KASJER 1] obsluzylem klienta 41360
+
+[KASJER 1] Wolam klienta 41361 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41361 na: 121.80 zl
+
+[KASJER 1] obsluzylem klienta 41361
+
+[KASJER 1] Wolam klienta 41362 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41362 na: 74.90 zl
+
+[KASJER 1] obsluzylem klienta 41362
+
+[KASJER 1] Wolam klienta 41363 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41363 na: 49.70 zl
+
+[KASJER 1] obsluzylem klienta 41363
+
+[KASJER 1] Wolam klienta 41367 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41367 na: 108.00 zl
+
+[KASJER 1] obsluzylem klienta 41367
+
+[KASJER 1] Wolam klienta 41364 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41364 na: 135.80 zl
+
+[KASJER 1] obsluzylem klienta 41364
+
+[KASJER 1] Wolam klienta 41371 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41371 na: 179.30 zl
+
+[KASJER 1] obsluzylem klienta 41371
+
+[KASJER 1] Wolam klienta 41372 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41372 na: 190.00 zl
+
+[KASJER 1] obsluzylem klienta 41372
+
+[KASJER 1] Wolam klienta 41373 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41373 na: 118.00 zl
+
+[KASJER 1] obsluzylem klienta 41373
+
+[KASJER 1] Wolam klienta 41374 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41374 na: 18.50 zl
+
+[KASJER 1] obsluzylem klienta 41374
+
+[KASJER 1] Wolam klienta 41375 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41375 na: 149.00 zl
+
+[KASJER 1] obsluzylem klienta 41375
+
+[KASJER 1] Wolam klienta 41376 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41376 na: 72.80 zl
+
+[KASJER 1] obsluzylem klienta 41376
+
+[KASJER 1] Wolam klienta 41377 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41377 na: 34.40 zl
+
+[KASJER 1] obsluzylem klienta 41377
+
+[KASJER 1] Wolam klienta 41378 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (21 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41378 na: 131.50 zl
+
+[KASJER 1] obsluzylem klienta 41378
+
+[KASJER 1] Wolam klienta 41379 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41379 na: 72.80 zl
+
+[KASJER 1] obsluzylem klienta 41379
+
+[KASJER 1] Wolam klienta 41380 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (23 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41380 na: 92.80 zl
+
+[KASJER 1] obsluzylem klienta 41380
+
+[KASJER 1] Wolam klienta 41381 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41381 na: 19.40 zl
+
+[KASJER 1] obsluzylem klienta 41381
+
+[KASJER 1] Wolam klienta 41382 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41382 na: 121.50 zl
+
+[KASJER 1] obsluzylem klienta 41382
+
+[KASJER 1] Wolam klienta 41384 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41384 na: 76.20 zl
+
+[KASJER 1] obsluzylem klienta 41384
+
+[KASJER 1] Wolam klienta 41383 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (35 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41383 na: 117.00 zl
+
+[KASJER 1] obsluzylem klienta 41383
+
+[KASJER 1] Wolam klienta 41385 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41385 na: 109.00 zl
+
+[KASJER 1] obsluzylem klienta 41385
+
+[KASJER 1] Wolam klienta 41386 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41386 na: 118.60 zl
+
+[KASJER 1] obsluzylem klienta 41386
+
+[KASJER 1] Wolam klienta 41387 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41387 na: 158.00 zl
+
+[KASJER 1] obsluzylem klienta 41387
+
+[KASJER 1] Wolam klienta 41388 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (48 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41388 na: 188.30 zl
+
+[KASJER 1] obsluzylem klienta 41388
+
+[KASJER 1] Wolam klienta 41390 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41390 na: 130.80 zl
+
+[KASJER 1] obsluzylem klienta 41390
+
+[KASJER 1] Wolam klienta 41389 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41389 na: 161.00 zl
+
+[KASJER 1] obsluzylem klienta 41389
+
+[KASJER 1] Wolam klienta 41392 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41392 na: 95.40 zl
+
+[KASJER 1] obsluzylem klienta 41392
+
+[KASJER 1] Wolam klienta 41391 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41391 na: 101.70 zl
+
+[KASJER 1] obsluzylem klienta 41391
+
+[KASJER 1] Wolam klienta 41393 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41393 na: 177.70 zl
+
+[KASJER 1] obsluzylem klienta 41393
+
+[KASJER 1] Wolam klienta 41394 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41394 na: 105.00 zl
+
+[KASJER 1] obsluzylem klienta 41394
+
+[KASJER 1] Wolam klienta 41395 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41395 na: 60.50 zl
+
+[KASJER 1] obsluzylem klienta 41395
+
+[KASJER 1] Wolam klienta 41397 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41397 na: 61.50 zl
+
+[KASJER 1] obsluzylem klienta 41397
+
+[KASJER 1] Wolam klienta 41396 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41396 na: 88.50 zl
+
+[KASJER 1] obsluzylem klienta 41396
+
+[KASJER 1] Wolam klienta 41398 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41398 na: 9.50 zl
+
+[KASJER 1] obsluzylem klienta 41398
+
+[KASJER 1] Wolam klienta 41399 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41399 na: 173.30 zl
+
+[KASJER 1] obsluzylem klienta 41399
+
+[KASJER 1] Wolam klienta 41400 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41400 na: 14.00 zl
+
+[KASJER 1] obsluzylem klienta 41400
+
+[KASJER 1] Wolam klienta 41401 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41401 na: 73.20 zl
+
+[KASJER 1] obsluzylem klienta 41401
+
+[KASJER 1] Wolam klienta 41402 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41402 na: 92.10 zl
+
+[KASJER 1] obsluzylem klienta 41402
+
+[KASJER 1] Wolam klienta 41403 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41403 na: 172.10 zl
+
+[KASJER 1] obsluzylem klienta 41403
+
+[KASJER 1] Wolam klienta 41406 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41406 na: 72.20 zl
+
+[KASJER 1] obsluzylem klienta 41406
+
+[KASJER 1] Wolam klienta 41404 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41404 na: 138.80 zl
+
+[KASJER 1] obsluzylem klienta 41404
+
+[KASJER 1] Wolam klienta 41405 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41405 na: 30.00 zl
+
+[KASJER 1] obsluzylem klienta 41405
+
+[KASJER 1] Wolam klienta 41407 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41407 na: 118.00 zl
+
+[KASJER 1] obsluzylem klienta 41407
+
+[KASJER 1] Wolam klienta 41409 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41409 na: 60.10 zl
+
+[KASJER 1] obsluzylem klienta 41409
+
+[KASJER 1] Wolam klienta 41408 do kasy.
+
+[KASJER 1] Klient 41408 jest nieletni (16 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41408 skorygowal zakupy. Nowa kwota: 158.00
+[KASJER 1] Zakupy od Klienta 41408 na: 158.00 zl
+
+[KASJER 1] obsluzylem klienta 41408
+
+[KASJER 1] Wolam klienta 41415 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41415 na: 91.90 zl
+
+[KASJER 1] obsluzylem klienta 41415
+
+[KASJER 1] Wolam klienta 41417 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41417 na: 15.00 zl
+
+[KASJER 1] obsluzylem klienta 41417
+
+[KASJER 1] Wolam klienta 41416 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41416 na: 95.50 zl
+
+[KASJER 1] obsluzylem klienta 41416
+
+[KASJER 1] Wolam klienta 41418 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41418 na: 125.50 zl
+
+[KASJER 1] obsluzylem klienta 41418
+
+[KASJER 1] Wolam klienta 41420 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41420 na: 93.50 zl
+
+[KASJER 1] obsluzylem klienta 41420
+
+[KASJER 1] Wolam klienta 41419 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41419 na: 154.10 zl
+
+[KASJER 1] obsluzylem klienta 41419
+
+[KASJER 1] Wolam klienta 41421 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41421 na: 93.50 zl
+
+[KASJER 1] obsluzylem klienta 41421
+
+[KASJER 1] Wolam klienta 41422 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41422 na: 35.00 zl
+
+[KASJER 1] obsluzylem klienta 41422
+
+[KASJER 1] Wolam klienta 41423 do kasy.
+
+[KASJER 1] Klient 41423 jest nieletni (17 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41423 skorygowal zakupy. Nowa kwota: 237.00
+[KASJER 1] Zakupy od Klienta 41423 na: 237.00 zl
+
+[KASJER 1] obsluzylem klienta 41423
+
+[KASJER 1] Wolam klienta 41424 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41424 na: 94.50 zl
+
+[KASJER 1] obsluzylem klienta 41424
+
+[KASJER 1] Wolam klienta 41425 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41425 na: 31.70 zl
+
+[KASJER 1] obsluzylem klienta 41425
+
+[KASJER 1] Wolam klienta 41426 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41426 na: 37.00 zl
+
+[KASJER 1] obsluzylem klienta 41426
+
+[KASJER 1] Wolam klienta 41428 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41428 na: 28.90 zl
+
+[KASJER 1] obsluzylem klienta 41428
+
+[KASJER 1] Wolam klienta 41427 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41427 na: 57.40 zl
+
+[KASJER 1] obsluzylem klienta 41427
+
+[KASJER 1] Wolam klienta 41429 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41429 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 41429
+
+[KASJER 1] Wolam klienta 41430 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41430 na: 28.00 zl
+
+[KASJER 1] obsluzylem klienta 41430
+
+[KASJER 1] Wolam klienta 41433 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41433 na: 168.80 zl
+
+[KASJER 1] obsluzylem klienta 41433
+
+[KASJER 1] Wolam klienta 41431 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41431 na: 244.40 zl
+
+[KASJER 1] obsluzylem klienta 41431
+
+[KASJER 1] Wolam klienta 41432 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41432 na: 72.90 zl
+
+[KASJER 1] obsluzylem klienta 41432
+
+[KASJER 1] Wolam klienta 41434 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41434 na: 35.00 zl
+
+[KASJER 1] obsluzylem klienta 41434
+
+[KASJER 1] Wolam klienta 41436 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41436 na: 89.40 zl
+
+[KASJER 1] obsluzylem klienta 41436
+
+[KASJER 1] Wolam klienta 41435 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (33 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41435 na: 121.90 zl
+
+[KASJER 1] obsluzylem klienta 41435
+
+[KASJER 1] Wolam klienta 41437 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41437 na: 38.20 zl
+
+[KASJER 1] obsluzylem klienta 41437
+
+[KASJER 1] Wolam klienta 41438 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41438 na: 70.30 zl
+
+[KASJER 1] obsluzylem klienta 41438
+
+[KASJER 1] Wolam klienta 41439 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41439 na: 4.50 zl
+
+[KASJER 1] obsluzylem klienta 41439
+
+[KASJER 1] Wolam klienta 41440 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41440 na: 35.50 zl
+
+[KASJER 1] obsluzylem klienta 41440
+
+[KASJER 1] Wolam klienta 41441 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41441 na: 73.60 zl
+
+[KASJER 1] obsluzylem klienta 41441
+
+[KASJER 1] Wolam klienta 41442 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41442 na: 115.50 zl
+
+[KASJER 1] obsluzylem klienta 41442
+
+[KASJER 1] Wolam klienta 41444 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41444 na: 113.20 zl
+
+[KASJER 1] obsluzylem klienta 41444
+
+[KASJER 1] Wolam klienta 41443 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41443 na: 14.40 zl
+
+[KASJER 1] obsluzylem klienta 41443
+
+[KASJER 1] Wolam klienta 41445 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41445 na: 48.00 zl
+
+[KASJER 1] obsluzylem klienta 41445
+
+[KASJER 1] Wolam klienta 41446 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41446 na: 232.50 zl
+
+[KASJER 1] obsluzylem klienta 41446
+
+[KASJER 1] Wolam klienta 41447 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41447 na: 102.50 zl
+
+[KASJER 1] obsluzylem klienta 41447
+
+[KASJER 1] Wolam klienta 41448 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (35 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41448 na: 142.50 zl
+
+[KASJER 1] obsluzylem klienta 41448
+
+[KASJER 1] Wolam klienta 41449 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41449 na: 117.20 zl
+
+[KASJER 1] obsluzylem klienta 41449
+
+[KASJER 1] Wolam klienta 41450 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41450 na: 91.30 zl
+
+[KASJER 1] obsluzylem klienta 41450
+
+[KASJER 1] Wolam klienta 41455 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41455 na: 8.00 zl
+
+[KASJER 1] obsluzylem klienta 41455
+
+[KASJER 1] Wolam klienta 41451 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41451 na: 73.90 zl
+
+[KASJER 1] obsluzylem klienta 41451
+
+[KASJER 1] Wolam klienta 41452 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41452 na: 121.30 zl
+
+[KASJER 1] obsluzylem klienta 41452
+
+[KASJER 1] Wolam klienta 41460 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41460 na: 150.50 zl
+
+[KASJER 1] obsluzylem klienta 41460
+
+[KASJER 1] Wolam klienta 41459 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (21 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41459 na: 175.70 zl
+
+[KASJER 1] obsluzylem klienta 41459
+
+[KASJER 1] Wolam klienta 41462 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41462 na: 132.90 zl
+
+[KASJER 1] obsluzylem klienta 41462
+
+[KASJER 1] Wolam klienta 41461 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41461 na: 13.50 zl
+
+[KASJER 1] obsluzylem klienta 41461
+
+[KASJER 1] Wolam klienta 41463 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41463 na: 96.90 zl
+
+[KASJER 1] obsluzylem klienta 41463
+
+[KASJER 1] Wolam klienta 41464 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41464 na: 102.50 zl
+
+[KASJER 1] obsluzylem klienta 41464
+
+[KASJER 1] Wolam klienta 41465 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41465 na: 232.50 zl
+
+[KASJER 1] obsluzylem klienta 41465
+
+[KASJER 1] Wolam klienta 41466 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41466 na: 48.00 zl
+
+[KASJER 1] obsluzylem klienta 41466
+
+[KASJER 1] Wolam klienta 41467 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41467 na: 113.20 zl
+
+[KASJER 1] obsluzylem klienta 41467
+
+[KASJER 1] Wolam klienta 41469 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41469 na: 115.50 zl
+
+[KASJER 1] obsluzylem klienta 41469
+
+[KASJER 1] Wolam klienta 41468 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41468 na: 14.40 zl
+
+[KASJER 1] obsluzylem klienta 41468
+
+[KASJER 1] Wolam klienta 41470 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41470 na: 73.60 zl
+
+[KASJER 1] obsluzylem klienta 41470
+
+[KASJER 1] Wolam klienta 41471 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41471 na: 35.50 zl
+
+[KASJER 1] obsluzylem klienta 41471
+
+[KASJER 1] Wolam klienta 41472 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41472 na: 87.50 zl
+
+[KASJER 1] obsluzylem klienta 41472
+
+[KASJER 1] Wolam klienta 41473 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41473 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 41473
+
+[KASJER 1] Wolam klienta 41474 do kasy.
+
+[KASJER 1] Klient 41474 jest nieletni (16 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41474 skorygowal zakupy. Nowa kwota: 10.90
+[KASJER 1] Zakupy od Klienta 41474 na: 10.90 zl
+
+[KASJER 1] obsluzylem klienta 41474
+
+[KASJER 1] Wolam klienta 41480 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41480 na: 97.90 zl
+
+[KASJER 1] obsluzylem klienta 41480
+
+[KASJER 1] Wolam klienta 41481 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41481 na: 97.90 zl
+
+[KASJER 1] obsluzylem klienta 41481
+
+[KASJER 1] Wolam klienta 41482 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41482 na: 26.00 zl
+
+[KASJER 1] obsluzylem klienta 41482
+
+[KASJER 1] Wolam klienta 41483 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41483 na: 41.00 zl
+
+[KASJER 1] obsluzylem klienta 41483
+
+[KASJER 1] Wolam klienta 41484 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41484 na: 11.50 zl
+
+[KASJER 1] obsluzylem klienta 41484
+
+[KASJER 1] Wolam klienta 41485 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41485 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41485
+
+[KASJER 1] Wolam klienta 41491 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41491 na: 238.20 zl
+
+[KASJER 1] obsluzylem klienta 41491
+
+[KASJER 1] Wolam klienta 41492 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41492 na: 88.50 zl
+
+[KASJER 1] obsluzylem klienta 41492
+
+[KASJER 1] Wolam klienta 41494 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41494 na: 86.60 zl
+
+[KASJER 1] obsluzylem klienta 41494
+
+[KASJER 1] Wolam klienta 41493 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41493 na: 143.60 zl
+
+[KASJER 1] obsluzylem klienta 41493
+
+[KASJER 1] Wolam klienta 41495 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41495 na: 88.50 zl
+
+[KASJER 1] obsluzylem klienta 41495
+
+[KASJER 1] Wolam klienta 41497 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41497 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 41497
+
+[KASJER 1] Wolam klienta 41496 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41496 na: 126.10 zl
+
+[KASJER 1] obsluzylem klienta 41496
+
+[KASJER 1] Wolam klienta 41504 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41504 na: 28.00 zl
+
+[KASJER 1] obsluzylem klienta 41504
+
+[KASJER 1] Wolam klienta 41498 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41498 na: 187.60 zl
+
+[KASJER 1] obsluzylem klienta 41498
+
+[KASJER 1] Wolam klienta 41505 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41505 na: 28.00 zl
+
+[KASJER 1] obsluzylem klienta 41505
+
+[KASJER 1] Wolam klienta 41506 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41506 na: 20.50 zl
+
+[KASJER 1] obsluzylem klienta 41506
+
+[KASJER 1] Wolam klienta 41507 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41507 na: 108.50 zl
+
+[KASJER 1] obsluzylem klienta 41507
+
+[KASJER 1] Wolam klienta 41508 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41508 na: 210.40 zl
+
+[KASJER 1] obsluzylem klienta 41508
+
+[KASJER 1] Wolam klienta 41509 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41509 na: 181.90 zl
+
+[KASJER 1] obsluzylem klienta 41509
+
+[KASJER 1] Wolam klienta 41510 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41510 na: 108.80 zl
+
+[KASJER 1] obsluzylem klienta 41510
+
+[KASJER 1] Wolam klienta 41511 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (38 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41511 na: 143.20 zl
+
+[KASJER 1] obsluzylem klienta 41511
+
+[KASJER 1] Wolam klienta 41517 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41517 na: 152.90 zl
+
+[KASJER 1] obsluzylem klienta 41517
+
+[KASJER 1] Wolam klienta 41518 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41518 na: 47.00 zl
+
+[KASJER 1] obsluzylem klienta 41518
+
+[KASJER 1] Wolam klienta 41519 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41519 na: 14.00 zl
+
+[KASJER 1] obsluzylem klienta 41519
+
+[KASJER 1] Wolam klienta 41521 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41521 na: 180.00 zl
+
+[KASJER 1] obsluzylem klienta 41521
+
+[KASJER 1] Wolam klienta 41520 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41520 na: 30.00 zl
+
+[KASJER 1] obsluzylem klienta 41520
+
+[KASJER 1] Wolam klienta 41522 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41522 na: 113.50 zl
+
+[KASJER 1] obsluzylem klienta 41522
+
+[KASJER 1] Wolam klienta 41529 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41529 na: 10.00 zl
+
+[KASJER 1] obsluzylem klienta 41529
+
+[KASJER 1] Wolam klienta 41523 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41523 na: 20.50 zl
+
+[KASJER 1] obsluzylem klienta 41523
+
+[KASJER 1] Wolam klienta 41530 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41530 na: 117.40 zl
+
+[KASJER 1] obsluzylem klienta 41530
+
+[KASJER 1] Wolam klienta 41532 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (43 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41532 na: 20.50 zl
+
+[KASJER 1] obsluzylem klienta 41532
+
+[KASJER 1] Wolam klienta 41531 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41531 na: 41.70 zl
+
+[KASJER 1] obsluzylem klienta 41531
+
+[KASJER 1] Wolam klienta 41533 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41533 na: 142.50 zl
+
+[KASJER 1] obsluzylem klienta 41533
+
+[KASJER 1] Wolam klienta 41535 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41535 na: 98.30 zl
+
+[KASJER 1] obsluzylem klienta 41535
+
+[KASJER 1] Wolam klienta 41534 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41534 na: 42.00 zl
+
+[KASJER 1] obsluzylem klienta 41534
+
+[KASJER 1] Wolam klienta 41544 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41544 na: 182.50 zl
+
+[KASJER 1] obsluzylem klienta 41544
+
+[KASJER 1] Wolam klienta 41545 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41545 na: 65.70 zl
+
+[KASJER 1] obsluzylem klienta 41545
+
+[KASJER 1] Wolam klienta 41547 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41547 na: 43.00 zl
+
+[KASJER 1] obsluzylem klienta 41547
+
+[KASJER 1] Wolam klienta 41548 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41548 na: 115.30 zl
+
+[KASJER 1] obsluzylem klienta 41548
+
+[KASJER 1] Wolam klienta 41546 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41546 na: 60.00 zl
+
+[KASJER 1] obsluzylem klienta 41546
+
+[KASJER 1] Wolam klienta 41549 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (48 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41549 na: 162.60 zl
+
+[KASJER 1] obsluzylem klienta 41549
+
+[KASJER 1] Wolam klienta 41550 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41550 na: 118.90 zl
+
+[KASJER 1] obsluzylem klienta 41550
+
+[KASJER 1] Wolam klienta 41551 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41551 na: 42.00 zl
+
+[KASJER 1] obsluzylem klienta 41551
+
+[KASJER 1] Wolam klienta 41559 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41559 na: 85.20 zl
+
+[KASJER 1] obsluzylem klienta 41559
+
+[KASJER 1] Wolam klienta 41557 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41557 na: 70.50 zl
+
+[KASJER 1] obsluzylem klienta 41557
+
+[KASJER 1] Wolam klienta 41558 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41558 na: 86.00 zl
+
+[KASJER 1] obsluzylem klienta 41558
+
+[KASJER 1] Wolam klienta 41560 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (50 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41560 na: 169.40 zl
+
+[KASJER 1] obsluzylem klienta 41560
+
+[KASJER 1] Wolam klienta 41562 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41562 na: 71.20 zl
+
+[KASJER 1] obsluzylem klienta 41562
+
+[KASJER 1] Wolam klienta 41561 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41561 na: 2.00 zl
+
+[KASJER 1] obsluzylem klienta 41561
+
+[KASJER 1] Wolam klienta 41563 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (43 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41563 na: 120.40 zl
+
+[KASJER 1] obsluzylem klienta 41563
+
+[KASJER 1] Wolam klienta 41564 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41564 na: 84.50 zl
+
+[KASJER 1] obsluzylem klienta 41564
+
+[KASJER 1] Wolam klienta 41570 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41570 na: 130.40 zl
+
+[KASJER 1] obsluzylem klienta 41570
+
+[KASJER 1] Wolam klienta 41571 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41571 na: 60.30 zl
+
+[KASJER 1] obsluzylem klienta 41571
+
+[KASJER 1] Wolam klienta 41574 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (33 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41574 na: 141.90 zl
+
+[KASJER 1] obsluzylem klienta 41574
+
+[KASJER 1] Wolam klienta 41573 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41573 na: 69.60 zl
+
+[KASJER 1] obsluzylem klienta 41573
+
+[KASJER 1] Wolam klienta 41572 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41572 na: 58.80 zl
+
+[KASJER 1] obsluzylem klienta 41572
+
+[KASJER 1] Wolam klienta 41575 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (38 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41575 na: 83.20 zl
+
+[KASJER 1] obsluzylem klienta 41575
+
+[KASJER 1] Wolam klienta 41576 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41576 na: 23.00 zl
+
+[KASJER 1] obsluzylem klienta 41576
+
+[KASJER 1] Wolam klienta 41577 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41577 na: 25.50 zl
+
+[KASJER 1] obsluzylem klienta 41577
+
+[KASJER 1] Wolam klienta 41578 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (23 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41578 na: 79.60 zl
+
+[KASJER 1] obsluzylem klienta 41578
+
+[KASJER 1] Wolam klienta 41579 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (49 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41579 na: 55.50 zl
+
+[KASJER 1] obsluzylem klienta 41579
+
+[KASJER 1] Wolam klienta 41580 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41580 na: 56.60 zl
+
+[KASJER 1] obsluzylem klienta 41580
+
+[KASJER 1] Wolam klienta 41581 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41581 na: 130.40 zl
+
+[KASJER 1] obsluzylem klienta 41581
+
+[KASJER 1] Wolam klienta 41587 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41587 na: 32.00 zl
+
+[KASJER 1] obsluzylem klienta 41587
+
+[KASJER 1] Wolam klienta 41588 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41588 na: 165.80 zl
+
+[KASJER 1] obsluzylem klienta 41588
+
+[KASJER 1] Wolam klienta 41589 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41589 na: 252.00 zl
+
+[KASJER 1] obsluzylem klienta 41589
+
+[KASJER 1] Wolam klienta 41590 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41590 na: 34.50 zl
+
+[KASJER 1] obsluzylem klienta 41590
+
+[KASJER 1] Wolam klienta 41591 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41591 na: 170.90 zl
+
+[KASJER 1] obsluzylem klienta 41591
+
+[KASJER 1] Wolam klienta 41592 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41592 na: 239.30 zl
+
+[KASJER 1] obsluzylem klienta 41592
+
+[KASJER 1] Wolam klienta 41598 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41598 na: 3.20 zl
+
+[KASJER 1] obsluzylem klienta 41598
+
+[KASJER 1] Wolam klienta 41599 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41599 na: 93.00 zl
+
+[KASJER 1] obsluzylem klienta 41599
+
+[KASJER 1] Wolam klienta 41600 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41600 na: 26.40 zl
+
+[KASJER 1] obsluzylem klienta 41600
+
+[KASJER 1] Wolam klienta 41601 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41601 na: 253.90 zl
+
+[KASJER 1] obsluzylem klienta 41601
+
+[KASJER 1] Wolam klienta 41602 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41602 na: 82.00 zl
+
+[KASJER 1] obsluzylem klienta 41602
+
+[KASJER 1] Wolam klienta 41608 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41608 na: 39.50 zl
+
+[KASJER 1] obsluzylem klienta 41608
+
+[KASJER 1] Wolam klienta 41609 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41609 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 41609
+
+[KASJER 1] Wolam klienta 41610 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41610 na: 74.20 zl
+
+[KASJER 1] obsluzylem klienta 41610
+
+[KASJER 1] Wolam klienta 41611 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41611 na: 36.60 zl
+
+[KASJER 1] obsluzylem klienta 41611
+
+[KASJER 1] Wolam klienta 41617 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41617 na: 98.50 zl
+
+[KASJER 1] obsluzylem klienta 41617
+
+[KASJER 1] Wolam klienta 41618 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41618 na: 179.30 zl
+
+[KASJER 1] obsluzylem klienta 41618
+
+[KASJER 1] Wolam klienta 41619 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41619 na: 72.00 zl
+
+[KASJER 1] obsluzylem klienta 41619
+
+[KASJER 1] Wolam klienta 41621 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41621 na: 141.00 zl
+
+[KASJER 1] obsluzylem klienta 41621
+
+[KASJER 1] Wolam klienta 41620 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41620 na: 113.90 zl
+
+[KASJER 1] obsluzylem klienta 41620
+
+[KASJER 1] Wolam klienta 41628 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41628 na: 105.70 zl
+
+[KASJER 1] obsluzylem klienta 41628
+
+[KASJER 1] Wolam klienta 41622 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41622 na: 126.70 zl
+
+[KASJER 1] obsluzylem klienta 41622
+
+[KASJER 1] Wolam klienta 41629 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41629 na: 57.70 zl
+
+[KASJER 1] obsluzylem klienta 41629
+
+[KASJER 1] Wolam klienta 41631 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41631 na: 6.00 zl
+
+[KASJER 1] obsluzylem klienta 41631
+
+[KASJER 1] Wolam klienta 41632 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41632 na: 137.70 zl
+
+[KASJER 1] obsluzylem klienta 41632
+
+[KASJER 1] Wolam klienta 41633 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41633 na: 145.30 zl
+
+[KASJER 1] obsluzylem klienta 41633
+
+[KASJER 1] Wolam klienta 41635 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41635 na: 102.00 zl
+
+[KASJER 1] obsluzylem klienta 41635
+
+[KASJER 1] Wolam klienta 41634 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41634 na: 149.00 zl
+
+[KASJER 1] obsluzylem klienta 41634
+
+[KASJER 1] Wolam klienta 41636 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41636 na: 145.80 zl
+
+[KASJER 1] obsluzylem klienta 41636
+
+[KASJER 1] Wolam klienta 41643 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41643 na: 59.20 zl
+
+[KASJER 1] obsluzylem klienta 41643
+
+[KASJER 1] Wolam klienta 41642 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41642 na: 53.30 zl
+
+[KASJER 1] obsluzylem klienta 41642
+
+[KASJER 1] Wolam klienta 41645 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41645 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41645
+
+[KASJER 1] Wolam klienta 41644 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (41 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41644 na: 108.00 zl
+
+[KASJER 1] obsluzylem klienta 41644
+
+[KASJER 1] Wolam klienta 41646 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41646 na: 8.40 zl
+
+[KASJER 1] obsluzylem klienta 41646
+
+[KASJER 1] Wolam klienta 41652 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41652 na: 55.90 zl
+
+[KASJER 1] obsluzylem klienta 41652
+
+[KASJER 1] Wolam klienta 41654 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41654 na: 61.90 zl
+
+[KASJER 1] obsluzylem klienta 41654
+
+[KASJER 1] Wolam klienta 41653 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41653 na: 142.10 zl
+
+[KASJER 1] obsluzylem klienta 41653
+
+[KASJER 1] Wolam klienta 41657 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41657 na: 105.00 zl
+
+[KASJER 1] obsluzylem klienta 41657
+
+[KASJER 1] Wolam klienta 41655 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41655 na: 125.40 zl
+
+[KASJER 1] obsluzylem klienta 41655
+
+[KASJER 1] Wolam klienta 41658 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41658 na: 2.90 zl
+
+[KASJER 1] obsluzylem klienta 41658
+
+[KASJER 1] Wolam klienta 41656 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41656 na: 15.60 zl
+
+[KASJER 1] obsluzylem klienta 41656
+
+[KASJER 1] Wolam klienta 41664 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41664 na: 43.00 zl
+
+[KASJER 1] obsluzylem klienta 41664
+
+[KASJER 1] Wolam klienta 41666 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41666 na: 4.20 zl
+
+[KASJER 1] obsluzylem klienta 41666
+
+[KASJER 1] Wolam klienta 41665 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41665 na: 101.50 zl
+
+[KASJER 1] obsluzylem klienta 41665
+
+[KASJER 1] Wolam klienta 41667 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41667 na: 35.40 zl
+
+[KASJER 1] obsluzylem klienta 41667
+
+[KASJER 1] Wolam klienta 41668 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41668 na: 260.50 zl
+
+[KASJER 1] obsluzylem klienta 41668
+
+[KASJER 1] Wolam klienta 41669 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41669 na: 41.50 zl
+
+[KASJER 1] obsluzylem klienta 41669
+
+[KASJER 1] Wolam klienta 41670 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41670 na: 31.20 zl
+
+[KASJER 1] obsluzylem klienta 41670
+
+[KASJER 1] Wolam klienta 41671 do kasy.
+
+[KASJER 1] Klient 41671 jest nieletni (17 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41671 skorygowal zakupy. Nowa kwota: 59.90
+[KASJER 1] Zakupy od Klienta 41671 na: 59.90 zl
+
+[KASJER 1] obsluzylem klienta 41671
+
+[KASJER 1] Wolam klienta 41677 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41677 na: 102.80 zl
+
+[KASJER 1] obsluzylem klienta 41677
+
+[KASJER 1] Wolam klienta 41678 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41678 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 41678
+
+[KASJER 1] Wolam klienta 41679 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41679 na: 102.70 zl
+
+[KASJER 1] obsluzylem klienta 41679
+
+[KASJER 1] Wolam klienta 41681 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41681 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41681
+
+[KASJER 1] Wolam klienta 41680 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41680 na: 13.40 zl
+
+[KASJER 1] obsluzylem klienta 41680
+
+[KASJER 1] Wolam klienta 41683 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41683 na: 13.40 zl
+
+[KASJER 1] obsluzylem klienta 41683
+
+[KASJER 1] Wolam klienta 41682 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41682 na: 7.50 zl
+
+[KASJER 1] obsluzylem klienta 41682
+
+[KASJER 1] Wolam klienta 41684 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41684 na: 161.90 zl
+
+[KASJER 1] obsluzylem klienta 41684
+
+[KASJER 1] Wolam klienta 41691 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (70 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41691 na: 190.20 zl
+
+[KASJER 1] obsluzylem klienta 41691
+
+[KASJER 1] Wolam klienta 41690 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (49 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41690 na: 144.20 zl
+
+[KASJER 1] obsluzylem klienta 41690
+
+[KASJER 1] Wolam klienta 41693 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41693 na: 44.80 zl
+
+[KASJER 1] obsluzylem klienta 41693
+
+[KASJER 1] Wolam klienta 41692 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41692 na: 135.70 zl
+
+[KASJER 1] obsluzylem klienta 41692
+
+[KASJER 1] Wolam klienta 41694 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41694 na: 44.00 zl
+
+[KASJER 1] obsluzylem klienta 41694
+
+[KASJER 1] Wolam klienta 41695 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41695 na: 99.80 zl
+
+[KASJER 1] obsluzylem klienta 41695
+
+[KASJER 1] Wolam klienta 41701 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41701 na: 135.90 zl
+
+[KASJER 1] obsluzylem klienta 41701
+
+[KASJER 1] Wolam klienta 41702 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41702 na: 155.00 zl
+
+[KASJER 1] obsluzylem klienta 41702
+
+[KASJER 1] Wolam klienta 41703 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41703 na: 10.50 zl
+
+[KASJER 1] obsluzylem klienta 41703
+
+[KASJER 1] Wolam klienta 41704 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41704 na: 147.00 zl
+
+[KASJER 1] obsluzylem klienta 41704
+
+[KASJER 1] Wolam klienta 41705 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41705 na: 30.30 zl
+
+[KASJER 1] obsluzylem klienta 41705
+
+[KASJER 1] Wolam klienta 41711 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41711 na: 147.00 zl
+
+[KASJER 1] obsluzylem klienta 41711
+
+[KASJER 1] Wolam klienta 41712 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41712 na: 10.20 zl
+
+[KASJER 1] obsluzylem klienta 41712
+
+[KASJER 1] Wolam klienta 41713 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41713 na: 47.40 zl
+
+[KASJER 1] obsluzylem klienta 41713
+
+[KASJER 1] Wolam klienta 41714 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41714 na: 120.40 zl
+
+[KASJER 1] obsluzylem klienta 41714
+
+[KASJER 1] Wolam klienta 41718 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41718 na: 32.70 zl
+
+[KASJER 1] obsluzylem klienta 41718
+
+[KASJER 1] Wolam klienta 41724 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41724 na: 88.00 zl
+
+[KASJER 1] obsluzylem klienta 41724
+
+[KASJER 1] Wolam klienta 41725 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41725 na: 143.50 zl
+
+[KASJER 1] obsluzylem klienta 41725
+
+[KASJER 1] Wolam klienta 41728 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41728 na: 137.50 zl
+
+[KASJER 1] obsluzylem klienta 41728
+
+[KASJER 1] Wolam klienta 41729 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41729 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 41729
+
+[KASJER 1] Wolam klienta 41730 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41730 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 41730
+
+[KASJER 1] Wolam klienta 41732 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41732 na: 40.90 zl
+
+[KASJER 1] obsluzylem klienta 41732
+
+[KASJER 1] Wolam klienta 41731 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41731 na: 137.50 zl
+
+[KASJER 1] obsluzylem klienta 41731
+
+[KASJER 1] Wolam klienta 41738 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41738 na: 101.00 zl
+
+[KASJER 1] obsluzylem klienta 41738
+
+[KASJER 1] Wolam klienta 41739 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41739 na: 62.90 zl
+
+[KASJER 1] obsluzylem klienta 41739
+
+[KASJER 1] Wolam klienta 41741 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41741 na: 55.00 zl
+
+[KASJER 1] obsluzylem klienta 41741
+
+[KASJER 1] Wolam klienta 41740 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (38 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41740 na: 74.10 zl
+
+[KASJER 1] obsluzylem klienta 41740
+
+[KASJER 1] Wolam klienta 41743 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41743 na: 162.90 zl
+
+[KASJER 1] obsluzylem klienta 41743
+
+[KASJER 1] Wolam klienta 41742 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41742 na: 83.00 zl
+
+[KASJER 1] obsluzylem klienta 41742
+
+[KASJER 1] Wolam klienta 41744 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (21 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41744 na: 45.20 zl
+
+[KASJER 1] obsluzylem klienta 41744
+
+[KASJER 1] Wolam klienta 41751 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41751 na: 3.80 zl
+
+[KASJER 1] obsluzylem klienta 41751
+
+[KASJER 1] Wolam klienta 41750 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41750 na: 134.90 zl
+
+[KASJER 1] obsluzylem klienta 41750
+
+[KASJER 1] Wolam klienta 41752 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41752 na: 52.40 zl
+
+[KASJER 1] obsluzylem klienta 41752
+
+[KASJER 1] Wolam klienta 41753 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41753 na: 64.20 zl
+
+[KASJER 1] obsluzylem klienta 41753
+
+[KASJER 1] Wolam klienta 41754 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41754 na: 53.40 zl
+
+[KASJER 1] obsluzylem klienta 41754
+
+[KASJER 1] Wolam klienta 41756 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41756 na: 3.50 zl
+
+[KASJER 1] obsluzylem klienta 41756
+
+[KASJER 1] Wolam klienta 41757 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41757 na: 43.50 zl
+
+[KASJER 1] obsluzylem klienta 41757
+
+[KASJER 1] Wolam klienta 41755 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41755 na: 80.20 zl
+
+[KASJER 1] obsluzylem klienta 41755
+
+[KASJER 1] Wolam klienta 41763 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41763 na: 83.00 zl
+
+[KASJER 1] obsluzylem klienta 41763
+
+[KASJER 1] Wolam klienta 41765 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41765 na: 78.00 zl
+
+[KASJER 1] obsluzylem klienta 41765
+
+[KASJER 1] Wolam klienta 41766 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (67 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41766 na: 91.50 zl
+
+[KASJER 1] obsluzylem klienta 41766
+
+[KASJER 1] Wolam klienta 41764 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41764 na: 69.20 zl
+
+[KASJER 1] obsluzylem klienta 41764
+
+[KASJER 1] Wolam klienta 41768 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41768 na: 151.00 zl
+
+[KASJER 1] obsluzylem klienta 41768
+
+[KASJER 1] Wolam klienta 41767 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (35 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41767 na: 76.40 zl
+
+[KASJER 1] obsluzylem klienta 41767
+
+[KASJER 1] Wolam klienta 41774 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41774 na: 88.10 zl
+
+[KASJER 1] obsluzylem klienta 41774
+
+[KASJER 1] Wolam klienta 41775 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41775 na: 66.00 zl
+
+[KASJER 1] obsluzylem klienta 41775
+
+[KASJER 1] Wolam klienta 41776 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41776 na: 103.20 zl
+
+[KASJER 1] obsluzylem klienta 41776
+
+[KASJER 1] Wolam klienta 41777 do kasy.
+
+[KASJER 1] Klient 41777 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41777 skorygowal zakupy. Nowa kwota: 57.00
+[KASJER 1] Zakupy od Klienta 41777 na: 57.00 zl
+
+[KASJER 1] obsluzylem klienta 41777
+
+[KASJER 1] Wolam klienta 41778 do kasy.
+
+[KASJER 1] Klient 41778 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41778 skorygowal zakupy. Nowa kwota: 57.00
+[KASJER 1] Zakupy od Klienta 41778 na: 57.00 zl
+
+[KASJER 1] obsluzylem klienta 41778
+
+[KASJER 1] Wolam klienta 41784 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41784 na: 187.00 zl
+
+[KASJER 1] obsluzylem klienta 41784
+
+[KASJER 1] Wolam klienta 41785 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41785 na: 37.00 zl
+
+[KASJER 1] obsluzylem klienta 41785
+
+[KASJER 1] Wolam klienta 41786 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41786 na: 174.00 zl
+
+[KASJER 1] obsluzylem klienta 41786
+
+[KASJER 1] Wolam klienta 41787 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (33 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41787 na: 15.50 zl
+
+[KASJER 1] obsluzylem klienta 41787
+
+[KASJER 1] Wolam klienta 41795 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41795 na: 46.50 zl
+
+[KASJER 1] obsluzylem klienta 41795
+
+[KASJER 1] Wolam klienta 41788 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41788 na: 105.50 zl
+
+[KASJER 1] obsluzylem klienta 41788
+
+[KASJER 1] Wolam klienta 41789 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41789 na: 105.50 zl
+
+[KASJER 1] obsluzylem klienta 41789
+
+[KASJER 1] Wolam klienta 41796 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41796 na: 78.00 zl
+
+[KASJER 1] obsluzylem klienta 41796
+
+[KASJER 1] Wolam klienta 41797 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41797 na: 142.20 zl
+
+[KASJER 1] obsluzylem klienta 41797
+
+[KASJER 1] Wolam klienta 41799 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41799 na: 48.00 zl
+
+[KASJER 1] obsluzylem klienta 41799
+
+[KASJER 1] Wolam klienta 41798 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41798 na: 18.50 zl
+
+[KASJER 1] obsluzylem klienta 41798
+
+[KASJER 1] Wolam klienta 41800 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41800 na: 101.50 zl
+
+[KASJER 1] obsluzylem klienta 41800
+
+[KASJER 1] Wolam klienta 41802 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41802 na: 32.00 zl
+
+[KASJER 1] obsluzylem klienta 41802
+
+[KASJER 1] Wolam klienta 41803 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41803 na: 2.50 zl
+
+[KASJER 1] obsluzylem klienta 41803
+
+[KASJER 1] Wolam klienta 41801 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41801 na: 81.30 zl
+
+[KASJER 1] obsluzylem klienta 41801
+
+[KASJER 1] Wolam klienta 41809 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41809 na: 48.00 zl
+
+[KASJER 1] obsluzylem klienta 41809
+
+[KASJER 1] Wolam klienta 41810 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (48 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41810 na: 172.20 zl
+
+[KASJER 1] obsluzylem klienta 41810
+
+[KASJER 1] Wolam klienta 41812 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41812 na: 23.50 zl
+
+[KASJER 1] obsluzylem klienta 41812
+
+[KASJER 1] Wolam klienta 41811 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41811 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41811
+
+[KASJER 1] Wolam klienta 41813 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41813 na: 23.50 zl
+
+[KASJER 1] obsluzylem klienta 41813
+
+[KASJER 1] Wolam klienta 41819 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41819 na: 76.50 zl
+
+[KASJER 1] obsluzylem klienta 41819
+
+[KASJER 1] Wolam klienta 41821 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41821 na: 122.10 zl
+
+[KASJER 1] obsluzylem klienta 41821
+
+[KASJER 1] Wolam klienta 41820 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41820 na: 45.00 zl
+
+[KASJER 1] obsluzylem klienta 41820
+
+[KASJER 1] Wolam klienta 41822 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41822 na: 101.40 zl
+
+[KASJER 1] obsluzylem klienta 41822
+
+[KASJER 1] Wolam klienta 41823 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41823 na: 149.40 zl
+
+[KASJER 1] obsluzylem klienta 41823
+
+[KASJER 1] Wolam klienta 41829 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41829 na: 184.40 zl
+
+[KASJER 1] obsluzylem klienta 41829
+
+[KASJER 1] Wolam klienta 41830 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (43 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41830 na: 135.90 zl
+
+[KASJER 1] obsluzylem klienta 41830
+
+[KASJER 1] Wolam klienta 41831 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41831 na: 32.50 zl
+
+[KASJER 1] obsluzylem klienta 41831
+
+[KASJER 1] Wolam klienta 41832 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41832 na: 62.30 zl
+
+[KASJER 1] obsluzylem klienta 41832
+
+[KASJER 1] Wolam klienta 41833 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41833 na: 2.50 zl
+
+[KASJER 1] obsluzylem klienta 41833
+
+[KASJER 1] Wolam klienta 41834 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41834 na: 18.50 zl
+
+[KASJER 1] obsluzylem klienta 41834
+
+[KASJER 1] Wolam klienta 41841 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41841 na: 5.00 zl
+
+[KASJER 1] obsluzylem klienta 41841
+
+[KASJER 1] Wolam klienta 41835 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41835 na: 76.40 zl
+
+[KASJER 1] obsluzylem klienta 41835
+
+[KASJER 1] Wolam klienta 41842 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (45 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41842 na: 14.20 zl
+
+[KASJER 1] obsluzylem klienta 41842
+
+[KASJER 1] Wolam klienta 41843 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (39 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41843 na: 63.40 zl
+
+[KASJER 1] obsluzylem klienta 41843
+
+[KASJER 1] Wolam klienta 41844 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41844 na: 3.50 zl
+
+[KASJER 1] obsluzylem klienta 41844
+
+[KASJER 1] Wolam klienta 41845 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (23 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41845 na: 158.90 zl
+
+[KASJER 1] obsluzylem klienta 41845
+
+[KASJER 1] Wolam klienta 41846 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41846 na: 240.20 zl
+
+[KASJER 1] obsluzylem klienta 41846
+
+[KASJER 1] Wolam klienta 41847 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41847 na: 2.50 zl
+
+[KASJER 1] obsluzylem klienta 41847
+
+[KASJER 1] Wolam klienta 41853 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41853 na: 44.40 zl
+
+[KASJER 1] obsluzylem klienta 41853
+
+[KASJER 1] Wolam klienta 41855 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41855 na: 9.50 zl
+
+[KASJER 1] obsluzylem klienta 41855
+
+[KASJER 1] Wolam klienta 41854 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (23 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41854 na: 151.00 zl
+
+[KASJER 1] obsluzylem klienta 41854
+
+[KASJER 1] Wolam klienta 41857 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (58 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41857 na: 367.40 zl
+
+[KASJER 1] obsluzylem klienta 41857
+
+[KASJER 1] Wolam klienta 41856 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41856 na: 54.00 zl
+
+[KASJER 1] obsluzylem klienta 41856
+
+[KASJER 1] Wolam klienta 41864 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41864 na: 61.50 zl
+
+[KASJER 1] obsluzylem klienta 41864
+
+[KASJER 1] Wolam klienta 41858 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41858 na: 209.50 zl
+
+[KASJER 1] obsluzylem klienta 41858
+
+[KASJER 1] Wolam klienta 41866 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41866 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41866
+
+[KASJER 1] Wolam klienta 41865 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41865 na: 164.30 zl
+
+[KASJER 1] obsluzylem klienta 41865
+
+[KASJER 1] Wolam klienta 41867 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41867 na: 92.30 zl
+
+[KASJER 1] obsluzylem klienta 41867
+
+[KASJER 1] Wolam klienta 41869 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41869 na: 168.70 zl
+
+[KASJER 1] obsluzylem klienta 41869
+
+[KASJER 1] Wolam klienta 41868 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41868 na: 85.50 zl
+
+[KASJER 1] obsluzylem klienta 41868
+
+[KASJER 1] Wolam klienta 41870 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41870 na: 103.20 zl
+
+[KASJER 1] obsluzylem klienta 41870
+
+[KASJER 1] Wolam klienta 41877 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41877 na: 60.00 zl
+
+[KASJER 1] obsluzylem klienta 41877
+
+[KASJER 1] Wolam klienta 41876 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41876 na: 175.60 zl
+
+[KASJER 1] obsluzylem klienta 41876
+
+[KASJER 1] Wolam klienta 41878 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41878 na: 139.30 zl
+
+[KASJER 1] obsluzylem klienta 41878
+
+[KASJER 1] Wolam klienta 41880 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41880 na: 129.50 zl
+
+[KASJER 1] obsluzylem klienta 41880
+
+[KASJER 1] Wolam klienta 41879 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41879 na: 47.50 zl
+
+[KASJER 1] obsluzylem klienta 41879
+
+[KASJER 1] Wolam klienta 41881 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41881 na: 129.50 zl
+
+[KASJER 1] obsluzylem klienta 41881
+
+[KASJER 1] Wolam klienta 41882 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41882 na: 67.20 zl
+
+[KASJER 1] obsluzylem klienta 41882
+
+[KASJER 1] Wolam klienta 41883 do kasy.
+
+[KASJER 1] Klient 41883 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 41883 skorygowal zakupy. Nowa kwota: 4.20
+[KASJER 1] Zakupy od Klienta 41883 na: 4.20 zl
+
+[KASJER 1] obsluzylem klienta 41883
+
+[KASJER 1] Wolam klienta 41884 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41884 na: 46.70 zl
+
+[KASJER 1] obsluzylem klienta 41884
+
+[KASJER 1] Wolam klienta 41885 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41885 na: 7.00 zl
+
+[KASJER 1] obsluzylem klienta 41885
+
+[KASJER 1] Wolam klienta 41891 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41891 na: 30.00 zl
+
+[KASJER 1] obsluzylem klienta 41891
+
+[KASJER 1] Wolam klienta 41892 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41892 na: 32.00 zl
+
+[KASJER 1] obsluzylem klienta 41892
+
+[KASJER 1] Wolam klienta 41893 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41893 na: 86.50 zl
+
+[KASJER 1] obsluzylem klienta 41893
+
+[KASJER 1] Wolam klienta 41895 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41895 na: 64.20 zl
+
+[KASJER 1] obsluzylem klienta 41895
+
+[KASJER 1] Wolam klienta 41900 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41900 na: 63.50 zl
+
+[KASJER 1] obsluzylem klienta 41900
+
+[KASJER 1] Wolam klienta 41906 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41906 na: 28.50 zl
+
+[KASJER 1] obsluzylem klienta 41906
+
+[KASJER 1] Wolam klienta 41907 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41907 na: 145.00 zl
+
+[KASJER 1] obsluzylem klienta 41907
+
+[KASJER 1] Wolam klienta 41908 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41908 na: 100.20 zl
+
+[KASJER 1] obsluzylem klienta 41908
+
+[KASJER 1] Wolam klienta 41910 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41910 na: 61.40 zl
+
+[KASJER 1] obsluzylem klienta 41910
+
+[KASJER 1] Wolam klienta 41909 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (66 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41909 na: 100.20 zl
+
+[KASJER 1] obsluzylem klienta 41909
+
+[KASJER 1] Wolam klienta 41916 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41916 na: 3.50 zl
+
+[KASJER 1] obsluzylem klienta 41916
+
+[KASJER 1] Wolam klienta 41918 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41918 na: 132.70 zl
+
+[KASJER 1] obsluzylem klienta 41918
+
+[KASJER 1] Wolam klienta 41917 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41917 na: 135.20 zl
+
+[KASJER 1] obsluzylem klienta 41917
+
+[KASJER 1] Wolam klienta 41919 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41919 na: 270.50 zl
+
+[KASJER 1] obsluzylem klienta 41919
+
+[KASJER 1] Wolam klienta 41920 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41920 na: 42.00 zl
+
+[KASJER 1] obsluzylem klienta 41920
+
+[KASJER 1] Wolam klienta 41921 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (29 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41921 na: 46.70 zl
+
+[KASJER 1] obsluzylem klienta 41921
+
+[KASJER 1] Wolam klienta 41922 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41922 na: 58.70 zl
+
+[KASJER 1] obsluzylem klienta 41922
+
+[KASJER 1] Wolam klienta 41923 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41923 na: 125.60 zl
+
+[KASJER 1] obsluzylem klienta 41923
+
+[KASJER 1] Wolam klienta 41924 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41924 na: 5.00 zl
+
+[KASJER 1] obsluzylem klienta 41924
+
+[KASJER 1] Wolam klienta 41926 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41926 na: 3.50 zl
+
+[KASJER 1] obsluzylem klienta 41926
+
+[KASJER 1] Wolam klienta 41925 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41925 na: 61.90 zl
+
+[KASJER 1] obsluzylem klienta 41925
+
+[KASJER 1] Wolam klienta 41927 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41927 na: 82.00 zl
+
+[KASJER 1] obsluzylem klienta 41927
+
+[KASJER 1] Wolam klienta 41933 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41933 na: 153.70 zl
+
+[KASJER 1] obsluzylem klienta 41933
+
+[KASJER 1] Wolam klienta 41935 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41935 na: 122.90 zl
+
+[KASJER 1] obsluzylem klienta 41935
+
+[KASJER 1] Wolam klienta 41936 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41936 na: 91.00 zl
+
+[KASJER 1] obsluzylem klienta 41936
+
+[KASJER 1] Wolam klienta 41937 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41937 na: 95.60 zl
+
+[KASJER 1] obsluzylem klienta 41937
+
+[KASJER 1] Wolam klienta 41938 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41938 na: 132.60 zl
+
+[KASJER 1] obsluzylem klienta 41938
+
+[KASJER 1] Wolam klienta 41939 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41939 na: 132.60 zl
+
+[KASJER 1] obsluzylem klienta 41939
+
+[KASJER 1] Wolam klienta 41946 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41946 na: 44.40 zl
+
+[KASJER 1] obsluzylem klienta 41946
+
+[KASJER 1] Wolam klienta 41940 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41940 na: 82.50 zl
+
+[KASJER 1] obsluzylem klienta 41940
+
+[KASJER 1] Wolam klienta 41947 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41947 na: 129.70 zl
+
+[KASJER 1] obsluzylem klienta 41947
+
+[KASJER 1] Wolam klienta 41950 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41950 na: 74.00 zl
+
+[KASJER 1] obsluzylem klienta 41950
+
+[KASJER 1] Wolam klienta 41948 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (49 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41948 na: 162.10 zl
+
+[KASJER 1] obsluzylem klienta 41948
+
+[KASJER 1] Wolam klienta 41949 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41949 na: 4.00 zl
+
+[KASJER 1] obsluzylem klienta 41949
+
+[KASJER 1] Wolam klienta 41951 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41951 na: 95.60 zl
+
+[KASJER 1] obsluzylem klienta 41951
+
+[KASJER 1] Wolam klienta 41957 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41957 na: 25.00 zl
+
+[KASJER 1] obsluzylem klienta 41957
+
+[KASJER 1] Wolam klienta 41959 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (29 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41959 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 41959
+
+[KASJER 1] Wolam klienta 41958 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (65 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41958 na: 56.30 zl
+
+[KASJER 1] obsluzylem klienta 41958
+
+[KASJER 1] Wolam klienta 41960 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41960 na: 246.10 zl
+
+[KASJER 1] obsluzylem klienta 41960
+
+[KASJER 1] Wolam klienta 41961 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41961 na: 246.10 zl
+
+[KASJER 1] obsluzylem klienta 41961
+
+[KASJER 1] Wolam klienta 41967 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41967 na: 19.40 zl
+
+[KASJER 1] obsluzylem klienta 41967
+
+[KASJER 1] Wolam klienta 41968 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41968 na: 102.50 zl
+
+[KASJER 1] obsluzylem klienta 41968
+
+[KASJER 1] Wolam klienta 41969 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41969 na: 32.00 zl
+
+[KASJER 1] obsluzylem klienta 41969
+
+[KASJER 1] Wolam klienta 41971 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41971 na: 28.90 zl
+
+[KASJER 1] obsluzylem klienta 41971
+
+[KASJER 1] Wolam klienta 41970 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (35 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41970 na: 232.50 zl
+
+[KASJER 1] obsluzylem klienta 41970
+
+[KASJER 1] Wolam klienta 41972 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41972 na: 29.40 zl
+
+[KASJER 1] obsluzylem klienta 41972
+
+[KASJER 1] Wolam klienta 41973 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41973 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 41973
+
+[KASJER 1] Wolam klienta 41980 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41980 na: 67.60 zl
+
+[KASJER 1] obsluzylem klienta 41980
+
+[KASJER 1] Wolam klienta 41974 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (56 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41974 na: 114.70 zl
+
+[KASJER 1] obsluzylem klienta 41974
+
+[KASJER 1] Wolam klienta 41981 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41981 na: 116.50 zl
+
+[KASJER 1] obsluzylem klienta 41981
+
+[KASJER 1] Wolam klienta 41982 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41982 na: 117.00 zl
+
+[KASJER 1] obsluzylem klienta 41982
+
+[KASJER 1] Wolam klienta 41983 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41983 na: 61.00 zl
+
+[KASJER 1] obsluzylem klienta 41983
+
+[KASJER 1] Wolam klienta 41984 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41984 na: 97.00 zl
+
+[KASJER 1] obsluzylem klienta 41984
+
+[KASJER 1] Wolam klienta 41986 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41986 na: 10.80 zl
+
+[KASJER 1] obsluzylem klienta 41986
+
+[KASJER 1] Wolam klienta 41985 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41985 na: 244.00 zl
+
+[KASJER 1] obsluzylem klienta 41985
+
+[KASJER 1] Wolam klienta 41987 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (37 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41987 na: 44.00 zl
+
+[KASJER 1] obsluzylem klienta 41987
+
+[KASJER 1] Wolam klienta 41993 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41993 na: 96.50 zl
+
+[KASJER 1] obsluzylem klienta 41993
+
+[KASJER 1] Wolam klienta 41994 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41994 na: 29.70 zl
+
+[KASJER 1] obsluzylem klienta 41994
+
+[KASJER 1] Wolam klienta 41995 do kasy.
+
+[KASJER 1] Zakupy od Klienta 41995 na: 27.90 zl
+
+[KASJER 1] obsluzylem klienta 41995
+
+[KASJER 1] Wolam klienta 41996 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41996 na: 189.50 zl
+
+[KASJER 1] obsluzylem klienta 41996
+
+[KASJER 1] Wolam klienta 41998 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41998 na: 96.50 zl
+
+[KASJER 1] obsluzylem klienta 41998
+
+[KASJER 1] Wolam klienta 41997 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 41997 na: 29.70 zl
+
+[KASJER 1] obsluzylem klienta 41997
+
+[KASJER 1] Wolam klienta 42004 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42004 na: 75.40 zl
+
+[KASJER 1] obsluzylem klienta 42004
+
+[KASJER 1] Wolam klienta 42005 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42005 na: 54.40 zl
+
+[KASJER 1] obsluzylem klienta 42005
+
+[KASJER 1] Wolam klienta 42006 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42006 na: 6.00 zl
+
+[KASJER 1] obsluzylem klienta 42006
+
+[KASJER 1] Wolam klienta 42007 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (56 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42007 na: 18.20 zl
+
+[KASJER 1] obsluzylem klienta 42007
+
+[KASJER 1] Wolam klienta 42009 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (20 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42009 na: 4.90 zl
+
+[KASJER 1] obsluzylem klienta 42009
+
+[KASJER 1] Wolam klienta 42008 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42008 na: 86.40 zl
+
+[KASJER 1] obsluzylem klienta 42008
+
+[KASJER 1] Wolam klienta 42010 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42010 na: 103.70 zl
+
+[KASJER 1] obsluzylem klienta 42010
+
+[KASJER 1] Wolam klienta 42016 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42016 na: 8.00 zl
+
+[KASJER 1] obsluzylem klienta 42016
+
+[KASJER 1] Wolam klienta 42017 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42017 na: 14.50 zl
+
+[KASJER 1] obsluzylem klienta 42017
+
+[KASJER 1] Wolam klienta 42019 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42019 na: 159.40 zl
+
+[KASJER 1] obsluzylem klienta 42019
+
+[KASJER 1] Wolam klienta 42018 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42018 na: 14.90 zl
+
+[KASJER 1] obsluzylem klienta 42018
+
+[KASJER 1] Wolam klienta 42020 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42020 na: 151.60 zl
+
+[KASJER 1] obsluzylem klienta 42020
+
+[KASJER 1] Wolam klienta 42021 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42021 na: 135.70 zl
+
+[KASJER 1] obsluzylem klienta 42021
+
+[KASJER 1] Wolam klienta 42027 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42027 na: 121.90 zl
+
+[KASJER 1] obsluzylem klienta 42027
+
+[KASJER 1] Wolam klienta 42028 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42028 na: 59.20 zl
+
+[KASJER 1] obsluzylem klienta 42028
+
+[KASJER 1] Wolam klienta 42030 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42030 na: 129.20 zl
+
+[KASJER 1] obsluzylem klienta 42030
+
+[KASJER 1] Wolam klienta 42029 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42029 na: 101.70 zl
+
+[KASJER 1] obsluzylem klienta 42029
+
+[KASJER 1] Wolam klienta 42031 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42031 na: 17.40 zl
+
+[KASJER 1] obsluzylem klienta 42031
+
+[KASJER 1] Wolam klienta 42032 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (36 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42032 na: 19.80 zl
+
+[KASJER 1] obsluzylem klienta 42032
+
+[KASJER 1] Wolam klienta 42033 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42033 na: 171.70 zl
+
+[KASJER 1] obsluzylem klienta 42033
+
+[KASJER 1] Wolam klienta 42034 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (63 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42034 na: 58.20 zl
+
+[KASJER 1] obsluzylem klienta 42034
+
+[KASJER 1] Wolam klienta 42040 do kasy.
+
+[KASJER 1] Klient 42040 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 42040 skorygowal zakupy. Nowa kwota: 56.90
+[KASJER 1] Zakupy od Klienta 42040 na: 56.90 zl
+
+[KASJER 1] obsluzylem klienta 42040
+
+[KASJER 1] Wolam klienta 42042 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42042 na: 100.70 zl
+
+[KASJER 1] obsluzylem klienta 42042
+
+[KASJER 1] Wolam klienta 42041 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42041 na: 33.50 zl
+
+[KASJER 1] obsluzylem klienta 42041
+
+[KASJER 1] Wolam klienta 42043 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42043 na: 47.50 zl
+
+[KASJER 1] obsluzylem klienta 42043
+
+[KASJER 1] Wolam klienta 42044 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42044 na: 144.50 zl
+
+[KASJER 1] obsluzylem klienta 42044
+
+[KASJER 1] Wolam klienta 42045 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42045 na: 45.00 zl
+
+[KASJER 1] obsluzylem klienta 42045
+
+[KASJER 1] Wolam klienta 42046 do kasy.
+
+[KASJER 1] Klient 42046 jest nieletni (16 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 42046 skorygowal zakupy. Nowa kwota: 19.50
+[KASJER 1] Zakupy od Klienta 42046 na: 19.50 zl
+
+[KASJER 1] obsluzylem klienta 42046
+
+[KASJER 1] Wolam klienta 42052 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42052 na: 47.50 zl
+
+[KASJER 1] obsluzylem klienta 42052
+
+[KASJER 1] Wolam klienta 42053 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42053 na: 100.70 zl
+
+[KASJER 1] obsluzylem klienta 42053
+
+[KASJER 1] Wolam klienta 42054 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42054 na: 33.50 zl
+
+[KASJER 1] obsluzylem klienta 42054
+
+[KASJER 1] Wolam klienta 42055 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (69 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42055 na: 33.50 zl
+
+[KASJER 1] obsluzylem klienta 42055
+
+[KASJER 1] Wolam klienta 42056 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42056 na: 131.10 zl
+
+[KASJER 1] obsluzylem klienta 42056
+
+[KASJER 1] Wolam klienta 42057 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42057 na: 178.40 zl
+
+[KASJER 1] obsluzylem klienta 42057
+
+[KASJER 1] Wolam klienta 42063 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42063 na: 171.70 zl
+
+[KASJER 1] obsluzylem klienta 42063
+
+[KASJER 1] Wolam klienta 42064 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42064 na: 17.40 zl
+
+[KASJER 1] obsluzylem klienta 42064
+
+[KASJER 1] Wolam klienta 42065 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42065 na: 129.20 zl
+
+[KASJER 1] obsluzylem klienta 42065
+
+[KASJER 1] Wolam klienta 42066 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (60 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42066 na: 129.20 zl
+
+[KASJER 1] obsluzylem klienta 42066
+
+[KASJER 1] Wolam klienta 42067 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42067 na: 17.40 zl
+
+[KASJER 1] obsluzylem klienta 42067
+
+[KASJER 1] Wolam klienta 42068 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (33 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42068 na: 104.30 zl
+
+[KASJER 1] obsluzylem klienta 42068
+
+[KASJER 1] Wolam klienta 42076 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42076 na: 159.40 zl
+
+[KASJER 1] obsluzylem klienta 42076
+
+[KASJER 1] Wolam klienta 42074 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42074 na: 34.30 zl
+
+[KASJER 1] obsluzylem klienta 42074
+
+[KASJER 1] Wolam klienta 42075 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42075 na: 187.40 zl
+
+[KASJER 1] obsluzylem klienta 42075
+
+[KASJER 1] Wolam klienta 42077 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (68 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42077 na: 14.90 zl
+
+[KASJER 1] obsluzylem klienta 42077
+
+[KASJER 1] Wolam klienta 42081 do kasy.
+
+[KASJER 1] Klient 42081 jest nieletni (16 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 42081 skorygowal zakupy. Nowa kwota: 134.50
+[KASJER 1] Zakupy od Klienta 42081 na: 134.50 zl
+
+[KASJER 1] obsluzylem klienta 42081
+
+[KASJER 1] Wolam klienta 42082 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42082 na: 133.60 zl
+
+[KASJER 1] obsluzylem klienta 42082
+
+[KASJER 1] Wolam klienta 42083 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (29 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42083 na: 122.50 zl
+
+[KASJER 1] obsluzylem klienta 42083
+
+[KASJER 1] Wolam klienta 42089 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42089 na: 6.00 zl
+
+[KASJER 1] obsluzylem klienta 42089
+
+[KASJER 1] Wolam klienta 42090 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42090 na: 54.40 zl
+
+[KASJER 1] obsluzylem klienta 42090
+
+[KASJER 1] Wolam klienta 42091 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42091 na: 75.40 zl
+
+[KASJER 1] obsluzylem klienta 42091
+
+[KASJER 1] Wolam klienta 42092 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42092 na: 91.30 zl
+
+[KASJER 1] obsluzylem klienta 42092
+
+[KASJER 1] Wolam klienta 42093 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (32 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42093 na: 54.40 zl
+
+[KASJER 1] obsluzylem klienta 42093
+
+[KASJER 1] Wolam klienta 42094 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42094 na: 6.00 zl
+
+[KASJER 1] obsluzylem klienta 42094
+
+[KASJER 1] Wolam klienta 42100 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42100 na: 27.90 zl
+
+[KASJER 1] obsluzylem klienta 42100
+
+[KASJER 1] Wolam klienta 42102 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42102 na: 96.50 zl
+
+[KASJER 1] obsluzylem klienta 42102
+
+[KASJER 1] Wolam klienta 42101 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (57 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42101 na: 29.70 zl
+
+[KASJER 1] obsluzylem klienta 42101
+
+[KASJER 1] Wolam klienta 42103 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42103 na: 96.50 zl
+
+[KASJER 1] obsluzylem klienta 42103
+
+[KASJER 1] Wolam klienta 42104 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (54 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42104 na: 142.60 zl
+
+[KASJER 1] obsluzylem klienta 42104
+
+[KASJER 1] Wolam klienta 42112 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42112 na: 58.50 zl
+
+[KASJER 1] obsluzylem klienta 42112
+
+[KASJER 1] Wolam klienta 42110 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (18 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42110 na: 244.00 zl
+
+[KASJER 1] obsluzylem klienta 42110
+
+[KASJER 1] Wolam klienta 42111 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42111 na: 97.00 zl
+
+[KASJER 1] obsluzylem klienta 42111
+
+[KASJER 1] Wolam klienta 42113 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (62 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42113 na: 115.00 zl
+
+[KASJER 1] obsluzylem klienta 42113
+
+[KASJER 1] Wolam klienta 42114 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (46 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42114 na: 52.50 zl
+
+[KASJER 1] obsluzylem klienta 42114
+
+[KASJER 1] Wolam klienta 42121 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42121 na: 128.80 zl
+
+[KASJER 1] obsluzylem klienta 42121
+
+[KASJER 1] Wolam klienta 42120 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42120 na: 65.30 zl
+
+[KASJER 1] obsluzylem klienta 42120
+
+[KASJER 1] Wolam klienta 42122 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42122 na: 95.50 zl
+
+[KASJER 1] obsluzylem klienta 42122
+
+[KASJER 1] Wolam klienta 42123 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42123 na: 95.50 zl
+
+[KASJER 1] obsluzylem klienta 42123
+
+[KASJER 1] Wolam klienta 42125 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (44 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42125 na: 184.70 zl
+
+[KASJER 1] obsluzylem klienta 42125
+
+[KASJER 1] Wolam klienta 42124 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42124 na: 121.60 zl
+
+[KASJER 1] obsluzylem klienta 42124
+
+[KASJER 1] Wolam klienta 42126 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (67 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42126 na: 93.10 zl
+
+[KASJER 1] obsluzylem klienta 42126
+
+[KASJER 1] Wolam klienta 42128 do kasy.
+
+[KASJER 1] Klient 42128 jest nieletni (15 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 42128 skorygowal zakupy. Nowa kwota: 38.00
+[KASJER 1] Zakupy od Klienta 42128 na: 38.00 zl
+
+[KASJER 1] obsluzylem klienta 42128
+
+[KASJER 1] Wolam klienta 42127 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42127 na: 85.50 zl
+
+[KASJER 1] obsluzylem klienta 42127
+
+[KASJER 1] Wolam klienta 42135 do kasy.
+
+[KASJER 1] Klient 42135 jest nieletni (14 lat)! Odmawiam sprzedazy alkoholu.
+[KASJER 1] Klient 42135 skorygowal zakupy. Nowa kwota: 54.50
+[KASJER 1] Zakupy od Klienta 42135 na: 54.50 zl
+
+[KASJER 1] obsluzylem klienta 42135
+
+[KASJER 1] Wolam klienta 42137 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42137 na: 87.90 zl
+
+[KASJER 1] obsluzylem klienta 42137
+
+[KASJER 1] Wolam klienta 42136 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (43 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42136 na: 116.90 zl
+
+[KASJER 1] obsluzylem klienta 42136
+
+[KASJER 1] Wolam klienta 42144 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42144 na: 63.50 zl
+
+[KASJER 1] obsluzylem klienta 42144
+
+[KASJER 1] Wolam klienta 42138 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42138 na: 120.90 zl
+
+[KASJER 1] obsluzylem klienta 42138
+
+[KASJER 1] Wolam klienta 42145 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42145 na: 32.00 zl
+
+[KASJER 1] obsluzylem klienta 42145
+
+[KASJER 1] Wolam klienta 42147 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42147 na: 143.50 zl
+
+[KASJER 1] obsluzylem klienta 42147
+
+[KASJER 1] Wolam klienta 42148 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42148 na: 3.00 zl
+
+[KASJER 1] obsluzylem klienta 42148
+
+[KASJER 1] Wolam klienta 42146 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42146 na: 55.50 zl
+
+[KASJER 1] obsluzylem klienta 42146
+
+[KASJER 1] Wolam klienta 42149 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42149 na: 3.00 zl
+
+[KASJER 1] obsluzylem klienta 42149
+
+[KASJER 1] Wolam klienta 42150 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42150 na: 77.50 zl
+
+[KASJER 1] obsluzylem klienta 42150
+
+[KASJER 1] Wolam klienta 42156 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42156 na: 105.70 zl
+
+[KASJER 1] obsluzylem klienta 42156
+
+[KASJER 1] Wolam klienta 42157 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42157 na: 9.90 zl
+
+[KASJER 1] obsluzylem klienta 42157
+
+[KASJER 1] Wolam klienta 42158 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (52 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42158 na: 197.70 zl
+
+[KASJER 1] obsluzylem klienta 42158
+
+[KASJER 1] Wolam klienta 42160 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42160 na: 15.50 zl
+
+[KASJER 1] obsluzylem klienta 42160
+
+[KASJER 1] Wolam klienta 42159 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (19 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42159 na: 42.90 zl
+
+[KASJER 1] obsluzylem klienta 42159
+
+[KASJER 1] Wolam klienta 42161 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42161 na: 10.40 zl
+
+[KASJER 1] obsluzylem klienta 42161
+
+[KASJER 1] Wolam klienta 42163 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42163 na: 15.50 zl
+
+[KASJER 1] obsluzylem klienta 42163
+
+[KASJER 1] Wolam klienta 42162 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42162 na: 3.80 zl
+
+[KASJER 1] obsluzylem klienta 42162
+
+[KASJER 1] Wolam klienta 42170 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42170 na: 12.00 zl
+
+[KASJER 1] obsluzylem klienta 42170
+
+[KASJER 1] Wolam klienta 42164 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42164 na: 160.00 zl
+
+[KASJER 1] obsluzylem klienta 42164
+
+[KASJER 1] Wolam klienta 42171 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42171 na: 8.50 zl
+
+[KASJER 1] obsluzylem klienta 42171
+
+[KASJER 1] Wolam klienta 42172 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42172 na: 3.80 zl
+
+[KASJER 1] obsluzylem klienta 42172
+
+[KASJER 1] Wolam klienta 42173 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (24 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42173 na: 3.80 zl
+
+[KASJER 1] obsluzylem klienta 42173
+
+[KASJER 1] Wolam klienta 42174 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42174 na: 118.40 zl
+
+[KASJER 1] obsluzylem klienta 42174
+
+[KASJER 1] Wolam klienta 42180 do kasy.
+
+[KASJER 1] Zakupy od Klienta 42180 na: 157.50 zl
+
+[KASJER 1] obsluzylem klienta 42180
+
+[KASJER 1] Wolam klienta 42181 do kasy.
+
+[KASJER 1] Weryfikacja wieku pomyslna (53 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 42181 na: 82.60 zl
+
+[KASJER 1] obsluzylem klienta 42181
+
