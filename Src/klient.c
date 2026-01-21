@@ -517,7 +517,7 @@ int main() {
                 alkohol = 0;
                 signalSemafor(id_semafora, SEM_KASY);
 
-                // Poprawiony rachunek wyslany do kasjera (bez alko)
+                // Poprawiony rachunek wyslany do kasjera (bez alkoholu)
                 msg.mesg_type = id_kasjera + KANAL_KASJERA_OFFSET;
                 msg.ID_klienta = pid;
                 msg.kwota = moj_rachunek;
