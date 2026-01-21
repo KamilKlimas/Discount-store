@@ -10,13 +10,13 @@
 
 [KIEROWNIK] Kasjer 2 proszony o gotowosc
 
-[KIEROWNIK] Sklep otwarty. PID 178563
+[KIEROWNIK] Sklep otwarty. PID 21127
 
 [KIEROWNIK] Dostepne polecenia:
--> kill -SIGUSR1 178563 (Otworz Kase 2)
--> kill -SIGUSR2 178563 (Zamknij Kase 2)
--> kill -34 178563 (Zamknij Kase 1)
--> kill -SIGQUIT 178563 (ewakuacja)
+-> kill -SIGUSR1 21127 (Otworz Kase 2)
+-> kill -SIGUSR2 21127 (Zamknij Kase 2)
+-> kill -34 21127 (Zamknij Kase 1)
+-> kill -SIGQUIT 21127 (ewakuacja)
 
 [KIEROWNIK] ----------------------------------------------------------
 
@@ -26,31 +26,29 @@
 
 [KIEROWNIK] Otwieram kase samoobslugowa 2 (Klienci: 0)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 25)
+[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 44)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 25)
+[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 44)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 64)
+[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 44)
 
-[KIEROWNIK] Kolejka do kasy nr1: 5. Otwieram kase...
+[KIEROWNIK] Kolejka do kasy nr1: 8. Otwieram kase...
 
-[KIEROWNIK] Zamykam kase samoobslugowa 5 (Klienci: 5 < Prog: 15)
+[KIEROWNIK] Zamykam kase samoobslugowa 6 (Klienci: 14 < Prog: 15)
 
-[KIEROWNIK] Zamykam kase samoobslugowa 6 (Klienci: 2 < Prog: 10)
+[KIEROWNIK] Zamykam kase samoobslugowa 5 (Klienci: 9 < Prog: 10)
 
-[KIEROWNIK] Zamykam kase samoobslugowa 4 (Klienci: 0 < Prog: 5)
-
-[KIEROWNIK] Zamykam kase stacjonarna 1
+[KIEROWNIK] Zamykam kase samoobslugowa 4 (Klienci: 4 < Prog: 5)
 
 [KIEROWNIK] Otrzymano SIGINT -> Zamykam sklep dla nowych klientow
 
 [KIEROWNIK] Brak klientow. Koniec pracy.
 [KIEROWNIK] Rozpoczynam finalne sprzatanie...
 [KIEROWNIK] [WATEK CLEANUP] Rozpoczynam procedure czyszczenia...
-[KIEROWNIK] 
-RAPORT KONCOWY:2026-01-20
----Utarg: 77679.10---
----Obsluzeni Klienci: 1000---
 [KIEROWNIK] [WATEK CLEANUP] Zabijam procesy potomne...
+[KIEROWNIK] 
+RAPORT KONCOWY:2026-01-21
+---Utarg: 89037.20---
+---Obsluzeni Klienci: 1000---
 [KIEROWNIK] [1m[31m[WATEK CLEANUP] Zasoby zwolnione.[0m
 [KIEROWNIK] Zamkniecie zakonczone pomyslnie.

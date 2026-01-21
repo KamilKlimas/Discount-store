@@ -10,13 +10,13 @@
 
 [KIEROWNIK] Kasjer 2 proszony o gotowosc
 
-[KIEROWNIK] Sklep otwarty. PID 11722
+[KIEROWNIK] Sklep otwarty. PID 25623
 
 [KIEROWNIK] Dostepne polecenia:
--> kill -SIGUSR1 11722 (Otworz Kase 2)
--> kill -SIGUSR2 11722 (Zamknij Kase 2)
--> kill -34 11722 (Zamknij Kase 1)
--> kill -SIGQUIT 11722 (ewakuacja)
+-> kill -SIGUSR1 25623 (Otworz Kase 2)
+-> kill -SIGUSR2 25623 (Zamknij Kase 2)
+-> kill -34 25623 (Zamknij Kase 1)
+-> kill -SIGQUIT 25623 (ewakuacja)
 
 [KIEROWNIK] ----------------------------------------------------------
 
@@ -26,23 +26,23 @@
 
 [KIEROWNIK] Otwieram kase samoobslugowa 2 (Klienci: 0)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 23)
+[KIEROWNIK] Otwieram kase samoobslugowa 3 (Klienci: 21)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 23)
+[KIEROWNIK] Otwieram kase samoobslugowa 4 (Klienci: 21)
 
-[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 49)
+[KIEROWNIK] Otwieram kase samoobslugowa 5 (Klienci: 56)
 
-[KIEROWNIK] Kolejka do kasy nr1: 5. Otwieram kase...
+[KIEROWNIK] Kolejka do kasy nr1: 4. Otwieram kase...
 
 [KIEROWNIK] ALARM -> EWAKUACJA
 
 [KIEROWNIK] EWAKUACJA - natychmiastowe zamkniecie!
 [KIEROWNIK] Rozpoczynam finalne sprzatanie...
 [KIEROWNIK] [WATEK CLEANUP] Rozpoczynam procedure czyszczenia...
+[KIEROWNIK] [WATEK CLEANUP] Zabijam procesy potomne...
 [KIEROWNIK] 
 RAPORT KONCOWY:2026-01-21
----Utarg: 6664.90---
----Obsluzeni Klienci: 79---
-[KIEROWNIK] [WATEK CLEANUP] Zabijam procesy potomne...
+---Utarg: 20417.20---
+---Obsluzeni Klienci: 204---
 [KIEROWNIK] [1m[31m[WATEK CLEANUP] Zasoby zwolnione.[0m
 [KIEROWNIK] Zamkniecie zakonczone pomyslnie.

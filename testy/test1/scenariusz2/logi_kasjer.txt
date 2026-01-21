@@ -2,206 +2,185 @@
 
 [KASJER 2] zaczyna prace (typ nasluchu: 101)
 
-[KASJER 1] Wolam klienta 11817 do kasy.
+[KASJER 1] Wolam klienta 25789 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (57 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11817 na: 178.10 zl
+[KASJER 1] Weryfikacja wieku pomyslna (50 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25789 na: 26.90 zl
 
-[KASJER 1] obsluzylem klienta 11817
+[KASJER 1] obsluzylem klienta 25789
 
-[KASJER 1] Wolam klienta 11841 do kasy.
+[KASJER 1] Wolam klienta 25872 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (33 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11841 na: 12.00 zl
+[KASJER 1] Weryfikacja wieku pomyslna (26 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25872 na: 71.00 zl
 
-[KASJER 1] obsluzylem klienta 11841
+[KASJER 1] obsluzylem klienta 25872
 
-[KASJER 1] Wolam klienta 11816 do kasy.
+[KASJER 1] Wolam klienta 25882 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (38 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11816 na: 357.80 zl
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25882 na: 67.00 zl
 
-[KASJER 1] obsluzylem klienta 11816
+[KASJER 1] obsluzylem klienta 25882
 
-[KASJER 1] Wolam klienta 11861 do kasy.
+[KASJER 1] Wolam klienta 25974 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (50 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11861 na: 83.50 zl
+[KASJER 1] Weryfikacja wieku pomyslna (59 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25974 na: 44.80 zl
 
-[KASJER 1] obsluzylem klienta 11861
+[KASJER 1] obsluzylem klienta 25974
 
-[KASJER 1] Wolam klienta 11840 do kasy.
+[KASJER 1] Wolam klienta 25876 do kasy.
 
-[KASJER 1] Klient 11840 jest nieletni (17 lat)! Odmawiam sprzedaży alkoholu.
-[KASJER 1] Klient 11840 skorygował zakupy. Nowa kwota: 11.20
-[KASJER 1] Zakupy od Klienta 11840 na: 11.20 zl
+[KASJER 1] Weryfikacja wieku pomyslna (61 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25876 na: 149.90 zl
 
-[KASJER 1] obsluzylem klienta 11840
+[KASJER 1] obsluzylem klienta 25876
 
-[KASJER 1] Wolam klienta 11858 do kasy.
+[KASJER 1] Wolam klienta 25888 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (48 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11858 na: 152.70 zl
+[KASJER 1] Weryfikacja wieku pomyslna (47 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25888 na: 111.80 zl
 
-[KASJER 1] obsluzylem klienta 11858
+[KASJER 1] obsluzylem klienta 25888
 
-[KASJER 1] Wolam klienta 11888 do kasy.
+[KASJER 1] Wolam klienta 25863 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (25 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11888 na: 6.50 zl
+[KASJER 1] Weryfikacja wieku pomyslna (42 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25863 na: 42.40 zl
 
-[KASJER 1] obsluzylem klienta 11888
+[KASJER 1] obsluzylem klienta 25863
 
-[KASJER 1] Wolam klienta 11937 do kasy.
+[KASJER 1] Wolam klienta 25835 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (36 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11937 na: 0.90 zl
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25835 na: 101.40 zl
 
-[KASJER 1] obsluzylem klienta 11937
+[KASJER 1] obsluzylem klienta 25835
 
-[KASJER 1] Wolam klienta 11920 do kasy.
+[KASJER 1] Wolam klienta 25896 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (33 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11920 na: 196.20 zl
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25896 na: 43.50 zl
 
-[KASJER 1] obsluzylem klienta 11920
+[KASJER 1] obsluzylem klienta 25896
 
-[KASJER 1] Wolam klienta 11941 do kasy.
+[KASJER 1] Wolam klienta 25936 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (41 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11941 na: 196.20 zl
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25936 na: 125.00 zl
 
-[KASJER 1] obsluzylem klienta 11941
+[KASJER 1] obsluzylem klienta 25936
 
-[KASJER 1] Wolam klienta 11946 do kasy.
+[KASJER 1] Wolam klienta 25877 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (41 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11946 na: 196.20 zl
+[KASJER 1] Weryfikacja wieku pomyslna (56 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25877 na: 69.00 zl
 
-[KASJER 1] obsluzylem klienta 11946
+[KASJER 1] obsluzylem klienta 25877
 
-[KASJER 1] Wolam klienta 11960 do kasy.
+[KASJER 1] Wolam klienta 25878 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (38 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11960 na: 16.50 zl
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25878 na: 197.60 zl
 
-[KASJER 1] obsluzylem klienta 11960
+[KASJER 1] obsluzylem klienta 25878
 
-[KASJER 1] Wolam klienta 11995 do kasy.
+[KASJER 1] Wolam klienta 25884 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (45 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11995 na: 103.60 zl
+[KASJER 1] Weryfikacja wieku pomyslna (25 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25884 na: 156.60 zl
 
-[KASJER 1] obsluzylem klienta 11995
+[KASJER 1] obsluzylem klienta 25884
 
-[KASJER 1] Wolam klienta 12001 do kasy.
+[KASJER 1] Wolam klienta 25899 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (21 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 12001 na: 40.00 zl
+[KASJER 1] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25899 na: 86.00 zl
 
-[KASJER 1] obsluzylem klienta 12001
+[KASJER 1] obsluzylem klienta 25899
 
-[KASJER 1] Wolam klienta 11865 do kasy.
+[KASJER 1] Wolam klienta 25907 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (55 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11865 na: 6.70 zl
+[KASJER 1] Weryfikacja wieku pomyslna (40 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25907 na: 80.50 zl
 
-[KASJER 1] obsluzylem klienta 11865
+[KASJER 1] obsluzylem klienta 25907
 
-[KASJER 1] Wolam klienta 11876 do kasy.
+[KASJER 1] Wolam klienta 25858 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (20 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11876 na: 35.00 zl
+[KASJER 1] Weryfikacja wieku pomyslna (35 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25858 na: 60.80 zl
 
-[KASJER 1] obsluzylem klienta 11876
+[KASJER 1] obsluzylem klienta 25858
 
-[KASJER 1] Wolam klienta 11898 do kasy.
+[KASJER 1] Wolam klienta 25924 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (23 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11898 na: 100.20 zl
+[KASJER 1] Weryfikacja wieku pomyslna (28 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25924 na: 13.50 zl
 
-[KASJER 1] obsluzylem klienta 11898
+[KASJER 1] obsluzylem klienta 25924
 
-[KASJER 1] Wolam klienta 11889 do kasy.
+[KASJER 1] Wolam klienta 25883 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (63 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11889 na: 37.00 zl
+[KASJER 1] Weryfikacja wieku pomyslna (33 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25883 na: 202.40 zl
 
-[KASJER 1] obsluzylem klienta 11889
+[KASJER 1] obsluzylem klienta 25883
 
-[KASJER 1] Wolam klienta 11931 do kasy.
+[KASJER 1] Wolam klienta 25868 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (23 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11931 na: 141.30 zl
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25868 na: 140.60 zl
 
-[KASJER 1] obsluzylem klienta 11931
+[KASJER 1] obsluzylem klienta 25868
 
-[KASJER 1] Wolam klienta 11871 do kasy.
+[KASJER 1] Wolam klienta 25885 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (20 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11871 na: 18.70 zl
+[KASJER 1] Weryfikacja wieku pomyslna (51 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25885 na: 169.90 zl
 
-[KASJER 1] obsluzylem klienta 11871
+[KASJER 1] obsluzylem klienta 25885
 
-[KASJER 1] Wolam klienta 11850 do kasy.
+[KASJER 1] Wolam klienta 25874 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (58 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11850 na: 86.30 zl
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25874 na: 97.20 zl
 
-[KASJER 1] obsluzylem klienta 11850
+[KASJER 1] obsluzylem klienta 25874
 
-[KASJER 1] Wolam klienta 11849 do kasy.
+[KASJER 1] Wolam klienta 25869 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (40 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11849 na: 115.90 zl
+[KASJER 1] Weryfikacja wieku pomyslna (31 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25869 na: 140.60 zl
 
-[KASJER 1] obsluzylem klienta 11849
+[KASJER 1] obsluzylem klienta 25869
 
-[KASJER 1] Wolam klienta 11883 do kasy.
+[KASJER 1] Wolam klienta 25897 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (36 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11883 na: 54.40 zl
+[KASJER 1] Weryfikacja wieku pomyslna (22 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25897 na: 257.00 zl
 
-[KASJER 1] obsluzylem klienta 11883
+[KASJER 1] obsluzylem klienta 25897
 
-[KASJER 1] Wolam klienta 11854 do kasy.
+[KASJER 1] Wolam klienta 25886 do kasy.
 
-[KASJER 1] Klient 11854 jest nieletni (16 lat)! Odmawiam sprzedaży alkoholu.
-[KASJER 1] Klient 11854 skorygował zakupy. Nowa kwota: 47.00
-[KASJER 1] Zakupy od Klienta 11854 na: 47.00 zl
+[KASJER 1] Weryfikacja wieku pomyslna (55 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25886 na: 56.80 zl
 
-[KASJER 1] obsluzylem klienta 11854
+[KASJER 1] obsluzylem klienta 25886
 
-[KASJER 1] Wolam klienta 11905 do kasy.
+[KASJER 1] Wolam klienta 25887 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (42 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11905 na: 143.80 zl
+[KASJER 1] Weryfikacja wieku pomyslna (64 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25887 na: 56.90 zl
 
-[KASJER 1] obsluzylem klienta 11905
+[KASJER 1] obsluzylem klienta 25887
 
-[KASJER 1] Wolam klienta 11906 do kasy.
+[KASJER 1] Wolam klienta 25881 do kasy.
 
-[KASJER 1] Weryfikacja wieku pomyślna (41 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11906 na: 104.90 zl
+[KASJER 1] Weryfikacja wieku pomyslna (30 lat). Sprzedaje alkohol.
+[KASJER 1] Zakupy od Klienta 25881 na: 7.00 zl
 
-[KASJER 1] obsluzylem klienta 11906
-
-[KASJER 1] Wolam klienta 11900 do kasy.
-
-[KASJER 1] Weryfikacja wieku pomyślna (25 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11900 na: 26.70 zl
-
-[KASJER 1] obsluzylem klienta 11900
-
-[KASJER 1] Wolam klienta 11891 do kasy.
-
-[KASJER 1] Weryfikacja wieku pomyślna (54 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11891 na: 77.30 zl
-
-[KASJER 1] obsluzylem klienta 11891
-
-[KASJER 1] Wolam klienta 11852 do kasy.
-
-[KASJER 1] Weryfikacja wieku pomyślna (47 lat). Sprzedaje alkohol.
-[KASJER 1] Zakupy od Klienta 11852 na: 115.40 zl
+[KASJER 1] obsluzylem klienta 25881
 

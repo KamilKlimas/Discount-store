@@ -1,1422 +1,2738 @@
-[KASA SAMO 2] (PID: 178598) gotowa.
+[KASA SAMO 2] (PID: 21149) gotowa.
 
-[KASA SAMO 1] (PID: 178597) gotowa.
+[KASA SAMO 4] (PID: 21151) gotowa.
 
-[KASA SAMO 5] (PID: 178601) gotowa.
+[KASA SAMO 3] (PID: 21150) gotowa.
 
-[KASA SAMO 4] (PID: 178600) gotowa.
+[KASA SAMO 6] (PID: 21153) gotowa.
 
-[KASA SAMO 3] (PID: 178599) gotowa.
+[KASA SAMO 1] (PID: 21148) gotowa.
 
-[KASA SAMO 6] (PID: 178602) gotowa.
+[KASA SAMO 5] (PID: 21152) gotowa.
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178701: 19.50 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21246: 53.80 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21247: 53.80 zl
 
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21253: 45.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21262: 136.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21286: 64.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21268: 11.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21280: 152.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21293: 67.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21287: 173.20 zl
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21300: 67.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21314: 132.10 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21307: 72.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21316: 2.80 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21333: 18.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21332: 18.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21312: 86.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21310: 52.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21304: 138.10 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21319: 61.20 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21299: 11.80 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21306: 29.20 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21338: 64.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21336: 109.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21339: 3.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21322: 133.30 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21351: 16.90 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21305: 90.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21350: 55.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21343: 49.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21315: 7.50 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21357: 43.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21301: 124.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21321: 168.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21323: 69.40 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21329: 81.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21348: 236.40 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21364: 8.90 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21337: 37.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21313: 55.40 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21356: 145.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21311: 63.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21331: 75.70 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21354: 197.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21340: 152.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21405: 3.80 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21378: 107.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21366: 84.60 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21385: 50.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21423: 99.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21433: 28.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21422: 242.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21376: 93.30 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21443: 94.70 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21445: 15.40 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21442: 2.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21444: 122.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21448: 13.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21441: 89.50 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21446: 80.90 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21449: 134.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21447: 159.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21450: 19.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21457: 62.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21451: 72.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21459: 123.90 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21462: 117.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21460: 131.80 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21458: 49.40 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21463: 131.80 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21464: 132.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21471: 54.20 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21473: 154.70 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21466: 255.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21469: 46.30 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21472: 18.50 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21468: 13.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21475: 56.90 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21479: 112.70 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21478: 209.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21482: 146.60 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21477: 101.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21480: 40.20 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21487: 35.40 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21483: 72.40 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21485: 193.90 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21490: 132.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21486: 44.80 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21488: 65.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21499: 63.40 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21493: 110.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21491: 101.40 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21501: 101.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21506: 56.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21500: 101.90 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21505: 86.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21502: 65.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21507: 25.70 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21510: 131.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21504: 37.90 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21511: 38.10 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21512: 22.70 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21514: 38.70 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21513: 211.10 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21518: 49.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21520: 90.10 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21524: 58.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21519: 286.80 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21517: 8.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21532: 6.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21525: 112.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21523: 31.70 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21531: 87.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21529: 143.10 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21526: 1.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21536: 2.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21539: 149.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21533: 20.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21546: 10.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21534: 108.40 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21547: 142.60 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21550: 50.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21551: 2.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21548: 149.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21554: 0.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21549: 53.80 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21552: 119.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21558: 68.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21557: 44.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21562: 97.50 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21561: 12.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21556: 236.20 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21559: 158.10 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21571: 50.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21565: 22.30 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21568: 114.30 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21570: 144.20 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21566: 252.20 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21567: 55.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21569: 2.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21575: 13.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21574: 40.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21576: 8.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21573: 12.60 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21585: 234.40 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21588: 39.90 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21577: 51.70 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21587: 61.20 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21592: 125.80 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21595: 72.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21591: 93.70 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21589: 124.10 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21596: 79.20 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21600: 77.20 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21604: 153.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21603: 83.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21602: 228.40 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21598: 84.20 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21601: 311.70 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21597: 90.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21608: 12.30 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21613: 35.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21611: 62.50 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21610: 246.20 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21623: 46.10 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21612: 113.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21616: 9.70 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21626: 113.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21625: 187.10 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21628: 239.40 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21627: 224.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21630: 11.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21631: 35.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21632: 177.40 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21629: 86.30 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21641: 61.80 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21637: 14.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21633: 13.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21636: 91.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21642: 2.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21638: 91.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21640: 32.40 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21644: 156.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21643: 4.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21649: 76.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21647: 3.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21646: 139.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21663: 132.70 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21651: 195.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21659: 204.80 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21664: 124.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21657: 7.40 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21660: 12.50 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21666: 42.80 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21665: 79.70 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21662: 27.70 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21671: 6.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21675: 40.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21672: 103.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21673: 42.30 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21674: 160.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21678: 13.40 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21679: 83.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21677: 15.70 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21683: 70.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21676: 95.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21686: 4.50 zl
+
+[KASA SAMO 3] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] WERYFIKACJA WIEKU!
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21682: 150.80 zl
+
+[KASA SAMO 5] WERYFIKACJA WIEKU!
 
 [KASA SAMO 2] WERYFIKACJA WIEKU!
 
-[KASA SAMO 3] WERYFIKACJA WIEKU!
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178724: 43.90 zl
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21732: 257.60 zl
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178714: 87.50 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21739: 32.40 zl
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178707: 92.00 zl
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21687: 21.50 zl
 
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21731: 59.50 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178731: 48.20 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] WERYFIKACJA WIEKU!
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178732: 122.90 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178744: 29.90 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178738: 270.90 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178750: 132.60 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178775: 80.00 zl
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21735: 48.80 zl
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178766: 20.90 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178758: 183.40 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178759: 147.00 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21736: 15.00 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178764: 24.90 zl
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178777: 197.50 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178761: 158.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178780: 25.80 zl
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21737: 157.80 zl
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21740: 52.70 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21734: 129.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22596: 139.40 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178784: 60.10 zl
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21733: 122.00 zl
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178762: 49.90 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22593: 46.50 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22592: 125.10 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22594: 30.00 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178811: 10.00 zl
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22595: 135.80 zl
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178807: 22.20 zl
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178771: 74.50 zl
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22581: 63.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22583: 75.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22575: 28.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22586: 156.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22585: 96.70 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22573: 329.10 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178785: 108.90 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22584: 82.90 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22572: 28.90 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22582: 232.50 zl
+
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178781: 76.30 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178767: 58.40 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178782: 81.40 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22563: 35.00 zl
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178770: 19.50 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22574: 48.00 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178818: 6.70 zl
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22566: 80.90 zl
 
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178751: 122.00 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22565: 48.90 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22564: 157.20 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178793: 58.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178805: 42.90 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178763: 5.00 zl
-
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178814: 178.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] WERYFIKACJA WIEKU!
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178772: 262.40 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178788: 77.30 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178786: 81.30 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178776: 6.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178789: 93.20 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178813: 82.20 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178803: 16.40 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178822: 80.30 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178794: 38.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178832: 85.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178801: 80.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178804: 35.80 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178823: 144.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22552: 61.00 zl
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178876: 13.00 zl
-
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178862: 67.00 zl
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22561: 151.30 zl
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178877: 49.70 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22560: 151.30 zl
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178890: 32.00 zl
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178889: 97.30 zl
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22551: 2.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22562: 73.10 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22554: 169.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178891: 149.40 zl
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22550: 3.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22553: 92.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22543: 58.40 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22532: 115.90 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22540: 3.50 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22542: 72.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22541: 13.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22530: 98.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22529: 103.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22528: 92.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22533: 11.30 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22531: 92.90 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22539: 241.00 zl
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178897: 18.00 zl
-
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178900: 35.50 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178898: 146.70 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178902: 53.00 zl
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22520: 81.50 zl
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178903: 35.50 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178911: 52.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178905: 61.70 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178909: 40.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178912: 15.20 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178910: 75.00 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178915: 10.40 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178916: 83.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178914: 18.40 zl
-
-[KASA SAMO 6] WERYFIKACJA WIEKU!
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178922: 39.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178917: 27.40 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178919: 6.50 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178918: 63.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178920: 32.20 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178921: 71.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178923: 114.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178925: 78.90 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178928: 24.90 zl
 
 [KASA SAMO 6] WERYFIKACJA WIEKU!
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22517: 162.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22521: 18.00 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178942: 122.20 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22527: 89.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22510: 159.30 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22519: 12.50 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178935: 5.00 zl
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178924: 80.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178926: 211.70 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178927: 67.60 zl
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22509: 107.80 zl
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22506: 18.40 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22511: 21.80 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22508: 104.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22507: 143.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22500: 133.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22518: 12.50 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22496: 120.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22498: 150.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22497: 120.90 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178941: 35.00 zl
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22499: 121.40 zl
 
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178936: 16.50 zl
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22495: 38.50 zl
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178945: 151.90 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178946: 8.80 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178950: 23.30 zl
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178948: 62.90 zl
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22494: 90.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22481: 3.80 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22486: 62.70 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22493: 174.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22482: 85.70 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22484: 113.00 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22487: 38.50 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178961: 74.50 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22473: 44.00 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178965: 87.20 zl
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22474: 82.40 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22483: 42.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22470: 98.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22471: 0.90 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22467: 133.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22485: 259.30 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22448: 50.10 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22465: 57.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22469: 41.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22466: 94.70 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22472: 28.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22468: 123.80 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22447: 17.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22456: 32.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22445: 55.60 zl
+
+[KASA SAMO 2] WERYFIKACJA WIEKU!
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22446: 54.20 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22458: 111.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22454: 52.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22455: 178.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22444: 110.30 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22438: 97.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22437: 63.10 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22442: 101.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22443: 101.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22420: 126.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22429: 113.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22428: 101.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22430: 104.10 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22409: 17.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22412: 2.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22419: 79.30 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22418: 79.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22406: 17.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22421: 163.50 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22411: 76.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22431: 101.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22408: 233.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22396: 112.50 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22390: 28.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22399: 0.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22407: 233.60 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22397: 212.30 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22400: 297.80 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22398: 0.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22388: 195.40 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22376: 70.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22389: 152.70 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22384: 0.90 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22386: 129.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22374: 81.90 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22377: 39.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22385: 129.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22373: 77.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22358: 36.10 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22375: 114.20 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22365: 83.50 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22361: 18.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22372: 90.70 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22357: 170.20 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22347: 165.40 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22364: 93.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22349: 17.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22346: 61.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22359: 125.60 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22340: 86.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22360: 56.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22350: 278.40 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22337: 146.40 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22334: 131.80 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22335: 111.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22325: 4.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22328: 4.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22312: 47.90 zl
 
 [KASA SAMO 6] WERYFIKACJA WIEKU!
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178982: 6.90 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178964: 125.20 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 178967: 97.40 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178966: 109.90 zl
-
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178984: 54.70 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22314: 4.20 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 178989: 106.40 zl
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22323: 169.80 zl
 
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22289: 95.30 zl
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 178994: 12.90 zl
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22290: 114.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22317: 93.40 zl
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 178992: 108.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179001: 31.40 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 178993: 229.40 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 178997: 202.80 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179006: 10.70 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179010: 47.70 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179016: 86.20 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179015: 124.70 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179014: 77.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179013: 148.70 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179018: 8.00 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179039: 193.50 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179033: 138.30 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179036: 31.50 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179047: 119.70 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179042: 145.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179052: 92.20 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179054: 55.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179043: 100.00 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179056: 10.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179069: 30.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179076: 108.60 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179079: 7.50 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179080: 3.50 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179072: 72.30 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179075: 72.30 zl
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22299: 16.40 zl
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179083: 96.20 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179082: 4.50 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22297: 67.40 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179095: 165.00 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179102: 150.60 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179108: 58.90 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179098: 133.10 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179116: 96.10 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179092: 119.20 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179118: 131.20 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179121: 114.70 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179113: 36.10 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179127: 137.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179120: 43.00 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179119: 121.80 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179133: 8.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179144: 60.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179138: 59.70 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179140: 130.30 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179158: 41.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179137: 81.40 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179166: 184.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179167: 7.50 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179186: 2.50 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179165: 18.50 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179179: 135.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179182: 41.70 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179181: 78.40 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179184: 8.50 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179206: 108.90 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179188: 154.30 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179191: 36.40 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179207: 30.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179217: 17.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179195: 33.50 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179218: 35.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179220: 79.90 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179210: 167.50 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179235: 92.90 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179225: 30.10 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179221: 74.20 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179250: 20.10 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179249: 20.10 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179240: 156.60 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179248: 146.20 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179246: 57.90 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179237: 1.90 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179252: 156.50 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179261: 85.70 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179274: 11.20 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179269: 82.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179264: 89.70 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179266: 40.00 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179285: 90.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179268: 235.00 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179297: 13.20 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179293: 74.90 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] WERYFIKACJA WIEKU!
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179280: 198.90 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179299: 105.70 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179303: 127.70 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179294: 46.70 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179300: 6.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179304: 12.20 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179305: 118.60 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179308: 173.40 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179318: 40.70 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179319: 18.00 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179322: 202.40 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179321: 6.50 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179314: 100.90 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179343: 11.20 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179335: 201.90 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179338: 68.50 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179346: 14.50 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179345: 32.50 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179349: 52.90 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179372: 87.50 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179358: 207.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179348: 190.20 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179359: 129.80 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179375: 104.50 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179378: 83.50 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179385: 3.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179366: 37.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179386: 2.50 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179392: 70.90 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179383: 47.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179382: 44.50 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179401: 20.40 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179402: 34.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179396: 36.50 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179419: 45.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179417: 49.00 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179399: 27.20 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179421: 187.30 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179423: 121.90 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179437: 23.20 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179424: 152.30 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179422: 139.20 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179440: 77.20 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179432: 141.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179450: 28.70 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179461: 64.00 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179462: 26.10 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179453: 116.70 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179464: 30.90 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179467: 3.00 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179454: 99.90 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179477: 115.50 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179487: 38.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179490: 45.10 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179499: 149.00 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179498: 122.40 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179489: 66.20 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179524: 158.20 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179510: 50.40 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179525: 98.40 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179534: 31.70 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179556: 20.50 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179535: 216.90 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179548: 46.50 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179573: 3.80 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179562: 9.40 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179571: 78.40 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179585: 43.80 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179593: 113.10 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179604: 128.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179595: 96.90 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179584: 81.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179602: 86.40 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179603: 6.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179618: 72.00 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179630: 66.80 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179619: 136.20 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179615: 73.60 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179627: 48.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179641: 136.50 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179640: 7.50 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179668: 112.70 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179650: 57.10 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179654: 18.90 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179666: 21.90 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179663: 198.70 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179674: 135.40 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179682: 19.70 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179679: 55.00 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179677: 179.20 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179689: 178.30 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179700: 62.60 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179690: 36.00 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179692: 86.00 zl
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179724: 34.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179726: 195.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179735: 8.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179722: 80.70 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179759: 1.90 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179761: 37.70 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179750: 159.40 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179746: 18.40 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179749: 137.40 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179776: 68.40 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179775: 11.70 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179772: 29.40 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179785: 163.60 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179789: 39.10 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179790: 219.40 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179777: 85.30 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179787: 104.40 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179808: 118.70 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179830: 130.70 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179810: 43.50 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179814: 196.90 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179846: 18.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179835: 35.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179860: 41.90 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179861: 44.20 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179847: 86.40 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179859: 76.00 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179870: 5.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179850: 89.70 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179873: 80.00 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179863: 49.50 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179897: 47.00 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179898: 9.40 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179917: 94.20 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179895: 30.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179906: 59.20 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179920: 159.40 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179933: 1.90 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179918: 58.40 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179931: 208.00 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179922: 32.50 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179921: 6.90 zl
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179935: 23.90 zl
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179932: 172.60 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179946: 129.20 zl
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179941: 77.40 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179970: 14.00 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 6] WERYFIKACJA WIEKU!
 
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22302: 113.40 zl
+
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 179958: 89.20 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22315: 82.10 zl
 
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179968: 11.20 zl
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22316: 79.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22311: 178.20 zl
 
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 179980: 22.20 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22305: 111.00 zl
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 179957: 67.70 zl
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22291: 29.50 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 179981: 22.20 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 179990: 12.40 zl
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22288: 29.50 zl
+
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 180015: 147.80 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 179984: 109.50 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 180010: 124.50 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 180016: 134.10 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 180011: 67.90 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22304: 131.80 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22273: 4.70 zl
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 180018: 135.50 zl
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22262: 37.80 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22286: 36.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 180038: 3.20 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 180025: 62.90 zl
-
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 180039: 138.20 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 180058: 17.00 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 180065: 34.70 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22267: 4.20 zl
 
 [KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 180055: 8.00 zl
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22276: 33.30 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22259: 172.70 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22221: 3.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22244: 83.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22251: 174.00 zl
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 180057: 239.90 zl
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22239: 60.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22277: 33.30 zl
 
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 180067: 19.70 zl
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22240: 91.00 zl
 
-[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22230: 83.00 zl
 
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 180093: 109.70 zl
-
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 180072: 139.80 zl
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 180094: 159.40 zl
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22214: 37.00 zl
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 180091: 69.90 zl
-
-[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 180103: 55.10 zl
-
-[KASA SAMO 5] Przetwarzam platnosc od klienta PID 180123: 18.80 zl
-
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 3] Przetwarzam platnosc od klienta PID 180106: 9.50 zl
-
-[KASA SAMO 6] Przetwarzam platnosc od klienta PID 180133: 2.50 zl
-
-[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 4] Przetwarzam platnosc od klienta PID 180136: 111.10 zl
-
-[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
-
-[KASA SAMO 1] Przetwarzam platnosc od klienta PID 180134: 2.50 zl
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22232: 240.40 zl
 
 [KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
 
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22218: 95.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22208: 68.50 zl
+
 [KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
 
-[KASA SAMO 2] Przetwarzam platnosc od klienta PID 180135: 58.50 zl
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22210: 3.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22195: 112.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22206: 4.20 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22205: 118.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22185: 30.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22188: 28.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22186: 8.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22174: 57.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22168: 43.80 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22253: 10.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22162: 63.60 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22157: 45.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22127: 148.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22189: 139.30 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22161: 7.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22130: 121.60 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22120: 173.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22136: 70.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22219: 117.80 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22196: 148.10 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22266: 76.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22220: 49.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22243: 91.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22106: 182.70 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22238: 82.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22091: 101.30 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22094: 137.60 zl
 
 [KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
 [KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22093: 175.70 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22087: 152.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22108: 138.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22096: 137.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22095: 121.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22092: 175.70 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22075: 137.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22066: 57.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22076: 235.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22049: 18.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22065: 75.10 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22055: 89.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22064: 18.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22058: 122.80 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22052: 175.20 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22057: 122.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22040: 30.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22045: 63.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22033: 55.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22034: 183.30 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22023: 146.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22020: 9.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22031: 103.40 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22032: 105.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22022: 135.10 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22012: 116.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22010: 20.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22019: 12.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22009: 76.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22008: 136.40 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22011: 136.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22006: 29.80 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22005: 2.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22250: 55.40 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22181: 2.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22261: 96.60 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22172: 185.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21998: 124.70 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21994: 30.00 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22183: 76.70 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22227: 109.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22228: 70.20 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22187: 78.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22184: 164.20 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21984: 66.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22199: 148.10 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22171: 82.70 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22180: 18.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21974: 21.80 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22173: 4.20 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22170: 4.20 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21969: 58.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22169: 57.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21987: 33.80 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21981: 41.00 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21980: 123.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22160: 7.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21970: 6.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21983: 188.30 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22182: 116.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21973: 3.80 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21966: 0.90 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22159: 127.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22158: 111.20 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22151: 31.80 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21967: 13.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22148: 31.80 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22150: 59.20 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21959: 9.30 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21961: 52.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21950: 35.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21951: 138.70 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21947: 90.50 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21949: 92.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21946: 58.80 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21952: 27.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21942: 177.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21941: 37.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21944: 123.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21940: 12.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21938: 101.80 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21931: 6.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21927: 23.10 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21934: 32.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21937: 54.40 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21932: 73.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21930: 29.10 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21928: 99.30 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21924: 30.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21921: 280.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21926: 21.90 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21922: 35.10 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21915: 99.60 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21914: 99.60 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21909: 100.10 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21912: 113.10 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21913: 88.70 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21906: 218.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21904: 109.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21911: 189.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21903: 142.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21899: 85.30 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21901: 228.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21898: 44.10 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21900: 173.30 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21895: 63.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21889: 110.60 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21892: 70.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21896: 42.60 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21890: 46.00 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21888: 1.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21882: 118.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21873: 114.80 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21885: 23.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21872: 47.20 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21883: 106.50 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21881: 205.70 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21867: 112.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21869: 153.40 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21875: 295.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21864: 73.70 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21863: 57.70 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21865: 4.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21862: 205.70 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21861: 118.90 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21857: 27.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21856: 43.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21854: 91.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21853: 58.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21850: 106.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21851: 59.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21852: 26.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21849: 90.20 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21840: 191.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21845: 118.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21847: 194.30 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21841: 21.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21830: 3.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21844: 15.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21843: 94.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21836: 3.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21827: 8.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21826: 144.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21818: 8.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21824: 114.10 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21825: 2.50 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21822: 165.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21813: 34.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21815: 220.70 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21817: 115.70 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21810: 3.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21811: 44.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21808: 110.80 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21812: 4.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21814: 100.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21802: 138.70 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21806: 90.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21807: 61.30 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21809: 94.70 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21801: 141.90 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21795: 7.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21804: 30.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21800: 23.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21794: 114.40 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21799: 20.80 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21792: 207.40 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21779: 127.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21785: 164.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21778: 25.20 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21774: 111.00 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21775: 120.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21773: 169.70 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21772: 60.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21771: 38.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22138: 80.10 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21763: 69.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21766: 214.50 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21769: 11.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22147: 63.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21770: 152.90 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22140: 243.70 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22139: 152.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22117: 63.10 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21754: 105.00 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22069: 159.30 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22128: 122.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21765: 145.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21759: 39.50 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21768: 37.50 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22126: 148.40 zl
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21749: 84.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22116: 222.80 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22119: 202.20 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21757: 59.60 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21748: 134.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22105: 182.70 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22103: 177.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21760: 100.90 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22078: 75.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22077: 4.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21968: 117.00 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21755: 100.40 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21933: 76.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21897: 87.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21965: 157.10 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21945: 13.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21923: 23.50 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21831: 3.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21848: 37.20 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21842: 14.50 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21871: 161.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 21860: 106.50 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21908: 191.90 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21820: 128.40 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21752: 130.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21776: 93.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 21796: 83.50 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22768: 40.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21767: 145.80 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 21758: 45.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 21762: 8.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 21751: 14.40 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22774: 5.00 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 21742: 4.20 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22780: 73.50 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22775: 130.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22779: 55.00 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22787: 174.20 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22778: 111.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22786: 79.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22788: 126.30 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22793: 70.40 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22790: 118.00 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22792: 21.00 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22789: 64.70 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22803: 19.70 zl
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22802: 10.50 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22794: 89.40 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22811: 76.00 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22801: 133.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22800: 72.30 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22821: 38.90 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22812: 43.50 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22814: 151.20 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22823: 162.70 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22832: 83.50 zl
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22826: 119.50 zl
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22834: 50.50 zl
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22822: 84.20 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22825: 67.10 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22843: 38.90 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22833: 62.90 zl
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 5] Przetwarzam platnosc od klienta PID 22849: 194.40 zl
+
+[KASA SAMO 6] WERYFIKACJA WIEKU!
+
+[KASA SAMO 2] Przetwarzam platnosc od klienta PID 22846: 3.00 zl
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22847: 6.00 zl
+
+[KASA SAMO 4] Przetwarzam platnosc od klienta PID 22856: 65.80 zl
+
+[KASA SAMO 5] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 6] Przetwarzam platnosc od klienta PID 22845: 278.90 zl
+
+[KASA SAMO 2] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Przetwarzam platnosc od klienta PID 22855: 4.50 zl
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 4] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 3] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Przetwarzam platnosc od klienta PID 22857: 250.30 zl
+
+[KASA SAMO 6] Platnosc zaakceptowana. Drukuje paragon.
+
+[KASA SAMO 1] Platnosc zaakceptowana. Drukuje paragon.
 
