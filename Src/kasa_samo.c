@@ -10,6 +10,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <signal.h>
+#include <errno.h>
 
 int id_kasy;
 int id_pamieci;
@@ -51,7 +52,28 @@ int main(int argc, char *argv[]) {
     }
 
     LOG_KASA_SAMO(id_kasy+1,"(PID: %d) gotowa.\n", getpid());
-    waitSemafor(id_semafora, SEM_KASY, 0);
+    {
+        struct sembuf op;
+        op.sem_num = SEM_KASY;
+        op.sem_op = -1;
+        op.sem_flg = 0;
+        while (semop(id_semafora, &op, 1) == -1) {
+            if (errno == EINTR) {
+                if (dzialaj == 0) {
+                    cleanUp();
+                    return 0;
+                }
+                continue;
+            }
+            if (errno == EIDRM || errno == EINVAL) {
+                cleanUp();
+                return 0;
+            }
+            perror("semop SEM_KASY");
+            cleanUp();
+            return 0;
+        }
+    }
     sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
     signalSemafor(id_semafora, SEM_KASY);
 
@@ -63,7 +85,25 @@ int main(int argc, char *argv[]) {
             break;
         }
 
-        waitSemafor(id_semafora, SEM_KASY, 0);
+        {
+            struct sembuf op;
+            op.sem_num = SEM_KASY;
+            op.sem_op = -1;
+            op.sem_flg = 0;
+            while (semop(id_semafora, &op, 1) == -1) {
+                if (errno == EINTR) {
+                    if (dzialaj == 0) {
+                        goto end_loop;
+                    }
+                    continue;
+                }
+                if (errno == EIDRM || errno == EINVAL) {
+                    goto end_loop;
+                }
+                perror("semop SEM_KASY");
+                goto end_loop;
+            }
+        }
         int otwarta = sklep->kasy_samo[id_kasy].otwarta;
         int zablokowana = sklep->kasy_samo[id_kasy].zablokowana;
         float wplata = sklep->kasy_samo[id_kasy].aktualna_kwota;
@@ -100,12 +140,48 @@ int main(int argc, char *argv[]) {
             LOG_KASA_SAMO(id_kasy+1, "Przetwarzam platnosc od klienta PID %d: %.2f zl\n",klient_pid, wplata);
             SIM_SLEEP_S(1);
 
-            waitSemafor(id_semafora, SEM_UTARG, 0);
+            {
+                struct sembuf op;
+                op.sem_num = SEM_UTARG;
+                op.sem_op = -1;
+                op.sem_flg = 0;
+                while (semop(id_semafora, &op, 1) == -1) {
+                    if (errno == EINTR) {
+                        if (dzialaj == 0) {
+                            goto end_loop;
+                        }
+                        continue;
+                    }
+                    if (errno == EIDRM || errno == EINVAL) {
+                        goto end_loop;
+                    }
+                    perror("semop SEM_UTARG");
+                    goto end_loop;
+                }
+            }
             sklep->statystyki.utarg += wplata;
             sklep->statystyki.liczba_obsluzonych_klientow++;
             signalSemafor(id_semafora, SEM_UTARG);
 
-            waitSemafor(id_semafora, SEM_KASY, 0);
+            {
+                struct sembuf op;
+                op.sem_num = SEM_KASY;
+                op.sem_op = -1;
+                op.sem_flg = 0;
+                while (semop(id_semafora, &op, 1) == -1) {
+                    if (errno == EINTR) {
+                        if (dzialaj == 0) {
+                            goto end_loop;
+                        }
+                        continue;
+                    }
+                    if (errno == EIDRM || errno == EINVAL) {
+                        goto end_loop;
+                    }
+                    perror("semop SEM_KASY");
+                    goto end_loop;
+                }
+            }
             sklep->kasy_samo[id_kasy].aktualna_kwota = 0.0;
             LOG_KASA_SAMO(id_kasy+1, "Platnosc zaakceptowana. Drukuje paragon.\n");
             signalSemafor(id_semafora, SEM_KASY);
@@ -114,6 +190,7 @@ int main(int argc, char *argv[]) {
         SIM_SLEEP_S(1);
     }
 
+end_loop:
     cleanUp();
     return 0;
 }

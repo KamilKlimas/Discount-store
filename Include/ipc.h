@@ -156,11 +156,11 @@ LOG_TO_FILE(LOG_FILE_SYSTEM, "[SYSTEM] ", fmt, ##__VA_ARGS__); \
 //Staffed checkout - kasa stacjonarna
 #define OTWORZ_KASE_1_PRZY 3 // "Jeżeli liczba osób stojących w kolejce do kasy jest większa niż 3 otwierana jest kasa 1;"
 #define ZAMKNIJ_KASE_PO 30 // "Jeżeli po obsłużeniu ostatniego klienta w kolejce przez 30 sekund nie pojawi się następny klient, kasa jest zamykana;"
-#define MAX_CZAS_OCZEKIWANIA 10 // "Jeżeli czas oczekiwania w kolejce na kasę samoobsługową jest dłuższy niż T..."
+#define MAX_CZAS_OCZEKIWANIA 30 // "Jeżeli czas oczekiwania w kolejce na kasę samoobsługową jest dłuższy niż T..."
 
 //Kolejka do kas
 #define MAX_DLUGOSC_KOLEJKI 300
-#define MAX_LICZBA_KLIENTOW 10000
+#define MAX_LICZBA_KLIENTOW 20000
 
 
 //semafory

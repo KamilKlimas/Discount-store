@@ -95,7 +95,7 @@ int main()
 
     int liczba_klientow = inputExceptionHandler("Podaj liczbe klientow do symulacji");
 
-    // "Klienci przychodzą do sklepu w dowolnych momentach czasu..."
+
 #ifdef TRYB_TURBO
     const char *tryb_generatora = "TURBO";
 #else
@@ -139,7 +139,7 @@ int main()
 #else
         (void)id_semafora;
 #endif
-
+        // "Klienci przychodzą do sklepu w dowolnych momentach czasu..."
     #ifndef TRYB_TURBO
         long delay = 0;
         if (i < 10) delay = rand() % 500000 + 500000;       // Faza 1: Wolno (0.5 - 1.0s)
@@ -175,6 +175,22 @@ int main()
     }
 
     LOG_GENERATOR_BOTH("Zakonczylem wpuszczanie klientow. Utworzone: %d/%d", utworzone, liczba_klientow);
+
+    if (id_semafora != -1) {
+        struct sembuf op_zero;
+        op_zero.sem_num = SEM_KLIENCI;
+        op_zero.sem_op = 0;
+        op_zero.sem_flg = 0;
+        while (semop(id_semafora, &op_zero, 1) == -1) {
+            if (errno == EINTR) continue;
+            if (errno == EIDRM || errno == EINVAL) {
+                perror("semop wait SEM_KLIENCI zero");
+                break;
+            }
+            perror("semop wait SEM_KLIENCI zero");
+            break;
+        }
+    }
 
     pthread_cancel(t_zombie);
     pthread_join(t_zombie, NULL);
