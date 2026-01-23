@@ -14,6 +14,10 @@
 **Grupa laboratoryjna:** GP02  
   
 **Repozytorium GitHub:** https://github.com/KamilKlimas/Discount-store  
+
+**Środowisko:** Linux Ubuntu 24.04.3 LTS (VirtualBox)
+
+**Kompilator:** GCC 13.3.0
   
     
 ---  
@@ -72,11 +76,12 @@ chmod +x start_symulacji.sh
 * Statystyki globalne (liczba klientów w sklepie, utarg).
 
 **- Semafory (`semop`):**
-Zestaw 4 semaforów kontroluje dostęp do zasobów, zapobiegając wyścigom (race Conditions):
+Zestaw 5 semaforów kontroluje dostęp do zasobów, zapobiegając wyścigom (race Conditions):
 * `SEM_KASY` (0): Chroni modyfikację statusu kas (otwieranie/zamykanie/blokada), statystyk globalnych, oraz produktów.
 * `SEM_UTARG` (1): Chroni utargu sklepu, oraz statystykę liczby klientów.
 * `SEM_KOLEJKI` (2): Chroni struktury FIFO podczas dodawania/usuwania klientów.
 * `SEM_WEJSCIE` (3): Chroni i kontroluje liczbę klientów znajdujących się aktualnie w sklepie (`MAX_MIEJSC_W_SKLEPIE`).
+* `SEM_KLIENCI` (4): Licznik klientów pozwalający usprawnić mechanizmy zamykania dyskontu.
 
 **- Kolejki komunikatów (`msgrcv`/`msgsnd`):**
 Slużą do adresowania wiadomości do konkretnych procesów:
@@ -210,7 +215,7 @@ Paragon: Klient wysyła listę zakupów o typie ID_Kasjera + OFFSET. Dzięki tem
 
 
 <details>
-  <summary><h3>Test 1 – Obsługa klientów, alkohol i reakcje awaryjne</h3></summary>
+  <summary><h3>Test 1 – 100% alkohol, i ciągłe awarie kas samoobsługowych</h3></summary>
   <br>
   <p>
   <em>Opis testu:</em> Sprawdza, jak system zachowuje się przy standardowym ruchu klientów oraz w sytuacjach szczególnych (każdy klient "posiada" alkohol w koszyku, kasa samoobsługowa każdorazowo ma awarie). Weryfikuje poprawne otwieranie/zamykanie kas, obsługę kolejki, mechanizmy awaryjne i integralność IPC/logów. Test jest podzielony na dwa scenariusze.
@@ -273,7 +278,7 @@ Paragon: Klient wysyła listę zakupów o typie ID_Kasjera + OFFSET. Dzięki tem
         </tr>
       </table>
     </div>
-<p align="center"> <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test1/scenariusz1/Pomyslne_zakonczenie_symulacji.png" width="100%"> </p> <br>
+<p align="center"> <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test1/scenariusz1/Zrzut%20ekranu%202026-01-21%20202017.png" width="100%"> </p> <br>
   </details>
 
   <details>
@@ -316,57 +321,237 @@ Paragon: Klient wysyła listę zakupów o typie ID_Kasjera + OFFSET. Dzięki tem
         </tr>
       </table>
     </div>
-<p align="center"> <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test1/scenariusz2/SIGQUIT_pomyslnei.png" width="100%"> </p> <br>
+<p align="center"> <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test1/scenariusz2/ewakuacja_test1.png" width="100%"> </p> <br>
   </details>
   </details>
 
 </details>
 
+<details>
+  <summary><h3>Test 2 – 100% obciążenia kas stacjonarnych</h3></summary>
+  <br>
+  <p>
+  <em>Opis testu:</em> Sklep działa w trybie normalnym, wszyscy klienci wybierają kasę stacjonarną. Celem jest sprawdzenie, czy kolejka FIFO, oraz kolejka komunikatów działa poprawnie przy dużym obciążeniu, czy otwieranie/zamykanie kas stacjonarnych odbywa się zgodnie z regułami oraz czy symulacja kończy się bez błędów po obsłużeniu 1000 klientów.
+</p>
+  <br>
+  
+<div align = "center">
+<table>
+  <tr>
+    <th>Zmiana: SZANSA_SAMOOBSLUGA</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test2/zmiana_szansa_samoobsluga.png" alt="SZANSA_SAMOOBSLUGA Definition">
+    </td>
+  </tr>
+  
+</table>
+</div>
+  <br>
+<p>
+	   <em>Wyniki testu:</em> 
+	   </p>
+<div align="center">
+      <table>
+        <tr>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test2/logi_generator.txt">Logi: Generator</a>
+          </td>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test2/logi_kasjer.txt">Logi: Kasjer</a>
+          </td>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test2/logi_kierownik.txt">Logi: Kierownik</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test2/logi_klient.txt">Logi: Klient</a>
+          </td>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test2/logi_kasa_samo.txt">Logi: Kasa Samo.</a>
+          </td>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test2/logi_pracownik.txt">Logi: Pracownik</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+<p align="center"> <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test2/wyniki_test2.png" width="100%"> </p> <br>
+  
+</details>
+
+<details>
+  <summary><h3>Test 3 – Skrajny „queue jumping”</h3></summary>
+  <br>
+  <p>
+  <em>Opis testu:</em> Test wymusza maksymalną migrację 10 000 klientów między kasami stacjonarnymi (zmiana kiedy <code>kolejka sąsiada jest otwarta && równa mojej kolejce</code>), aby sprawdzić stabilność struktur FIFO, brak utraty PID‑ów i odporność na zmianę decyzji klientów. Dla utrudnienia testu wszyscy klienci będą wybierać kasy stacjonarne, oraz odbędzie się on na trybie <code>TRYB_TURBO</code>.
+</p>
+  <br>
+  
+<div align = "center">
+  <table>
+    <tr>
+      <th align="center">Zmiana: SZANSA_SAMOOBSLUGA</th>
+      <th align="center">Zmiana: Warunek oplaca_sie</th>
+    </tr>
+    <tr>
+      <td width="50%">
+        <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test3/zmiana_szansa_samoobsluga.png" width="100%" alt="Zmiana kodu awaria">
+      </td>
+      <td width="50%">
+        <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test3/zmiana_sasiad.png" width="100%" alt="Zmiana kodu alkohol">
+      </td>
+    </tr>
+  </table>
+</div>
+  <br>
+<p>
+	   <em>Wyniki testu:</em> 
+	   </p>
+<div align="center">
+      <table>
+        <tr>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test3/logi_generator.txt">Logi: Generator</a>
+          </td>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test3/logi_kasjer.txt">Logi: Kasjer</a>
+          </td>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test3/logi_kierownik.txt">Logi: Kierownik</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <a href="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test3/logi_klient.txt">Logi: Klient</a>
+          </td>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test3/logi_kasa_samo.txt">Logi: Kasa Samo.</a>
+          </td>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test3/logi_pracownik.txt">Logi: Pracownik</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+<p align="center"> <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test3/wynik_test3.png" width="100%"> </p> <br>
+  
+</details>
+
+<details>
+  <summary><h3>Test 4 – test "śpiącego kasjera”</h3></summary>
+  <br>
+  <p>
+  <em>Opis testu:</em> Test sprawdza zachowanie symulacji gdy jeden z procesów jest zablokowany sleepem (<code>SIM_SLEEP_S()</code>, a kierownik dostaje sygnał o ewakuacji dyskontu (<code>SIGQUIT</code>). Test odbył się na procesie kasjera, który przez 30 sekund symulował kasowanie produktów. Do symulacji w oknie generatora dodany został zegar odliczający który uruchamia się gdy klient stanie w kolejce i zostanie przyjęty do kasy nr2 (otwierana manualnie).
+</p>
+  <br>
+  
+<div align = "center">
+<table>
+  <tr>
+    <td rowspan="2" valign="top" width="50%">
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test4/timer_test4.png" alt="" width="100%" style="max-width:100%;" />
+      <br><br>
+      <b></b>
+    </td>
+    <td valign="top" width="50%">
+      <b>Zmiana: SIM_SLEEP_S(30)</b>
+      <br>
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test4/zmiana_kierownik_sleep30.png" alt="Zmiana czasu uśpienia" width="100%" style="max-width:100%;" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <b>Zmiana: SZANSA_SAMOOBSLUGA 0</b>
+      <br>
+      <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test4/zmiana_szansa_test4.png" alt="Zmiana definicji szansy" width="100%" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
+    </div>
+<p>
+	   <em>Wyniki testu:</em> 
+	   </p>
+	   </p>
+<div align="center">
+      <table>
+        <tr>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test4/logi_generator.txt">Logi: Generator</a>
+          </td>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test4/logi_kasjer.txt">Logi: Kasjer</a>
+          </td>
+          <td width="33%" align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test4/logi_kierownik.txt">Logi: Kierownik</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test4/logi_klient.txt">Logi: Klient</a>
+          </td>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test4/logi_kasa_samo.txt">Logi: Kasa Samo.</a>
+          </td>
+          <td align="center">
+            <a href="https://github.com/KamilKlimas/Discount-store/blob/main/testy/test4/logi_pracownik.txt">Logi: Pracownik</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+<p align="center"> <img src="https://raw.githubusercontent.com/KamilKlimas/Discount-store/refs/heads/main/testy/test4/wynik_test4.png" width="100%"> </p> <br>
+  
+</details>
+
+
 ## 7. Funkcje systemowe i linki do kodu:
 
 **- Tworzenie i obsługa plików:**
-  * `fopen()` : [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/kierownik.c#L53) – Otwieranie pliku raportu.
-  * `fprint()`:  [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/kierownik.c#L55) – Zapis danych do raportu.
+  * `fopen()` : [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/kierownik.c#L62) – Otwieranie pliku raportu.
+  * `fprint()`:  [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/kierownik.c#L64) – Zapis danych do raportu.
  
  **- Tworzenie procesów:**
-  * `fork()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/generator.c#L138) – Tworzenie procesu klienta.
-  * `execlp()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/generator.c#L144) – Podmiana procesu na program klienta.
+  * `fork()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/generator.c#L161) – Tworzenie procesu klienta.
+  * `execlp()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/generator.c#L169) – Podmiana procesu na program klienta.
    
 **- Obsługa procesów i sygnały:** 
-  * `kill()`: [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/kierownik.c#L210) – Wysyłanie sygnałów (np. `SIGUSR1`, `SIGQUIT`).
-  * `signal()`: [Zobacz w kodzie (`Src/pracownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/pracownik.c#L46) – Rejestracja obsługi sygnałów.
-  * `getpid()`: [Zobacz w kodzie (`Src/klient.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/klient.c#L119) – Pobranie Pid'u procesu.
+  * `kill()`: [Zobacz w kodzie (`Src/kierownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/kierownik.c#L94) – Wysyłanie sygnałów (np. `SIGUSR1`, `SIGQUIT`).
+  * `signal()`: [Zobacz w kodzie (`Src/pracownik.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/pracownik.c#L38) – Rejestracja obsługi sygnałów.
+  * `getpid()`: [Zobacz w kodzie (`Src/klient.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/klient.c#L127) – Pobranie Pid'u procesu.
 
 **- Synchronizacja (semafory):**
-   * `semget()`: (`alokujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L82) – Tworzenie semaforów.
-   * `semctl()`: (`InicjalizujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L93) – Ustawianie wartości początkowej. 
-   * `semop()`: (`waitSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L115) – Operacja P (zablokuj). 
-   * `semop()`: (`signalSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L138) – Operacja V (odblokuj). 
+   * `semget()`: (`alokujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L82) – Tworzenie semaforów.
+   * `semctl()`: (`InicjalizujSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L93) – Ustawianie wartości początkowej. 
+   * `semop()`: (`waitSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L115) – Operacja P (zablokuj). 
+   * `semop()`: (`signalSemafor()`) : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L138) – Operacja V (odblokuj). 
   
 **- Pamięć dzielona:**
-  * `ftok()`:  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L19) – Generowanie klucza IPC. 
-  * `shmget()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L33) – Alokacja pamięci dzielonej. 
-  * `shmat()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L56) – Dołączenie pamięci. 
-  * `shmdt()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L67) – Odłączenie pamięci. 
-  * `shmctl()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L75) – Usunięcie segmentu pamięci. 
+  * `ftok()`:  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L19) – Generowanie klucza IPC. 
+  * `shmget()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L33) – Alokacja pamięci dzielonej. 
+  * `shmat()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L56) – Dołączenie pamięci. 
+  * `shmdt()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L67) – Odłączenie pamięci. 
+  * `shmctl()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L75) – Usunięcie segmentu pamięci. 
 
 **- Kolejki komunikatów:**
-  * `msgget()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L171) – Tworzenie kolejki. 
-  * `msgsnd()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/145f40c8d199a75ca471d9be4124868d9bd1e41a/Src/ipc.c#L176) – Wysłanie komunikatu. 
-  * `msgrcv()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L197) – Odbiór komunikatu. 
-  * `msgctl()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L211) – Usunięcie kolejki komunikatów. 
+  * `msgget()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L171) – Tworzenie kolejki. 
+  * `msgsnd()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L184) – Wysłanie komunikatu. 
+  * `msgrcv()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L197) – Odbiór komunikatu. 
+  * `msgctl()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L211) – Usunięcie kolejki komunikatów. 
   
  **- Kolejki FIFO:**
-  * `dodajDoKolejkiFIFO()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L252) – Dodanie klienta. 
-  * `zdejmijZKolejkiFIFO()` :  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L267) – Pobranie klienta. 
+  * `dodajDoKolejkiFIFO()` : [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L252) – Dodanie klienta. 
+  * `zdejmijZKolejkiFIFO()` :  [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L267) – Pobranie klienta. 
  
 **- Wątki i zaawansowane sygnały:**
- * `pthread_create()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/generator.c#L67) – Tworzenie wątków pomocniczych.
- *   `sigwait()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/generator.c#L35) – Oczekiwanie na sygnały bez przerywania pracy (`ASync-Signal-Safe`).
- *  `pthread_sigmask()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/generator.c#L61) - Blokowanie sygnałów dla wątków.
- * `pthread_join()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/generator.c#L164) – Oczekiwanie na zakończenie wątku sprzątającego.
+ * `pthread_create()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/generator.c#L71) – Tworzenie wątków pomocniczych.
+ *   `sigwait()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/generator.c#L31) – Oczekiwanie na sygnały bez przerywania pracy (`ASync-Signal-Safe`).
+ *  `pthread_sigmask()`:  [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/generator.c#L65) - Blokowanie sygnałów dla wątków.
+ * `pthread_join()`: [Zobacz w kodzie (`Src/generator.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/generator.c#L206) – Oczekiwanie na zakończenie wątku sprzątającego.
 
 
  **- Obsługa błędów:**
-  * `perror()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L22) – Wypisywanie błędów systemowych. 
-  * `inputExceptionHandler()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/f3dcb1c08de4677d4b1d582d16bd1f61076cc38a/Src/ipc.c#L320) – Walidacja danych wejścia standardowego.
+  * `perror()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L22) – Wypisywanie błędów systemowych. 
+  * `inputExceptionHandler()`: [Zobacz w kodzie (`Src/ipc.c`)](https://github.com/KamilKlimas/Discount-store/blob/7d0bfdbe1e6e6f33f146bc36b466e5319f54dbaf/Src/ipc.c#L320) – Walidacja danych wejścia standardowego.
