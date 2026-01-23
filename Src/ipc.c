@@ -111,7 +111,7 @@ int waitSemafor(int semID, int number, int flagi)
     struct sembuf operacje[1];
     operacje[0].sem_num = number;
     operacje[0].sem_op = -1;
-    operacje[0].sem_flg = flagi;
+    operacje[0].sem_flg = flagi | SEM_UNDO;
     while (semop(semID, operacje, 1) == -1) {
         if (errno == EINTR) {
             continue;
@@ -134,7 +134,7 @@ int signalSemafor(int semID, int number)
     struct sembuf operacje[1];
     operacje[0].sem_num = number;
     operacje[0].sem_op = 1;
-    operacje[0].sem_flg = 0;
+    operacje[0].sem_flg = SEM_UNDO;
     if (semop(semID, operacje, 1) == -1)
     {
         while (semop(semID, operacje, 1) == -1) {

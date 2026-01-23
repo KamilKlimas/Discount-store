@@ -84,12 +84,8 @@ void *watekCzyszczacy(void *arg) {
 
     LOG_KIEROWNIK("[WATEK CLEANUP] Rozpoczynam procedure czyszczenia...");
     if (tryb_ewakuacji && id_semafora != -1) {
-        struct sembuf op_zero = {SEM_KLIENCI, 0, 0};
-        while (semop(id_semafora, &op_zero, 1) == -1) {
-            if (errno == EINTR) continue;
-            if (errno == EIDRM || errno == EINVAL) break;
-            perror("semop wait SEM_KLIENCI zero");
-            break;
+        if (semctl(id_semafora, SEM_KLIENCI, SETVAL, 0) == -1) {
+            perror("semctl SETVAL SEM_KLIENCI");
         }
     }
 
@@ -223,6 +219,10 @@ void Ewakuacja(int sig) {
         perror("signal SIGQUIT");
     }
 
+    if (killpg(getpgrp(), SIGQUIT) == -1) {
+        perror("killpg SIGQUIT");
+    }
+
     if (sklep != NULL) {
         sklep->statystyki.ewakuacja = 1;
         sklep->czy_otwarte = 0;
@@ -267,6 +267,10 @@ int main() {
         exit(1);
     }
     setbuf(stdout, NULL);
+
+    if (setpgid(0, 0) == -1) {
+        perror("setpgid");
+    }
 
     if (remove(LOG_FILE_KIEROWNIK) == -1 && errno != ENOENT) perror("remove log_kierownik");
     if (remove(LOG_FILE_KASJER) == -1 && errno != ENOENT) perror("remove log_kasjer");

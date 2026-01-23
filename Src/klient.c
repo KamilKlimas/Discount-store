@@ -155,7 +155,7 @@ int main() {
         struct sembuf op;
         op.sem_num = SEM_WEJSCIE;
         op.sem_op = -1;
-        op.sem_flg = 0;
+        op.sem_flg = SEM_UNDO;
 
         if (semop(id_semafora, &op, 1) == 0) {
             break;
@@ -371,6 +371,13 @@ int main() {
         }
         sklep->kasy_samo[nr_kasy].alkohol = 0;
         signalSemafor(id_semafora, SEM_KASY);
+
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        if (sklep->statystyki.ewakuacja || wymuszone_wyjscie) {
+            signalSemafor(id_semafora, SEM_KASY);
+            CleanupAndExit(0);
+        }
+        signalSemafor(id_semafora, SEM_KASY);
         LOG_KLIENT(pid, "Kasa odblokowana, kontynuuje.\n");
 
         if (moj_rachunek > 0.001) {
@@ -383,6 +390,13 @@ int main() {
                 waitSemafor(id_semafora, SEM_KASY, 0);
                 float czy_juz = sklep->kasy_samo[nr_kasy].aktualna_kwota;
                 int ewak = sklep->statystyki.ewakuacja;
+                signalSemafor(id_semafora, SEM_KASY);
+
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                if (sklep->statystyki.ewakuacja || wymuszone_wyjscie) {
+                    signalSemafor(id_semafora, SEM_KASY);
+                    CleanupAndExit(0);
+                }
                 signalSemafor(id_semafora, SEM_KASY);
 
                 if (czy_juz == 0.0) {
@@ -412,6 +426,14 @@ int main() {
 
         // "Klient kasuje produkty, płaci kartą i otrzymuje wydruk (raport) z listą zakupów i zapłaconą kwotą ;"
         if (moj_rachunek > 0.001) {
+
+            waitSemafor(id_semafora, SEM_KASY, 0);
+            if (sklep->statystyki.ewakuacja || wymuszone_wyjscie) {
+                signalSemafor(id_semafora, SEM_KASY);
+                CleanupAndExit(0);
+            }
+            signalSemafor(id_semafora, SEM_KASY);
+
             waitSemafor(id_semafora, SEM_KASY, 0);
             WypiszParagon(paragon, koszyk_id, ile_prod, moj_rachunek);
             signalSemafor(id_semafora, SEM_KASY);
@@ -438,6 +460,13 @@ int main() {
         signalSemafor(id_semafora, SEM_KOLEJKI);
         w_kolejce_stacjo = 1;
         kasa_stacjo_idx = wybrana_kasa;
+
+        waitSemafor(id_semafora, SEM_KASY, 0);
+        if (sklep->statystyki.ewakuacja || wymuszone_wyjscie) {
+            signalSemafor(id_semafora, SEM_KASY);
+            CleanupAndExit(0);
+        }
+        signalSemafor(id_semafora, SEM_KASY);
 
         LOG_KLIENT(pid, "W kolejce do stacjonarnej %d\n", wybrana_kasa + 1);
 
@@ -542,6 +571,14 @@ int main() {
                 OdbierzZKolejki(id_kolejki, &msg, (long) pid);
             }
             if (moj_rachunek > 0.001) {
+
+                waitSemafor(id_semafora, SEM_KASY, 0);
+                if (sklep->statystyki.ewakuacja || wymuszone_wyjscie) {
+                    signalSemafor(id_semafora, SEM_KASY);
+                    CleanupAndExit(0);
+                }
+                signalSemafor(id_semafora, SEM_KASY);
+
                 waitSemafor(id_semafora, SEM_KASY, 0);
                 WypiszParagon(paragon, koszyk_id, ile_prod, moj_rachunek);
                 signalSemafor(id_semafora, SEM_KASY);

@@ -45,6 +45,11 @@ void obslugaSIGINT(int sig)
     if (sig == SIGINT){running = 0;}
 }
 
+void obslugaSIGQUIT(int sig)
+{
+    if (sig == SIGQUIT){running = 0;}
+}
+
 int main()
 {
 
@@ -70,6 +75,11 @@ int main()
 
     if (signal(SIGINT, obslugaSIGINT) == SIG_ERR) {
         perror("signal SIGINT");
+        exit(1);
+    }
+
+    if (signal(SIGQUIT, obslugaSIGQUIT) == SIG_ERR) {
+        perror("signal SIGQUIT");
         exit(1);
     }
 
@@ -176,7 +186,7 @@ int main()
 
     LOG_GENERATOR_BOTH("Zakonczylem wpuszczanie klientow. Utworzone: %d/%d", utworzone, liczba_klientow);
 
-    if (id_semafora != -1) {
+     if (id_semafora != -1 && sklep != NULL && running && sklep->statystyki.ewakuacja == 0) {
         struct sembuf op_zero;
         op_zero.sem_num = SEM_KLIENCI;
         op_zero.sem_op = 0;

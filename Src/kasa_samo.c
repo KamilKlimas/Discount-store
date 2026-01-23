@@ -56,7 +56,7 @@ int main(int argc, char *argv[]) {
         struct sembuf op;
         op.sem_num = SEM_KASY;
         op.sem_op = -1;
-        op.sem_flg = 0;
+        op.sem_flg = SEM_UNDO;
         while (semop(id_semafora, &op, 1) == -1) {
             if (errno == EINTR) {
                 if (dzialaj == 0) {
@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
             struct sembuf op;
             op.sem_num = SEM_KASY;
             op.sem_op = -1;
-            op.sem_flg = 0;
+            op.sem_flg = SEM_UNDO;
             while (semop(id_semafora, &op, 1) == -1) {
                 if (errno == EINTR) {
                     if (dzialaj == 0) {
@@ -144,7 +144,7 @@ int main(int argc, char *argv[]) {
                 struct sembuf op;
                 op.sem_num = SEM_UTARG;
                 op.sem_op = -1;
-                op.sem_flg = 0;
+                op.sem_flg = SEM_UNDO;
                 while (semop(id_semafora, &op, 1) == -1) {
                     if (errno == EINTR) {
                         if (dzialaj == 0) {
@@ -167,7 +167,7 @@ int main(int argc, char *argv[]) {
                 struct sembuf op;
                 op.sem_num = SEM_KASY;
                 op.sem_op = -1;
-                op.sem_flg = 0;
+                op.sem_flg = SEM_UNDO;
                 while (semop(id_semafora, &op, 1) == -1) {
                     if (errno == EINTR) {
                         if (dzialaj == 0) {
