@@ -1,0 +1,12 @@
+[KLIENT 47481] W kolejce do stacjonarnej 1
+
+[KLIENT 47481] Zmieniam kolejke! (Powod: moja zamknieta) Ide do kasy 2
+
+[KLIENT 47488] W kolejce do stacjonarnej 1
+
+[KLIENT 47488] Zmieniam kolejke! (Powod: moja zamknieta) Ide do kasy 2
+
+[KLIENT 47487] W kolejce do stacjonarnej 1
+
+[KLIENT 47487] Zmieniam kolejke! (Powod: moja zamknieta) Ide do kasy 2
+

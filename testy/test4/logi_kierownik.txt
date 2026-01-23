@@ -1,0 +1,42 @@
+[KIEROWNIK] Uruchomiono 6 terminali kas samoobslugowych.
+
+[KIEROWNIK] Wykladanie towaru na polki...
+
+[KIEROWNIK] sklep zatowarowany
+
+[KIEROWNIK] pracownik proszony na stanowisko
+
+[KIEROWNIK] Kasjer 1 proszony o gotowosc
+
+[KIEROWNIK] Kasjer 2 proszony o gotowosc
+
+[KIEROWNIK] Sklep otwarty. PID 47356
+
+[KIEROWNIK] Dostepne polecenia:
+-> kill -SIGUSR1 47356 (Otworz Kase 2)
+-> kill -SIGUSR2 47356 (Zamknij Kase 2)
+-> kill -34 47356 (Zamknij Kase 1)
+-> kill -SIGQUIT 47356 (ewakuacja)
+
+[KIEROWNIK] ----------------------------------------------------------
+
+[KIEROWNIK] Otwieram kase samoobslugowa 0 (Klienci: 0)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 1 (Klienci: 0)
+
+[KIEROWNIK] Otwieram kase samoobslugowa 2 (Klienci: 0)
+
+[KIEROWNIK] Otwarto kase numer 2
+
+[KIEROWNIK] ALARM -> EWAKUACJA
+
+[KIEROWNIK] EWAKUACJA - natychmiastowe zamkniecie!
+[KIEROWNIK] Rozpoczynam finalne sprzatanie...
+[KIEROWNIK] [WATEK CLEANUP] Rozpoczynam procedure czyszczenia...
+[KIEROWNIK] [WATEK CLEANUP] Zabijam procesy potomne...
+[KIEROWNIK] 
+RAPORT KONCOWY:2026-01-23
+---Utarg: 0.00---
+---Obsluzeni Klienci: 0---
+[KIEROWNIK] [1m[31m[WATEK CLEANUP] Zasoby zwolnione.[0m
+[KIEROWNIK] Zamkniecie zakonczone pomyslnie.

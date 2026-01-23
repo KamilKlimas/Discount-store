@@ -1,0 +1,9 @@
+[KASJER 1] zaczyna prace (typ nasluchu: 100)
+
+[KASJER 2] zaczyna prace (typ nasluchu: 101)
+
+[KASJER 2] Wolam klienta 47481 do kasy.
+
+[KASJER 2] Weryfikacja wieku pomyslna (34 lat). Sprzedaje alkohol.
+[KASJER 2] Zakupy od Klienta 47481 na: 59.90 zl
+
